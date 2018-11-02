@@ -14,13 +14,13 @@
 		<Metadata name="Catalog.ЗначенияСвойств.ManagerModule" id="96fb43f6-4aa6-4da4-85ed-3e7507bb3ea9.3" configVersion="8d61c8b114bd7745915dc71983fc0a3500000000"/>
 		<Metadata name="Catalog.ЗначенияСвойств.ObjectModule" id="96fb43f6-4aa6-4da4-85ed-3e7507bb3ea9.0" configVersion="d3f5763f12f09c4aa4b48b11e3b7fa9000000000"/>
 		<Metadata name="Catalog.ЗначенияСвойств.Predefined" id="96fb43f6-4aa6-4da4-85ed-3e7507bb3ea9.1c" configVersion="2ff8f106cb29574198154db761af127b00000000"/>
-		<Metadata name="Catalog.Номенклатура" id="3a1c1783-eff2-4782-8cf9-5a3c0707e8d3" configVersion="ef5591c27c8b9a4a9d5597fbcc89520200000000"/>
+		<Metadata name="Catalog.Номенклатура" id="3a1c1783-eff2-4782-8cf9-5a3c0707e8d3" configVersion="d00386ba8aa658439165c5e50a90202f00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов" id="98136595-ea96-4523-9a6b-779e82fe4075" configVersion="03dd08dbee39fa4ea8c25d76f3b0bdb900000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов.Help" id="98136595-ea96-4523-9a6b-779e82fe4075.5" configVersion="de0b2f5f8dafc44b9347dce2fea7489d00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов.ManagerModule" id="98136595-ea96-4523-9a6b-779e82fe4075.16" configVersion="5598bc4ef868cf48838b76936d94fd1e00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов.ObjectModule" id="98136595-ea96-4523-9a6b-779e82fe4075.15" configVersion="35c0c25be2d9a24e9b9f0cbdaa7be21600000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов.Predefined" id="98136595-ea96-4523-9a6b-779e82fe4075.7" configVersion="0d6e58ce69cf58428dd3b0cdc50f328e00000000"/>
-		<Metadata name="Configuration.ОУ10" id="394292ee-134a-4123-931b-79950ee0d178" configVersion="172a391ff8d497408e4e44f62dc455c200000000"/>
+		<Metadata name="Configuration.ОУ10" id="394292ee-134a-4123-931b-79950ee0d178" configVersion="84b80abc6ca734448329719234e05be000000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов" id="0e7e1e63-006f-4511-96cc-2331cefc2bcf" configVersion="d2eededa24206d408caedf662e06cd3100000000">
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИспользоватьАвтосохранение" id="5c089448-a1c8-41ab-b0bd-73360ab0feb9"/>
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИнтервалАвтосохранения" id="a375c91b-f201-4232-bb5f-7d7456298228"/>
