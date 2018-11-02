@@ -82,33 +82,17 @@
 					<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="34"/>
 				</InputField>
-				<InputField name="ТоварыЕдиницаИзмерения" id="35">
-					<DataPath>Объект.Товары.ЕдиницаИзмерения</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыЕдиницаИзмеренияКонтекстноеМеню" id="36"/>
-					<ExtendedTooltip name="ТоварыЕдиницаИзмеренияРасширеннаяПодсказка" id="37"/>
-					<Events>
-						<Event name="OnChange">ТоварыЕдиницаИзмеренияПриИзменении</Event>
-					</Events>
-				</InputField>
-				<InputField name="ТоварыКоэффициент" id="38">
-					<DataPath>Объект.Товары.Коэффициент</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыКоэффициентКонтекстноеМеню" id="39"/>
-					<ExtendedTooltip name="ТоварыКоэффициентРасширеннаяПодсказка" id="40"/>
-				</InputField>
-				<InputField name="ТоварыЦена" id="41">
+				<InputField name="ТоварыЦена" id="35">
 					<DataPath>Объект.Товары.Цена</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="42"/>
-					<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="43"/>
+					<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="37"/>
 				</InputField>
-				<InputField name="ТоварыСумма" id="44">
+				<InputField name="ТоварыСумма" id="38">
 					<DataPath>Объект.Товары.Сумма</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="45"/>
-					<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="46"/>
+					<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="40"/>
 				</InputField>
 			</ChildItems>
 		</Table>
@@ -116,7 +100,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:DocumentObject.РасходнаяНакладная</v8:Type>
+				<v8:Type>cfg:DocumentObject.ПриходнаяНакладная</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
