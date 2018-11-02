@@ -132,7 +132,9 @@
 			<Document>РасходнаяНакладная</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
+			<Report>ВедомостьПоСкладам</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
+			<InformationRegister>ХарактеристикиНоменклатуры</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>

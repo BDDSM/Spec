@@ -45,6 +45,20 @@
 			<v8:Description>Атлант МXM 1704 00</v8:Description>
 			<v8:ВидНоменклатуры>Товар</v8:ВидНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
+		<v8:CatalogObject.ЗначенияСвойств>
+			<v8:Ref xsi:type="v8:CatalogRef.ЗначенияСвойств">6f749d13-dea7-11e8-849d-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Owner xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">6f749d12-dea7-11e8-849d-f0761c70a997</v8:Owner>
+			<v8:Code>000000001</v8:Code>
+			<v8:Description>Красный Октябрь</v8:Description>
+		</v8:CatalogObject.ЗначенияСвойств>
+		<v8:CatalogObject.ЗначенияСвойств>
+			<v8:Ref xsi:type="v8:CatalogRef.ЗначенияСвойств">6f749d14-dea7-11e8-849d-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Owner xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">6f749d12-dea7-11e8-849d-f0761c70a997</v8:Owner>
+			<v8:Code>000000002</v8:Code>
+			<v8:Description>Красная Стрела</v8:Description>
+		</v8:CatalogObject.ЗначенияСвойств>
 		<v8:CatalogObject.Склады>
 			<v8:Ref xsi:type="v8:CatalogRef.Склады">6ac17bab-de92-11e8-849d-f0761c70a997</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
@@ -378,6 +392,67 @@
 				<v8:Количество>4</v8:Количество>
 			</v8:Record>
 		</v8:AccumulationRegisterRecordSet.ОстаткиНоменклатуры>
+		<v8:ChartOfCharacteristicTypesObject.СвойстваОбъектов>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">6f749d12-dea7-11e8-849d-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000001</v8:Code>
+			<v8:Description>Производитель</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">v8:CatalogRef.ЗначенияСвойств</Type>
+			</v8:ValueType>
+			<v8:PredefinedDataName>Производитель</v8:PredefinedDataName>
+		</v8:ChartOfCharacteristicTypesObject.СвойстваОбъектов>
+		<v8:InformationRegisterRecordSet.ХарактеристикиНоменклатуры>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Номенклатура</Name>
+					<Value xsi:type="v8:CatalogRef.Номенклатура">9f034f5c-de92-11e8-849d-f0761c70a997</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">ВидСвойства</Name>
+					<Value xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">6f749d12-dea7-11e8-849d-f0761c70a997</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">9f034f5c-de92-11e8-849d-f0761c70a997</v8:Номенклатура>
+				<v8:ВидСвойства xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">6f749d12-dea7-11e8-849d-f0761c70a997</v8:ВидСвойства>
+				<v8:Значение xsi:type="v8:CatalogRef.ЗначенияСвойств">6f749d13-dea7-11e8-849d-f0761c70a997</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ХарактеристикиНоменклатуры>
+		<v8:InformationRegisterRecordSet.ХарактеристикиНоменклатуры>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Номенклатура</Name>
+					<Value xsi:type="v8:CatalogRef.Номенклатура">9f034f5e-de92-11e8-849d-f0761c70a997</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">ВидСвойства</Name>
+					<Value xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">6f749d12-dea7-11e8-849d-f0761c70a997</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">9f034f5e-de92-11e8-849d-f0761c70a997</v8:Номенклатура>
+				<v8:ВидСвойства xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">6f749d12-dea7-11e8-849d-f0761c70a997</v8:ВидСвойства>
+				<v8:Значение xsi:type="v8:CatalogRef.ЗначенияСвойств">6f749d13-dea7-11e8-849d-f0761c70a997</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ХарактеристикиНоменклатуры>
+		<v8:InformationRegisterRecordSet.ХарактеристикиНоменклатуры>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Номенклатура</Name>
+					<Value xsi:type="v8:CatalogRef.Номенклатура">9f034f5f-de92-11e8-849d-f0761c70a997</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">ВидСвойства</Name>
+					<Value xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">6f749d12-dea7-11e8-849d-f0761c70a997</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">9f034f5f-de92-11e8-849d-f0761c70a997</v8:Номенклатура>
+				<v8:ВидСвойства xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">6f749d12-dea7-11e8-849d-f0761c70a997</v8:ВидСвойства>
+				<v8:Значение xsi:type="v8:CatalogRef.ЗначенияСвойств">6f749d14-dea7-11e8-849d-f0761c70a997</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ХарактеристикиНоменклатуры>
 		<v8:AccumulationRegisterRecordSet.ОстаткиНоменклатуры>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
@@ -571,5 +646,9 @@
 			</v8:Record>
 		</v8:AccumulationRegisterRecordSet.СтоимостьТоваров>
 	</V8Exch:Data>
-	<PredefinedData/>
+	<PredefinedData>
+		<ПланВидовХарактеристик.СвойстваОбъектов>
+			<item Ссылка="6f749d12-dea7-11e8-849d-f0761c70a997" ИмяПредопределенныхДанных="Производитель"/>
+		</ПланВидовХарактеристик.СвойстваОбъектов>
+	</PredefinedData>
 </V8Exch:_1CV8DtUD>

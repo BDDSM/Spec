@@ -18,21 +18,21 @@
 		<Metadata name="Catalog.ЕдиницыИзмерения" id="97cfa07e-d01b-4b3a-97d9-9500e341e5ea" configVersion="df9084187d998f41bab4a00eb2bc218500000000">
 			<Metadata name="Catalog.ЕдиницыИзмерения.Attribute.Коэффициент" id="647518c0-1303-48fe-bf51-e5751b5c4695"/>
 		</Metadata>
-		<Metadata name="Catalog.ЗначенияСвойств" id="96fb43f6-4aa6-4da4-85ed-3e7507bb3ea9" configVersion="029c3a85de914a47b14bc48981ca54ec00000000"/>
+		<Metadata name="Catalog.ЗначенияСвойств" id="96fb43f6-4aa6-4da4-85ed-3e7507bb3ea9" configVersion="3b53fcde90e44247b4aa60f1c270ada000000000"/>
 		<Metadata name="Catalog.ЗначенияСвойств.Help" id="96fb43f6-4aa6-4da4-85ed-3e7507bb3ea9.1" configVersion="a577fae91ff0b642a3c4ac72e57cd97000000000"/>
 		<Metadata name="Catalog.ЗначенияСвойств.ManagerModule" id="96fb43f6-4aa6-4da4-85ed-3e7507bb3ea9.3" configVersion="8d61c8b114bd7745915dc71983fc0a3500000000"/>
 		<Metadata name="Catalog.ЗначенияСвойств.ObjectModule" id="96fb43f6-4aa6-4da4-85ed-3e7507bb3ea9.0" configVersion="d3f5763f12f09c4aa4b48b11e3b7fa9000000000"/>
 		<Metadata name="Catalog.ЗначенияСвойств.Predefined" id="96fb43f6-4aa6-4da4-85ed-3e7507bb3ea9.1c" configVersion="2ff8f106cb29574198154db761af127b00000000"/>
-		<Metadata name="Catalog.Номенклатура" id="3a1c1783-eff2-4782-8cf9-5a3c0707e8d3" configVersion="fa0dc9880442e049bc19e204642309c900000000">
+		<Metadata name="Catalog.Номенклатура" id="3a1c1783-eff2-4782-8cf9-5a3c0707e8d3" configVersion="0db2283c8db26e45b537f0fc7d30d9e600000000">
 			<Metadata name="Catalog.Номенклатура.Attribute.ВидНоменклатуры" id="06e26c78-6033-4b95-b046-a61df024d9e3"/>
 		</Metadata>
 		<Metadata name="Catalog.Склады" id="8f8f66de-c42b-4c0c-9004-d7da9fbd9e38" configVersion="a7b55c67bd590941abd049dcb016635900000000"/>
-		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов" id="98136595-ea96-4523-9a6b-779e82fe4075" configVersion="03dd08dbee39fa4ea8c25d76f3b0bdb900000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов" id="98136595-ea96-4523-9a6b-779e82fe4075" configVersion="06418d56bba7054daa2bb9d37a4e1ee400000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов.Help" id="98136595-ea96-4523-9a6b-779e82fe4075.5" configVersion="de0b2f5f8dafc44b9347dce2fea7489d00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов.ManagerModule" id="98136595-ea96-4523-9a6b-779e82fe4075.16" configVersion="5598bc4ef868cf48838b76936d94fd1e00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов.ObjectModule" id="98136595-ea96-4523-9a6b-779e82fe4075.15" configVersion="35c0c25be2d9a24e9b9f0cbdaa7be21600000000"/>
-		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов.Predefined" id="98136595-ea96-4523-9a6b-779e82fe4075.7" configVersion="0d6e58ce69cf58428dd3b0cdc50f328e00000000"/>
-		<Metadata name="Configuration.ОУ10" id="394292ee-134a-4123-931b-79950ee0d178" configVersion="488016402c2bfd448af63ede1f94ad7e00000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов.Predefined" id="98136595-ea96-4523-9a6b-779e82fe4075.7" configVersion="0cc25379e517684db55db531ea2f17ef00000000"/>
+		<Metadata name="Configuration.ОУ10" id="394292ee-134a-4123-931b-79950ee0d178" configVersion="536bff0d5706314d8c2bb5a5a03fc70000000000"/>
 		<Metadata name="Configuration.ОУ10.ClientApplicationInterface" id="94dcbe6e-077f-4aae-a0b6-2611be2adda5.b" configVersion="e01e895b6f39f944a1c468a085f5765900000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов" id="0e7e1e63-006f-4511-96cc-2331cefc2bcf" configVersion="d2eededa24206d408caedf662e06cd3100000000">
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИспользоватьАвтосохранение" id="5c089448-a1c8-41ab-b0bd-73360ab0feb9"/>
@@ -92,11 +92,19 @@
 			<Metadata name="Enum.УчетнаяПолитика.EnumValue.ФИФО" id="ba98a475-5633-4945-9c8a-14a678625775"/>
 		</Metadata>
 		<Metadata name="Enum.УчетнаяПолитика.ManagerModule" id="3f15b286-208d-4650-ab3b-031a0e1c5da2.0" configVersion="344298a55f15fe4fac3ae21cd63efdf100000000"/>
+		<Metadata name="InformationRegister.ХарактеристикиНоменклатуры" id="1954501e-c41b-4858-8cd9-2dc6c91fce03" configVersion="d01623bd02fa1a44b334bc3bdd3222da00000000">
+			<Metadata name="InformationRegister.ХарактеристикиНоменклатуры.Dimension.ВидСвойства" id="0f05587c-f737-4135-bb50-d9cafad0d9bf"/>
+			<Metadata name="InformationRegister.ХарактеристикиНоменклатуры.Dimension.Номенклатура" id="2a6062a2-0959-4a1b-9711-f6011d2e2789"/>
+			<Metadata name="InformationRegister.ХарактеристикиНоменклатуры.Resource.Значение" id="c839d61e-e648-4e50-b34c-dc0d80e47de2"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="8c11de20-63ec-4c93-9a12-0ef4e760e875" configVersion="eac09f638ef66a4e9ef96dcb8dcd980300000000"/>
-		<Metadata name="Subsystem.ОперативныйУчет" id="1426c338-b213-445e-9eab-e01a78d241dd" configVersion="8f81ad3c6d9af2479299c2b467225f4e00000000"/>
+		<Metadata name="Report.ВедомостьПоСкладам" id="acdcadd1-55ed-4ae2-83fe-8d540aea185e" configVersion="08ee05dd653748459d00f3a0bbad4d6700000000"/>
+		<Metadata name="Report.ВедомостьПоСкладам.Template.ОсновнаяСхемаКомпоновкиДанных" id="524b50e9-445e-4cf7-8bce-78eb1e542013" configVersion="2ea7632df693834b862bde293265d0fa00000000"/>
+		<Metadata name="Report.ВедомостьПоСкладам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="524b50e9-445e-4cf7-8bce-78eb1e542013.0" configVersion="b0c85f4ceffafe4893de30b8ee288c5700000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет" id="1426c338-b213-445e-9eab-e01a78d241dd" configVersion="b053ace6de70e149a5ac3ac6ebbbf24000000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.CommandInterface" id="1426c338-b213-445e-9eab-e01a78d241dd.1" configVersion="cc44ea80e40fa44b8a61924e201065f900000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="289771c0-244b-48f0-8523-db55c609df2e" configVersion="88190d7a8985e74f986ccc8e2bd560b900000000"/>
-		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="c3b3bf4e-e030-44f8-884b-2ba3e01b80f4" configVersion="8900281b9e12e840a0d818597aa7b41e00000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="c3b3bf4e-e030-44f8-884b-2ba3e01b80f4" configVersion="359acc9eca29b445939c2871f0f5849700000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники.CommandInterface" id="c3b3bf4e-e030-44f8-884b-2ba3e01b80f4.1" configVersion="a2514380710f5648920c8e1855c20ffc00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
