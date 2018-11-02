@@ -145,8 +145,10 @@
 			<Document>РасходнаяНакладная</Document>
 			<Document>Счет</Document>
 			<Document>ПКО</Document>
+			<Document>НачислениеПеней</Document>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<InformationRegister>СостояниеСчетов</InformationRegister>
+			<InformationRegister>НачислениеПеней</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>ЗадолженностьПоОтгрузке</AccumulationRegister>
 			<AccumulationRegister>ЗадолженностьПоОплате</AccumulationRegister>

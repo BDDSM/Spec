@@ -61,8 +61,9 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СостояниеСчетов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗадолженностьПоОтгрузке</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СостояниеСчетов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НачислениеПеней</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
