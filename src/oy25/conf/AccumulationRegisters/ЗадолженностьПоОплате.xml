@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<AccumulationRegister uuid="96f1a57d-13de-47b3-8755-923bc0e805d3">
+	<AccumulationRegister uuid="d5e781e9-ceb6-443d-a5f6-d6f8ce82936d">
 		<InternalInfo>
-			<xr:GeneratedType name="AccumulationRegisterRecord.ОстаткиНоменклатуры" category="Record">
-				<xr:TypeId>9089ce80-d2c0-4bad-b6af-83d20e93fe41</xr:TypeId>
-				<xr:ValueId>c3920be6-fe43-4003-bbcd-0862b61d1d6f</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ЗадолженностьПоОплате" category="Record">
+				<xr:TypeId>3701fb4a-7b85-4bec-906a-069776ed62b1</xr:TypeId>
+				<xr:ValueId>0bcc69ff-0d41-4d09-9e61-0ec2d6e5a2f1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterManager.ОстаткиНоменклатуры" category="Manager">
-				<xr:TypeId>5972b124-f9e0-4eab-90fb-f9ba536be9bd</xr:TypeId>
-				<xr:ValueId>98f7c88c-fb86-4b57-b1a2-e0864041e021</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterManager.ЗадолженностьПоОплате" category="Manager">
+				<xr:TypeId>880fc25f-7e61-4787-89a2-3b2bb5b2b1ec</xr:TypeId>
+				<xr:ValueId>aa752b00-7f00-42e9-8157-471b65be5ee4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterSelection.ОстаткиНоменклатуры" category="Selection">
-				<xr:TypeId>4ae5e554-6cf6-46d2-b320-41db126ad6ea</xr:TypeId>
-				<xr:ValueId>cb41c9a4-abd3-4420-a090-6ed0490a8af7</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ЗадолженностьПоОплате" category="Selection">
+				<xr:TypeId>017be7c2-5e96-4a24-93b7-ade5342d272b</xr:TypeId>
+				<xr:ValueId>c867ea92-d404-4fcf-a32c-1336e1402f85</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterList.ОстаткиНоменклатуры" category="List">
-				<xr:TypeId>e4d8d103-0d63-40ed-a4bc-fbe8c92a15bc</xr:TypeId>
-				<xr:ValueId>be40f771-42a7-45d6-95a6-ab31f715ee1f</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterList.ЗадолженностьПоОплате" category="List">
+				<xr:TypeId>2af0a70f-f066-4381-bfcf-66996c052f0e</xr:TypeId>
+				<xr:ValueId>9fb25a4d-a49b-4421-a74a-a681ce49eceb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterRecordSet.ОстаткиНоменклатуры" category="RecordSet">
-				<xr:TypeId>139034c5-9c30-4c7d-8fba-6f7020b75861</xr:TypeId>
-				<xr:ValueId>7064746a-e001-484c-a462-4daae2384952</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ЗадолженностьПоОплате" category="RecordSet">
+				<xr:TypeId>a0c40ad2-8771-4c22-bc2c-563a7a9c2aa4</xr:TypeId>
+				<xr:ValueId>a524e833-4404-440d-9c94-345d639d2b7f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterRecordKey.ОстаткиНоменклатуры" category="RecordKey">
-				<xr:TypeId>da748635-592f-4696-9c91-d4c0f9c4d7d1</xr:TypeId>
-				<xr:ValueId>6871be10-4902-4cfe-a638-abe0264b7e71</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ЗадолженностьПоОплате" category="RecordKey">
+				<xr:TypeId>e8ee5cef-7a3d-44d1-a81b-aeb94c469707</xr:TypeId>
+				<xr:ValueId>713ef618-d534-453e-bb60-5c3401c819e6</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ОстаткиНоменклатуры</Name>
+			<Name>ЗадолженностьПоОплате</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Остатки номенклатуры</v8:content>
+					<v8:content>Задолженность по оплате</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -49,21 +49,21 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="5571d829-d897-4940-aa13-174c489ba62c">
+			<Resource uuid="eaa8c0f4-893f-47e2-b583-515dcd493c06">
 				<Properties>
-					<Name>Количество</Name>
+					<Name>Сумма</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Количество</v8:content>
+							<v8:content>Сумма</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
@@ -89,18 +89,56 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Dimension uuid="5daff0d6-4607-4801-8dbd-ae6b757432a8">
+			<Dimension uuid="f232ac76-9dd8-4267-8e80-1f4b2e52d8b8">
 				<Properties>
-					<Name>Номенклатура</Name>
+					<Name>Контрагент</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номенклатура</v8:content>
+							<v8:content>Контрагент</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<UseInTotals>true</UseInTotals>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ad7b5ae5-95dd-4baa-95e5-7b955049a528">
+				<Properties>
+					<Name>Счет</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Счет</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:DocumentRef.Счет</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

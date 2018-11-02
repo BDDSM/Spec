@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<AccumulationRegister uuid="96f1a57d-13de-47b3-8755-923bc0e805d3">
+	<AccumulationRegister uuid="13f4e969-257f-4f41-b112-fed195f9a675">
 		<InternalInfo>
-			<xr:GeneratedType name="AccumulationRegisterRecord.ОстаткиНоменклатуры" category="Record">
-				<xr:TypeId>9089ce80-d2c0-4bad-b6af-83d20e93fe41</xr:TypeId>
-				<xr:ValueId>c3920be6-fe43-4003-bbcd-0862b61d1d6f</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ЗадолженностьПоОтгрузке" category="Record">
+				<xr:TypeId>af2ff19b-ec19-44d9-8d62-5ccea1326885</xr:TypeId>
+				<xr:ValueId>9bd52664-14a2-4706-b7ce-9a1a7e7354a3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterManager.ОстаткиНоменклатуры" category="Manager">
-				<xr:TypeId>5972b124-f9e0-4eab-90fb-f9ba536be9bd</xr:TypeId>
-				<xr:ValueId>98f7c88c-fb86-4b57-b1a2-e0864041e021</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterManager.ЗадолженностьПоОтгрузке" category="Manager">
+				<xr:TypeId>13b3bd7a-8873-415c-8ed4-c76f33d1837e</xr:TypeId>
+				<xr:ValueId>07624b0d-8077-4a13-8afb-ed438b8d9c2d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterSelection.ОстаткиНоменклатуры" category="Selection">
-				<xr:TypeId>4ae5e554-6cf6-46d2-b320-41db126ad6ea</xr:TypeId>
-				<xr:ValueId>cb41c9a4-abd3-4420-a090-6ed0490a8af7</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ЗадолженностьПоОтгрузке" category="Selection">
+				<xr:TypeId>6ebcda5f-a542-4c54-9624-29657a1248e2</xr:TypeId>
+				<xr:ValueId>f2a01a9a-fce4-4055-8f54-e9ca4731ba97</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterList.ОстаткиНоменклатуры" category="List">
-				<xr:TypeId>e4d8d103-0d63-40ed-a4bc-fbe8c92a15bc</xr:TypeId>
-				<xr:ValueId>be40f771-42a7-45d6-95a6-ab31f715ee1f</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterList.ЗадолженностьПоОтгрузке" category="List">
+				<xr:TypeId>81be5dd8-b3ed-4f4d-8d86-ad823fe1d72f</xr:TypeId>
+				<xr:ValueId>0d526fcc-ee06-4646-a01c-8562a1a8b6e1</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterRecordSet.ОстаткиНоменклатуры" category="RecordSet">
-				<xr:TypeId>139034c5-9c30-4c7d-8fba-6f7020b75861</xr:TypeId>
-				<xr:ValueId>7064746a-e001-484c-a462-4daae2384952</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ЗадолженностьПоОтгрузке" category="RecordSet">
+				<xr:TypeId>7fbdef71-7ebb-4d6b-bd31-f163d1d0d03f</xr:TypeId>
+				<xr:ValueId>9c2f999f-fad5-417e-9b59-90f6e87552df</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterRecordKey.ОстаткиНоменклатуры" category="RecordKey">
-				<xr:TypeId>da748635-592f-4696-9c91-d4c0f9c4d7d1</xr:TypeId>
-				<xr:ValueId>6871be10-4902-4cfe-a638-abe0264b7e71</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ЗадолженностьПоОтгрузке" category="RecordKey">
+				<xr:TypeId>67f995d7-2cc4-4315-9912-5b25fe3af5a5</xr:TypeId>
+				<xr:ValueId>cdedeb73-ad0c-4c0d-aac4-43b180bcc573</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ОстаткиНоменклатуры</Name>
+			<Name>ЗадолженностьПоОтгрузке</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Остатки номенклатуры</v8:content>
+					<v8:content>Задолженность по отгрузке</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -49,21 +49,21 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="5571d829-d897-4940-aa13-174c489ba62c">
+			<Resource uuid="c6e4dbb2-584c-47fb-b213-1938956e8f60">
 				<Properties>
-					<Name>Количество</Name>
+					<Name>Сумма</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Количество</v8:content>
+							<v8:content>Сумма</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>10</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
@@ -89,18 +89,18 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Dimension uuid="5daff0d6-4607-4801-8dbd-ae6b757432a8">
+			<Dimension uuid="4eca9883-2d63-4f90-a21c-d3bf7dad598f">
 				<Properties>
-					<Name>Номенклатура</Name>
+					<Name>Счет</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номенклатура</v8:content>
+							<v8:content>Счет</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+						<v8:Type>cfg:DocumentRef.Счет</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

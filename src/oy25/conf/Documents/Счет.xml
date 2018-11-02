@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Document uuid="08c41157-db82-45d3-bd91-f99fa8232ea4">
+	<Document uuid="8a293722-fc21-4f32-bb71-5f1c56444ecb">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.РасходнаяНакладная" category="Object">
-				<xr:TypeId>1a0c487c-2d2c-4ae8-9a05-2ee52d914d4d</xr:TypeId>
-				<xr:ValueId>fd085d97-bf61-4590-9b7f-4cc209720f91</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.Счет" category="Object">
+				<xr:TypeId>d6c5af1a-3b77-46e3-8d13-b0b23bf86f3b</xr:TypeId>
+				<xr:ValueId>c6a23b93-bed2-4db7-9446-084d5092fa70</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.РасходнаяНакладная" category="Ref">
-				<xr:TypeId>586840a9-5f8f-4bf1-9e94-66f0908b2f62</xr:TypeId>
-				<xr:ValueId>d70c8b00-511d-46ba-83b7-dfc7282b3eae</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.Счет" category="Ref">
+				<xr:TypeId>a75de19a-68c7-4bde-a8d1-079e20e25c22</xr:TypeId>
+				<xr:ValueId>6c37af74-9e98-461a-a5bd-4f57bd29b2db</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.РасходнаяНакладная" category="Selection">
-				<xr:TypeId>463dbead-aaa4-4b1f-93fb-147531422f2d</xr:TypeId>
-				<xr:ValueId>481dd76e-dda1-4da6-a186-70cf77ccdfb0</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.Счет" category="Selection">
+				<xr:TypeId>dc239863-f013-4679-bcb5-8fabc10c0736</xr:TypeId>
+				<xr:ValueId>1b802e0f-462d-43e9-b61e-eb97fef0e685</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.РасходнаяНакладная" category="List">
-				<xr:TypeId>eb1d89b8-92c2-4851-b4c6-b4301ad2bc09</xr:TypeId>
-				<xr:ValueId>89a59caf-55b2-474e-8556-3dc5d031acd3</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.Счет" category="List">
+				<xr:TypeId>caf7a5bd-5308-4add-9015-e86c32b34092</xr:TypeId>
+				<xr:ValueId>08ac6d9a-b6ac-459c-be88-f0943794e45f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.РасходнаяНакладная" category="Manager">
-				<xr:TypeId>f5b7be61-e1e0-486e-bf84-0519f5731de1</xr:TypeId>
-				<xr:ValueId>cc7d4919-78ab-4bb8-ae4f-3cb9b1a38b18</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.Счет" category="Manager">
+				<xr:TypeId>fcae3f83-69cb-4d23-b5c2-878b5d5a0e5d</xr:TypeId>
+				<xr:ValueId>9314c81b-9647-4471-b907-a5ddaf2a1f5b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>РасходнаяНакладная</Name>
+			<Name>Счет</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Расходная накладная</v8:content>
+					<v8:content>Счет</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -43,13 +43,13 @@
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.РасходнаяНакладная.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.Счет.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.РасходнаяНакладная.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultObjectForm>Document.Счет.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -61,8 +61,8 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СостояниеСчетов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗадолженностьПоОтгрузке</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗадолженностьПоОплате</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
@@ -79,18 +79,18 @@
 			<DataHistory>DontUse</DataHistory>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="fb4c6f5a-f0e7-4378-b4e3-0e83e2f4ef6a">
+			<Attribute uuid="015d1ed9-ad48-480a-82b0-19ee8f8effde">
 				<Properties>
-					<Name>Счет</Name>
+					<Name>Контрагент</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Счет</v8:content>
+							<v8:content>Контрагент</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:DocumentRef.Счет</v8:Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -118,7 +118,95 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="70ebc6c1-68f5-48e4-8558-1271bf2282a9">
+			<Attribute uuid="b8344024-9544-4d74-a32a-00e318e0c4bf">
+				<Properties>
+					<Name>ПроцентПени</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Процент пени</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a76a6c8b-3c9b-4a36-9d8f-76cb5477b049">
+				<Properties>
+					<Name>ОтсрочкаПлатежа</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отсрочка платежа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="25724796-25ec-4618-b9d5-fee799f52497">
 				<Properties>
 					<Name>СуммаДокумента</Name>
 					<Synonym>
