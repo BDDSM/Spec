@@ -1,44 +1,46 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Catalog uuid="3a1c1783-eff2-4782-8cf9-5a3c0707e8d3">
+	<Catalog uuid="97cfa07e-d01b-4b3a-97d9-9500e341e5ea">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Номенклатура" category="Object">
-				<xr:TypeId>82fdc5b0-583b-4fbb-83cf-c7a58996d23c</xr:TypeId>
-				<xr:ValueId>46e00d71-970f-4d18-949f-0f51d415a3f7</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.ЕдиницыИзмерения" category="Object">
+				<xr:TypeId>6058b659-bb85-4cda-8ca0-fc513516e7e6</xr:TypeId>
+				<xr:ValueId>6e73248c-c4ff-44a2-913f-57982352fe8a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Номенклатура" category="Ref">
-				<xr:TypeId>669015d8-d53e-4d2a-af54-fea42f8d7c89</xr:TypeId>
-				<xr:ValueId>c2b82c17-5081-455a-81f5-46d9fef5b230</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.ЕдиницыИзмерения" category="Ref">
+				<xr:TypeId>28a257f9-1faf-41be-a362-e3c14df01c18</xr:TypeId>
+				<xr:ValueId>dc94b6e0-91cb-4410-b940-60fe2d946178</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Номенклатура" category="Selection">
-				<xr:TypeId>06947d6b-afd4-425c-82bd-f2b968e598f8</xr:TypeId>
-				<xr:ValueId>7f08dfd4-8263-44ed-b699-5ee190e847ea</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.ЕдиницыИзмерения" category="Selection">
+				<xr:TypeId>7b013bbc-1512-4760-8d1c-16396fe90d2d</xr:TypeId>
+				<xr:ValueId>0081a9f0-84d3-4243-851b-c607bc870392</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Номенклатура" category="List">
-				<xr:TypeId>5b318e4a-f194-4c58-9567-541adaf1e4fd</xr:TypeId>
-				<xr:ValueId>64b35d9f-11d0-40fb-b287-8c8c21e3f3e4</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.ЕдиницыИзмерения" category="List">
+				<xr:TypeId>31d0b287-86da-4633-8aa9-cc5d5ae74db9</xr:TypeId>
+				<xr:ValueId>6809bc0e-85b1-484e-9c49-9c3e31a2eb47</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Номенклатура" category="Manager">
-				<xr:TypeId>49f9e77c-6cd3-4ac1-9e2e-3afb21bab2d7</xr:TypeId>
-				<xr:ValueId>444d1f4b-a03b-46d8-af87-075f8a5fdeed</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.ЕдиницыИзмерения" category="Manager">
+				<xr:TypeId>e41749b2-390a-4710-9399-404ef9f9ffbb</xr:TypeId>
+				<xr:ValueId>864ed99a-8fc7-4a9e-b14c-65d352885570</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Номенклатура</Name>
+			<Name>ЕдиницыИзмерения</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Номенклатура</v8:content>
+					<v8:content>Единицы измерения</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>true</Hierarchical>
+			<Hierarchical>false</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
 			<LevelCount>2</LevelCount>
 			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
-			<Owners/>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
+			</Owners>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
 			<DescriptionLength>25</DescriptionLength>
@@ -54,8 +56,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Номенклатура.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Номенклатура.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -84,18 +86,23 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="06e26c78-6033-4b95-b046-a61df024d9e3">
+			<Attribute uuid="647518c0-1303-48fe-bf51-e5751b5c4695">
 				<Properties>
-					<Name>ВидНоменклатуры</Name>
+					<Name>Коэффициент</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид номенклатуры</v8:content>
+							<v8:content>Коэффициент</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.ВидыНоменклатуры</v8:Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>12</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

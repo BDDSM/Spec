@@ -126,6 +126,8 @@
 			<Subsystem>ОперативныйУчет</Subsystem>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ЗначенияСвойств</Catalog>
+			<Catalog>Склады</Catalog>
+			<Catalog>ЕдиницыИзмерения</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Enum>УчетнаяПолитика</Enum>
