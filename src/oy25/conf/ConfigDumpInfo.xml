@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ОстаткиНоменклатуры" id="96f1a57d-13de-47b3-8755-923bc0e805d3" configVersion="2b6e5463c69a8449a363ad2f727ef41b00000000">
+			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Resource.Количество" id="5571d829-d897-4940-aa13-174c489ba62c"/>
+			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Dimension.Номенклатура" id="5daff0d6-4607-4801-8dbd-ae6b757432a8"/>
+		</Metadata>
+		<Metadata name="Catalog.Контрагенты" id="a9c7f43b-adca-46e1-98cc-660411ee3b49" configVersion="1a406db98f49e54898e2fc68d9f5078c00000000"/>
+		<Metadata name="Catalog.Номенклатура" id="0d50a3d7-c6a6-42e0-9d2a-08f50a712877" configVersion="8f41e0f455581a468e3ae6caa5c8d3e800000000"/>
+		<Metadata name="Catalog.Номенклатура.Help" id="0d50a3d7-c6a6-42e0-9d2a-08f50a712877.1" configVersion="aa1d4c9f04075941a3bb3c10713b5a7300000000"/>
+		<Metadata name="Catalog.Номенклатура.ManagerModule" id="0d50a3d7-c6a6-42e0-9d2a-08f50a712877.3" configVersion="23855a33ad628049b542a00fb79131c500000000"/>
+		<Metadata name="Catalog.Номенклатура.ObjectModule" id="0d50a3d7-c6a6-42e0-9d2a-08f50a712877.0" configVersion="f6b6c2e17603724f8903d45a1572932700000000"/>
+		<Metadata name="Catalog.Номенклатура.Predefined" id="0d50a3d7-c6a6-42e0-9d2a-08f50a712877.1c" configVersion="04404e22ebbce745afa5ecffbb2843b700000000"/>
+		<Metadata name="Configuration.ОУ25" id="7705f9eb-21da-4aa2-9ab5-3026752edcca" configVersion="e93c4688411e114a9a4b3dc3d6e2c2d900000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов" id="a33a3945-4d99-4f72-bf52-e82861e52bbc" configVersion="b166ba7fb93a18498ea9d64bcca9081d00000000">
+			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИнтервалАвтосохранения" id="7669ef03-437e-473f-9ed5-6ab4b7b495c8"/>
+			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИспользоватьАвтосохранение" id="f97b5aad-7b5d-4840-8741-de3ecdb31812"/>
+		</Metadata>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.Форма" id="14c8d828-4f44-4a27-8e7c-78e5e620a002" configVersion="f017cb3736cdc64aba73b7be6ea645c100000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.Форма.Form" id="14c8d828-4f44-4a27-8e7c-78e5e620a002.0" configVersion="e859c0fb0c2d804ab4a04775c90cf20a00000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.Форма.Help" id="14c8d828-4f44-4a27-8e7c-78e5e620a002.1" configVersion="60a34c65506d9f4d8125dc0c4e426d0c00000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.ФормаВложеннойТаблицы" id="5c3d511f-a591-4431-ac56-945b4ee32c73" configVersion="f78f5270e42134458e3557e7c32d58ee00000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.ФормаВложеннойТаблицы.Form" id="5c3d511f-a591-4431-ac56-945b4ee32c73.0" configVersion="8b944c23c70af6418d0d20ff18057c3b00000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.ФормаВложеннойТаблицы.Help" id="5c3d511f-a591-4431-ac56-945b4ee32c73.1" configVersion="95d037a027569c409d7a1be257f91fa300000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.ФормаВыбораСтрокиДереваЗапросов" id="dec3214a-7615-4d3a-a26c-f0f50939a705" configVersion="db84c549ef3563449d4507a7480e275300000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.ФормаВыбораСтрокиДереваЗапросов.Form" id="dec3214a-7615-4d3a-a26c-f0f50939a705.0" configVersion="c5a4476fcf65ed469dd8b77fb314d3e400000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.ФормаВыбораСтрокиДереваЗапросов.Help" id="dec3214a-7615-4d3a-a26c-f0f50939a705.1" configVersion="24e4fd7ff52ead4fa077e3942759a61600000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.ФормаНастройкиАвтосохранения" id="e86a46f6-e5bd-4c5c-b743-19bd7c654caf" configVersion="5faae94c7ea7bf4aae7eab7d0a88544900000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.ФормаНастройкиАвтосохранения.Form" id="e86a46f6-e5bd-4c5c-b743-19bd7c654caf.0" configVersion="5661dab5cfd350459c3ef00bbcd8a0ba00000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.ФормаНастройкиАвтосохранения.Help" id="e86a46f6-e5bd-4c5c-b743-19bd7c654caf.1" configVersion="d8fdd3080851b64db718c4b9a59133a100000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.ФормаПараметров" id="763b31d8-d30e-4e1c-80e4-fbe8913530a9" configVersion="02c3bf5077279848a273630278dfed4700000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.ФормаПараметров.Form" id="763b31d8-d30e-4e1c-80e4-fbe8913530a9.0" configVersion="b5ed3f1aef81464289fa7c560eafab8200000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Form.ФормаПараметров.Help" id="763b31d8-d30e-4e1c-80e4-fbe8913530a9.1" configVersion="f6ae6278e408c8478b0190a8dd2a570600000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.Help" id="a33a3945-4d99-4f72-bf52-e82861e52bbc.1" configVersion="22d89f076d8f03499ad83b85dc7f30ed00000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.ManagerModule" id="a33a3945-4d99-4f72-bf52-e82861e52bbc.2" configVersion="85565300631fb249a6ae916c227a956000000000"/>
+		<Metadata name="DataProcessor.КонсольЗапросов.ObjectModule" id="a33a3945-4d99-4f72-bf52-e82861e52bbc.0" configVersion="29a07d96b3c19b4089524046bd37c0ab00000000"/>
+		<Metadata name="Document.ПриходнаяНакладная" id="187fddeb-1a12-4ad4-9f9c-bea990d480fe" configVersion="e38531701f4ccc4697e4e074e5d81af000000000">
+			<Metadata name="Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Сумма" id="04a439f9-4576-4042-a197-9910630072e1"/>
+			<Metadata name="Document.ПриходнаяНакладная.Attribute.СуммаПоДокументу" id="12254eb9-123e-4986-acda-a9741c78ac1e"/>
+			<Metadata name="Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Количество" id="c340c755-cef1-49a0-9145-dfe9734002f8"/>
+			<Metadata name="Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры" id="d67590a5-ffff-41cd-81f7-a1bf02fe6c2e"/>
+			<Metadata name="Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Номенклатура" id="e1286277-b7fb-463a-bcd6-95640be4c1d8"/>
+			<Metadata name="Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Цена" id="f0b5cccb-0227-43a6-b756-e2d046b3bb22"/>
+		</Metadata>
+		<Metadata name="Document.РасходнаяНакладная" id="08c41157-db82-45d3-bd91-f99fa8232ea4" configVersion="c32e7311862f304786f943f8819e5d1700000000">
+			<Metadata name="Document.РасходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Номенклатура" id="16a05060-d62f-4ab4-aed4-26582db15b6a"/>
+			<Metadata name="Document.РасходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Количество" id="52643a1d-7ec5-4ef3-ab4e-4caa2dc67aa0"/>
+			<Metadata name="Document.РасходнаяНакладная.Attribute.СуммаПоДокументу" id="70ebc6c1-68f5-48e4-8558-1271bf2282a9"/>
+			<Metadata name="Document.РасходнаяНакладная.TabularSection.СписокНоменклатуры" id="b17d2ded-709d-4951-b48d-2b4ef154c36d"/>
+			<Metadata name="Document.РасходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Цена" id="d81fb9b5-c31f-40fc-a0f3-f0faaf14c76d"/>
+			<Metadata name="Document.РасходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Сумма" id="e89fe647-385b-45e6-8090-b3cb5148d42e"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="f53dcc10-a872-4449-9c8b-fe9e90df1324" configVersion="4d188e1c1a4785448386058995fd94ba00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
