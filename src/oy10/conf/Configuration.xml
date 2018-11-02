@@ -123,6 +123,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>ОперативныйУчет</Subsystem>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ЗначенияСвойств</Catalog>
 			<Document>ПриходнаяНакладная</Document>

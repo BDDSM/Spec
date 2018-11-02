@@ -20,7 +20,8 @@
 		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов.ManagerModule" id="98136595-ea96-4523-9a6b-779e82fe4075.16" configVersion="5598bc4ef868cf48838b76936d94fd1e00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов.ObjectModule" id="98136595-ea96-4523-9a6b-779e82fe4075.15" configVersion="35c0c25be2d9a24e9b9f0cbdaa7be21600000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов.Predefined" id="98136595-ea96-4523-9a6b-779e82fe4075.7" configVersion="0d6e58ce69cf58428dd3b0cdc50f328e00000000"/>
-		<Metadata name="Configuration.ОУ10" id="394292ee-134a-4123-931b-79950ee0d178" configVersion="84b80abc6ca734448329719234e05be000000000"/>
+		<Metadata name="Configuration.ОУ10" id="394292ee-134a-4123-931b-79950ee0d178" configVersion="a3257ad140560b459de46757c9d14e1800000000"/>
+		<Metadata name="Configuration.ОУ10.ClientApplicationInterface" id="94dcbe6e-077f-4aae-a0b6-2611be2adda5.b" configVersion="e01e895b6f39f944a1c468a085f5765900000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов" id="0e7e1e63-006f-4511-96cc-2331cefc2bcf" configVersion="d2eededa24206d408caedf662e06cd3100000000">
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИспользоватьАвтосохранение" id="5c089448-a1c8-41ab-b0bd-73360ab0feb9"/>
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИнтервалАвтосохранения" id="a375c91b-f201-4232-bb5f-7d7456298228"/>
@@ -70,5 +71,9 @@
 		</Metadata>
 		<Metadata name="Enum.УчетнаяПолитика.ManagerModule" id="3f15b286-208d-4650-ab3b-031a0e1c5da2.0" configVersion="344298a55f15fe4fac3ae21cd63efdf100000000"/>
 		<Metadata name="Language.Русский" id="8c11de20-63ec-4c93-9a12-0ef4e760e875" configVersion="eac09f638ef66a4e9ef96dcb8dcd980300000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет" id="1426c338-b213-445e-9eab-e01a78d241dd" configVersion="8f81ad3c6d9af2479299c2b467225f4e00000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.CommandInterface" id="1426c338-b213-445e-9eab-e01a78d241dd.1" configVersion="cc44ea80e40fa44b8a61924e201065f900000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="289771c0-244b-48f0-8523-db55c609df2e" configVersion="88190d7a8985e74f986ccc8e2bd560b900000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="c3b3bf4e-e030-44f8-884b-2ba3e01b80f4" configVersion="af6310f3e007d148a4196171296b6b3300000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
