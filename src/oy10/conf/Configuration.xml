@@ -134,6 +134,7 @@
 			<Enum>ВидыНоменклатуры</Enum>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
+			<AccumulationRegister>СтоимостьТоваров</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
