@@ -144,6 +144,7 @@
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>Счет</Document>
+			<Document>ПКО</Document>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<InformationRegister>СостояниеСчетов</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
