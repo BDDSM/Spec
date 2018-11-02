@@ -41,7 +41,7 @@
 			<AuxiliaryListForm/>
 			<RegisterType>Balance</RegisterType>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<DataLockControlMode>Automatic</DataLockControlMode>
+			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
 			<EnableTotalsSplitting>true</EnableTotalsSplitting>
 			<ListPresentation/>
