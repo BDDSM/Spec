@@ -143,6 +143,7 @@
 			<Catalog>Курсы</Catalog>
 			<Document>Расписание</Document>
 			<Document>Заявка</Document>
+			<Report>АнализЗанятостиКлассов</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>

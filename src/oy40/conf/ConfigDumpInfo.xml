@@ -11,7 +11,7 @@
 			<Metadata name="Catalog.Классы.Attribute.КоличествоМест" id="272e0a4e-19b3-4b5f-bee2-d5fc6d63f455"/>
 		</Metadata>
 		<Metadata name="Catalog.Курсы" id="29cd0251-f476-4837-aa54-2623ec0a81e5" configVersion="68aabd6ce217b54dbb4d044c253a00fd00000000"/>
-		<Metadata name="Configuration.ОУ40" id="64688d87-7fd2-40b7-8d64-44951445b51d" configVersion="01e1bbc48bb92d4aa7d8bf818bfec99500000000"/>
+		<Metadata name="Configuration.ОУ40" id="64688d87-7fd2-40b7-8d64-44951445b51d" configVersion="338e7ea3b89986428bded6a9ff1999c300000000"/>
 		<Metadata name="Configuration.ОУ40.ClientApplicationInterface" id="eb891660-8ded-40bd-b0a7-d293f09906bf.b" configVersion="fce5d8cf6224f64fb3ebb72928fe2a1c00000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика" id="f397e661-e9e4-458e-b087-09c63ffda2a3" configVersion="cde163565d249a4abd3b37c503d2db8c00000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.Form.Форма" id="448d386d-4ec8-47b2-8f65-59ccef127d4d" configVersion="ee5d5775eb9a1a4480f80378fd2f517900000000"/>
@@ -72,7 +72,10 @@
 			<Metadata name="InformationRegister.Расписание.Dimension.Класс" id="83102e8e-f56c-4c70-b6d0-d805e0905433"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="d938f336-f0cc-415b-966a-ffc4a9ad52aa" configVersion="23a4ff51c4ae0e468616f8ea9800923700000000"/>
-		<Metadata name="Subsystem.ОперативныйУчет" id="a9b90765-90eb-4831-a35e-688c0a3c9230" configVersion="f6fe41aaa91623439598fd91f4ee668400000000"/>
+		<Metadata name="Report.АнализЗанятостиКлассов" id="0d7d5039-afed-4501-bc44-a32a8b064f68" configVersion="a38ec82d98b5e6488e380122b183ba9b00000000"/>
+		<Metadata name="Report.АнализЗанятостиКлассов.Template.ОсновнаяСхемаКомпоновкиДанных" id="56a3316e-0a2b-47d1-8390-5a20d2d3cbe8" configVersion="6ec4ac0642df3f4fb0ff14f6954284d800000000"/>
+		<Metadata name="Report.АнализЗанятостиКлассов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="56a3316e-0a2b-47d1-8390-5a20d2d3cbe8.0" configVersion="84e35c2b6ada9347bc4db0309c0f344400000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет" id="a9b90765-90eb-4831-a35e-688c0a3c9230" configVersion="b00736d6a18b2847b480202e68a1bce300000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.CommandInterface" id="a9b90765-90eb-4831-a35e-688c0a3c9230.1" configVersion="6d059622817f5b4284be23791337088700000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="5b012127-0495-4821-a062-4ed2a9fe77a6" configVersion="ff3eb7c60983de4fb368f71c1a19c6f300000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="96c30a7c-bfb7-477d-b367-568027f20395" configVersion="14f40a19e5e1744e99f419d6211c716f00000000"/>
