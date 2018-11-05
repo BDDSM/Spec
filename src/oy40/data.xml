@@ -13,7 +13,7 @@
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Code>000000002</v8:Code>
 			<v8:Description>102</v8:Description>
-			<v8:КоличествоМест>0</v8:КоличествоМест>
+			<v8:КоличествоМест>9</v8:КоличествоМест>
 		</v8:CatalogObject.Классы>
 		<v8:CatalogObject.Курсы>
 			<v8:Ref xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Ref>
@@ -108,6 +108,4760 @@
 				<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
 			</v8:Record>
 		</v8:InformationRegisterRecordSet.Расписание>
+		<v8:DocumentObject.Заявка>
+			<v8:Ref>3c1cde63-e127-11e8-bea7-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T21:40:24</v8:Date>
+			<v8:Number>000000001</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
+			<v8:ДатаНачала>2018-10-03T00:00:00</v8:ДатаНачала>
+			<v8:ДатаОкончания>2018-10-04T00:00:00</v8:ДатаОкончания>
+		</v8:DocumentObject.Заявка>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">3c1cde63-e127-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>3c1cde63-e127-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:40:24</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>3c1cde63-e127-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:40:24</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:DocumentObject.Заявка>
+			<v8:Ref>84942188-e12b-11e8-bea7-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T21:49:26</v8:Date>
+			<v8:Number>000000002</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
+			<v8:ДатаНачала>2018-10-03T00:00:00</v8:ДатаНачала>
+			<v8:ДатаОкончания>2018-10-04T00:00:00</v8:ДатаОкончания>
+		</v8:DocumentObject.Заявка>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">84942188-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>84942188-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:26</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>84942188-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:26</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:DocumentObject.Заявка>
+			<v8:Ref>84942189-e12b-11e8-bea7-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T21:49:29</v8:Date>
+			<v8:Number>000000003</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
+			<v8:ДатаНачала>2018-10-03T00:00:00</v8:ДатаНачала>
+			<v8:ДатаОкончания>2018-10-04T00:00:00</v8:ДатаОкончания>
+		</v8:DocumentObject.Заявка>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">84942189-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>84942189-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:29</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>84942189-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:29</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:DocumentObject.Заявка>
+			<v8:Ref>8494218a-e12b-11e8-bea7-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T21:49:30</v8:Date>
+			<v8:Number>000000004</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
+			<v8:ДатаНачала>2018-10-03T00:00:00</v8:ДатаНачала>
+			<v8:ДатаОкончания>2018-10-04T00:00:00</v8:ДатаОкончания>
+		</v8:DocumentObject.Заявка>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">8494218a-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>8494218a-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:30</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>8494218a-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:30</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:DocumentObject.Заявка>
+			<v8:Ref>8494218b-e12b-11e8-bea7-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T21:49:32</v8:Date>
+			<v8:Number>000000005</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
+			<v8:ДатаНачала>2018-10-03T00:00:00</v8:ДатаНачала>
+			<v8:ДатаОкончания>2018-10-04T00:00:00</v8:ДатаОкончания>
+		</v8:DocumentObject.Заявка>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">8494218b-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>8494218b-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:32</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>8494218b-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:32</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:DocumentObject.Заявка>
+			<v8:Ref>8494218c-e12b-11e8-bea7-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T21:49:34</v8:Date>
+			<v8:Number>000000006</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
+			<v8:ДатаНачала>2018-10-03T00:00:00</v8:ДатаНачала>
+			<v8:ДатаОкончания>2018-10-04T00:00:00</v8:ДатаОкончания>
+		</v8:DocumentObject.Заявка>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">8494218c-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>8494218c-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:34</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>8494218c-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:34</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:DocumentObject.Заявка>
+			<v8:Ref>8494218d-e12b-11e8-bea7-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T21:49:35</v8:Date>
+			<v8:Number>000000007</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
+			<v8:ДатаНачала>2018-10-03T00:00:00</v8:ДатаНачала>
+			<v8:ДатаОкончания>2018-10-04T00:00:00</v8:ДатаОкончания>
+		</v8:DocumentObject.Заявка>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">8494218d-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>8494218d-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:35</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>8494218d-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:35</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:DocumentObject.Заявка>
+			<v8:Ref>8494218e-e12b-11e8-bea7-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T21:49:38</v8:Date>
+			<v8:Number>000000008</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
+			<v8:ДатаНачала>2018-10-03T00:00:00</v8:ДатаНачала>
+			<v8:ДатаОкончания>2018-10-04T00:00:00</v8:ДатаОкончания>
+		</v8:DocumentObject.Заявка>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">8494218e-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>8494218e-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:38</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>8494218e-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:38</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:DocumentObject.Заявка>
+			<v8:Ref>8494218f-e12b-11e8-bea7-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T21:49:52</v8:Date>
+			<v8:Number>000000009</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
+			<v8:ДатаНачала>2018-10-03T00:00:00</v8:ДатаНачала>
+			<v8:ДатаОкончания>2018-10-04T00:00:00</v8:ДатаОкончания>
+		</v8:DocumentObject.Заявка>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">8494218f-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>8494218f-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:52</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>8494218f-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:52</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:DocumentObject.Заявка>
+			<v8:Ref>84942190-e12b-11e8-bea7-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T21:49:54</v8:Date>
+			<v8:Number>000000010</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
+			<v8:ДатаНачала>2018-10-03T00:00:00</v8:ДатаНачала>
+			<v8:ДатаОкончания>2018-10-04T00:00:00</v8:ДатаОкончания>
+		</v8:DocumentObject.Заявка>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">84942190-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>84942190-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:54</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>84942190-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:54</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:DocumentObject.Заявка>
+			<v8:Ref>84942191-e12b-11e8-bea7-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T21:51:09</v8:Date>
+			<v8:Number>000000011</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
+			<v8:ДатаНачала>2018-10-03T00:00:00</v8:ДатаНачала>
+			<v8:ДатаОкончания>2018-10-05T00:00:00</v8:ДатаОкончания>
+		</v8:DocumentObject.Заявка>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">84942191-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>84942191-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:51:09</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4963-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>84942191-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:51:09</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4963-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-05T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-01T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-02T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-02T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-03T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-03T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-04T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-04T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-05T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-05T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-06T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-06T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-07T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-07T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-08T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-08T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-09T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-09T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-10T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-10T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-11T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-11T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-12T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-12T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-13T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-13T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-14T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-14T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-15T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-15T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-16T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-16T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-17T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-17T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-18T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-18T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-19T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-19T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-20T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-20T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-21T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-21T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-22T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-22T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-23T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-23T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-24T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-24T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-25T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-25T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-26T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-26T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-27T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-27T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-28T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-28T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-29T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-29T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-30T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-30T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-01-31T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-01-31T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-01T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-02T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-02T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-03T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-03T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-04T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-04T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-05T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-05T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-06T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-06T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-07T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-07T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-08T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-08T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-09T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-09T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-10T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-10T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-11T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-11T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-12T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-12T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-13T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-13T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-14T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-14T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-15T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-15T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-16T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-16T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-17T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-17T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-18T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-18T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-19T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-19T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-20T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-20T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-21T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-21T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-22T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-22T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-23T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-23T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-24T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-24T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-25T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-25T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-26T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-26T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-27T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-27T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-02-28T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-02-28T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-01T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-02T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-02T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-03T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-03T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-04T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-04T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-05T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-05T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-06T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-06T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-07T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-07T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-08T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-08T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-09T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-09T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-10T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-10T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-11T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-11T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-12T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-12T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-13T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-13T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-14T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-14T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-15T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-15T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-16T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-16T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-17T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-17T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-18T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-18T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-19T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-19T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-20T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-20T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-21T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-21T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-22T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-22T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-23T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-23T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-24T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-24T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-25T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-25T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-26T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-26T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-27T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-27T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-28T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-28T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-29T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-29T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-30T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-30T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-03-31T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-03-31T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-01T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-02T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-02T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-03T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-03T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-04T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-04T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-05T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-05T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-06T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-06T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-07T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-07T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-08T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-08T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-09T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-09T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-10T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-10T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-11T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-11T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-12T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-12T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-13T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-13T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-14T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-14T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-15T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-15T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-16T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-16T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-17T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-17T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-18T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-18T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-19T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-19T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-20T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-20T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-21T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-21T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-22T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-22T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-23T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-23T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-24T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-24T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-25T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-25T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-26T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-26T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-27T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-27T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-28T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-28T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-29T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-29T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-04-30T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-04-30T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-01T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-02T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-02T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-03T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-03T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-04T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-04T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-05T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-05T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-06T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-06T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-07T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-07T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-08T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-08T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-09T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-09T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-10T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-10T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-11T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-11T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-12T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-12T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-13T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-13T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-14T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-14T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-15T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-15T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-16T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-16T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-17T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-17T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-18T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-18T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-19T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-19T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-20T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-20T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-21T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-21T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-22T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-22T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-23T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-23T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-24T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-24T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-25T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-25T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-26T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-26T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-27T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-27T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-28T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-28T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-29T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-29T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-30T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-30T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-05-31T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-05-31T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-01T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-02T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-02T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-03T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-03T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-04T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-04T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-05T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-05T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-06T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-06T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-07T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-07T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-08T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-08T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-09T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-09T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-10T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-10T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-11T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-11T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-12T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-12T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-13T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-13T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-14T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-14T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-15T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-15T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-16T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-16T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-17T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-17T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-18T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-18T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-19T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-19T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-20T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-20T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-21T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-21T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-22T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-22T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-23T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-23T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-24T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-24T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-25T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-25T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-26T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-26T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-27T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-27T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-28T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-28T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-29T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-29T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-06-30T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-06-30T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-01T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-02T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-02T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-03T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-03T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-04T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-04T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-05T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-05T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-06T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-06T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-07T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-07T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-08T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-08T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-09T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-09T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-10T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-10T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-11T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-11T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-12T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-12T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-13T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-13T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-14T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-14T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-15T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-15T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-16T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-16T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-17T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-17T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-18T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-18T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-19T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-19T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-20T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-20T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-21T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-21T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-22T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-22T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-23T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-23T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-24T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-24T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-25T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-25T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-26T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-26T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-27T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-27T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-28T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-28T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-29T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-29T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-30T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-30T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-07-31T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-07-31T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-01T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-02T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-02T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-03T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-03T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-04T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-04T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-05T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-05T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-06T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-06T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-07T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-07T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-08T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-08T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-09T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-09T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-10T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-10T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-11T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-11T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-12T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-12T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-13T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-13T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-14T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-14T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-15T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-15T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-16T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-16T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-17T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-17T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-18T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-18T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-19T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-19T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-20T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-20T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-21T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-21T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-22T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-22T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-23T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-23T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-24T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-24T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-25T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-25T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-26T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-26T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-27T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-27T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-28T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-28T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-29T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-29T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-30T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-30T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-08-31T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-08-31T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-01T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-02T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-02T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-03T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-03T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-04T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-04T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-05T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-05T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-06T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-06T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-07T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-07T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-08T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-08T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-09T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-09T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-10T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-10T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-11T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-11T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-12T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-12T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-13T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-13T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-14T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-14T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-15T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-15T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-16T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-16T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-17T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-17T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-18T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-18T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-19T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-19T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-20T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-20T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-21T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-21T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-22T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-22T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-23T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-23T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-24T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-24T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-25T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-25T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-26T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-26T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-27T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-27T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-28T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-28T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-29T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-29T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-09-30T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-09-30T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-01T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-02T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-02T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-03T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-04T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-05T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-05T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-06T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-06T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-07T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-07T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-08T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-08T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-09T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-09T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-10T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-10T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-11T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-11T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-12T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-12T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-13T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-13T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-14T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-14T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-15T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-15T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-16T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-16T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-17T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-17T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-18T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-18T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-19T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-19T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-20T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-20T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-21T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-21T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-22T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-22T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-23T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-23T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-24T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-24T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-25T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-25T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-26T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-26T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-27T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-27T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-28T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-28T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-29T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-29T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-30T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-30T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-10-31T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-10-31T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-01T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-02T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-02T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-03T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-03T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-04T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-04T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-05T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-05T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-06T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-06T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-07T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-07T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-08T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-08T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-09T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-09T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-10T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-10T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-11T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-11T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-12T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-12T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-13T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-13T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-14T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-14T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-15T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-15T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-16T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-16T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-17T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-17T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-18T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-18T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-19T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-19T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-20T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-20T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-21T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-21T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-22T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-22T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-23T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-23T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-24T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-24T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-25T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-25T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-26T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-26T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-27T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-27T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-28T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-28T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-29T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-29T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-11-30T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-11-30T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-01T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-02T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-02T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-03T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-03T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-04T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-04T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-05T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-05T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-06T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-06T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-07T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-07T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-08T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-08T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-09T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-09T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-10T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-10T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-11T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-11T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-12T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-12T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-13T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-13T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-14T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-14T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-15T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-15T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-16T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-16T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-17T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-17T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-18T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-18T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-19T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-19T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-20T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-20T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-21T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-21T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-22T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-22T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-23T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-23T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-24T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-24T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-25T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-25T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-26T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-26T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-27T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-27T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-28T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-28T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-29T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-29T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-30T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-30T00:00:00</v8:Дата>
+				<v8:Значение>0</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2018-12-31T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2018-12-31T00:00:00</v8:Дата>
+				<v8:Значение>1</v8:Значение>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
 		<v8:InformationRegisterRecordSet.Расписание>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
@@ -158,6 +4912,270 @@
 				<v8:Курс xsi:type="v8:CatalogRef.Курсы">052d4962-e122-11e8-bea7-240a64b67da6</v8:Курс>
 			</v8:Record>
 		</v8:InformationRegisterRecordSet.Расписание>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">3c1cde63-e127-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>3c1cde63-e127-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:40:24</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>3c1cde63-e127-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:40:24</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">84942188-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>84942188-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:26</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>84942188-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:26</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">84942189-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>84942189-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:29</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>84942189-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:29</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">8494218a-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>8494218a-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:30</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>8494218a-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:30</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">8494218b-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>8494218b-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:32</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>8494218b-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:32</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">8494218c-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>8494218c-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:34</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>8494218c-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:34</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">8494218d-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>8494218d-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:35</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>8494218d-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:35</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">8494218e-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>8494218e-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:38</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>8494218e-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:38</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">8494218f-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>8494218f-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:52</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>8494218f-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:52</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">84942190-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>84942190-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:54</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-03T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>84942190-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:49:54</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4961-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+		<v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Заявка">84942191-e12b-11e8-bea7-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>84942191-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:51:09</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4963-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-04T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>84942191-e12b-11e8-bea7-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-24T21:51:09</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Класс xsi:type="v8:CatalogRef.Классы">052d4963-e122-11e8-bea7-240a64b67da6</v8:Класс>
+				<v8:Дата>2018-10-05T00:00:00</v8:Дата>
+				<v8:ЗанятоМест>1</v8:ЗанятоМест>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗанятостьКлассов>
 	</V8Exch:Data>
 	<PredefinedData/>
 </V8Exch:_1CV8DtUD>

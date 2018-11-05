@@ -142,10 +142,12 @@
 			<Catalog>Классы</Catalog>
 			<Catalog>Курсы</Catalog>
 			<Document>Расписание</Document>
+			<Document>Заявка</Document>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>Расписание</InformationRegister>
+			<AccumulationRegister>ЗанятостьКлассов</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
