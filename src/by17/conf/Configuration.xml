@@ -142,10 +142,13 @@
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ЗначенияСвойств</Catalog>
 			<Catalog>Субконто</Catalog>
+			<Catalog>Склады</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
+			<Document>ПеремещениеТоваров</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
+			<InformationRegister>УчетнаяПолитика</InformationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
 		</ChildObjects>
