@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
 	<ConfigVersions>
-		<Metadata name="AccumulationRegister.ОстаткиНоменклатуры" id="074714c7-d4e9-4d3a-a146-fcb3f97081d1" configVersion="22eb12c12054d74fb93cb19a903a004f00000000">
+		<Metadata name="AccumulationRegister.ОстаткиНоменклатуры" id="074714c7-d4e9-4d3a-a146-fcb3f97081d1" configVersion="345cf77dfe6ba64aa4afff24942cd37100000000">
 			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Resource.Количество" id="171f5b34-c7fb-4dcb-b381-dcd7be1778c8"/>
 			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Dimension.Номенклатура" id="de5f1b24-aad2-4f33-aee6-8f90791a58b0"/>
 		</Metadata>
@@ -9,8 +9,9 @@
 		<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Help" id="074714c7-d4e9-4d3a-a146-fcb3f97081d1.0" configVersion="d19611f1cd9da246b56c946d75ac392c00000000"/>
 		<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.ManagerModule" id="074714c7-d4e9-4d3a-a146-fcb3f97081d1.2" configVersion="40abea9996ed7b458756ce3808d6478500000000"/>
 		<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.RecordSetModule" id="074714c7-d4e9-4d3a-a146-fcb3f97081d1.1" configVersion="cdc787ab3d2f374f97dbeb732205f37300000000"/>
-		<Metadata name="Catalog.Номенклатура" id="6e0ba6a8-a0de-4287-b99e-f9c78003ce65" configVersion="e5823c13cec1fb47b0af41346f50c42400000000"/>
-		<Metadata name="Configuration.ОУ29" id="e36da975-a151-4ccc-91f8-79e1667fb7d1" configVersion="861b15b2116ec542b29472a9101e548d00000000"/>
+		<Metadata name="Catalog.Номенклатура" id="6e0ba6a8-a0de-4287-b99e-f9c78003ce65" configVersion="ab1169fd418c03408f491a07810797c800000000"/>
+		<Metadata name="Configuration.ОУ29" id="e36da975-a151-4ccc-91f8-79e1667fb7d1" configVersion="9d7a481723cc1c46a6157e208cecb81900000000"/>
+		<Metadata name="Configuration.ОУ29.ClientApplicationInterface" id="16fb6c42-2bf7-4a9b-b817-c99a4541c7eb.b" configVersion="7cf2df5f38aabc42b52981ab12e5606d00000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов" id="9b7444a8-89cb-4ac7-8780-047210b4502c" configVersion="c5671c339ee64c4f9a48c78e09d38dac00000000">
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИнтервалАвтосохранения" id="a95e1748-c4d1-4ad3-a6cb-9ac2c8e274b9"/>
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИспользоватьАвтосохранение" id="c754e0f7-00ac-4aa3-9a4e-d486bb88fa41"/>
@@ -69,5 +70,9 @@
 		</Metadata>
 		<Metadata name="Enum.УчетнаяПолитика.ManagerModule" id="f41c0fbc-6ac4-41dd-9f09-a98b09cb1d3e.0" configVersion="245b5a37ba2f95469d3bc903257a35c500000000"/>
 		<Metadata name="Language.Русский" id="4ea5c1d0-f812-44e1-83a1-06b9e9981cc1" configVersion="7d985c894058c649baef4b9a3edb18bf00000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет" id="0a68b730-e252-4f87-9795-3b2d1eaa3b29" configVersion="52c8053071618749b16aaf329403614100000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.CommandInterface" id="0a68b730-e252-4f87-9795-3b2d1eaa3b29.1" configVersion="fbfa88ae07226b40a78031095ccadf8900000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="df260ff2-711b-48cc-864d-9302dab2d89d" configVersion="f9d3b0cee54c7044b73103507d8aa14400000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="49eddc27-7ce3-4936-9217-44df7be9e3ab" configVersion="fc2264aa2ab6cb4f90de5df6074f134900000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
