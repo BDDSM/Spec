@@ -40,8 +40,11 @@
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<CharacteristicExtValues>Catalog.Субконто</CharacteristicExtValues>
 			<Type>
+				<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 				<v8:Type>cfg:CatalogRef.Субконто</v8:Type>
 				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПриходнаяНакладная</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПеремещениеТоваров</v8:Type>
 			</Type>
 			<Hierarchical>false</Hierarchical>
 			<FoldersOnTop>true</FoldersOnTop>
