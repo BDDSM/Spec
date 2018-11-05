@@ -139,9 +139,13 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ОперативныйУчет</Subsystem>
+			<Catalog>Классы</Catalog>
+			<Catalog>Курсы</Catalog>
+			<Document>Расписание</Document>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
+			<InformationRegister>Расписание</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
