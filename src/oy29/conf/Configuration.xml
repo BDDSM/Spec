@@ -142,6 +142,7 @@
 			<Catalog>Номенклатура</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
+			<Document>ДополнительныеЗатраты</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<DataProcessor>КонсольЗапросов</DataProcessor>

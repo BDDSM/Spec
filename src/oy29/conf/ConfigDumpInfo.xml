@@ -19,9 +19,9 @@
 		<Metadata name="Catalog.Номенклатура" id="6e0ba6a8-a0de-4287-b99e-f9c78003ce65" configVersion="5b81e170063f264f976e22e98ac0a83b00000000">
 			<Metadata name="Catalog.Номенклатура.Attribute.ВидНоменклатуры" id="de0ca077-090e-4ec2-9401-1383da8705eb"/>
 		</Metadata>
-		<Metadata name="Configuration.ОУ29" id="e36da975-a151-4ccc-91f8-79e1667fb7d1" configVersion="b027b3b7ff73f546bac2fd50185bf05200000000"/>
+		<Metadata name="Configuration.ОУ29" id="e36da975-a151-4ccc-91f8-79e1667fb7d1" configVersion="776ac37fb1ffd34f91f89f665399c4b400000000"/>
 		<Metadata name="Configuration.ОУ29.ClientApplicationInterface" id="16fb6c42-2bf7-4a9b-b817-c99a4541c7eb.b" configVersion="7cf2df5f38aabc42b52981ab12e5606d00000000"/>
-		<Metadata name="DataProcessor.КонсольЗапросов" id="9b7444a8-89cb-4ac7-8780-047210b4502c" configVersion="c5671c339ee64c4f9a48c78e09d38dac00000000">
+		<Metadata name="DataProcessor.КонсольЗапросов" id="9b7444a8-89cb-4ac7-8780-047210b4502c" configVersion="b5d7ba1aa22cf448a6723b80543632b600000000">
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИнтервалАвтосохранения" id="a95e1748-c4d1-4ad3-a6cb-9ac2c8e274b9"/>
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИспользоватьАвтосохранение" id="c754e0f7-00ac-4aa3-9a4e-d486bb88fa41"/>
 		</Metadata>
@@ -43,6 +43,14 @@
 		<Metadata name="DataProcessor.КонсольЗапросов.Help" id="9b7444a8-89cb-4ac7-8780-047210b4502c.1" configVersion="50f3dc280ec7724a842ad5741db87c2e00000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов.ManagerModule" id="9b7444a8-89cb-4ac7-8780-047210b4502c.2" configVersion="619f0fa773861649b57c78cad752410d00000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов.ObjectModule" id="9b7444a8-89cb-4ac7-8780-047210b4502c.0" configVersion="10b02ff65f15124a8cced7155280ab6a00000000"/>
+		<Metadata name="Document.ДополнительныеЗатраты" id="fcbe2fe4-e694-491a-bd10-7f4e93335d01" configVersion="25973657abe1c54887101ef5d21fc86000000000">
+			<Metadata name="Document.ДополнительныеЗатраты.TabularSection.Партии.Attribute.Партия" id="2996af10-ae2b-45a4-a729-7d4f0910244c"/>
+			<Metadata name="Document.ДополнительныеЗатраты.TabularSection.Партии" id="66401fd1-4ed0-4a4c-b5bb-4d2fa2ed660f"/>
+			<Metadata name="Document.ДополнительныеЗатраты.Attribute.СуммаЗатрат" id="ae02b8e1-b1cb-492b-9a8d-6d76befa96d7"/>
+		</Metadata>
+		<Metadata name="Document.ДополнительныеЗатраты.Form.ФормаДокумента" id="ecacc6d6-e88c-4972-80ff-c5f6ba948021" configVersion="2b1c9e4e54f76441b3cb4bac099381a400000000"/>
+		<Metadata name="Document.ДополнительныеЗатраты.Form.ФормаДокумента.Form" id="ecacc6d6-e88c-4972-80ff-c5f6ba948021.0" configVersion="a485ea346959ae4089192cffb8369c2d00000000"/>
+		<Metadata name="Document.ДополнительныеЗатраты.ObjectModule" id="fcbe2fe4-e694-491a-bd10-7f4e93335d01.0" configVersion="551c2adf3f306f41b3ae5a2631cee93700000000"/>
 		<Metadata name="Document.ПриходнаяНакладная" id="4b95d086-5678-4701-92e0-6a3cc4bd9a65" configVersion="f8c557297ce0a742b753852cc76372b700000000">
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Товары" id="27a96a03-4d10-4c32-bc27-72b97c2c938a"/>
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Товары.Attribute.Номенклатура" id="3bdd9f4c-2a1d-4044-ba32-fc68d226ab71"/>
@@ -55,7 +63,7 @@
 		<Metadata name="Document.ПриходнаяНакладная.Help" id="4b95d086-5678-4701-92e0-6a3cc4bd9a65.1" configVersion="329eb1491bd54e4d8b3c7da62738caa700000000"/>
 		<Metadata name="Document.ПриходнаяНакладная.ManagerModule" id="4b95d086-5678-4701-92e0-6a3cc4bd9a65.2" configVersion="1a8560c1692e5b46adf42f7c2c6feb1300000000"/>
 		<Metadata name="Document.ПриходнаяНакладная.ObjectModule" id="4b95d086-5678-4701-92e0-6a3cc4bd9a65.0" configVersion="53620151af9cf5418789c6a4122b339100000000"/>
-		<Metadata name="Document.РасходнаяНакладная" id="5334f502-db3f-46fd-af9c-cf047a7f15bc" configVersion="f5b166b67d60ba40942174578060d60000000000">
+		<Metadata name="Document.РасходнаяНакладная" id="5334f502-db3f-46fd-af9c-cf047a7f15bc" configVersion="98ab4fa976f0f741b1975d8fcc1b15f100000000">
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Количество" id="1d9ffdfb-8ad2-4c21-8db9-bd823fc521a6"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Сумма" id="306b6bc5-98c1-439e-be50-6d7e0b432250"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары" id="6166cf58-74e3-4d94-84c2-6698ed5f4a0d"/>
@@ -66,7 +74,7 @@
 		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Form" id="919ef39a-de1a-448d-92d1-fc15d72a8f33.0" configVersion="5dbed311ac3f2044998847b2a6b03a8100000000"/>
 		<Metadata name="Document.РасходнаяНакладная.Help" id="5334f502-db3f-46fd-af9c-cf047a7f15bc.1" configVersion="2657136a48910d4187a9211a283a5e4a00000000"/>
 		<Metadata name="Document.РасходнаяНакладная.ManagerModule" id="5334f502-db3f-46fd-af9c-cf047a7f15bc.2" configVersion="20c65d3067c7494086bfbd8f73e0473300000000"/>
-		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="5334f502-db3f-46fd-af9c-cf047a7f15bc.0" configVersion="ae233bef33b7584a895b7ae02f477ccb00000000"/>
+		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="5334f502-db3f-46fd-af9c-cf047a7f15bc.0" configVersion="d042b579deeddb43916cdf1cd2e1f30600000000"/>
 		<Metadata name="Enum.ВидыНоменклатуры" id="34ed5a35-3a58-430f-8fc2-d7cba10fe00f" configVersion="0a48e9bb41cf1b4582aef00be0ef938800000000">
 			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.Услуга" id="8c99a1d1-52eb-4f0d-90a5-39cf763e1fbb"/>
 			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.Товар" id="d6699b1d-4430-4bcc-af44-540afed1b3b0"/>
@@ -81,9 +89,9 @@
 			<Metadata name="InformationRegister.УчетнаяПолитика.Resource.МетодСписания" id="af80754d-68cc-4ad9-a990-e1c647f335d2"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="4ea5c1d0-f812-44e1-83a1-06b9e9981cc1" configVersion="7d985c894058c649baef4b9a3edb18bf00000000"/>
-		<Metadata name="Subsystem.ОперативныйУчет" id="0a68b730-e252-4f87-9795-3b2d1eaa3b29" configVersion="369846f05f12e1468bdb3bf1227d2a0300000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет" id="0a68b730-e252-4f87-9795-3b2d1eaa3b29" configVersion="87e2eddcedeff64daff0289529d6925c00000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.CommandInterface" id="0a68b730-e252-4f87-9795-3b2d1eaa3b29.1" configVersion="fbfa88ae07226b40a78031095ccadf8900000000"/>
-		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="df260ff2-711b-48cc-864d-9302dab2d89d" configVersion="1aed4d0e78b5a94cb0176e2a3f08eecc00000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="df260ff2-711b-48cc-864d-9302dab2d89d" configVersion="e83d3aaf84662c41ba30bd3790cacc2f00000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="49eddc27-7ce3-4936-9217-44df7be9e3ab" configVersion="d43c205d950832449014927d848630af00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
