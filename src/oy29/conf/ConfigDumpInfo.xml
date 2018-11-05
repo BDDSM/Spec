@@ -19,7 +19,7 @@
 		<Metadata name="Catalog.Номенклатура" id="6e0ba6a8-a0de-4287-b99e-f9c78003ce65" configVersion="5b81e170063f264f976e22e98ac0a83b00000000">
 			<Metadata name="Catalog.Номенклатура.Attribute.ВидНоменклатуры" id="de0ca077-090e-4ec2-9401-1383da8705eb"/>
 		</Metadata>
-		<Metadata name="Configuration.ОУ29" id="e36da975-a151-4ccc-91f8-79e1667fb7d1" configVersion="776ac37fb1ffd34f91f89f665399c4b400000000"/>
+		<Metadata name="Configuration.ОУ29" id="e36da975-a151-4ccc-91f8-79e1667fb7d1" configVersion="5cec0556d7e3454eacd3cac209c03b5f00000000"/>
 		<Metadata name="Configuration.ОУ29.ClientApplicationInterface" id="16fb6c42-2bf7-4a9b-b817-c99a4541c7eb.b" configVersion="7cf2df5f38aabc42b52981ab12e5606d00000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов" id="9b7444a8-89cb-4ac7-8780-047210b4502c" configVersion="b5d7ba1aa22cf448a6723b80543632b600000000">
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИнтервалАвтосохранения" id="a95e1748-c4d1-4ad3-a6cb-9ac2c8e274b9"/>
@@ -89,7 +89,13 @@
 			<Metadata name="InformationRegister.УчетнаяПолитика.Resource.МетодСписания" id="af80754d-68cc-4ad9-a990-e1c647f335d2"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="4ea5c1d0-f812-44e1-83a1-06b9e9981cc1" configVersion="7d985c894058c649baef4b9a3edb18bf00000000"/>
-		<Metadata name="Subsystem.ОперативныйУчет" id="0a68b730-e252-4f87-9795-3b2d1eaa3b29" configVersion="87e2eddcedeff64daff0289529d6925c00000000"/>
+		<Metadata name="Report.ОстаткиТоваров" id="18282f3b-c202-4f77-8298-836fab456737" configVersion="d2739b2adb678247be6f5d7fed53c03d00000000"/>
+		<Metadata name="Report.ОстаткиТоваров.Template.ОсновнаяСхемаКомпоновкиДанных" id="5117e44a-a4e8-4ca3-9fa8-5460decfca7e" configVersion="1b0349c874b8cd4fb5c0280ad0f726c200000000"/>
+		<Metadata name="Report.ОстаткиТоваров.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="5117e44a-a4e8-4ca3-9fa8-5460decfca7e.0" configVersion="32bdb9f09b0f4d44a33c0bed4793649300000000"/>
+		<Metadata name="Report.Продажи" id="7afcfd3d-3bfb-412a-97a5-c4da8e11fc36" configVersion="e6eea61b862f0243880ba322e4ae586000000000"/>
+		<Metadata name="Report.Продажи.Template.ОсновнаяСхемаКомпоновкиДанных" id="bc0d8b3e-b4bd-4d49-ac36-548860a72de8" configVersion="ca4f8b2e7e3bc04b8f4796535fa5ebf000000000"/>
+		<Metadata name="Report.Продажи.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="bc0d8b3e-b4bd-4d49-ac36-548860a72de8.0" configVersion="cdf373b87b67dd41b24f60c599b7b24c00000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет" id="0a68b730-e252-4f87-9795-3b2d1eaa3b29" configVersion="522e51fefe2f7741a842f19010dfb8ae00000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.CommandInterface" id="0a68b730-e252-4f87-9795-3b2d1eaa3b29.1" configVersion="fbfa88ae07226b40a78031095ccadf8900000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="df260ff2-711b-48cc-864d-9302dab2d89d" configVersion="e83d3aaf84662c41ba30bd3790cacc2f00000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="49eddc27-7ce3-4936-9217-44df7be9e3ab" configVersion="d43c205d950832449014927d848630af00000000"/>

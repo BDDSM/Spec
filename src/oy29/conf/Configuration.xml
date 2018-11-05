@@ -145,6 +145,8 @@
 			<Document>ДополнительныеЗатраты</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
+			<Report>Продажи</Report>
+			<Report>ОстаткиТоваров</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<InformationRegister>УчетнаяПолитика</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
