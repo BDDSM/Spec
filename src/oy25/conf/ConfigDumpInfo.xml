@@ -17,7 +17,7 @@
 		<Metadata name="Catalog.Контрагенты" id="a9c7f43b-adca-46e1-98cc-660411ee3b49" configVersion="e69d1923dafdc64ea0e13648314b6bc000000000"/>
 		<Metadata name="Catalog.Контрагенты.Predefined" id="a9c7f43b-adca-46e1-98cc-660411ee3b49.1c" configVersion="e873c019cf6dee4e8f1be02af80e25ff00000000"/>
 		<Metadata name="Catalog.Номенклатура" id="0d50a3d7-c6a6-42e0-9d2a-08f50a712877" configVersion="6f0e1486bfa9e74cbbaa6a919528284c00000000"/>
-		<Metadata name="Configuration.ОУ25" id="7705f9eb-21da-4aa2-9ab5-3026752edcca" configVersion="6e20919dc013944bb945f9965289e28300000000"/>
+		<Metadata name="Configuration.ОУ25" id="7705f9eb-21da-4aa2-9ab5-3026752edcca" configVersion="74435af5b4d87a48993498975291321300000000"/>
 		<Metadata name="Configuration.ОУ25.ClientApplicationInterface" id="8563f9cb-9763-49e9-8a4e-cadf81561f3c.b" configVersion="48839acf11fe824d9a18e5ee9218672e00000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов" id="a33a3945-4d99-4f72-bf52-e82861e52bbc" configVersion="3ab7552fc239344a9f95716bf7ea360200000000">
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИнтервалАвтосохранения" id="7669ef03-437e-473f-9ed5-6ab4b7b495c8"/>
@@ -38,13 +38,13 @@
 		<Metadata name="Document.НачислениеПеней.Form.ФормаДокумента" id="796f9362-3e05-4f85-b735-997fb7703198" configVersion="fbbf5357a38ded44b57221408270b17000000000"/>
 		<Metadata name="Document.НачислениеПеней.Form.ФормаДокумента.Form" id="796f9362-3e05-4f85-b735-997fb7703198.0" configVersion="fd1fbe284e5146489c6a30543f96344400000000"/>
 		<Metadata name="Document.НачислениеПеней.ObjectModule" id="b7591f9d-f903-49e8-99d6-4021c2c36880.0" configVersion="7dbad89d3658414481201673e3a6adaf00000000"/>
-		<Metadata name="Document.ПКО" id="96da6380-a277-45fe-9ca6-0d34ef47e591" configVersion="f585b24a4f7d214c84315784ef86b86800000000">
+		<Metadata name="Document.ПКО" id="96da6380-a277-45fe-9ca6-0d34ef47e591" configVersion="3e6344532816c14487b72d7b66fe9bf400000000">
 			<Metadata name="Document.ПКО.Attribute.Контрагент" id="1aa809d5-28b9-4da8-96ef-fda965bacbed"/>
 			<Metadata name="Document.ПКО.Attribute.СуммаДокумента" id="4cf66db8-5593-4f91-ad52-98e25f00512c"/>
 		</Metadata>
 		<Metadata name="Document.ПКО.Form.ФормаДокумента" id="ab0fe9c4-2b9e-41eb-9ddf-9dc8e3b17361" configVersion="c42aca0cf47a62429acf9e35235ef8a500000000"/>
 		<Metadata name="Document.ПКО.Form.ФормаДокумента.Form" id="ab0fe9c4-2b9e-41eb-9ddf-9dc8e3b17361.0" configVersion="a68d027e19f9f84baed20450af5ff79600000000"/>
-		<Metadata name="Document.ПКО.ObjectModule" id="96da6380-a277-45fe-9ca6-0d34ef47e591.0" configVersion="cae768ab5716e841a0f300e4c425070200000000"/>
+		<Metadata name="Document.ПКО.ObjectModule" id="96da6380-a277-45fe-9ca6-0d34ef47e591.0" configVersion="e1f8e9b8b2468644896e40578b2801e300000000"/>
 		<Metadata name="Document.ПриходнаяНакладная" id="187fddeb-1a12-4ad4-9f9c-bea990d480fe" configVersion="3f44cc785a827644a7fe551bfb30cd0500000000">
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Сумма" id="04a439f9-4576-4042-a197-9910630072e1"/>
 			<Metadata name="Document.ПриходнаяНакладная.Attribute.СуммаПоДокументу" id="12254eb9-123e-4986-acda-a9741c78ac1e"/>
@@ -78,7 +78,13 @@
 			<Metadata name="InformationRegister.СостояниеСчетов.Dimension.Счет" id="80c785ca-e92c-4eb1-bb9a-1fe7e6b0b9cd"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="f53dcc10-a872-4449-9c8b-fe9e90df1324" configVersion="feef611c570a064395758ba6974ae5d500000000"/>
-		<Metadata name="Subsystem.ОперативныйУчет" id="cefc4b47-5bd4-4c62-8a8e-49a3ddcc6f1d" configVersion="36dd38686b93e740a86613f7b96430bb00000000"/>
+		<Metadata name="Report.АнализСостоянияСчетов" id="bd38ce50-813e-4180-96cb-082c8a119f18" configVersion="43923ce2e083e34591eeac934983394000000000"/>
+		<Metadata name="Report.АнализСостоянияСчетов.Template.ОсновнаяСхемаКомпоновкиДанных" id="655fdf8d-9d15-4033-acad-48f4fe25bfc1" configVersion="a429d73b6c21c64ca5ec74381d7c80d700000000"/>
+		<Metadata name="Report.АнализСостоянияСчетов.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="655fdf8d-9d15-4033-acad-48f4fe25bfc1.0" configVersion="be4885bd2efa944fa61832e4ae84fe9200000000"/>
+		<Metadata name="Report.АнализСчета" id="f8a23c61-5fe1-4602-8ffd-29e954cd6f71" configVersion="5c91e262f3072c43bed36aa1b3b7758700000000"/>
+		<Metadata name="Report.АнализСчета.Template.ОсновнаяСхемаКомпоновкиДанных" id="41a7047f-a64c-4c58-9af4-dae1d5f9a113" configVersion="509da232d216034babc9dbd65c97ddae00000000"/>
+		<Metadata name="Report.АнализСчета.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="41a7047f-a64c-4c58-9af4-dae1d5f9a113.0" configVersion="0580ee46290d2942b58b4c37ef8e504000000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет" id="cefc4b47-5bd4-4c62-8a8e-49a3ddcc6f1d" configVersion="8ddf7e6748b3574591184ab67286504c00000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.CommandInterface" id="cefc4b47-5bd4-4c62-8a8e-49a3ddcc6f1d.1" configVersion="8ca8f50c634779478019619145a993f500000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="4c2bbd6d-4614-4da2-a33f-a4325584d093" configVersion="87119ab38b86ec4390fed392d2a60ac900000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="58a0a217-b3a6-4647-952f-0088ac14afe5" configVersion="327c96f806970741a1597a922027810100000000"/>

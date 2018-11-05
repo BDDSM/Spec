@@ -146,6 +146,8 @@
 			<Document>Счет</Document>
 			<Document>ПКО</Document>
 			<Document>НачислениеПеней</Document>
+			<Report>АнализСостоянияСчетов</Report>
+			<Report>АнализСчета</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<InformationRegister>СостояниеСчетов</InformationRegister>
 			<InformationRegister>НачислениеПеней</InformationRegister>
