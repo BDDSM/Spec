@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
 	<ConfigVersions>
-		<Metadata name="Configuration.ОУ40" id="64688d87-7fd2-40b7-8d64-44951445b51d" configVersion="ebce31d994af904494b6559bd32375bc00000000"/>
+		<Metadata name="Configuration.ОУ40" id="64688d87-7fd2-40b7-8d64-44951445b51d" configVersion="737bb063e2191f448dcfdf9ac60c858500000000"/>
+		<Metadata name="Configuration.ОУ40.ClientApplicationInterface" id="eb891660-8ded-40bd-b0a7-d293f09906bf.b" configVersion="fce5d8cf6224f64fb3ebb72928fe2a1c00000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика" id="f397e661-e9e4-458e-b087-09c63ffda2a3" configVersion="ec91153b3c5ba347bb8acce4b7e3fb3d00000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.Form.Форма" id="448d386d-4ec8-47b2-8f65-59ccef127d4d" configVersion="ee5d5775eb9a1a4480f80378fd2f517900000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.Form.Форма.Form" id="448d386d-4ec8-47b2-8f65-59ccef127d4d.0" configVersion="9c101e7b5c7bae4b9c1253a774ecf0ae00000000"/>
@@ -39,5 +40,9 @@
 		<Metadata name="InformationRegister.ГрафикиРаботы.ManagerModule" id="67940070-0146-4a21-83f8-e096c88646ea.2" configVersion="f09faf08175c77438cce6df6004d099200000000"/>
 		<Metadata name="InformationRegister.ГрафикиРаботы.RecordSetModule" id="67940070-0146-4a21-83f8-e096c88646ea.1" configVersion="678ccd6a4817ee4a806e26ecfc15590d00000000"/>
 		<Metadata name="Language.Русский" id="d938f336-f0cc-415b-966a-ffc4a9ad52aa" configVersion="23a4ff51c4ae0e468616f8ea9800923700000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет" id="a9b90765-90eb-4831-a35e-688c0a3c9230" configVersion="8a6f5f44020d4c41b79fb5118f1d73b200000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.CommandInterface" id="a9b90765-90eb-4831-a35e-688c0a3c9230.1" configVersion="6d059622817f5b4284be23791337088700000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="5b012127-0495-4821-a062-4ed2a9fe77a6" configVersion="42011be3bf7c5443809f3804f57ac7f600000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="96c30a7c-bfb7-477d-b367-568027f20395" configVersion="f399dbb3ef678d4d904f55f70b71915300000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
