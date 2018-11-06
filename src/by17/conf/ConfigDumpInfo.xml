@@ -43,7 +43,7 @@
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары" id="a53e63ee-5202-46d8-9145-53dd6601cab0"/>
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Количество" id="ae9dbadd-cebd-45b9-b9fa-c43650bd3ec4"/>
 		</Metadata>
-		<Metadata name="Document.ПриходнаяНакладная" id="654d15e9-c570-4de2-9417-a14fdde42d72" configVersion="487cff63ff9d14498ed96af085f18f2e00000000">
+		<Metadata name="Document.ПриходнаяНакладная" id="654d15e9-c570-4de2-9417-a14fdde42d72" configVersion="f8ccb10fb20d094d91fdc8ea798aa8ac00000000">
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Товары.Attribute.Количество" id="08c7d6cc-637a-4a52-854a-85bc78298dc6"/>
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Товары.Attribute.Сумма" id="4acf4dcb-581d-429f-8520-9d0c72aec35e"/>
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Товары.Attribute.Цена" id="74c5036a-7e72-4634-aa02-880c2ae3a6b4"/>
@@ -51,7 +51,10 @@
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Товары" id="a45d8fb9-9bee-4057-a3c0-5c7faaba2f7a"/>
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Товары.Attribute.Номенклатура" id="c625a36d-ceef-4163-a251-6a00ca5e2e43"/>
 		</Metadata>
-		<Metadata name="Document.РасходнаяНакладная" id="117b4f45-9af3-40a6-b433-2b978ac19150" configVersion="34ed9192f36dc443ad6ff66ce817abe900000000">
+		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента" id="dd4d3465-06c8-4ea1-8237-11778a97e729" configVersion="6531a6853982304db8f8a617955d2aff00000000"/>
+		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента.Form" id="dd4d3465-06c8-4ea1-8237-11778a97e729.0" configVersion="435e024b9ef79348b7a476dac34a990d00000000"/>
+		<Metadata name="Document.ПриходнаяНакладная.ObjectModule" id="654d15e9-c570-4de2-9417-a14fdde42d72.0" configVersion="aa5122b5a0a50c489a2f28dd4080eda700000000"/>
+		<Metadata name="Document.РасходнаяНакладная" id="117b4f45-9af3-40a6-b433-2b978ac19150" configVersion="97cb79e25bed3447886c8f480e5c7db600000000">
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Сумма" id="029fdb53-befb-4d0b-8ad0-daddb34c17e3"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Количество" id="631ba941-44a1-4aaa-8dfc-2a2a9ebec37b"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Номенклатура" id="b6bf33e2-f339-4c75-8b59-5c652d47cbc8"/>
@@ -59,6 +62,9 @@
 			<Metadata name="Document.РасходнаяНакладная.Attribute.Склад" id="ea293e3d-4e17-47bf-a13e-1707ee31ee57"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Цена" id="eac912c3-b0e8-4b4d-880e-7c5f92e8efdc"/>
 		</Metadata>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента" id="fd12aa81-2373-41c4-b457-137e9e78b665" configVersion="b4df4c770a339d499ab7a934a3ee15b300000000"/>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Form" id="fd12aa81-2373-41c4-b457-137e9e78b665.0" configVersion="f8bc995dfb91e241ae349bf0229c916000000000"/>
+		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="117b4f45-9af3-40a6-b433-2b978ac19150.0" configVersion="30f9f8edb4ffbd48a3d9bf4af966955a00000000"/>
 		<Metadata name="Enum.УчетнаяПолитика" id="f26034db-a66b-4177-89e5-63968794f662" configVersion="cee63809815a6f41b0610e4a0769129600000000">
 			<Metadata name="Enum.УчетнаяПолитика.EnumValue.ЛИФО" id="8d313108-f61b-4f64-a43b-e8ea389135c5"/>
 			<Metadata name="Enum.УчетнаяПолитика.EnumValue.ФИФО" id="8f76faad-06c2-4c2f-b3fa-ab0b376cc473"/>
