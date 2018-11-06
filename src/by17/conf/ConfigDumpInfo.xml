@@ -17,7 +17,7 @@
 		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконто.Predefined" id="72ca01c1-cac2-40c0-8228-704674e010cc.7" configVersion="712787d7c51b4346a1c3a173047dbb9d00000000"/>
 		<Metadata name="CommonModule.ПартионныйУчет" id="6ac097a0-0d9d-45a0-8741-5b5b96d9e0c9" configVersion="78d319a499ed374eb5d5a1494e1baf9200000000"/>
 		<Metadata name="CommonModule.ПартионныйУчет.Module" id="6ac097a0-0d9d-45a0-8741-5b5b96d9e0c9.0" configVersion="32292adf7f7d26448d9bceca08b20fff00000000"/>
-		<Metadata name="Configuration.БУ17" id="0e46f381-8bc3-4564-af2f-c7f6b1b66fd8" configVersion="d38ba6797f5ae841bc0aba6806be364400000000"/>
+		<Metadata name="Configuration.БУ17" id="0e46f381-8bc3-4564-af2f-c7f6b1b66fd8" configVersion="e32617c6fb8def49869eb0a31f12f8ef00000000"/>
 		<Metadata name="Configuration.БУ17.ClientApplicationInterface" id="1399abd6-198c-4bd8-b0e8-088a2f6afea9.b" configVersion="48faaa1fd56fda4ca40f3e6cb6514d2700000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов" id="5719ee3c-007a-46a4-a1b0-a2677eac768a" configVersion="c18344392c25664f828b3e07f19b026d00000000">
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИспользоватьАвтосохранение" id="069b52a6-79c1-416d-8c98-d1854dbb5ad2"/>
@@ -78,7 +78,10 @@
 			<Metadata name="InformationRegister.УчетнаяПолитика.Resource.МетодСписания" id="ecc22248-105e-4662-92c6-d029b78ba62d"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="0d7415a0-dc3f-403e-8b11-be47fb20c423" configVersion="078da7d5cf58634b80e96891368a132d00000000"/>
-		<Metadata name="Subsystem.БухгалтерскийУчет" id="013d31f5-f6da-4de5-82ff-c62aa717568a" configVersion="e7fa88d61eab944ab73dd20dda26cfc700000000"/>
+		<Metadata name="Report.ПродажаТоваров" id="b118b14d-ed37-4000-8500-e339fc3e48a2" configVersion="74ed8e2214d81e40a9aa9ac5a8690a8800000000"/>
+		<Metadata name="Report.ПродажаТоваров.Template.ОсновнаяСхемаКомпоновкиДанных" id="78e65804-fc4b-4fb4-a937-603403568444" configVersion="b1f7645642dcad4b89b2cc48da4cd96f00000000"/>
+		<Metadata name="Report.ПродажаТоваров.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="78e65804-fc4b-4fb4-a937-603403568444.0" configVersion="cd21ffe431fcec43907c9d629b173f6400000000"/>
+		<Metadata name="Subsystem.БухгалтерскийУчет" id="013d31f5-f6da-4de5-82ff-c62aa717568a" configVersion="f477322d758f0b40adbd4eefbdd04a4100000000"/>
 		<Metadata name="Subsystem.БухгалтерскийУчет.CommandInterface" id="013d31f5-f6da-4de5-82ff-c62aa717568a.1" configVersion="5e7ac01d81640d4881b7b864c7a810ef00000000"/>
 		<Metadata name="Subsystem.БухгалтерскийУчет.Subsystem.Документы" id="8092b70f-fc2c-4e69-9a77-263d795e11a5" configVersion="cbdcc375b7e6f344b662f7814dd2238400000000"/>
 		<Metadata name="Subsystem.БухгалтерскийУчет.Subsystem.Справочники" id="840995fb-ef27-4069-8f60-b1d4cfa4bace" configVersion="d37ac79599d0f04eb050652a1ade19a600000000"/>
