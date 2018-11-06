@@ -17,6 +17,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УчетнаяПолитика</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister.Проводки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажаТоваров</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

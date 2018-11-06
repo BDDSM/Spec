@@ -134,6 +134,7 @@
 			<Document>ПеремещениеТоваров</Document>
 			<Document>Операция</Document>
 			<Enum>УчетнаяПолитика</Enum>
+			<Report>ПродажаТоваров</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<InformationRegister>УчетнаяПолитика</InformationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
