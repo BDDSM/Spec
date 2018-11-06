@@ -68,7 +68,7 @@
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
-	<font faceName="Arial" height="10" bold="true" italic="false" underline="true" strikeout="false" kind="Absolute"/>
+	<font faceName="Arial" height="10" bold="true" italic="false" underline="true" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<height>96</height>
 	</format>
