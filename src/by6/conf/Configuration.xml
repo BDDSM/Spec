@@ -132,6 +132,7 @@
 			<Document>РасходнаяНакладная</Document>
 			<Document>Операция</Document>
 			<Document>КорректировкаДолга</Document>
+			<Report>Взаиморасчеты</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
