@@ -124,12 +124,14 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>БухгалтерскийУчет</Subsystem>
+			<CommonModule>ВалютныйУчет</CommonModule>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Субконто</Catalog>
 			<Catalog>Договоры</Catalog>
 			<Document>РасходнаяНакладная</Document>
 			<Document>Операция</Document>
+			<Document>КорректировкаДолга</Document>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
