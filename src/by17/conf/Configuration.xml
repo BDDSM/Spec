@@ -124,6 +124,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>БухгалтерскийУчет</Subsystem>
+			<CommonModule>ПартионныйУчет</CommonModule>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ЗначенияСвойств</Catalog>
 			<Catalog>Субконто</Catalog>

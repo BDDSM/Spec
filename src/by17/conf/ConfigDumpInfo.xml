@@ -15,7 +15,9 @@
 		<Metadata name="ChartOfAccounts.Управленческий.Predefined" id="ad832d28-c41f-48c3-a281-5ede6519e1bd.9" configVersion="03eb027dbf107d48be9e5d82ced5a21f00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконто" id="72ca01c1-cac2-40c0-8228-704674e010cc" configVersion="08abc209caa0504b8e1d3637d866b03a00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконто.Predefined" id="72ca01c1-cac2-40c0-8228-704674e010cc.7" configVersion="712787d7c51b4346a1c3a173047dbb9d00000000"/>
-		<Metadata name="Configuration.БУ17" id="0e46f381-8bc3-4564-af2f-c7f6b1b66fd8" configVersion="aba5ea7ea2fc8840bf9a76439451da4300000000"/>
+		<Metadata name="CommonModule.ПартионныйУчет" id="6ac097a0-0d9d-45a0-8741-5b5b96d9e0c9" configVersion="78d319a499ed374eb5d5a1494e1baf9200000000"/>
+		<Metadata name="CommonModule.ПартионныйУчет.Module" id="6ac097a0-0d9d-45a0-8741-5b5b96d9e0c9.0" configVersion="32292adf7f7d26448d9bceca08b20fff00000000"/>
+		<Metadata name="Configuration.БУ17" id="0e46f381-8bc3-4564-af2f-c7f6b1b66fd8" configVersion="d38ba6797f5ae841bc0aba6806be364400000000"/>
 		<Metadata name="Configuration.БУ17.ClientApplicationInterface" id="1399abd6-198c-4bd8-b0e8-088a2f6afea9.b" configVersion="48faaa1fd56fda4ca40f3e6cb6514d2700000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов" id="5719ee3c-007a-46a4-a1b0-a2677eac768a" configVersion="c18344392c25664f828b3e07f19b026d00000000">
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИспользоватьАвтосохранение" id="069b52a6-79c1-416d-8c98-d1854dbb5ad2"/>
@@ -36,13 +38,16 @@
 		<Metadata name="Document.Операция.Form.ФормаДокумента" id="89881adb-ac2e-47d4-880b-28b90f3237df" configVersion="be58cccfe0ee8b46acd91a9a3667484b00000000"/>
 		<Metadata name="Document.Операция.Form.ФормаДокумента.Form" id="89881adb-ac2e-47d4-880b-28b90f3237df.0" configVersion="849bf4138676ee4db74abc6e22aab6af00000000"/>
 		<Metadata name="Document.Операция.ObjectModule" id="67707841-b7d0-4b17-92a5-c5968f5ea3a3.0" configVersion="52259e2950f87d45b0a8a10add089edc00000000"/>
-		<Metadata name="Document.ПеремещениеТоваров" id="a9a92f84-cb61-4506-a2e2-c5a84b1728d9" configVersion="964668313795bb4ba0fed79f87887e9d00000000">
+		<Metadata name="Document.ПеремещениеТоваров" id="a9a92f84-cb61-4506-a2e2-c5a84b1728d9" configVersion="1b9401c958ba3c408491dfc247e2a32900000000">
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Номенклатура" id="22fa3e8b-65e7-44ec-8dce-3c87c80209b7"/>
 			<Metadata name="Document.ПеремещениеТоваров.Attribute.СкладОтправитель" id="47042d84-c5c8-43c9-bed7-2bc0d0c3bad5"/>
 			<Metadata name="Document.ПеремещениеТоваров.Attribute.СкладПолучатель" id="9076b61c-0375-4b69-b61a-3d79da0fdfc0"/>
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары" id="a53e63ee-5202-46d8-9145-53dd6601cab0"/>
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Количество" id="ae9dbadd-cebd-45b9-b9fa-c43650bd3ec4"/>
 		</Metadata>
+		<Metadata name="Document.ПеремещениеТоваров.Form.ФормаДокумента" id="e39ef602-ce48-4c66-943d-728c4713fcda" configVersion="297822b4b5e60a418ed0477a96a03b1800000000"/>
+		<Metadata name="Document.ПеремещениеТоваров.Form.ФормаДокумента.Form" id="e39ef602-ce48-4c66-943d-728c4713fcda.0" configVersion="0c1e427a9bc9b84d9b769b0b4e2862ff00000000"/>
+		<Metadata name="Document.ПеремещениеТоваров.ObjectModule" id="a9a92f84-cb61-4506-a2e2-c5a84b1728d9.0" configVersion="7421b25b88be5042b03c533d837e128000000000"/>
 		<Metadata name="Document.ПриходнаяНакладная" id="654d15e9-c570-4de2-9417-a14fdde42d72" configVersion="f8ccb10fb20d094d91fdc8ea798aa8ac00000000">
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Товары.Attribute.Количество" id="08c7d6cc-637a-4a52-854a-85bc78298dc6"/>
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.Товары.Attribute.Сумма" id="4acf4dcb-581d-429f-8520-9d0c72aec35e"/>
@@ -54,7 +59,7 @@
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента" id="dd4d3465-06c8-4ea1-8237-11778a97e729" configVersion="6531a6853982304db8f8a617955d2aff00000000"/>
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента.Form" id="dd4d3465-06c8-4ea1-8237-11778a97e729.0" configVersion="435e024b9ef79348b7a476dac34a990d00000000"/>
 		<Metadata name="Document.ПриходнаяНакладная.ObjectModule" id="654d15e9-c570-4de2-9417-a14fdde42d72.0" configVersion="aa5122b5a0a50c489a2f28dd4080eda700000000"/>
-		<Metadata name="Document.РасходнаяНакладная" id="117b4f45-9af3-40a6-b433-2b978ac19150" configVersion="97cb79e25bed3447886c8f480e5c7db600000000">
+		<Metadata name="Document.РасходнаяНакладная" id="117b4f45-9af3-40a6-b433-2b978ac19150" configVersion="59148b307c34db429b786f5c5a4ee1e000000000">
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Сумма" id="029fdb53-befb-4d0b-8ad0-daddb34c17e3"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Количество" id="631ba941-44a1-4aaa-8dfc-2a2a9ebec37b"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Номенклатура" id="b6bf33e2-f339-4c75-8b59-5c652d47cbc8"/>
@@ -64,7 +69,7 @@
 		</Metadata>
 		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента" id="fd12aa81-2373-41c4-b457-137e9e78b665" configVersion="b4df4c770a339d499ab7a934a3ee15b300000000"/>
 		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Form" id="fd12aa81-2373-41c4-b457-137e9e78b665.0" configVersion="f8bc995dfb91e241ae349bf0229c916000000000"/>
-		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="117b4f45-9af3-40a6-b433-2b978ac19150.0" configVersion="30f9f8edb4ffbd48a3d9bf4af966955a00000000"/>
+		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="117b4f45-9af3-40a6-b433-2b978ac19150.0" configVersion="24d0eec1283fb7488054eecd4902932900000000"/>
 		<Metadata name="Enum.УчетнаяПолитика" id="f26034db-a66b-4177-89e5-63968794f662" configVersion="cee63809815a6f41b0610e4a0769129600000000">
 			<Metadata name="Enum.УчетнаяПолитика.EnumValue.ЛИФО" id="8d313108-f61b-4f64-a43b-e8ea389135c5"/>
 			<Metadata name="Enum.УчетнаяПолитика.EnumValue.ФИФО" id="8f76faad-06c2-4c2f-b3fa-ab0b376cc473"/>
