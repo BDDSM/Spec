@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<V8Exch:_1CV8DtUD xmlns:V8Exch="http://www.1c.ru/V8/1CV8DtUD/" xmlns:core="http://v8.1c.ru/data" xmlns:v8="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<V8Exch:Data>
+		<v8:CatalogObject.Номенклатура>
+			<v8:IsFolder>true</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Номенклатура">f94efe0d-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>1</v8:Code>
+			<v8:Description>Холодильники</v8:Description>
+		</v8:CatalogObject.Номенклатура>
+		<v8:CatalogObject.Номенклатура>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">f94efe0d-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>2</v8:Code>
+			<v8:Description>Bosch KGS 3760 IE</v8:Description>
+		</v8:CatalogObject.Номенклатура>
+		<v8:CatalogObject.Номенклатура>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Номенклатура">f94efe0f-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">f94efe0d-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>3</v8:Code>
+			<v8:Description>Electrolux ER 9007 B</v8:Description>
+		</v8:CatalogObject.Номенклатура>
+		<v8:CatalogObject.Номенклатура>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Номенклатура">f94efe10-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">f94efe0d-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>4</v8:Code>
+			<v8:Description>Атлант МХМ 1704-00</v8:Description>
+		</v8:CatalogObject.Номенклатура>
+		<v8:CatalogObject.Склады>
+			<v8:Ref xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000001</v8:Code>
+			<v8:Description>Центральный</v8:Description>
+		</v8:CatalogObject.Склады>
+		<v8:CatalogObject.Склады>
+			<v8:Ref xsi:type="v8:CatalogRef.Склады">f94efe0c-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000002</v8:Code>
+			<v8:Description>Дальний</v8:Description>
+		</v8:CatalogObject.Склады>
+		<v8:DocumentObject.ПриходнаяНакладная>
+			<v8:Ref>f94efe11-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-01T12:00:00</v8:Date>
+			<v8:Number>000000001</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Склад xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Склад>
+			<v8:Товары>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Номенклатура>
+				<v8:Количество>5</v8:Количество>
+				<v8:Цена>10000</v8:Цена>
+				<v8:Сумма>50000</v8:Сумма>
+			</v8:Товары>
+			<v8:Товары>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">f94efe0f-e193-11e8-84a0-f0761c70a997</v8:Номенклатура>
+				<v8:Количество>5</v8:Количество>
+				<v8:Цена>20000</v8:Цена>
+				<v8:Сумма>100000</v8:Сумма>
+			</v8:Товары>
+		</v8:DocumentObject.ПриходнаяНакладная>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-01T12:00:00</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1d-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr/>
+				<v8:Сумма>50000</v8:Сумма>
+				<v8:КоличествоDr>5</v8:КоличествоDr>
+				<v8:КоличествоCr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-01T12:00:00</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0f-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1d-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr/>
+				<v8:Сумма>100000</v8:Сумма>
+				<v8:КоличествоDr>5</v8:КоличествоDr>
+				<v8:КоличествоCr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+			</v8:Record>
+		</v8:AccountingRegisterRecordSet.Проводки>
+		<v8:DocumentObject.ПриходнаяНакладная>
+			<v8:Ref>f94efe24-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-10T12:00:00</v8:Date>
+			<v8:Number>000000002</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Склад xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Склад>
+			<v8:Товары>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Номенклатура>
+				<v8:Количество>5</v8:Количество>
+				<v8:Цена>14000</v8:Цена>
+				<v8:Сумма>70000</v8:Сумма>
+			</v8:Товары>
+		</v8:DocumentObject.ПриходнаяНакладная>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe24-e193-11e8-84a0-f0761c70a997</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe24-e193-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-10T12:00:00</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe24-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1d-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr/>
+				<v8:Сумма>70000</v8:Сумма>
+				<v8:КоличествоDr>5</v8:КоличествоDr>
+				<v8:КоличествоCr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+			</v8:Record>
+		</v8:AccountingRegisterRecordSet.Проводки>
+		<v8:DocumentObject.РасходнаяНакладная>
+			<v8:Ref>f94efe25-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T10:21:50</v8:Date>
+			<v8:Number>000000001</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Склад xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Склад>
+			<v8:Товары>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Номенклатура>
+				<v8:Количество>7</v8:Количество>
+				<v8:Цена>20000</v8:Цена>
+				<v8:Сумма>140000</v8:Сумма>
+			</v8:Товары>
+		</v8:DocumentObject.РасходнаяНакладная>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.РасходнаяНакладная">f94efe25-e193-11e8-84a0-f0761c70a997</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.РасходнаяНакладная">f94efe25-e193-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-24T10:21:50</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe20-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsCr>
+				<v8:Сумма>50000</v8:Сумма>
+				<v8:КоличествоDr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+				<v8:КоличествоCr>5</v8:КоличествоCr>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.РасходнаяНакладная">f94efe25-e193-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-24T10:21:50</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe16-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr/>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe20-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsCr>
+				<v8:Сумма>140000</v8:Сумма>
+				<v8:КоличествоDr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+				<v8:КоличествоCr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.РасходнаяНакладная">f94efe25-e193-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-24T10:21:50</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe20-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe24-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsCr>
+				<v8:Сумма>28000</v8:Сумма>
+				<v8:КоличествоDr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+				<v8:КоличествоCr>2</v8:КоличествоCr>
+			</v8:Record>
+		</v8:AccountingRegisterRecordSet.Проводки>
+		<v8:DocumentObject.ПеремещениеТоваров>
+			<v8:Ref>6fb5d0ad-e1aa-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-10-24T13:01:23</v8:Date>
+			<v8:Number>000000001</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:СкладОтправитель xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:СкладОтправитель>
+			<v8:СкладПолучатель xsi:type="v8:CatalogRef.Склады">f94efe0c-e193-11e8-84a0-f0761c70a997</v8:СкладПолучатель>
+			<v8:Товары>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">f94efe0f-e193-11e8-84a0-f0761c70a997</v8:Номенклатура>
+				<v8:Количество>2</v8:Количество>
+			</v8:Товары>
+		</v8:DocumentObject.ПеремещениеТоваров>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.ПеремещениеТоваров">6fb5d0ad-e1aa-11e8-84a0-f0761c70a997</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.ПеремещениеТоваров">6fb5d0ad-e1aa-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-24T13:01:23</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0f-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПеремещениеТоваров">6fb5d0ad-e1aa-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0c-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0f-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsCr>
+				<v8:Сумма>40000</v8:Сумма>
+				<v8:КоличествоDr>2</v8:КоличествоDr>
+				<v8:КоличествоCr>2</v8:КоличествоCr>
+			</v8:Record>
+		</v8:AccountingRegisterRecordSet.Проводки>
+		<v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000001</v8:Code>
+			<v8:Description>Номенклатура</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">v8:CatalogRef.Номенклатура</Type>
+			</v8:ValueType>
+			<v8:PredefinedDataName>Номенклатура</v8:PredefinedDataName>
+		</v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
+		<v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000003</v8:Code>
+			<v8:Description>Партии</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">v8:DocumentRef.ПриходнаяНакладная</Type>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">v8:DocumentRef.ПеремещениеТоваров</Type>
+			</v8:ValueType>
+			<v8:PredefinedDataName>Партии</v8:PredefinedDataName>
+		</v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
+		<v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000002</v8:Code>
+			<v8:Description>Склады</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">v8:CatalogRef.Склады</Type>
+			</v8:ValueType>
+			<v8:PredefinedDataName>Склады</v8:PredefinedDataName>
+		</v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe13-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe12-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>01.01</v8:Code>
+			<v8:Description>Касса</v8:Description>
+			<v8:Order>01.01</v8:Order>
+			<v8:Type>Active</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>Касса</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe12-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>01.02</v8:Code>
+			<v8:Description>Товары</v8:Description>
+			<v8:Order>01.02</v8:Order>
+			<v8:Type>Active</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>Товары</v8:PredefinedDataName>
+			<v8:Количественный>true</v8:Количественный>
+			<v8:ExtDimensionType>
+				<v8:ExtDimensionType xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:ExtDimensionType>
+				<v8:Predefined>true</v8:Predefined>
+				<v8:TurnoversOnly>false</v8:TurnoversOnly>
+			</v8:ExtDimensionType>
+			<v8:ExtDimensionType>
+				<v8:ExtDimensionType xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:ExtDimensionType>
+				<v8:Predefined>true</v8:Predefined>
+				<v8:TurnoversOnly>false</v8:TurnoversOnly>
+			</v8:ExtDimensionType>
+			<v8:ExtDimensionType>
+				<v8:ExtDimensionType xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:ExtDimensionType>
+				<v8:Predefined>true</v8:Predefined>
+				<v8:TurnoversOnly>false</v8:TurnoversOnly>
+			</v8:ExtDimensionType>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe15-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe12-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>01.03</v8:Code>
+			<v8:Description>Товары в пути</v8:Description>
+			<v8:Order>01.03</v8:Order>
+			<v8:Type>Active</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>ТоварыВПути</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe16-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe12-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>01.04</v8:Code>
+			<v8:Description>Покупатели</v8:Description>
+			<v8:Order>01.04</v8:Order>
+			<v8:Type>ActivePassive</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>Покупатели</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe17-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe12-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>01.05</v8:Code>
+			<v8:Description>Основное производство</v8:Description>
+			<v8:Order>01.05</v8:Order>
+			<v8:Type>Active</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>ОсновноеПроизводство</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe18-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe12-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>01.06</v8:Code>
+			<v8:Description>Общехозяйственные затраты</v8:Description>
+			<v8:Order>01.06</v8:Order>
+			<v8:Type>Active</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>ОбщехозяйственныеЗатраты</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe19-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe12-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>01.07</v8:Code>
+			<v8:Description>Кредиты и займы выданные</v8:Description>
+			<v8:Order>01.07</v8:Order>
+			<v8:Type>Active</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>КредитыИЗаймыВыданные</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1a-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe12-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>01.08</v8:Code>
+			<v8:Description>Материалы</v8:Description>
+			<v8:Order>01.08</v8:Order>
+			<v8:Type>Active</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>Материалы</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1c-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1b-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>02.01</v8:Code>
+			<v8:Description>Сотрудники</v8:Description>
+			<v8:Order>02.01</v8:Order>
+			<v8:Type>ActivePassive</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>Сотрудники</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1d-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1b-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>02.02</v8:Code>
+			<v8:Description>Поставщики</v8:Description>
+			<v8:Order>02.02</v8:Order>
+			<v8:Type>ActivePassive</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>Поставщики</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1e-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1b-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>02.03</v8:Code>
+			<v8:Description>Кредиты и займы полученные</v8:Description>
+			<v8:Order>02.03</v8:Order>
+			<v8:Type>Passive</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>КредитыИЗаймыПолученные</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1f-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1b-e193-11e8-84a0-f0761c70a997</v8:Parent>
+			<v8:Code>02.04</v8:Code>
+			<v8:Description>Налоги</v8:Description>
+			<v8:Order>02.04</v8:Order>
+			<v8:Type>Passive</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>Налоги</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe12-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>01</v8:Code>
+			<v8:Description>Активы</v8:Description>
+			<v8:Order>01</v8:Order>
+			<v8:Type>Active</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>Активы</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1b-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>02</v8:Code>
+			<v8:Description>Обязательства</v8:Description>
+			<v8:Order>02</v8:Order>
+			<v8:Type>Passive</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>Обязательства</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:ChartOfAccountsObject.Управленческий>
+			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe20-e193-11e8-84a0-f0761c70a997</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:ChartOfAccountsRef.Управленческий">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>03</v8:Code>
+			<v8:Description>Прибыли убытки</v8:Description>
+			<v8:Order>03</v8:Order>
+			<v8:Type>ActivePassive</v8:Type>
+			<v8:OffBalance>false</v8:OffBalance>
+			<v8:PredefinedDataName>ПрибылиУбытки</v8:PredefinedDataName>
+			<v8:Количественный>false</v8:Количественный>
+			<v8:ExtDimensionType>
+				<v8:ExtDimensionType xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:ExtDimensionType>
+				<v8:Predefined>true</v8:Predefined>
+				<v8:TurnoversOnly>true</v8:TurnoversOnly>
+			</v8:ExtDimensionType>
+			<v8:ExtDimensionType>
+				<v8:ExtDimensionType xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:ExtDimensionType>
+				<v8:Predefined>true</v8:Predefined>
+				<v8:TurnoversOnly>true</v8:TurnoversOnly>
+			</v8:ExtDimensionType>
+		</v8:ChartOfAccountsObject.Управленческий>
+		<v8:InformationRegisterRecordSet.УчетнаяПолитика>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Period</Name>
+					<Value xsi:type="xs:dateTime">2018-01-01T00:00:00</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Period>2018-01-01T00:00:00</v8:Period>
+				<v8:МетодСписания>ФИФО</v8:МетодСписания>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.УчетнаяПолитика>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-01T12:00:00</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1d-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr/>
+				<v8:Сумма>50000</v8:Сумма>
+				<v8:КоличествоDr>5</v8:КоличествоDr>
+				<v8:КоличествоCr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-01T12:00:00</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0f-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1d-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr/>
+				<v8:Сумма>100000</v8:Сумма>
+				<v8:КоличествоDr>5</v8:КоличествоDr>
+				<v8:КоличествоCr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+			</v8:Record>
+		</v8:AccountingRegisterRecordSet.Проводки>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe24-e193-11e8-84a0-f0761c70a997</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe24-e193-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-10T12:00:00</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe24-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe1d-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr/>
+				<v8:Сумма>70000</v8:Сумма>
+				<v8:КоличествоDr>5</v8:КоличествоDr>
+				<v8:КоличествоCr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+			</v8:Record>
+		</v8:AccountingRegisterRecordSet.Проводки>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.РасходнаяНакладная">f94efe25-e193-11e8-84a0-f0761c70a997</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.РасходнаяНакладная">f94efe25-e193-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-24T10:21:50</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe20-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsCr>
+				<v8:Сумма>50000</v8:Сумма>
+				<v8:КоличествоDr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+				<v8:КоличествоCr>5</v8:КоличествоCr>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.РасходнаяНакладная">f94efe25-e193-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-24T10:21:50</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe16-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr/>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe20-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsCr>
+				<v8:Сумма>140000</v8:Сумма>
+				<v8:КоличествоDr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+				<v8:КоличествоCr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.РасходнаяНакладная">f94efe25-e193-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-24T10:21:50</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe20-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0e-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe24-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsCr>
+				<v8:Сумма>28000</v8:Сумма>
+				<v8:КоличествоDr xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:Null"/>
+				<v8:КоличествоCr>2</v8:КоличествоCr>
+			</v8:Record>
+		</v8:AccountingRegisterRecordSet.Проводки>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.ПеремещениеТоваров">6fb5d0ad-e1aa-11e8-84a0-f0761c70a997</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.ПеремещениеТоваров">6fb5d0ad-e1aa-11e8-84a0-f0761c70a997</v8:Recorder>
+				<v8:Period>2018-10-24T13:01:23</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0f-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПеремещениеТоваров">6fb5d0ad-e1aa-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0c-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">f94efe14-e193-11e8-84a0-f0761c70a997</v8:AccountCr>
+				<v8:ExtDimensionsCr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe21-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Номенклатура">f94efe0f-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe22-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.ПриходнаяНакладная">f94efe11-e193-11e8-84a0-f0761c70a997</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">f94efe23-e193-11e8-84a0-f0761c70a997</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Склады">f94efe0b-e193-11e8-84a0-f0761c70a997</v8:Value>
+				</v8:ExtDimensionsCr>
+				<v8:Сумма>40000</v8:Сумма>
+				<v8:КоличествоDr>2</v8:КоличествоDr>
+				<v8:КоличествоCr>2</v8:КоличествоCr>
+			</v8:Record>
+		</v8:AccountingRegisterRecordSet.Проводки>
+	</V8Exch:Data>
+	<PredefinedData>
+		<ПланВидовХарактеристик.ВидыСубконто>
+			<item Ссылка="f94efe21-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="Номенклатура"/>
+			<item Ссылка="f94efe22-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="Партии"/>
+			<item Ссылка="f94efe23-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="Склады"/>
+		</ПланВидовХарактеристик.ВидыСубконто>
+		<ПланСчетов.Управленческий>
+			<item Ссылка="f94efe20-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="ПрибылиУбытки"/>
+			<item Ссылка="f94efe1b-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="Обязательства"/>
+			<item Ссылка="f94efe12-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="Активы"/>
+			<item Ссылка="f94efe1f-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="Налоги"/>
+			<item Ссылка="f94efe1e-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="КредитыИЗаймыПолученные"/>
+			<item Ссылка="f94efe1d-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="Поставщики"/>
+			<item Ссылка="f94efe1c-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="Сотрудники"/>
+			<item Ссылка="f94efe1a-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="Материалы"/>
+			<item Ссылка="f94efe19-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="КредитыИЗаймыВыданные"/>
+			<item Ссылка="f94efe18-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="ОбщехозяйственныеЗатраты"/>
+			<item Ссылка="f94efe17-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="ОсновноеПроизводство"/>
+			<item Ссылка="f94efe16-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="Покупатели"/>
+			<item Ссылка="f94efe15-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="ТоварыВПути"/>
+			<item Ссылка="f94efe14-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="Товары"/>
+			<item Ссылка="f94efe13-e193-11e8-84a0-f0761c70a997" ИмяПредопределенныхДанных="Касса"/>
+		</ПланСчетов.Управленческий>
+	</PredefinedData>
+</V8Exch:_1CV8DtUD>
