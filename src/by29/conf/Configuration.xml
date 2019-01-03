@@ -131,6 +131,9 @@
 			<Document>Операция</Document>
 			<Document>Сборка</Document>
 			<Enum>ВидыНоменклатуры</Enum>
+			<Report>ОстаткиКомплектов</Report>
+			<Report>СборкаКомплектов</Report>
+			<Report>ПродажиКомплектов</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<InformationRegister>СоставКомплектов</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
