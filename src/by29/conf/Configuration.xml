@@ -123,6 +123,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>БухгалтерскийУчет</Subsystem>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Субконто</Catalog>
 			<Document>ПриходнаяНакладная</Document>
