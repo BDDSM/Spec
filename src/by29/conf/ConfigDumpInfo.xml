@@ -19,11 +19,13 @@
 		<Metadata name="Catalog.Субконто.ManagerModule" id="b6a23e7f-f48e-4655-b272-64ced9c0db9b.3" configVersion="378146aa94a0ca4da4a84891000433b400000000"/>
 		<Metadata name="Catalog.Субконто.ObjectModule" id="b6a23e7f-f48e-4655-b272-64ced9c0db9b.0" configVersion="b4faba035eab6a49a7b9757d834c34c200000000"/>
 		<Metadata name="Catalog.Субконто.Predefined" id="b6a23e7f-f48e-4655-b272-64ced9c0db9b.1c" configVersion="ab3686613ae17b4b8ff1b327caa9e10600000000"/>
-		<Metadata name="ChartOfAccounts.Управленческий" id="ae87a2f3-2b4c-4aaa-9abf-85ba2338b8d8" configVersion="5c8a95f7e2810347ad5d2121536cca3900000000"/>
+		<Metadata name="ChartOfAccounts.Управленческий" id="ae87a2f3-2b4c-4aaa-9abf-85ba2338b8d8" configVersion="e8c88ad6a4bbb8499ea9ac745323943b00000000">
+			<Metadata name="ChartOfAccounts.Управленческий.AccountingFlag.Количественный" id="6a79798b-2f22-4cc6-a522-fcf43368d369"/>
+		</Metadata>
 		<Metadata name="ChartOfAccounts.Управленческий.Help" id="ae87a2f3-2b4c-4aaa-9abf-85ba2338b8d8.5" configVersion="1ef1fb90cd6e3142a1dbfc5e6e7920e700000000"/>
 		<Metadata name="ChartOfAccounts.Управленческий.ManagerModule" id="ae87a2f3-2b4c-4aaa-9abf-85ba2338b8d8.15" configVersion="bbb440b7dec2b84e96e54a9669459d5f00000000"/>
 		<Metadata name="ChartOfAccounts.Управленческий.ObjectModule" id="ae87a2f3-2b4c-4aaa-9abf-85ba2338b8d8.14" configVersion="120010dd4fea8a41b55ca50df5a9278a00000000"/>
-		<Metadata name="ChartOfAccounts.Управленческий.Predefined" id="ae87a2f3-2b4c-4aaa-9abf-85ba2338b8d8.9" configVersion="f83c47069db68d45b4b74cc06f6d4feb00000000"/>
+		<Metadata name="ChartOfAccounts.Управленческий.Predefined" id="ae87a2f3-2b4c-4aaa-9abf-85ba2338b8d8.9" configVersion="bdefee39bb2d124899bcc8d96a17d43900000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконто" id="58899c48-b0d9-49c6-8a16-fa49534304b5" configVersion="d52443daf7d08b4da525ba0ab42b78c200000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконто.Help" id="58899c48-b0d9-49c6-8a16-fa49534304b5.5" configVersion="ad68706e93f90247959483df47bbd9f300000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконто.ManagerModule" id="58899c48-b0d9-49c6-8a16-fa49534304b5.16" configVersion="f9b2c69f6312d441a8bfede3a46d2d9b00000000"/>
