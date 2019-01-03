@@ -131,6 +131,7 @@
 			<Document>Операция</Document>
 			<Document>Сборка</Document>
 			<Enum>ВидыНоменклатуры</Enum>
+			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<InformationRegister>СоставКомплектов</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>

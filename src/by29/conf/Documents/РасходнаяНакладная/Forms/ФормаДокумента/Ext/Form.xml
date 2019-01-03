@@ -17,87 +17,70 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<InputField name="СуммаПоДокументу" id="7">
-			<DataPath>Объект.СуммаПоДокументу</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="СуммаПоДокументуКонтекстноеМеню" id="8"/>
-			<ExtendedTooltip name="СуммаПоДокументуРасширеннаяПодсказка" id="9"/>
-		</InputField>
-		<Table name="СписокНоменклатуры" id="10">
+		<Table name="Товары" id="7">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
-			<DataPath>Объект.СписокНоменклатуры</DataPath>
-			<SearchStringLocation>None</SearchStringLocation>
-			<ViewStatusLocation>None</ViewStatusLocation>
-			<SearchControlLocation>None</SearchControlLocation>
+			<DataPath>Объект.Товары</DataPath>
 			<RowFilter xsi:nil="true"/>
-			<ContextMenu name="СписокНоменклатурыКонтекстноеМеню" id="11"/>
-			<AutoCommandBar name="СписокНоменклатурыКоманднаяПанель" id="12">
-				<ChildItems>
-					<Button name="СписокНоменклатурыПодбор" id="29">
-						<Type>CommandBarButton</Type>
-						<CommandName>Form.Command.Подбор</CommandName>
-						<ExtendedTooltip name="СписокНоменклатурыПодборРасширеннаяПодсказка" id="30"/>
-					</Button>
-				</ChildItems>
-			</AutoCommandBar>
-			<ExtendedTooltip name="СписокНоменклатурыРасширеннаяПодсказка" id="13"/>
-			<SearchStringAddition name="СписокНоменклатурыСтрокаПоиска" id="31">
+			<ContextMenu name="ТоварыКонтекстноеМеню" id="8"/>
+			<AutoCommandBar name="ТоварыКоманднаяПанель" id="9"/>
+			<ExtendedTooltip name="ТоварыРасширеннаяПодсказка" id="10"/>
+			<SearchStringAddition name="ТоварыСтрокаПоиска" id="11">
 				<AdditionSource>
-					<Item>СписокНоменклатуры</Item>
+					<Item>Товары</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокНоменклатурыСтрокаПоискаКонтекстноеМеню" id="32"/>
-				<ExtendedTooltip name="СписокНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="33"/>
+				<ContextMenu name="ТоварыСтрокаПоискаКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТоварыСтрокаПоискаРасширеннаяПодсказка" id="13"/>
 			</SearchStringAddition>
-			<ViewStatusAddition name="СписокНоменклатурыСостояниеПросмотра" id="34">
+			<ViewStatusAddition name="ТоварыСостояниеПросмотра" id="14">
 				<AdditionSource>
-					<Item>СписокНоменклатуры</Item>
+					<Item>Товары</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="35"/>
-				<ExtendedTooltip name="СписокНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="36"/>
+				<ContextMenu name="ТоварыСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ТоварыСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
 			</ViewStatusAddition>
-			<SearchControlAddition name="СписокНоменклатурыУправлениеПоиском" id="37">
+			<SearchControlAddition name="ТоварыУправлениеПоиском" id="17">
 				<AdditionSource>
-					<Item>СписокНоменклатуры</Item>
+					<Item>Товары</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокНоменклатурыУправлениеПоискомКонтекстноеМеню" id="38"/>
-				<ExtendedTooltip name="СписокНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="39"/>
+				<ContextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="19"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="СписокНоменклатурыНомерСтроки" id="14">
-					<DataPath>Объект.СписокНоменклатуры.LineNumber</DataPath>
+				<LabelField name="ТоварыНомерСтроки" id="20">
+					<DataPath>Объект.Товары.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокНоменклатурыНомерСтрокиКонтекстноеМеню" id="15"/>
-					<ExtendedTooltip name="СписокНоменклатурыНомерСтрокиРасширеннаяПодсказка" id="16"/>
+					<ContextMenu name="ТоварыНомерСтрокиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТоварыНомерСтрокиРасширеннаяПодсказка" id="22"/>
 				</LabelField>
-				<InputField name="СписокНоменклатурыНоменклатура" id="17">
-					<DataPath>Объект.СписокНоменклатуры.Номенклатура</DataPath>
+				<InputField name="ТоварыНоменклатура" id="23">
+					<DataPath>Объект.Товары.Номенклатура</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокНоменклатурыНоменклатураКонтекстноеМеню" id="18"/>
-					<ExtendedTooltip name="СписокНоменклатурыНоменклатураРасширеннаяПодсказка" id="19"/>
+					<ContextMenu name="ТоварыНоменклатураКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ТоварыНоменклатураРасширеннаяПодсказка" id="25"/>
 				</InputField>
-				<InputField name="СписокНоменклатурыКоличество" id="20">
-					<DataPath>Объект.СписокНоменклатуры.Количество</DataPath>
+				<InputField name="ТоварыКоличество" id="26">
+					<DataPath>Объект.Товары.Количество</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокНоменклатурыКоличествоКонтекстноеМеню" id="21"/>
-					<ExtendedTooltip name="СписокНоменклатурыКоличествоРасширеннаяПодсказка" id="22"/>
+					<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="28"/>
 				</InputField>
-				<InputField name="СписокНоменклатурыЦена" id="23">
-					<DataPath>Объект.СписокНоменклатуры.Цена</DataPath>
+				<InputField name="ТоварыЦена" id="29">
+					<DataPath>Объект.Товары.Цена</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокНоменклатурыЦенаКонтекстноеМеню" id="24"/>
-					<ExtendedTooltip name="СписокНоменклатурыЦенаРасширеннаяПодсказка" id="25"/>
+					<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="31"/>
 				</InputField>
-				<InputField name="СписокНоменклатурыСумма" id="26">
-					<DataPath>Объект.СписокНоменклатуры.Сумма</DataPath>
+				<InputField name="ТоварыСумма" id="32">
+					<DataPath>Объект.Товары.Сумма</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокНоменклатурыСуммаКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="СписокНоменклатурыСуммаРасширеннаяПодсказка" id="28"/>
+					<ContextMenu name="ТоварыСуммаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ТоварыСуммаРасширеннаяПодсказка" id="34"/>
 				</InputField>
 			</ChildItems>
 		</Table>
@@ -114,21 +97,13 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
-	<Commands>
-		<Command name="Подбор" id="1">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Подбор</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Подбор</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>Подбор</Action>
-		</Command>
-	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccountingRegister.Проводки.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
 </Form>
