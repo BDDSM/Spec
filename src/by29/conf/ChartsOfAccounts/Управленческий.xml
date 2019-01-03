@@ -441,7 +441,7 @@
 			<AutoOrderByCode>true</AutoOrderByCode>
 			<OrderLength>5</OrderLength>
 			<DataLockFields/>
-			<DataLockControlMode>Automatic</DataLockControlMode>
+			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
 			<ObjectPresentation/>
 			<ExtendedObjectPresentation/>
