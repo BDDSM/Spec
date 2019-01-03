@@ -133,6 +133,7 @@
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
+			<AccountingRegister>Проводки</AccountingRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
