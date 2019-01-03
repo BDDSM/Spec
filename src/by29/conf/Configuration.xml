@@ -129,6 +129,8 @@
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>Операция</Document>
+			<Document>Сборка</Document>
+			<Enum>ВидыНоменклатуры</Enum>
 			<InformationRegister>СоставКомплектов</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
