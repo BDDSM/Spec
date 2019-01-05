@@ -12,11 +12,13 @@
 		<Metadata name="Catalog.Сотрудники.ManagerModule" id="f2f16f86-629a-4997-8d57-2a0d30af8a99.3" configVersion="460cb5ea4fb7e14aaaaeacec6292b0dd00000000"/>
 		<Metadata name="Catalog.Сотрудники.ObjectModule" id="f2f16f86-629a-4997-8d57-2a0d30af8a99.0" configVersion="13fc06d6d5554844b27f7c59462d4b1b00000000"/>
 		<Metadata name="Catalog.Сотрудники.Predefined" id="f2f16f86-629a-4997-8d57-2a0d30af8a99.1c" configVersion="acb20ceb4b0b204aa6ed4d6f939a2df700000000"/>
-		<Metadata name="ChartOfCalculationTypes.ДополнительныеНачисления" id="e78eaad2-010c-4603-8430-646592f3756d" configVersion="cffbd1c10dc6894ea94447f54ecd83b200000000"/>
+		<Metadata name="ChartOfCalculationTypes.ДополнительныеНачисления" id="e78eaad2-010c-4603-8430-646592f3756d" configVersion="477bdf736d11be47a8bf811dc31b3d2e00000000">
+			<Metadata name="ChartOfCalculationTypes.ДополнительныеНачисления.Attribute.СпособРасчета" id="87a9734c-dfa6-4ef9-bcc6-ad92bb1bb8ff"/>
+		</Metadata>
 		<Metadata name="ChartOfCalculationTypes.ДополнительныеНачисления.Help" id="e78eaad2-010c-4603-8430-646592f3756d.1" configVersion="db2927487f8bd348ae61a9a99f4166e400000000"/>
 		<Metadata name="ChartOfCalculationTypes.ДополнительныеНачисления.ManagerModule" id="e78eaad2-010c-4603-8430-646592f3756d.3" configVersion="e380a66ffe24b744b6eca59c44ad656d00000000"/>
 		<Metadata name="ChartOfCalculationTypes.ДополнительныеНачисления.ObjectModule" id="e78eaad2-010c-4603-8430-646592f3756d.0" configVersion="34f0e67395ba5c4f9bec2662895d692500000000"/>
-		<Metadata name="ChartOfCalculationTypes.ДополнительныеНачисления.Predefined" id="e78eaad2-010c-4603-8430-646592f3756d.2" configVersion="454c1a28ed70c642abc180255f227b0100000000"/>
+		<Metadata name="ChartOfCalculationTypes.ДополнительныеНачисления.Predefined" id="e78eaad2-010c-4603-8430-646592f3756d.2" configVersion="18e678f137c63f4b8133ba2f61454ca600000000"/>
 		<Metadata name="ChartOfCalculationTypes.ОсновныеНачисления" id="f0cecacf-0551-4375-8e06-7347890f8e9b" configVersion="f08481bf676d8547bd4b842bb4c8c7c200000000">
 			<Metadata name="ChartOfCalculationTypes.ОсновныеНачисления.Attribute.СпособРасчета" id="3e1b58f4-5717-4c24-bf1f-a03261919833"/>
 		</Metadata>
@@ -66,6 +68,6 @@
 		<Metadata name="Language.Русский" id="9ee3a66c-4601-4499-b86d-dcb98235329c" configVersion="9278a58686974a4ca9707a4b8825e7c300000000"/>
 		<Metadata name="Subsystem.ПериодическиеРасчеты" id="d1adefc7-94b7-44c1-9b5d-a765e67c87e1" configVersion="f0afb166d9f341429362cde0c94c1a3c00000000"/>
 		<Metadata name="Subsystem.ПериодическиеРасчеты.Subsystem.Документы" id="590bd0e1-b506-4957-80ba-f42f6f7726b2" configVersion="00f0b8c7663bf4478555f510bce23c4900000000"/>
-		<Metadata name="Subsystem.ПериодическиеРасчеты.Subsystem.Справочники" id="f41eb824-e871-4187-b72b-547112e3f020" configVersion="04130794925e724ea507d8c09d5ed4b600000000"/>
+		<Metadata name="Subsystem.ПериодическиеРасчеты.Subsystem.Справочники" id="f41eb824-e871-4187-b72b-547112e3f020" configVersion="9b3b742ad7d4bf40a3e11dd17fb1df5e00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

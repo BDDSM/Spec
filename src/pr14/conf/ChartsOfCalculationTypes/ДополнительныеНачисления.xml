@@ -55,7 +55,7 @@
 					<v8:content>Дополнительные начисления</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>Для компенсаций за лекарства</Comment>
 			<UseStandardCommands>true</UseStandardCommands>
 			<CodeLength>9</CodeLength>
 			<DescriptionLength>40</DescriptionLength>
@@ -84,9 +84,8 @@
 			<DependenceOnCalculationTypes>OnActionPeriod</DependenceOnCalculationTypes>
 			<BaseCalculationTypes>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ОсновныеНачисления</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ДополнительныеНачисления</xr:Item>
 			</BaseCalculationTypes>
-			<ActionPeriodUse>true</ActionPeriodUse>
+			<ActionPeriodUse>false</ActionPeriodUse>
 			<StandardAttributes>
 				<xr:StandardAttribute name="PredefinedDataName">
 					<xr:LinkByType/>
@@ -542,6 +541,45 @@
 			<ExtendedListPresentation/>
 			<Explanation/>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Attribute uuid="87a9734c-dfa6-4ef9-bcc6-ad92bb1bb8ff">
+				<Properties>
+					<Name>СпособРасчета</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Способ расчета</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыРасчета</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
 	</ChartOfCalculationTypes>
 </MetaDataObject>

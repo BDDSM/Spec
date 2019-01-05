@@ -214,19 +214,35 @@
 				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">fe23b3a0-1108-11e9-beb2-8c89a50dff9f</v8:CalculationType>
 			</v8:BaseCalculationTypes>
 		</v8:ChartOfCalculationTypesObject.ОсновныеНачисления>
-		<v8:ChartOfCalculationTypesObject.ДополнительныеНачисления>
-			<v8:Ref xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">fe23b3a1-1108-11e9-beb2-8c89a50dff9f</v8:Ref>
+		<v8:ChartOfCalculationTypesObject.ОсновныеНачисления>
+			<v8:Ref xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">2b293633-110c-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>1</v8:Code>
+			<v8:Code>3</v8:Code>
 			<v8:Description>Премия</v8:Description>
 			<v8:ActionPeriodIsBasic>false</v8:ActionPeriodIsBasic>
-			<v8:PredefinedDataName>Премия</v8:PredefinedDataName>
+			<v8:СпособРасчета>Процентом</v8:СпособРасчета>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">fe23b3a0-1108-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+			</v8:BaseCalculationTypes>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">fe23b3a2-1108-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+			</v8:BaseCalculationTypes>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">2b293632-110c-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+			</v8:BaseCalculationTypes>
+		</v8:ChartOfCalculationTypesObject.ОсновныеНачисления>
+		<v8:ChartOfCalculationTypesObject.ДополнительныеНачисления>
+			<v8:Ref xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">2b293632-110c-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>1</v8:Code>
+			<v8:Description>Компенсация затрат на лекарства</v8:Description>
+			<v8:СпособРасчета>КомпенсацияЗаЛекарства</v8:СпособРасчета>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">fe23b3a2-1108-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+			</v8:BaseCalculationTypes>
 		</v8:ChartOfCalculationTypesObject.ДополнительныеНачисления>
 	</V8Exch:Data>
 	<PredefinedData>
-		<ПланВидовРасчета.ДополнительныеНачисления>
-			<item Ссылка="fe23b3a1-1108-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Премия"/>
-		</ПланВидовРасчета.ДополнительныеНачисления>
 		<ПланВидовРасчета.ОсновныеНачисления>
 			<item Ссылка="fe23b3a0-1108-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Оклад"/>
 		</ПланВидовРасчета.ОсновныеНачисления>
