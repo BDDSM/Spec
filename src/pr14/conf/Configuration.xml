@@ -124,9 +124,12 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ПериодическиеРасчеты</Subsystem>
-			<Catalog>ФизическиеЛица</Catalog>
+			<Constant>КоличествоРабочихЧасов</Constant>
+			<Catalog>Сотрудники</Catalog>
 			<Catalog>Подразделения</Catalog>
+			<Catalog>Графики</Catalog>
 			<Document>НачислениеЗарплаты</Document>
+			<Enum>СпособыРасчета</Enum>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>

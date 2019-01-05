@@ -2,33 +2,33 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Catalog uuid="f2f16f86-629a-4997-8d57-2a0d30af8a99">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ФизическиеЛица" category="Object">
+			<xr:GeneratedType name="CatalogObject.Сотрудники" category="Object">
 				<xr:TypeId>b5685b17-2c86-47b3-9022-1860005707f6</xr:TypeId>
 				<xr:ValueId>f96d2f18-cdcb-4bd2-bc1f-c8e74a7d1410</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ФизическиеЛица" category="Ref">
+			<xr:GeneratedType name="CatalogRef.Сотрудники" category="Ref">
 				<xr:TypeId>13601670-4af1-4fd5-88e0-560ff2b3687d</xr:TypeId>
 				<xr:ValueId>54977a94-2604-4a55-ad68-72f00400be0d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ФизическиеЛица" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.Сотрудники" category="Selection">
 				<xr:TypeId>c28a47cd-ebc3-463e-a30f-5ed91b8f42f7</xr:TypeId>
 				<xr:ValueId>bb52b684-7a5b-4df0-8fc4-df9115609827</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ФизическиеЛица" category="List">
+			<xr:GeneratedType name="CatalogList.Сотрудники" category="List">
 				<xr:TypeId>5115c7bf-39f7-45fe-a25c-53a7545585ee</xr:TypeId>
 				<xr:ValueId>0703ef8f-da40-49d9-80f2-c8373961f95f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ФизическиеЛица" category="Manager">
+			<xr:GeneratedType name="CatalogManager.Сотрудники" category="Manager">
 				<xr:TypeId>92b29d0c-05a6-4841-ac6a-3cdd669d441b</xr:TypeId>
 				<xr:ValueId>f432b058-e8a2-4c1f-9b38-f2033b4f6638</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ФизическиеЛица</Name>
+			<Name>Сотрудники</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Физические лица</v8:content>
+					<v8:content>Сотрудники</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -40,7 +40,7 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>25</CodeLength>
+			<CodeLength>3</CodeLength>
 			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
@@ -281,8 +281,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ФизическиеЛица.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ФизическиеЛица.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Сотрудники.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Сотрудники.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
