@@ -207,12 +207,6 @@
 									<ContextMenu name="ДополнительныеНачисленияБазовыйПериодКонецКонтекстноеМеню" id="79"/>
 									<ExtendedTooltip name="ДополнительныеНачисленияБазовыйПериодКонецРасширеннаяПодсказка" id="80"/>
 								</InputField>
-								<InputField name="ДополнительныеНачисленияРазмер" id="81">
-									<DataPath>Объект.ДополнительныеНачисления.Размер</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ДополнительныеНачисленияРазмерКонтекстноеМеню" id="82"/>
-									<ExtendedTooltip name="ДополнительныеНачисленияРазмерРасширеннаяПодсказка" id="83"/>
-								</InputField>
 							</ChildItems>
 						</Table>
 					</ChildItems>
