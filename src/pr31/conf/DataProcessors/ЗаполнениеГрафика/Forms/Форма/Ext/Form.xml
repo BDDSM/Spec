@@ -25,6 +25,11 @@
 			<ContextMenu name="ВыходныеДниКонтекстноеМеню" id="4"/>
 			<ExtendedTooltip name="ВыходныеДниРасширеннаяПодсказка" id="8"/>
 		</InputField>
+		<InputField name="График" id="9">
+			<DataPath>Объект.График</DataPath>
+			<ContextMenu name="ГрафикКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ГрафикРасширеннаяПодсказка" id="11"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -57,7 +62,7 @@
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
-					<v8:Length>20</v8:Length>
+					<v8:Length>24</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>

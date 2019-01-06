@@ -126,6 +126,7 @@
 			<Subsystem>ПериодическиеРасчеты</Subsystem>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Подразделения</Catalog>
+			<Catalog>Графики</Catalog>
 			<Document>НачислениеЗарплаты</Document>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
