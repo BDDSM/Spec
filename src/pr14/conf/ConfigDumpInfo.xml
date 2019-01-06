@@ -41,8 +41,8 @@
 		<Metadata name="ChartOfCalculationTypes.ОсновныеНачисления.ManagerModule" id="f0cecacf-0551-4375-8e06-7347890f8e9b.3" configVersion="c3d4da5b1e639445816bb7bbbc5ba94400000000"/>
 		<Metadata name="ChartOfCalculationTypes.ОсновныеНачисления.ObjectModule" id="f0cecacf-0551-4375-8e06-7347890f8e9b.0" configVersion="ecd49bdd3d537e4083c7b924b0a0a09900000000"/>
 		<Metadata name="ChartOfCalculationTypes.ОсновныеНачисления.Predefined" id="f0cecacf-0551-4375-8e06-7347890f8e9b.2" configVersion="33b67814305a614f90c7843f50a37cc300000000"/>
-		<Metadata name="CommonModule.Расчеты" id="35c4bca2-2004-49b3-b341-0238884b40e3" configVersion="bb11c663654fa44dbb6fb23ab1c23a5e00000000"/>
-		<Metadata name="CommonModule.Расчеты.Module" id="35c4bca2-2004-49b3-b341-0238884b40e3.0" configVersion="3849d7d62ae08648b298e21f17919b3300000000"/>
+		<Metadata name="CommonModule.Расчеты" id="35c4bca2-2004-49b3-b341-0238884b40e3" configVersion="662879182b6dff41aa892147a498918600000000"/>
+		<Metadata name="CommonModule.Расчеты.Module" id="35c4bca2-2004-49b3-b341-0238884b40e3.0" configVersion="1093b21e4c7abd40bf0b1442a6bd949c00000000"/>
 		<Metadata name="Configuration.ПР14" id="254903b0-1ac7-4d82-a446-fe3899b2d0d8" configVersion="cfeb81e504942741891bb9fe29c0013500000000"/>
 		<Metadata name="Configuration.ПР14.ClientApplicationInterface" id="17cf5c57-0619-48df-8825-983bdf886edf.b" configVersion="796fe82e6a09d146a48698ef39ca9da900000000"/>
 		<Metadata name="Constant.КоличествоРабочихЧасов" id="c2b5311f-66db-4931-b720-5df391e98088" configVersion="da7aed6ba4da3e4dbed1d7d5f73d736d00000000"/>
@@ -56,7 +56,7 @@
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.Help" id="6cc1801f-a6bb-4066-a459-c8f62db104f0.1" configVersion="7eeee679830e854a9c3a15ec45e3f19e00000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.ManagerModule" id="6cc1801f-a6bb-4066-a459-c8f62db104f0.2" configVersion="7598af27b67d764b82da44bba8408f2a00000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.ObjectModule" id="6cc1801f-a6bb-4066-a459-c8f62db104f0.0" configVersion="611d57a37d935d4f9cacba41aac1d08300000000"/>
-		<Metadata name="Document.НачислениеЗарплаты" id="5f7b4017-de27-421b-84dd-8ec4866002b3" configVersion="4a0d84f6a10cc048a379736c2593094500000000">
+		<Metadata name="Document.НачислениеЗарплаты" id="5f7b4017-de27-421b-84dd-8ec4866002b3" configVersion="d71966f6cae43042a55d01231786b18400000000">
 			<Metadata name="Document.НачислениеЗарплаты.TabularSection.ОсновныеНачисления.Attribute.График" id="1974064d-6b14-47fa-ab0e-6a620064acc0"/>
 			<Metadata name="Document.НачислениеЗарплаты.TabularSection.ДополнительныеНачисления.Attribute.БазовыйПериодКонец" id="2dbabf62-1bd4-43ec-8de3-595b4bdfe852"/>
 			<Metadata name="Document.НачислениеЗарплаты.TabularSection.ДополнительныеНачисления.Attribute.Подразделение" id="475c2c71-181d-45b6-8d43-8de33abfec46"/>
@@ -80,7 +80,7 @@
 		<Metadata name="Document.НачислениеЗарплаты.Form.ФормаДокумента.Form" id="73e76949-542e-4824-b97f-a17b5d3b1e70.0" configVersion="899431a1602e2c498467d2747769e4ed00000000"/>
 		<Metadata name="Document.НачислениеЗарплаты.Help" id="5f7b4017-de27-421b-84dd-8ec4866002b3.1" configVersion="80ecf1eec33eb24ab9afe6b180722fd700000000"/>
 		<Metadata name="Document.НачислениеЗарплаты.ManagerModule" id="5f7b4017-de27-421b-84dd-8ec4866002b3.2" configVersion="08fea472ab98a440b3cfd4a7a10a3e2200000000"/>
-		<Metadata name="Document.НачислениеЗарплаты.ObjectModule" id="5f7b4017-de27-421b-84dd-8ec4866002b3.0" configVersion="50b1d91c2c8ebd48817af99c565f739700000000"/>
+		<Metadata name="Document.НачислениеЗарплаты.ObjectModule" id="5f7b4017-de27-421b-84dd-8ec4866002b3.0" configVersion="7f1fb601aebc6741bc9924d3d323563700000000"/>
 		<Metadata name="Enum.СпособыРасчета" id="87b46262-947e-44a1-aa55-7522583d56bc" configVersion="e05a22c5e699164fa0114dca23cd510700000000">
 			<Metadata name="Enum.СпособыРасчета.EnumValue.Процентом" id="07a8ed94-9379-4c42-9d77-a1aab368bd0a"/>
 			<Metadata name="Enum.СпособыРасчета.EnumValue.ПоСреднему" id="bc6d5639-d739-493b-b812-74d79dd7f6eb"/>
