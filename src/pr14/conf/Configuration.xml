@@ -131,6 +131,7 @@
 			<Catalog>Графики</Catalog>
 			<Document>НачислениеЗарплаты</Document>
 			<Enum>СпособыРасчета</Enum>
+			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
