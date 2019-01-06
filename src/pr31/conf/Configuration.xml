@@ -124,6 +124,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ПериодическиеРасчеты</Subsystem>
+			<CommonModule>Расчеты</CommonModule>
 			<Constant>НормаЧасовВНеделю</Constant>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>Подразделения</Catalog>
