@@ -22,8 +22,9 @@
 		<Metadata name="ChartOfCalculationTypes.ОсновныеНачисления.ManagerModule" id="c3908a11-9f61-4654-a1ea-7ffa28ce60b6.3" configVersion="5aa6f33ffcaea043a33b2f5c757cd14e00000000"/>
 		<Metadata name="ChartOfCalculationTypes.ОсновныеНачисления.ObjectModule" id="c3908a11-9f61-4654-a1ea-7ffa28ce60b6.0" configVersion="84d3844d0335b345903be42c8293ef2600000000"/>
 		<Metadata name="ChartOfCalculationTypes.ОсновныеНачисления.Predefined" id="c3908a11-9f61-4654-a1ea-7ffa28ce60b6.2" configVersion="f606a5c3534b124b9902e4f286092fe900000000"/>
-		<Metadata name="Configuration.ПР31" id="2288af34-ee77-4d2c-9f41-52b13c72013b" configVersion="2ca0b884d7681f4da0b267e119a42b3300000000"/>
+		<Metadata name="Configuration.ПР31" id="2288af34-ee77-4d2c-9f41-52b13c72013b" configVersion="3d227108a9322045adf86ee26ab35c9e00000000"/>
 		<Metadata name="Configuration.ПР31.ClientApplicationInterface" id="30eaac2f-d949-40d3-addd-91168747f682.b" configVersion="37c7f58d768be74cb0d9cb0c5b6eadac00000000"/>
+		<Metadata name="Constant.НормаЧасовВНеделю" id="0b4a57f5-4149-47ed-885a-d952f56a9f74" configVersion="eaf327d318b68145a13817bf6b16309800000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика" id="33ec88c8-0744-4135-947e-ef7628a4dc56" configVersion="ab473f5e18e305419244a48a8505c9c300000000">
 			<Metadata name="DataProcessor.ЗаполнениеГрафика.Attribute.График" id="1181daeb-5b6a-40d3-89b8-dbbdb605179e"/>
 		</Metadata>
@@ -75,6 +76,9 @@
 		<Metadata name="InformationRegister.ГрафикиРаботы.Help" id="54df34ee-c481-4a22-867e-8d3ebb5021fc.0" configVersion="e0ba5a1318b39d469a6a14b76bc3462400000000"/>
 		<Metadata name="InformationRegister.ГрафикиРаботы.ManagerModule" id="54df34ee-c481-4a22-867e-8d3ebb5021fc.2" configVersion="6b6a05ccf93e5b44aa3dcdc4c546415b00000000"/>
 		<Metadata name="InformationRegister.ГрафикиРаботы.RecordSetModule" id="54df34ee-c481-4a22-867e-8d3ebb5021fc.1" configVersion="4689636e0d9ecc46a7b0b278e359271700000000"/>
+		<Metadata name="InformationRegister.КомпенсацияЗатрат" id="4c076fc2-3934-4090-9c57-bbe605bd0b31" configVersion="1daa6dd72862d245a33a774cc96750ad00000000">
+			<Metadata name="InformationRegister.КомпенсацияЗатрат.Resource.Сумма" id="60b6e44e-00e8-495d-b19b-7ea392617d5d"/>
+		</Metadata>
 		<Metadata name="InformationRegister.СведенияОСотрудниках" id="6418a8a8-ee29-4417-aa58-64ad38dd85c4" configVersion="f799f805266ab643a51873165d7d921700000000">
 			<Metadata name="InformationRegister.СведенияОСотрудниках.Dimension.Сотрудник" id="7c6ff24a-0d34-4ce0-81ca-a7d88e458731"/>
 			<Metadata name="InformationRegister.СведенияОСотрудниках.Resource.Оклад" id="989a898a-ced3-419e-9681-1996b7634b8d"/>
@@ -84,7 +88,7 @@
 		<Metadata name="InformationRegister.СведенияОСотрудниках.ManagerModule" id="6418a8a8-ee29-4417-aa58-64ad38dd85c4.2" configVersion="c6229ad8c369be4eb17b6e763a3d7f8500000000"/>
 		<Metadata name="InformationRegister.СведенияОСотрудниках.RecordSetModule" id="6418a8a8-ee29-4417-aa58-64ad38dd85c4.1" configVersion="b62327ffe86f8942a4baf680d109dff000000000"/>
 		<Metadata name="Language.Русский" id="bb367352-64d5-45c4-b0bd-6673091dc9ed" configVersion="6c6e04c107094f4d92b85c09b8397ff600000000"/>
-		<Metadata name="Subsystem.ПериодическиеРасчеты" id="22714bc1-9707-4488-9ecc-c1d09bc8e55c" configVersion="b53c4cfa5f067b4bbdcdf594ca1ca29900000000"/>
+		<Metadata name="Subsystem.ПериодическиеРасчеты" id="22714bc1-9707-4488-9ecc-c1d09bc8e55c" configVersion="8913bb8e96191e49811084317d13f0be00000000"/>
 		<Metadata name="Subsystem.ПериодическиеРасчеты.CommandInterface" id="22714bc1-9707-4488-9ecc-c1d09bc8e55c.1" configVersion="0fab281dbdeb7944b69501e276a253f200000000"/>
 		<Metadata name="Subsystem.ПериодическиеРасчеты.Subsystem.Документы" id="9d62cd0c-e4e4-4287-8300-0fea0da56cf3" configVersion="24f68dbd5e2ed246bacb360eec0f4d5600000000"/>
 		<Metadata name="Subsystem.ПериодическиеРасчеты.Subsystem.Справочники" id="3749d0d0-8a69-42f4-9b6d-ead7c6621e26" configVersion="c64e5c2ac1d7cc41b4c28d4edce2f6ba00000000"/>

@@ -17,6 +17,8 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикиРаботы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗаполнениеГрафика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КомпенсацияЗатрат</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.НормаЧасовВНеделю</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
