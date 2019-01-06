@@ -455,7 +455,7 @@
 				<v8:EndOfBasePeriod>2018-06-30T23:59:59</v8:EndOfBasePeriod>
 				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8fc75035-10ed-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
 				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8fc75031-10ed-11e9-beb2-8c89a50dff9f</v8:Подразделение>
-				<v8:Результат>0</v8:Результат>
+				<v8:Результат>2000</v8:Результат>
 				<v8:Размер>500</v8:Размер>
 			</v8:Record>
 		</v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
@@ -16723,7 +16723,7 @@
 				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8fc75035-10ed-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
 				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8fc75031-10ed-11e9-beb2-8c89a50dff9f</v8:Подразделение>
 				<v8:Оклад>100000</v8:Оклад>
-				<v8:ЛимитНаЛекарства>5000</v8:ЛимитНаЛекарства>
+				<v8:ЛимитНаЛекарства>2000</v8:ЛимитНаЛекарства>
 			</v8:Record>
 		</v8:InformationRegisterRecordSet.СведенияОСотрудниках>
 		<v8:InformationRegisterRecordSet.СведенияОСотрудниках>
@@ -17518,7 +17518,7 @@
 				<v8:EndOfBasePeriod>2018-06-30T23:59:59</v8:EndOfBasePeriod>
 				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8fc75035-10ed-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
 				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8fc75031-10ed-11e9-beb2-8c89a50dff9f</v8:Подразделение>
-				<v8:Результат>0</v8:Результат>
+				<v8:Результат>2000</v8:Результат>
 				<v8:Размер>500</v8:Размер>
 			</v8:Record>
 		</v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
