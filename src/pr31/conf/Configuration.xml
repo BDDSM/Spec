@@ -130,6 +130,7 @@
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Графики</Catalog>
 			<Document>НачислениеЗарплаты</Document>
+			<Report>АнализПремий</Report>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
