@@ -25,6 +25,16 @@
 			<ContextMenu name="ВыходныеДниКонтекстноеМеню" id="4"/>
 			<ExtendedTooltip name="ВыходныеДниРасширеннаяПодсказка" id="8"/>
 		</InputField>
+		<InputField name="Подразделение" id="9">
+			<DataPath>Объект.Подразделение</DataPath>
+			<ContextMenu name="ПодразделениеКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="11"/>
+		</InputField>
+		<InputField name="График" id="12">
+			<DataPath>Объект.График</DataPath>
+			<ContextMenu name="ГрафикКонтекстноеМеню" id="13"/>
+			<ExtendedTooltip name="ГрафикРасширеннаяПодсказка" id="14"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

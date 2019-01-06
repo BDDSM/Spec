@@ -46,13 +46,16 @@
 		<Metadata name="Configuration.ПР14" id="254903b0-1ac7-4d82-a446-fe3899b2d0d8" configVersion="cfeb81e504942741891bb9fe29c0013500000000"/>
 		<Metadata name="Configuration.ПР14.ClientApplicationInterface" id="17cf5c57-0619-48df-8825-983bdf886edf.b" configVersion="796fe82e6a09d146a48698ef39ca9da900000000"/>
 		<Metadata name="Constant.КоличествоРабочихЧасов" id="c2b5311f-66db-4931-b720-5df391e98088" configVersion="da7aed6ba4da3e4dbed1d7d5f73d736d00000000"/>
-		<Metadata name="DataProcessor.ЗаполнениеГрафика" id="6cc1801f-a6bb-4066-a459-c8f62db104f0" configVersion="88773261bb84d842acbe27e82c69351500000000"/>
-		<Metadata name="DataProcessor.ЗаполнениеГрафика.Form.Форма" id="160fd1a1-eeab-4c26-9744-9570b36bfae5" configVersion="22078d1e59f0504d80c6c3a17670dc3000000000"/>
-		<Metadata name="DataProcessor.ЗаполнениеГрафика.Form.Форма.Form" id="160fd1a1-eeab-4c26-9744-9570b36bfae5.0" configVersion="3e1243a74508f142bbe7bcfe59828a6e00000000"/>
+		<Metadata name="DataProcessor.ЗаполнениеГрафика" id="6cc1801f-a6bb-4066-a459-c8f62db104f0" configVersion="b4ecc8aebbb25a45b9352f4d65a60b7100000000">
+			<Metadata name="DataProcessor.ЗаполнениеГрафика.Attribute.Подразделение" id="a87535a4-caa3-44d9-8d62-a8335b24adae"/>
+			<Metadata name="DataProcessor.ЗаполнениеГрафика.Attribute.График" id="f1c4c697-dea5-4eb3-8c9a-afdf5e297121"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ЗаполнениеГрафика.Form.Форма" id="160fd1a1-eeab-4c26-9744-9570b36bfae5" configVersion="17b9af0ad52fe548ad25778d6d25b48d00000000"/>
+		<Metadata name="DataProcessor.ЗаполнениеГрафика.Form.Форма.Form" id="160fd1a1-eeab-4c26-9744-9570b36bfae5.0" configVersion="f9056ee5c73e5a4fa81f3a093d5ca2cd00000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.Form.Форма.Help" id="160fd1a1-eeab-4c26-9744-9570b36bfae5.1" configVersion="5b82fcaea1e32c4684eced6db8df1b6100000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.Help" id="6cc1801f-a6bb-4066-a459-c8f62db104f0.1" configVersion="7eeee679830e854a9c3a15ec45e3f19e00000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.ManagerModule" id="6cc1801f-a6bb-4066-a459-c8f62db104f0.2" configVersion="7598af27b67d764b82da44bba8408f2a00000000"/>
-		<Metadata name="DataProcessor.ЗаполнениеГрафика.ObjectModule" id="6cc1801f-a6bb-4066-a459-c8f62db104f0.0" configVersion="9b28e76e4b0e0a4db7f63b15305a5ddd00000000"/>
+		<Metadata name="DataProcessor.ЗаполнениеГрафика.ObjectModule" id="6cc1801f-a6bb-4066-a459-c8f62db104f0.0" configVersion="611d57a37d935d4f9cacba41aac1d08300000000"/>
 		<Metadata name="Document.НачислениеЗарплаты" id="5f7b4017-de27-421b-84dd-8ec4866002b3" configVersion="4a0d84f6a10cc048a379736c2593094500000000">
 			<Metadata name="Document.НачислениеЗарплаты.TabularSection.ОсновныеНачисления.Attribute.График" id="1974064d-6b14-47fa-ab0e-6a620064acc0"/>
 			<Metadata name="Document.НачислениеЗарплаты.TabularSection.ДополнительныеНачисления.Attribute.БазовыйПериодКонец" id="2dbabf62-1bd4-43ec-8de3-595b4bdfe852"/>
