@@ -135,6 +135,8 @@
 			<InformationRegister>ШкалаОкладов</InformationRegister>
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
+			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
+			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
