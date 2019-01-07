@@ -124,7 +124,8 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>БизнесПроцессы</Subsystem>
-			<Catalog>ФизическиеЛица</Catalog>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<Catalog>Сотрудники</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<InformationRegister>РегистрАдресации</InformationRegister>
 		</ChildObjects>
