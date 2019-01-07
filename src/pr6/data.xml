@@ -12625,6 +12625,108 @@
 				<v8:Значение>8</v8:Значение>
 			</v8:Record>
 		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ШкалаОкладов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">КоличествоЧасов</Name>
+					<Value xsi:type="xs:decimal">60</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:КоличествоЧасов>60</v8:КоличествоЧасов>
+				<v8:Оклад>2000</v8:Оклад>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ШкалаОкладов>
+		<v8:InformationRegisterRecordSet.ШкалаОкладов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">КоличествоЧасов</Name>
+					<Value xsi:type="xs:decimal">130</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:КоличествоЧасов>130</v8:КоличествоЧасов>
+				<v8:Оклад>2500</v8:Оклад>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ШкалаОкладов>
+		<v8:InformationRegisterRecordSet.ШкалаОкладов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">КоличествоЧасов</Name>
+					<Value xsi:type="xs:decimal">9999999999</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:КоличествоЧасов>9999999999</v8:КоличествоЧасов>
+				<v8:Оклад>3500</v8:Оклад>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ШкалаОкладов>
+		<v8:InformationRegisterRecordSet.ШкалаОкладов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fb-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">КоличествоЧасов</Name>
+					<Value xsi:type="xs:decimal">50</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fb-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:КоличествоЧасов>50</v8:КоличествоЧасов>
+				<v8:Оклад>1500</v8:Оклад>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ШкалаОкладов>
+		<v8:InformationRegisterRecordSet.ШкалаОкладов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fb-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">КоличествоЧасов</Name>
+					<Value xsi:type="xs:decimal">150</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fb-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:КоличествоЧасов>150</v8:КоличествоЧасов>
+				<v8:Оклад>2000</v8:Оклад>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ШкалаОкладов>
+		<v8:InformationRegisterRecordSet.ШкалаОкладов>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fb-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">КоличествоЧасов</Name>
+					<Value xsi:type="xs:decimal">9999999999</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fb-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:КоличествоЧасов>9999999999</v8:КоличествоЧасов>
+				<v8:Оклад>3000</v8:Оклад>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ШкалаОкладов>
 	</V8Exch:Data>
 	<PredefinedData>
 		<ПланВидовРасчета.ДополнительныеНачисления>

@@ -16,6 +16,7 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗаполнениеГрафика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ШкалаОкладов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
