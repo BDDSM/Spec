@@ -13,8 +13,10 @@
 		<Metadata name="Configuration.БП8" id="a56ee866-0066-4fd2-afbe-b2c01ddfa4f0" configVersion="80918b8a6e59fc43bb483002dca42db000000000"/>
 		<Metadata name="Configuration.БП8.ClientApplicationInterface" id="48472cb2-1ab2-45ca-91a5-83cfc645c1d6.b" configVersion="2daaed0deec6534a8a9ccb8aeede830a00000000"/>
 		<Metadata name="Configuration.БП8.SessionModule" id="48472cb2-1ab2-45ca-91a5-83cfc645c1d6.7" configVersion="6096b88b71b1c04986fa4ccbd257d7de00000000"/>
-		<Metadata name="InformationRegister.РегистрАдресации" id="30a7564b-a35c-415b-9952-756632efa014" configVersion="7429b2656b8e1f438f7166bd8ccb610000000000">
+		<Metadata name="InformationRegister.РегистрАдресации" id="30a7564b-a35c-415b-9952-756632efa014" configVersion="950ea0d7d6d2a84fa34207ce18b5acab00000000">
+			<Metadata name="InformationRegister.РегистрАдресации.Dimension.Должность" id="080d6581-f834-42d4-b3ec-36dff6e42874"/>
 			<Metadata name="InformationRegister.РегистрАдресации.Dimension.Исполнитель" id="56c893d9-eae9-49ce-a1b7-5398c7b9ab6d"/>
+			<Metadata name="InformationRegister.РегистрАдресации.Dimension.Подразделение" id="fbeb0a38-2ac9-49f3-888c-27a296f0bc1d"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="b7c673da-6866-4ff9-8780-9457eb981c95" configVersion="fefdc0cc7847424aa22a8bcbd3c9576b00000000"/>
 		<Metadata name="Role.ПолныеПрава" id="73447779-79fd-47ae-90ff-09aa55382248" configVersion="ca74e9644e55e64789e49e200c0da22700000000"/>
