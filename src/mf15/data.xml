@@ -425,6 +425,16 @@
 			<v8:Started>true</v8:Started>
 			<v8:СложныйПроект>true</v8:СложныйПроект>
 		</v8:BusinessProcessObject.БизнесПроцесс>
+		<v8:BusinessProcessObject.БизнесПроцесс>
+			<v8:Ref>c2658587-12c5-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2019-01-08T00:46:44</v8:Date>
+			<v8:Number>000000003</v8:Number>
+			<v8:Completed>false</v8:Completed>
+			<v8:HeadTask>00000000-0000-0000-0000-000000000000</v8:HeadTask>
+			<v8:Started>true</v8:Started>
+			<v8:СложныйПроект>false</v8:СложныйПроект>
+		</v8:BusinessProcessObject.БизнесПроцесс>
 		<v8:TaskObject.ЗадачиИсполнителя>
 			<v8:Ref>973f6ac1-12c0-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
@@ -528,6 +538,32 @@
 			<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">00000000-0000-0000-0000-000000000000</v8:Исполнитель>
 			<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">866ade3f-12b3-11e9-beb2-8c89a50dff9f</v8:Подразделение>
 			<v8:Должность xsi:type="v8:CatalogRef.Должности">df432b87-12b7-11e9-beb2-8c89a50dff9f</v8:Должность>
+		</v8:TaskObject.ЗадачиИсполнителя>
+		<v8:TaskObject.ЗадачиИсполнителя>
+			<v8:Ref>c2658588-12c5-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2019-01-08T00:47:00</v8:Date>
+			<v8:Number>000000009</v8:Number>
+			<v8:Description>Новый проект</v8:Description>
+			<v8:BusinessProcess>c2658587-12c5-11e9-beb2-8c89a50dff9f</v8:BusinessProcess>
+			<v8:RoutePoint>655f383b-8ec9-4171-9733-bd6df4994ef5</v8:RoutePoint>
+			<v8:Executed>true</v8:Executed>
+			<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">00000000-0000-0000-0000-000000000000</v8:Исполнитель>
+			<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">866ade3f-12b3-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+			<v8:Должность xsi:type="v8:CatalogRef.Должности">df432b88-12b7-11e9-beb2-8c89a50dff9f</v8:Должность>
+		</v8:TaskObject.ЗадачиИсполнителя>
+		<v8:TaskObject.ЗадачиИсполнителя>
+			<v8:Ref>c2658589-12c5-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2019-01-08T00:47:07</v8:Date>
+			<v8:Number>000000010</v8:Number>
+			<v8:Description>Назначить исполнителя</v8:Description>
+			<v8:BusinessProcess>c2658587-12c5-11e9-beb2-8c89a50dff9f</v8:BusinessProcess>
+			<v8:RoutePoint>c09f38af-27ea-4484-8730-c1e8b0146bf7</v8:RoutePoint>
+			<v8:Executed>false</v8:Executed>
+			<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">00000000-0000-0000-0000-000000000000</v8:Исполнитель>
+			<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">866ade3f-12b3-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+			<v8:Должность xsi:type="v8:CatalogRef.Должности">df432b86-12b7-11e9-beb2-8c89a50dff9f</v8:Должность>
 		</v8:TaskObject.ЗадачиИсполнителя>
 	</V8Exch:Data>
 	<PredefinedData>

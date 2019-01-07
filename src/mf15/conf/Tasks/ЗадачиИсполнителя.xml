@@ -55,7 +55,7 @@
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<CreateOnInput>DontUse</CreateOnInput>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Task.ЗадачиИсполнителя.Form.ФормаЗадачи</DefaultObjectForm>
 			<DefaultListForm>Task.ЗадачиИсполнителя.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -75,6 +75,7 @@
 		<ChildObjects>
 			<Form>ФормаСписка</Form>
 			<Form>ФормаСпискаПоИспонителю</Form>
+			<Form>ФормаЗадачи</Form>
 			<AddressingAttribute uuid="efc48302-e74c-4342-b528-0f44021950de">
 				<Properties>
 					<Name>Исполнитель</Name>
