@@ -110,7 +110,7 @@
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Indexing>DontIndex</Indexing>
-					<AddressingDimension/>
+					<AddressingDimension>InformationRegister.РегистрАдресации.Dimension.Исполнитель</AddressingDimension>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</AddressingAttribute>
@@ -149,7 +149,7 @@
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Indexing>DontIndex</Indexing>
-					<AddressingDimension/>
+					<AddressingDimension>InformationRegister.РегистрАдресации.Dimension.Подразделение</AddressingDimension>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</AddressingAttribute>
@@ -188,7 +188,7 @@
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Indexing>DontIndex</Indexing>
-					<AddressingDimension/>
+					<AddressingDimension>InformationRegister.РегистрАдресации.Dimension.Должность</AddressingDimension>
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</AddressingAttribute>

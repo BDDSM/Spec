@@ -130,6 +130,7 @@
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Должности</Catalog>
 			<InformationRegister>РегистрАдресации</InformationRegister>
+			<BusinessProcess>БизнесПроцесс</BusinessProcess>
 			<Task>ЗадачиИсполнителя</Task>
 		</ChildObjects>
 	</Configuration>

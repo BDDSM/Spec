@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<BusinessProcess uuid="00ba691d-a6ee-467a-88c7-bb5a2c63ecb2">
+		<InternalInfo>
+			<xr:GeneratedType name="BusinessProcessObject.БизнесПроцесс" category="Object">
+				<xr:TypeId>b9cca2ac-65fe-45ff-8308-774416ffd829</xr:TypeId>
+				<xr:ValueId>594d83d3-666b-479d-afc3-2e733d1f7817</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRef.БизнесПроцесс" category="Ref">
+				<xr:TypeId>fc4bf2a0-8f35-499f-bd70-9d7c53795c8a</xr:TypeId>
+				<xr:ValueId>6aaef5d3-fa5d-4911-b80e-0ee6ffe43142</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessSelection.БизнесПроцесс" category="Selection">
+				<xr:TypeId>e3f76fe0-a950-4d8e-a7b3-2cb49937641d</xr:TypeId>
+				<xr:ValueId>1331f860-2c26-4abb-a495-b7e8881dab02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessList.БизнесПроцесс" category="List">
+				<xr:TypeId>a623043e-aa05-4641-9e0f-8f93ab4013d4</xr:TypeId>
+				<xr:ValueId>27c07c6a-7ce5-4220-9c56-411ff5cdaea3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessManager.БизнесПроцесс" category="Manager">
+				<xr:TypeId>4b54719b-7405-4473-9ad4-9e2a70386a4f</xr:TypeId>
+				<xr:ValueId>1f2b1bfc-bb75-45f1-8b00-4db115355c27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRoutePointRef.БизнесПроцесс" category="RoutePointRef">
+				<xr:TypeId>3fcd679d-5c60-4893-8621-fc409db7dc91</xr:TypeId>
+				<xr:ValueId>3d8ee1eb-9281-4051-a8c2-0a76c24640ff</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БизнесПроцесс</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Бизнес-процесс</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<EditType>InDialog</EditType>
+			<InputByString>
+				<xr:Field>BusinessProcess.БизнесПроцесс.StandardAttribute.Number</xr:Field>
+			</InputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<DefaultObjectForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<NumberType>String</NumberType>
+			<NumberLength>9</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<CheckUnique>true</CheckUnique>
+			<Characteristics/>
+			<Autonumbering>true</Autonumbering>
+			<BasedOn/>
+			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
+			<Task>Task.ЗадачиИсполнителя</Task>
+			<CreateTaskInPrivilegedMode>true</CreateTaskInPrivilegedMode>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="64afc0c5-0bf0-4d08-a7f5-ef1088a913b5">
+				<Properties>
+					<Name>СложныйПроект</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сложный проект</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</BusinessProcess>
+</MetaDataObject>
