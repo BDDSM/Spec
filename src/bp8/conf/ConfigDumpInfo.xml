@@ -10,7 +10,7 @@
 		</Metadata>
 		<Metadata name="Catalog.Сотрудники.Command.УстановитьПользователяИБ.CommandModule" id="772ca43c-00e5-4f06-91a8-100e8c08d884.2" configVersion="646221f188d50241989f9a4feea14b6800000000"/>
 		<Metadata name="Catalog.Сотрудники.Predefined" id="a5205be0-e21a-417a-9139-7c243dcb2d75.1c" configVersion="d8385071dd554a47b0d89cb11db2e37600000000"/>
-		<Metadata name="Configuration.БП8" id="a56ee866-0066-4fd2-afbe-b2c01ddfa4f0" configVersion="80918b8a6e59fc43bb483002dca42db000000000"/>
+		<Metadata name="Configuration.БП8" id="a56ee866-0066-4fd2-afbe-b2c01ddfa4f0" configVersion="1911e9cac65c8d42a64fe247f624212f00000000"/>
 		<Metadata name="Configuration.БП8.ClientApplicationInterface" id="48472cb2-1ab2-45ca-91a5-83cfc645c1d6.b" configVersion="2daaed0deec6534a8a9ccb8aeede830a00000000"/>
 		<Metadata name="Configuration.БП8.SessionModule" id="48472cb2-1ab2-45ca-91a5-83cfc645c1d6.7" configVersion="6096b88b71b1c04986fa4ccbd257d7de00000000"/>
 		<Metadata name="InformationRegister.РегистрАдресации" id="30a7564b-a35c-415b-9952-756632efa014" configVersion="950ea0d7d6d2a84fa34207ce18b5acab00000000">
@@ -24,5 +24,10 @@
 		<Metadata name="SessionParameter.ТекущийПользователь" id="41e9cc9e-1a8f-4762-8b54-4f06f0fbbaa8" configVersion="92431c4c19d3784787e906eb381923be00000000"/>
 		<Metadata name="Subsystem.БизнесПроцессы" id="de291bbd-bf3b-4a43-a2ee-92bfdb033442" configVersion="5daeca2af20ac44780aff80e916a7fa300000000"/>
 		<Metadata name="Subsystem.БизнесПроцессы.Subsystem.Справочники" id="b677c868-3932-4365-9973-313ca6bf71b4" configVersion="56f36ab119841f4a8351dfaa222dce4200000000"/>
+		<Metadata name="Task.ЗадачиИсполнителя" id="cc221157-7c21-4663-b820-f58c6620aef7" configVersion="c0d243650ccd17409d52817b4eac6aff00000000">
+			<Metadata name="Task.ЗадачиИсполнителя.AddressingAttribute.Должность" id="92b9c6f9-d16c-4785-9e51-a60769b13d3d"/>
+			<Metadata name="Task.ЗадачиИсполнителя.AddressingAttribute.Подразделение" id="949f4402-494c-473a-beb9-66261b8775df"/>
+			<Metadata name="Task.ЗадачиИсполнителя.AddressingAttribute.Исполнитель" id="efc48302-e74c-4342-b528-0f44021950de"/>
+		</Metadata>
 	</ConfigVersions>
 </ConfigDumpInfo>
