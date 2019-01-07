@@ -129,6 +129,7 @@
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Должности</Catalog>
+			<DataProcessor>КартаМаршрута</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
 			<BusinessProcess>БизнесПроцесс</BusinessProcess>
 			<Task>ЗадачиИсполнителя</Task>

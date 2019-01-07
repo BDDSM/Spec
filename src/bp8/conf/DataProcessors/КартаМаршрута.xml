@@ -1,27 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Subsystem uuid="de291bbd-bf3b-4a43-a2ee-92bfdb033442">
+	<DataProcessor uuid="c77c973d-2ed6-4395-9f3b-ce329a0fe716">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.КартаМаршрута" category="Object">
+				<xr:TypeId>dd39221c-07ea-43f7-b882-c4e04312eaea</xr:TypeId>
+				<xr:ValueId>81336c33-71d4-4e6a-8308-24341c834140</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.КартаМаршрута" category="Manager">
+				<xr:TypeId>410fdbf4-895d-4efd-9a3e-524a270e507f</xr:TypeId>
+				<xr:ValueId>b504e242-c324-41c5-a2fe-9205620ac900</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>БизнесПроцессы</Name>
+			<Name>КартаМаршрута</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Бизнес-процессы</v8:content>
+					<v8:content>Карта маршрута</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.КартаМаршрута.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
 			<Explanation/>
-			<Picture/>
-			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РегистрАдресации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.БизнесПроцесс</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КартаМаршрута</xr:Item>
-			</Content>
 		</Properties>
 		<ChildObjects>
-			<Subsystem>Справочники</Subsystem>
+			<Form>Форма</Form>
 		</ChildObjects>
-	</Subsystem>
+	</DataProcessor>
 </MetaDataObject>
