@@ -125,6 +125,7 @@
 			<Language>Русский</Language>
 			<Subsystem>БизнесПроцессы</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<Role>ПолныеПрава</Role>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<InformationRegister>РегистрАдресации</InformationRegister>

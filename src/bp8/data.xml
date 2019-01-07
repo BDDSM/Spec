@@ -1,179 +1,155 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <V8Exch:_1CV8DtUD xmlns:V8Exch="http://www.1c.ru/V8/1CV8DtUD/" xmlns:core="http://v8.1c.ru/data" xmlns:v8="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<V8Exch:Data>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">6b8a99ed-a196-4949-8060-9f6f08a63269</v8:Ref>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade43-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Code>Бельдыев</v8:Code>
 			<v8:Description>Бельдыев</v8:Description>
 			<v8:PredefinedDataName>Бельдыев</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">e319145d-71b5-452a-8a4d-f6b51daf0f50</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Мансуров</v8:Code>
-			<v8:Description>Мансуров</v8:Description>
-			<v8:PredefinedDataName>Мансуров</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">556e86a6-f7af-4740-8b22-01c5076fd41c</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Головлев</v8:Code>
-			<v8:Description>Головлев</v8:Description>
-			<v8:PredefinedDataName>Головлев</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">c211de45-0657-413b-8bdd-2efb9c4cb0c4</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Петров</v8:Code>
-			<v8:Description>Петров</v8:Description>
-			<v8:PredefinedDataName>Петров</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">2d884283-014a-4f3a-8eb8-68a649d2dfd6</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Хабибулин</v8:Code>
-			<v8:Description>Хабибулин</v8:Description>
-			<v8:PredefinedDataName>Хабибулин</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">205cf355-c949-4519-9588-47ce8dc1ce6f</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Залкинд</v8:Code>
-			<v8:Description>Залкинд</v8:Description>
-			<v8:PredefinedDataName>Залкинд</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">29b9406b-092b-48a7-9931-aa1d64c8807e</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Кротова</v8:Code>
-			<v8:Description>Кротова</v8:Description>
-			<v8:PredefinedDataName>Кротова</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">1738669f-715d-420c-9a55-6a8b3fbbdc9d</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Жупиков</v8:Code>
-			<v8:Description>Жупиков</v8:Description>
-			<v8:PredefinedDataName>Жупиков</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">f4f32e65-5267-436a-9aa5-7824cc53edb5</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Сидоров</v8:Code>
-			<v8:Description>Сидоров</v8:Description>
-			<v8:PredefinedDataName>Сидоров</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">12f8b886-8f19-4408-9c77-b805a8f691ff</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Мишин</v8:Code>
-			<v8:Description>Мишин</v8:Description>
-			<v8:PredefinedDataName>Мишин</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">d315c38e-3ee2-4973-9cc8-afe193650d50</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Лоханкина</v8:Code>
-			<v8:Description>Лоханкина</v8:Description>
-			<v8:PredefinedDataName>Лоханкина</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">08e27333-7311-47d6-a393-3275f6c38cf3</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Иванов</v8:Code>
-			<v8:Description>Иванов</v8:Description>
-			<v8:PredefinedDataName>Иванов</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">7c73a5d5-4cd8-413a-a4c5-8b15a60bbc3c</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Кротов</v8:Code>
-			<v8:Description>Кротов</v8:Description>
-			<v8:PredefinedDataName>Кротов</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">9f1ea329-ad98-4bb0-a78a-0a9b34d5eece</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Федоров</v8:Code>
-			<v8:Description>Федоров</v8:Description>
-			<v8:PredefinedDataName>Федоров</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">ffc8140b-1a0e-445c-a7c7-fd18492b5436</v8:Ref>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade44-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Code>Васина</v8:Code>
 			<v8:Description>Васина</v8:Description>
 			<v8:PredefinedDataName>Васина</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">c8ab270a-844d-4db0-ab2e-6bfb5c129e83</v8:Ref>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade45-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Головлев</v8:Code>
+			<v8:Description>Головлев</v8:Description>
+			<v8:PredefinedDataName>Головлев</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade46-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Жупиков</v8:Code>
+			<v8:Description>Жупиков</v8:Description>
+			<v8:PredefinedDataName>Жупиков</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade47-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Залкинд</v8:Code>
+			<v8:Description>Залкинд</v8:Description>
+			<v8:PredefinedDataName>Залкинд</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade48-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Иванов</v8:Code>
+			<v8:Description>Иванов</v8:Description>
+			<v8:PredefinedDataName>Иванов</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade49-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Code>Коган</v8:Code>
 			<v8:Description>Коган</v8:Description>
 			<v8:PredefinedDataName>Коган</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">57bbf4d7-4ef2-4434-b0b1-361445eac2f7</v8:Ref>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade4a-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Онопко</v8:Code>
-			<v8:Description>Онопко</v8:Description>
-			<v8:PredefinedDataName>Онопко</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">5c781039-bcb7-4330-b401-778fcdeb0eb5</v8:Ref>
+			<v8:Code>Кротов</v8:Code>
+			<v8:Description>Кротов</v8:Description>
+			<v8:PredefinedDataName>Кротов</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade4b-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Федорова</v8:Code>
-			<v8:Description>Федорова</v8:Description>
-			<v8:PredefinedDataName>Федорова</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">372c46f1-75b1-400b-b51c-085fdb9c169b</v8:Ref>
+			<v8:Code>Кротова</v8:Code>
+			<v8:Description>Кротова</v8:Description>
+			<v8:PredefinedDataName>Кротова</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade4c-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Степанов</v8:Code>
-			<v8:Description>Степанов</v8:Description>
-			<v8:PredefinedDataName>Степанов</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">a8e63bdd-c11c-48e7-b8f1-6c4607c111be</v8:Ref>
+			<v8:Code>Лоханкина</v8:Code>
+			<v8:Description>Лоханкина</v8:Description>
+			<v8:PredefinedDataName>Лоханкина</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade4d-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Петренко</v8:Code>
-			<v8:Description>Петренко</v8:Description>
-			<v8:PredefinedDataName>Петренко</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.ФизическиеЛица>
-			<v8:Ref xsi:type="v8:CatalogRef.ФизическиеЛица">c1ab16a1-c50e-4eb8-baff-aa7e032af7db</v8:Ref>
+			<v8:Code>Мансуров</v8:Code>
+			<v8:Description>Мансуров</v8:Description>
+			<v8:PredefinedDataName>Мансуров</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade4e-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Мишин</v8:Code>
+			<v8:Description>Мишин</v8:Description>
+			<v8:PredefinedDataName>Мишин</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade4f-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Code>Мишина</v8:Code>
 			<v8:Description>Мишина</v8:Description>
 			<v8:PredefinedDataName>Мишина</v8:PredefinedDataName>
-		</v8:CatalogObject.ФизическиеЛица>
-		<v8:CatalogObject.Подразделения>
-			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">2c63b09b-a257-449b-88d6-6a7788ee684d</v8:Ref>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade50-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Parent xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Parent>
-			<v8:Code>000000004</v8:Code>
-			<v8:Description>Отдел продаж</v8:Description>
-			<v8:PredefinedDataName>ОтделПродаж</v8:PredefinedDataName>
-		</v8:CatalogObject.Подразделения>
-		<v8:CatalogObject.Подразделения>
-			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">a5cb9f62-14ad-405b-8924-d417d5850272</v8:Ref>
+			<v8:Code>Онопко</v8:Code>
+			<v8:Description>Онопко</v8:Description>
+			<v8:PredefinedDataName>Онопко</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade51-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Parent xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Parent>
-			<v8:Code>000000005</v8:Code>
-			<v8:Description>Отдел разработки</v8:Description>
-			<v8:PredefinedDataName>ОтделРазработки</v8:PredefinedDataName>
-		</v8:CatalogObject.Подразделения>
-		<v8:CatalogObject.Подразделения>
-			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">4e779126-2028-4df6-9a0c-165fdc61316f</v8:Ref>
+			<v8:Code>Петренко</v8:Code>
+			<v8:Description>Петренко</v8:Description>
+			<v8:PredefinedDataName>Петренко</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade52-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Parent xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Parent>
-			<v8:Code>000000002</v8:Code>
-			<v8:Description>Отдел внедрения</v8:Description>
-			<v8:PredefinedDataName>ОтделВнедрения</v8:PredefinedDataName>
-		</v8:CatalogObject.Подразделения>
+			<v8:Code>Петров</v8:Code>
+			<v8:Description>Петров</v8:Description>
+			<v8:PredefinedDataName>Петров</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade53-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Сидоров</v8:Code>
+			<v8:Description>Сидоров</v8:Description>
+			<v8:PredefinedDataName>Сидоров</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade54-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Степанов</v8:Code>
+			<v8:Description>Степанов</v8:Description>
+			<v8:PredefinedDataName>Степанов</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade55-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Федоров</v8:Code>
+			<v8:Description>Федоров</v8:Description>
+			<v8:PredefinedDataName>Федоров</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade56-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Федорова</v8:Code>
+			<v8:Description>Федорова</v8:Description>
+			<v8:PredefinedDataName>Федорова</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">866ade57-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Хабибулин</v8:Code>
+			<v8:Description>Хабибулин</v8:Description>
+			<v8:PredefinedDataName>Хабибулин</v8:PredefinedDataName>
+		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Подразделения>
-			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5</v8:Ref>
+			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">866ade3e-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Parent xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Parent>
 			<v8:Code>000000001</v8:Code>
@@ -181,44 +157,68 @@
 			<v8:PredefinedDataName>Бухгалтерия</v8:PredefinedDataName>
 		</v8:CatalogObject.Подразделения>
 		<v8:CatalogObject.Подразделения>
-			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">b4ead4ab-6c1b-41fd-b3cb-dcb80d1b4bf3</v8:Ref>
+			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">866ade3f-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>000000002</v8:Code>
+			<v8:Description>Отдел внедрения</v8:Description>
+			<v8:PredefinedDataName>ОтделВнедрения</v8:PredefinedDataName>
+		</v8:CatalogObject.Подразделения>
+		<v8:CatalogObject.Подразделения>
+			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">866ade40-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Parent xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Parent>
 			<v8:Code>000000003</v8:Code>
 			<v8:Description>Отдел закупок</v8:Description>
 			<v8:PredefinedDataName>ОтделЗакупок</v8:PredefinedDataName>
 		</v8:CatalogObject.Подразделения>
+		<v8:CatalogObject.Подразделения>
+			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">866ade41-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>000000004</v8:Code>
+			<v8:Description>Отдел продаж</v8:Description>
+			<v8:PredefinedDataName>ОтделПродаж</v8:PredefinedDataName>
+		</v8:CatalogObject.Подразделения>
+		<v8:CatalogObject.Подразделения>
+			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">866ade42-12b3-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>000000005</v8:Code>
+			<v8:Description>Отдел разработки</v8:Description>
+			<v8:PredefinedDataName>ОтделРазработки</v8:PredefinedDataName>
+		</v8:CatalogObject.Подразделения>
 	</V8Exch:Data>
 	<PredefinedData>
 		<Справочник.Подразделения>
-			<item Ссылка="b4ead4ab-6c1b-41fd-b3cb-dcb80d1b4bf3" ИмяПредопределенныхДанных="ОтделЗакупок"/>
-			<item Ссылка="be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5" ИмяПредопределенныхДанных="Бухгалтерия"/>
-			<item Ссылка="4e779126-2028-4df6-9a0c-165fdc61316f" ИмяПредопределенныхДанных="ОтделВнедрения"/>
-			<item Ссылка="a5cb9f62-14ad-405b-8924-d417d5850272" ИмяПредопределенныхДанных="ОтделРазработки"/>
-			<item Ссылка="2c63b09b-a257-449b-88d6-6a7788ee684d" ИмяПредопределенныхДанных="ОтделПродаж"/>
+			<item Ссылка="866ade42-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="ОтделРазработки"/>
+			<item Ссылка="866ade41-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="ОтделПродаж"/>
+			<item Ссылка="866ade40-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="ОтделЗакупок"/>
+			<item Ссылка="866ade3f-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="ОтделВнедрения"/>
+			<item Ссылка="866ade3e-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Бухгалтерия"/>
 		</Справочник.Подразделения>
-		<Справочник.ФизическиеЛица>
-			<item Ссылка="c1ab16a1-c50e-4eb8-baff-aa7e032af7db" ИмяПредопределенныхДанных="Мишина"/>
-			<item Ссылка="a8e63bdd-c11c-48e7-b8f1-6c4607c111be" ИмяПредопределенныхДанных="Петренко"/>
-			<item Ссылка="372c46f1-75b1-400b-b51c-085fdb9c169b" ИмяПредопределенныхДанных="Степанов"/>
-			<item Ссылка="5c781039-bcb7-4330-b401-778fcdeb0eb5" ИмяПредопределенныхДанных="Федорова"/>
-			<item Ссылка="57bbf4d7-4ef2-4434-b0b1-361445eac2f7" ИмяПредопределенныхДанных="Онопко"/>
-			<item Ссылка="c8ab270a-844d-4db0-ab2e-6bfb5c129e83" ИмяПредопределенныхДанных="Коган"/>
-			<item Ссылка="ffc8140b-1a0e-445c-a7c7-fd18492b5436" ИмяПредопределенныхДанных="Васина"/>
-			<item Ссылка="9f1ea329-ad98-4bb0-a78a-0a9b34d5eece" ИмяПредопределенныхДанных="Федоров"/>
-			<item Ссылка="7c73a5d5-4cd8-413a-a4c5-8b15a60bbc3c" ИмяПредопределенныхДанных="Кротов"/>
-			<item Ссылка="08e27333-7311-47d6-a393-3275f6c38cf3" ИмяПредопределенныхДанных="Иванов"/>
-			<item Ссылка="d315c38e-3ee2-4973-9cc8-afe193650d50" ИмяПредопределенныхДанных="Лоханкина"/>
-			<item Ссылка="12f8b886-8f19-4408-9c77-b805a8f691ff" ИмяПредопределенныхДанных="Мишин"/>
-			<item Ссылка="f4f32e65-5267-436a-9aa5-7824cc53edb5" ИмяПредопределенныхДанных="Сидоров"/>
-			<item Ссылка="1738669f-715d-420c-9a55-6a8b3fbbdc9d" ИмяПредопределенныхДанных="Жупиков"/>
-			<item Ссылка="29b9406b-092b-48a7-9931-aa1d64c8807e" ИмяПредопределенныхДанных="Кротова"/>
-			<item Ссылка="205cf355-c949-4519-9588-47ce8dc1ce6f" ИмяПредопределенныхДанных="Залкинд"/>
-			<item Ссылка="2d884283-014a-4f3a-8eb8-68a649d2dfd6" ИмяПредопределенныхДанных="Хабибулин"/>
-			<item Ссылка="c211de45-0657-413b-8bdd-2efb9c4cb0c4" ИмяПредопределенныхДанных="Петров"/>
-			<item Ссылка="556e86a6-f7af-4740-8b22-01c5076fd41c" ИмяПредопределенныхДанных="Головлев"/>
-			<item Ссылка="e319145d-71b5-452a-8a4d-f6b51daf0f50" ИмяПредопределенныхДанных="Мансуров"/>
-			<item Ссылка="6b8a99ed-a196-4949-8060-9f6f08a63269" ИмяПредопределенныхДанных="Бельдыев"/>
-		</Справочник.ФизическиеЛица>
+		<Справочник.Сотрудники>
+			<item Ссылка="866ade57-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Хабибулин"/>
+			<item Ссылка="866ade56-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Федорова"/>
+			<item Ссылка="866ade55-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Федоров"/>
+			<item Ссылка="866ade54-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Степанов"/>
+			<item Ссылка="866ade53-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Сидоров"/>
+			<item Ссылка="866ade52-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Петров"/>
+			<item Ссылка="866ade51-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Петренко"/>
+			<item Ссылка="866ade50-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Онопко"/>
+			<item Ссылка="866ade4f-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Мишина"/>
+			<item Ссылка="866ade4e-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Мишин"/>
+			<item Ссылка="866ade4d-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Мансуров"/>
+			<item Ссылка="866ade4c-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Лоханкина"/>
+			<item Ссылка="866ade4b-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Кротова"/>
+			<item Ссылка="866ade4a-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Кротов"/>
+			<item Ссылка="866ade49-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Коган"/>
+			<item Ссылка="866ade48-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Иванов"/>
+			<item Ссылка="866ade47-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Залкинд"/>
+			<item Ссылка="866ade46-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Жупиков"/>
+			<item Ссылка="866ade45-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Головлев"/>
+			<item Ссылка="866ade44-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Васина"/>
+			<item Ссылка="866ade43-12b3-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Бельдыев"/>
+		</Справочник.Сотрудники>
 	</PredefinedData>
 </V8Exch:_1CV8DtUD>

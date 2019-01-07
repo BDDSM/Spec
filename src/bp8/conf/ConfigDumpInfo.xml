@@ -8,12 +8,15 @@
 		</Metadata>
 		<Metadata name="Catalog.Сотрудники.Command.УстановитьПользователяИБ.CommandModule" id="772ca43c-00e5-4f06-91a8-100e8c08d884.2" configVersion="646221f188d50241989f9a4feea14b6800000000"/>
 		<Metadata name="Catalog.Сотрудники.Predefined" id="a5205be0-e21a-417a-9139-7c243dcb2d75.1c" configVersion="d8385071dd554a47b0d89cb11db2e37600000000"/>
-		<Metadata name="Configuration.БП8" id="a56ee866-0066-4fd2-afbe-b2c01ddfa4f0" configVersion="b14a695d1115f0409b8b669550ea352f00000000"/>
+		<Metadata name="Configuration.БП8" id="a56ee866-0066-4fd2-afbe-b2c01ddfa4f0" configVersion="0e929510119c92438ebbcf815f6341b100000000"/>
 		<Metadata name="Configuration.БП8.ClientApplicationInterface" id="48472cb2-1ab2-45ca-91a5-83cfc645c1d6.b" configVersion="2daaed0deec6534a8a9ccb8aeede830a00000000"/>
+		<Metadata name="Configuration.БП8.SessionModule" id="48472cb2-1ab2-45ca-91a5-83cfc645c1d6.7" configVersion="6096b88b71b1c04986fa4ccbd257d7de00000000"/>
 		<Metadata name="InformationRegister.РегистрАдресации" id="30a7564b-a35c-415b-9952-756632efa014" configVersion="7429b2656b8e1f438f7166bd8ccb610000000000">
 			<Metadata name="InformationRegister.РегистрАдресации.Dimension.Исполнитель" id="56c893d9-eae9-49ce-a1b7-5398c7b9ab6d"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="b7c673da-6866-4ff9-8780-9457eb981c95" configVersion="fefdc0cc7847424aa22a8bcbd3c9576b00000000"/>
+		<Metadata name="Role.ПолныеПрава" id="73447779-79fd-47ae-90ff-09aa55382248" configVersion="ca74e9644e55e64789e49e200c0da22700000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="73447779-79fd-47ae-90ff-09aa55382248.0" configVersion="bbdfb48c48cdca4b9d72dc7835ddcf0800000000"/>
 		<Metadata name="SessionParameter.ТекущийПользователь" id="41e9cc9e-1a8f-4762-8b54-4f06f0fbbaa8" configVersion="92431c4c19d3784787e906eb381923be00000000"/>
 		<Metadata name="Subsystem.БизнесПроцессы" id="de291bbd-bf3b-4a43-a2ee-92bfdb033442" configVersion="5daeca2af20ac44780aff80e916a7fa300000000"/>
 		<Metadata name="Subsystem.БизнесПроцессы.Subsystem.Справочники" id="b677c868-3932-4365-9973-313ca6bf71b4" configVersion="c78457ba61f24e43b3f4b147b167a83e00000000"/>
