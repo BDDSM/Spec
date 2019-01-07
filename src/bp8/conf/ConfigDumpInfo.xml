@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
+	<ConfigVersions>
+		<Metadata name="Catalog.Подразделения" id="eedb4279-df84-451d-9035-66109f63a8ca" configVersion="414b603b7615774fa98beb85b0217c3f00000000"/>
+		<Metadata name="Catalog.Подразделения.Help" id="eedb4279-df84-451d-9035-66109f63a8ca.1" configVersion="6c304e073dac3e41926f15632c795bb500000000"/>
+		<Metadata name="Catalog.Подразделения.ManagerModule" id="eedb4279-df84-451d-9035-66109f63a8ca.3" configVersion="6ae1453ea24831439e27e43b364744c700000000"/>
+		<Metadata name="Catalog.Подразделения.ObjectModule" id="eedb4279-df84-451d-9035-66109f63a8ca.0" configVersion="3958e042d289a44392040eea83cc844c00000000"/>
+		<Metadata name="Catalog.Подразделения.Predefined" id="eedb4279-df84-451d-9035-66109f63a8ca.1c" configVersion="f0bdd3dc126397429fa6d693bcd20e3f00000000"/>
+		<Metadata name="Catalog.ФизическиеЛица" id="a5205be0-e21a-417a-9139-7c243dcb2d75" configVersion="d252c193e265084b9873f833dcf1e0cb00000000"/>
+		<Metadata name="Catalog.ФизическиеЛица.Help" id="a5205be0-e21a-417a-9139-7c243dcb2d75.1" configVersion="e86f08af916d1f49aeaef5a30a76f6ff00000000"/>
+		<Metadata name="Catalog.ФизическиеЛица.ManagerModule" id="a5205be0-e21a-417a-9139-7c243dcb2d75.3" configVersion="430745e582dbfd4e9b52cb5eb26231c000000000"/>
+		<Metadata name="Catalog.ФизическиеЛица.ObjectModule" id="a5205be0-e21a-417a-9139-7c243dcb2d75.0" configVersion="d9f9d8fc5e0edd4a9270e9dfea59bdfe00000000"/>
+		<Metadata name="Catalog.ФизическиеЛица.Predefined" id="a5205be0-e21a-417a-9139-7c243dcb2d75.1c" configVersion="37103155a18c5d4bb78cfb23a7848e7c00000000"/>
+		<Metadata name="Configuration.БП8" id="a56ee866-0066-4fd2-afbe-b2c01ddfa4f0" configVersion="5735018e35def34490425ad95e4bff2900000000"/>
+		<Metadata name="InformationRegister.РегистрАдресации" id="30a7564b-a35c-415b-9952-756632efa014" configVersion="8eb79456e6155d43a0f1ae91a3ea522a00000000">
+			<Metadata name="InformationRegister.РегистрАдресации.Dimension.Исполнитель" id="56c893d9-eae9-49ce-a1b7-5398c7b9ab6d"/>
+		</Metadata>
+		<Metadata name="InformationRegister.РегистрАдресации.Help" id="30a7564b-a35c-415b-9952-756632efa014.0" configVersion="fa74a0b7706a6a42a67e4ce3dee06f8e00000000"/>
+		<Metadata name="InformationRegister.РегистрАдресации.ManagerModule" id="30a7564b-a35c-415b-9952-756632efa014.2" configVersion="00b1b733730c4a46bc3db966fa98a3b500000000"/>
+		<Metadata name="InformationRegister.РегистрАдресации.RecordSetModule" id="30a7564b-a35c-415b-9952-756632efa014.1" configVersion="d43d7feae9d5654d860c383c1eaf713f00000000"/>
+		<Metadata name="Language.Русский" id="b7c673da-6866-4ff9-8780-9457eb981c95" configVersion="dce93edad8503349a3b6b0ba802d129200000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
