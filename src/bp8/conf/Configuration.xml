@@ -128,6 +128,7 @@
 			<Role>ПолныеПрава</Role>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Подразделения</Catalog>
+			<Catalog>Должности</Catalog>
 			<InformationRegister>РегистрАдресации</InformationRegister>
 		</ChildObjects>
 	</Configuration>
