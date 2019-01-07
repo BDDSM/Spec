@@ -180,6 +180,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
+			<Form>ФормаСпискаДляКонтрагентов</Form>
 		</ChildObjects>
 	</AccountingRegister>
 </MetaDataObject>
