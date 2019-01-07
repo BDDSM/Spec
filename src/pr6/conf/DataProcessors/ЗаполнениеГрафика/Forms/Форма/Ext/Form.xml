@@ -25,6 +25,11 @@
 			<ContextMenu name="ВыходныеДниКонтекстноеМеню" id="4"/>
 			<ExtendedTooltip name="ВыходныеДниРасширеннаяПодсказка" id="8"/>
 		</InputField>
+		<InputField name="График" id="9">
+			<DataPath>Объект.График</DataPath>
+			<ContextMenu name="ГрафикКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ГрафикРасширеннаяПодсказка" id="11"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

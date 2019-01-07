@@ -125,8 +125,9 @@
 			<Language>Русский</Language>
 			<Subsystem>ПериодическиеРасчеты</Subsystem>
 			<CommonModule>Расчеты</CommonModule>
-			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>Сотрудники</Catalog>
 			<Catalog>Подразделения</Catalog>
+			<Catalog>Графики</Catalog>
 			<Document>НачислениеЗарплаты</Document>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
