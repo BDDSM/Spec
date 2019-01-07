@@ -130,6 +130,7 @@
 			<Catalog>Графики</Catalog>
 			<Document>НачислениеЗарплаты</Document>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
+			<DataProcessor>ОтчетПоФактическимПериодам</DataProcessor>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<InformationRegister>ШкалаОкладов</InformationRegister>

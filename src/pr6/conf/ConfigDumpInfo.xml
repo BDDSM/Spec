@@ -36,7 +36,7 @@
 		<Metadata name="ChartOfCalculationTypes.ОсновныеНачисления.Predefined" id="7f56449f-f06e-4262-894d-93b14b315a82.2" configVersion="affabfade9e72d42a221784fd24d396400000000"/>
 		<Metadata name="CommonModule.Расчеты" id="29d2870d-2ae5-4ec5-a45e-72e595582173" configVersion="e2b560d3f797a54bab65b28f873b5eef00000000"/>
 		<Metadata name="CommonModule.Расчеты.Module" id="29d2870d-2ae5-4ec5-a45e-72e595582173.0" configVersion="e2516616c82df3479d75b987206a384200000000"/>
-		<Metadata name="Configuration.ПР6" id="81bef4fc-0a5e-47a9-934c-ff0bee544970" configVersion="d4436aab89a86b4c98766193cd52965f00000000"/>
+		<Metadata name="Configuration.ПР6" id="81bef4fc-0a5e-47a9-934c-ff0bee544970" configVersion="62fb045914531f44bba518eee9ec2e9200000000"/>
 		<Metadata name="Configuration.ПР6.ClientApplicationInterface" id="771f5133-4ec9-4cee-b170-12c5e612592e.b" configVersion="518b6c164c556d47a014b0ab233e9e4e00000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика" id="5760f78f-b65b-4310-8d68-5cde3a9621a5" configVersion="19ba5623b214bd4c90fc9874da08f04800000000">
 			<Metadata name="DataProcessor.ЗаполнениеГрафика.Attribute.График" id="d23788da-bdbb-4741-9d1b-ceb3e4d896ee"/>
@@ -47,6 +47,9 @@
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.Help" id="5760f78f-b65b-4310-8d68-5cde3a9621a5.1" configVersion="7ceaaa0bff9f6241bb2975ff282fc51800000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.ManagerModule" id="5760f78f-b65b-4310-8d68-5cde3a9621a5.2" configVersion="0dc66868103f6443918652bbfba86f4a00000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.ObjectModule" id="5760f78f-b65b-4310-8d68-5cde3a9621a5.0" configVersion="1e43805e79a08d478474a3e381de53a900000000"/>
+		<Metadata name="DataProcessor.ОтчетПоФактическимПериодам" id="90812610-34b5-4396-bf67-19d5aaeb0d5b" configVersion="c2be1ba001f40b49ac3854325468aab600000000"/>
+		<Metadata name="DataProcessor.ОтчетПоФактическимПериодам.Form.Форма" id="360a29a0-4b9a-4868-9423-d9c349152f73" configVersion="fc81e44bce54f24eb4c4e19f8df26be600000000"/>
+		<Metadata name="DataProcessor.ОтчетПоФактическимПериодам.Form.Форма.Form" id="360a29a0-4b9a-4868-9423-d9c349152f73.0" configVersion="6abf388db49fb648862a14981dc3b2c100000000"/>
 		<Metadata name="Document.НачислениеЗарплаты" id="17dcff8c-515a-4c38-9d4b-619d8205b693" configVersion="2aee0fcf42b4c64ea2739050b615bf1700000000">
 			<Metadata name="Document.НачислениеЗарплаты.TabularSection.ОсновныеНачисления.Attribute.ПериодДействияНачало" id="057a8e19-8ff1-42eb-9c91-6a927cf3ea8a"/>
 			<Metadata name="Document.НачислениеЗарплаты.TabularSection.ДополнительныеНачисления" id="0b02abaf-e720-48b6-8deb-8213be2d9d69"/>
@@ -93,8 +96,8 @@
 			<Metadata name="InformationRegister.ШкалаОкладов.Dimension.Подразделение" id="a2fa6e22-6474-4c6e-b88e-a4888a58f896"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="f7544aa4-eabe-45bf-8221-c0605e2f2c4f" configVersion="3e468ff860962949b8fb1e780dd94c4200000000"/>
-		<Metadata name="Subsystem.ПериодическиеРасчеты" id="434a0c28-8cae-4697-a200-7f1ca141f75b" configVersion="9dabcff8c39ccf44b6e2cf6d86bc543c00000000"/>
-		<Metadata name="Subsystem.ПериодическиеРасчеты.CommandInterface" id="434a0c28-8cae-4697-a200-7f1ca141f75b.1" configVersion="1c3b8cece14bd644b459ea5881d9ef7e00000000"/>
+		<Metadata name="Subsystem.ПериодическиеРасчеты" id="434a0c28-8cae-4697-a200-7f1ca141f75b" configVersion="5ef8ca04aec0154185a161ef8ec9c7c900000000"/>
+		<Metadata name="Subsystem.ПериодическиеРасчеты.CommandInterface" id="434a0c28-8cae-4697-a200-7f1ca141f75b.1" configVersion="8f88c8de98029b459301332ffae7621c00000000"/>
 		<Metadata name="Subsystem.ПериодическиеРасчеты.Subsystem.Документы" id="d1f5dc39-b802-4a91-8334-3458ffdd2308" configVersion="ee2e7b086339b941a383e73e124ad00f00000000"/>
 		<Metadata name="Subsystem.ПериодическиеРасчеты.Subsystem.Справочники" id="8b346bc0-72de-485b-8bca-30297b6b52ad" configVersion="e93e986de153fa489d5a341d4100cafa00000000"/>
 	</ConfigVersions>
