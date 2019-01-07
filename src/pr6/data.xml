@@ -200,20 +200,419 @@
 			<v8:Code>000000002</v8:Code>
 			<v8:Description>Шестидневка</v8:Description>
 		</v8:CatalogObject.Графики>
+		<v8:DocumentObject.НачислениеЗарплаты>
+			<v8:Ref>a8cbd0c2-1299-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-05-15T12:00:00</v8:Date>
+			<v8:Number>000000001</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:ПериодРегистрации>2018-05-01T00:00:00</v8:ПериодРегистрации>
+			<v8:ОсновныеНачисления>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:ВидРасчета xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:ВидРасчета>
+				<v8:ПериодДействияНачало>2018-05-01T00:00:00</v8:ПериодДействияНачало>
+				<v8:ПериодДействияКонец>2018-05-09T00:00:00</v8:ПериодДействияКонец>
+				<v8:БазовыйПериодНачало>0001-01-01T00:00:00</v8:БазовыйПериодНачало>
+				<v8:БазовыйПериодКонец>0001-01-01T00:00:00</v8:БазовыйПериодКонец>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:ОсновныеНачисления>
+			<v8:ОсновныеНачисления>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:ВидРасчета xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:ВидРасчета>
+				<v8:ПериодДействияНачало>2018-05-01T00:00:00</v8:ПериодДействияНачало>
+				<v8:ПериодДействияКонец>2018-05-15T00:00:00</v8:ПериодДействияКонец>
+				<v8:БазовыйПериодНачало>0001-01-01T00:00:00</v8:БазовыйПериодНачало>
+				<v8:БазовыйПериодКонец>0001-01-01T00:00:00</v8:БазовыйПериодКонец>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:ОсновныеНачисления>
+		</v8:DocumentObject.НачислениеЗарплаты>
+		<v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">a8cbd0c2-1299-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+		</v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+		<v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">a8cbd0c2-1299-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c2-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-05-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-05-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-05-09T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c2-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-05-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-05-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-05-15T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+		<v8:DocumentObject.НачислениеЗарплаты>
+			<v8:Ref>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-06-15T12:00:00</v8:Date>
+			<v8:Number>000000002</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:ПериодРегистрации>2018-06-01T00:00:00</v8:ПериодРегистрации>
+			<v8:ОсновныеНачисления>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:ВидРасчета xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:ВидРасчета>
+				<v8:ПериодДействияНачало>2018-06-01T00:00:00</v8:ПериодДействияНачало>
+				<v8:ПериодДействияКонец>2018-06-30T00:00:00</v8:ПериодДействияКонец>
+				<v8:БазовыйПериодНачало>0001-01-01T00:00:00</v8:БазовыйПериодНачало>
+				<v8:БазовыйПериодКонец>0001-01-01T00:00:00</v8:БазовыйПериодКонец>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:ОсновныеНачисления>
+			<v8:ОсновныеНачисления>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:ВидРасчета xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:ВидРасчета>
+				<v8:ПериодДействияНачало>2018-06-01T00:00:00</v8:ПериодДействияНачало>
+				<v8:ПериодДействияКонец>2018-06-30T00:00:00</v8:ПериодДействияКонец>
+				<v8:БазовыйПериодНачало>0001-01-01T00:00:00</v8:БазовыйПериодНачало>
+				<v8:БазовыйПериодКонец>0001-01-01T00:00:00</v8:БазовыйПериодКонец>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:ОсновныеНачисления>
+			<v8:ОсновныеНачисления>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:ВидРасчета xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:ВидРасчета>
+				<v8:ПериодДействияНачало>2018-06-25T00:00:00</v8:ПериодДействияНачало>
+				<v8:ПериодДействияКонец>2018-07-05T00:00:00</v8:ПериодДействияКонец>
+				<v8:БазовыйПериодНачало>2018-05-01T00:00:00</v8:БазовыйПериодНачало>
+				<v8:БазовыйПериодКонец>2018-05-31T00:00:00</v8:БазовыйПериодКонец>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:ОсновныеНачисления>
+			<v8:ДополнительныеНачисления>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:ВидРасчета xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:ВидРасчета>
+				<v8:БазовыйПериодНачало>2018-06-01T00:00:00</v8:БазовыйПериодНачало>
+				<v8:БазовыйПериодКонец>2018-06-30T00:00:00</v8:БазовыйПериодКонец>
+				<v8:Размер>5</v8:Размер>
+			</v8:ДополнительныеНачисления>
+			<v8:ДополнительныеНачисления>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:ВидРасчета xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:ВидРасчета>
+				<v8:БазовыйПериодНачало>2018-06-01T00:00:00</v8:БазовыйПериодНачало>
+				<v8:БазовыйПериодКонец>2018-06-30T00:00:00</v8:БазовыйПериодКонец>
+				<v8:Размер>5</v8:Размер>
+			</v8:ДополнительныеНачисления>
+		</v8:DocumentObject.НачислениеЗарплаты>
+		<v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-06-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-06-30T23:59:59</v8:EndOfBasePeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:Размер>5</v8:Размер>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-06-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-06-30T23:59:59</v8:EndOfBasePeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:Размер>5</v8:Размер>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+		<v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-30T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-30T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-05-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-05-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-25T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-30T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-05-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-05-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-07-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-07-05T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+		<v8:DocumentObject.НачислениеЗарплаты>
+			<v8:Ref>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-07-15T12:00:00</v8:Date>
+			<v8:Number>000000003</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:ПериодРегистрации>2018-07-01T00:00:00</v8:ПериодРегистрации>
+			<v8:ОсновныеНачисления>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:ВидРасчета xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:ВидРасчета>
+				<v8:ПериодДействияНачало>2018-07-01T00:00:00</v8:ПериодДействияНачало>
+				<v8:ПериодДействияКонец>2018-07-31T00:00:00</v8:ПериодДействияКонец>
+				<v8:БазовыйПериодНачало>0001-01-01T00:00:00</v8:БазовыйПериодНачало>
+				<v8:БазовыйПериодКонец>0001-01-01T00:00:00</v8:БазовыйПериодКонец>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:ОсновныеНачисления>
+			<v8:ОсновныеНачисления>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:ВидРасчета xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:ВидРасчета>
+				<v8:ПериодДействияНачало>2018-07-01T00:00:00</v8:ПериодДействияНачало>
+				<v8:ПериодДействияКонец>2018-07-31T00:00:00</v8:ПериодДействияКонец>
+				<v8:БазовыйПериодНачало>0001-01-01T00:00:00</v8:БазовыйПериодНачало>
+				<v8:БазовыйПериодКонец>0001-01-01T00:00:00</v8:БазовыйПериодКонец>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:ОсновныеНачисления>
+			<v8:ОсновныеНачисления>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:ВидРасчета xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:ВидРасчета>
+				<v8:ПериодДействияНачало>2018-06-20T00:00:00</v8:ПериодДействияНачало>
+				<v8:ПериодДействияКонец>2018-06-23T00:00:00</v8:ПериодДействияКонец>
+				<v8:БазовыйПериодНачало>2018-05-01T00:00:00</v8:БазовыйПериодНачало>
+				<v8:БазовыйПериодКонец>2018-05-31T00:00:00</v8:БазовыйПериодКонец>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:ОсновныеНачисления>
+			<v8:ДополнительныеНачисления>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:ВидРасчета xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:ВидРасчета>
+				<v8:БазовыйПериодНачало>2018-07-01T00:00:00</v8:БазовыйПериодНачало>
+				<v8:БазовыйПериодКонец>2018-07-31T00:00:00</v8:БазовыйПериодКонец>
+				<v8:Размер>7</v8:Размер>
+			</v8:ДополнительныеНачисления>
+			<v8:ДополнительныеНачисления>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fb-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:ВидРасчета xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:ВидРасчета>
+				<v8:БазовыйПериодНачало>2018-07-01T00:00:00</v8:БазовыйПериодНачало>
+				<v8:БазовыйПериодКонец>2018-07-31T00:00:00</v8:БазовыйПериодКонец>
+				<v8:Размер>10</v8:Размер>
+			</v8:ДополнительныеНачисления>
+		</v8:DocumentObject.НачислениеЗарплаты>
+		<v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">d20f3376-129a-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-07-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-07-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-07-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:Размер>7</v8:Размер>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-07-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-07-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-07-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fb-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:Размер>10</v8:Размер>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+		<v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">d20f3376-129a-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-07-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-07-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-07-31T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-07-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-07-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-07-31T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-07-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-05-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-05-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-20T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-23T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ОсновныеНачисления>
 		<v8:ChartOfCalculationTypesObject.ОсновныеНачисления>
 			<v8:Ref xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Code>1</v8:Code>
 			<v8:Description>Оклад</v8:Description>
+			<v8:ActionPeriodIsBasic>false</v8:ActionPeriodIsBasic>
 			<v8:PredefinedDataName>Оклад</v8:PredefinedDataName>
+			<v8:DisplacingCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:Predefined>true</v8:Predefined>
+			</v8:DisplacingCalculationTypes>
+		</v8:ChartOfCalculationTypesObject.ОсновныеНачисления>
+		<v8:ChartOfCalculationTypesObject.ОсновныеНачисления>
+			<v8:Ref xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>2</v8:Code>
+			<v8:Description>Командировка</v8:Description>
+			<v8:ActionPeriodIsBasic>false</v8:ActionPeriodIsBasic>
+			<v8:PredefinedDataName>Командировка</v8:PredefinedDataName>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:Predefined>true</v8:Predefined>
+			</v8:BaseCalculationTypes>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:Predefined>true</v8:Predefined>
+			</v8:BaseCalculationTypes>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:Predefined>true</v8:Predefined>
+			</v8:BaseCalculationTypes>
 		</v8:ChartOfCalculationTypesObject.ОсновныеНачисления>
 		<v8:ChartOfCalculationTypesObject.ДополнительныеНачисления>
 			<v8:Ref xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Code>1</v8:Code>
 			<v8:Description>Премия</v8:Description>
-			<v8:ActionPeriodIsBasic>false</v8:ActionPeriodIsBasic>
 			<v8:PredefinedDataName>Премия</v8:PredefinedDataName>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:Predefined>true</v8:Predefined>
+			</v8:BaseCalculationTypes>
 		</v8:ChartOfCalculationTypesObject.ДополнительныеНачисления>
 		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
 			<v8:Filter>
@@ -12727,12 +13126,528 @@
 				<v8:Оклад>3000</v8:Оклад>
 			</v8:Record>
 		</v8:InformationRegisterRecordSet.ШкалаОкладов>
+		<v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">a8cbd0c2-1299-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c2-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-05-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-05-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-05-09T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+		<v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">a8cbd0c2-1299-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c2-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-05-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-05-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-05-15T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+		<v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-30T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+		<v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-30T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-05-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-05-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-25T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-30T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-05-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-05-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-07-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-07-05T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+		<v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-30T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-05-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-05-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-25T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-30T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-05-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-05-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-07-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-07-05T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+		<v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-30T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-05-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-05-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-25T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-30T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-05-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-05-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-07-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-07-05T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+		<v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">d20f3376-129a-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-07-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-07-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-07-31T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-07-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-05-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-05-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-20T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-23T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+		<v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">d20f3376-129a-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-07-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-07-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-07-31T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+		<v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">d20f3376-129a-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-07-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">8be7d0fa-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>0001-01-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>0001-01-01T00:00:00</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-07-01T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-07-31T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-07-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">6d0526b1-1292-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-05-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-05-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:BegOfActionPeriod>2018-06-20T00:00:00</v8:BegOfActionPeriod>
+				<v8:EndOfActionPeriod>2018-06-23T23:59:59</v8:EndOfActionPeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:График xsi:type="v8:CatalogRef.Графики">e3ab8254-128d-11e9-beb2-8c89a50dff9f</v8:График>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ОсновныеНачисления>
+		<v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-06-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-06-30T23:59:59</v8:EndOfBasePeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:Размер>5</v8:Размер>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+		<v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>a8cbd0c4-1299-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-06-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-06-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-06-30T23:59:59</v8:EndOfBasePeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:Размер>5</v8:Размер>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+		<v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">d20f3376-129a-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-07-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-07-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-07-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d100-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fc-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:Размер>7</v8:Размер>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+		<v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеЗарплаты">d20f3376-129a-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Сотрудник</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">8be7d0fb-1288-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>d20f3376-129a-11e9-beb2-8c89a50dff9f</v8:Recorder>
+				<v8:Active>true</v8:Active>
+				<v8:RegistrationPeriod>2018-07-01T00:00:00</v8:RegistrationPeriod>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">8be7d0f9-1288-11e9-beb2-8c89a50dff9f</v8:CalculationType>
+				<v8:ReversingEntry>false</v8:ReversingEntry>
+				<v8:BegOfBasePeriod>2018-07-01T00:00:00</v8:BegOfBasePeriod>
+				<v8:EndOfBasePeriod>2018-07-31T23:59:59</v8:EndOfBasePeriod>
+				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">8be7d105-1288-11e9-beb2-8c89a50dff9f</v8:Сотрудник>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">8be7d0fb-1288-11e9-beb2-8c89a50dff9f</v8:Подразделение>
+				<v8:Результат>0</v8:Результат>
+				<v8:Размер>10</v8:Размер>
+			</v8:Record>
+		</v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
 	</V8Exch:Data>
 	<PredefinedData>
 		<ПланВидовРасчета.ДополнительныеНачисления>
 			<item Ссылка="8be7d0f9-1288-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Премия"/>
 		</ПланВидовРасчета.ДополнительныеНачисления>
 		<ПланВидовРасчета.ОсновныеНачисления>
+			<item Ссылка="6d0526b1-1292-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Командировка"/>
 			<item Ссылка="8be7d0fa-1288-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Оклад"/>
 		</ПланВидовРасчета.ОсновныеНачисления>
 		<Справочник.Подразделения>
