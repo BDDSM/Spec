@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
 	<ConfigVersions>
-		<Metadata name="BusinessProcess.БизнесПроцесс" id="00ba691d-a6ee-467a-88c7-bb5a2c63ecb2" configVersion="21d6c82f0469c44fbf01a5f31836cbd000000000">
+		<Metadata name="BusinessProcess.БизнесПроцесс" id="00ba691d-a6ee-467a-88c7-bb5a2c63ecb2" configVersion="2e6eeadd609689448f2d3f0a827c547f00000000">
 			<Metadata name="BusinessProcess.БизнесПроцесс.Attribute.СложныйПроект" id="64afc0c5-0bf0-4d08-a7f5-ef1088a913b5"/>
 		</Metadata>
 		<Metadata name="BusinessProcess.БизнесПроцесс.Flowchart" id="00ba691d-a6ee-467a-88c7-bb5a2c63ecb2.7" configVersion="ef9ce7bc93bbf34692fb96970f6daf8b00000000"/>
+		<Metadata name="BusinessProcess.БизнесПроцесс.Form.ФормаБизнесПроцесса" id="aa89cec6-51fa-4b7b-9cd4-48a0b256555a" configVersion="b9210826c90ca4498e5cf59f50741aa700000000"/>
+		<Metadata name="BusinessProcess.БизнесПроцесс.Form.ФормаБизнесПроцесса.Form" id="aa89cec6-51fa-4b7b-9cd4-48a0b256555a.0" configVersion="10d3e9040c99e34daa9a88ec24599d6900000000"/>
 		<Metadata name="BusinessProcess.БизнесПроцесс.ObjectModule" id="00ba691d-a6ee-467a-88c7-bb5a2c63ecb2.6" configVersion="718930a4389bae4b8ccf026bf6d24b7300000000"/>
 		<Metadata name="Catalog.Должности" id="c61d764e-618f-4910-9087-433bd7d76fd8" configVersion="1e6bc3af213cd44d9076d8f4a879ad2900000000"/>
 		<Metadata name="Catalog.Должности.Predefined" id="c61d764e-618f-4910-9087-433bd7d76fd8.1c" configVersion="0726be42973aad489b759c0e0541920100000000"/>

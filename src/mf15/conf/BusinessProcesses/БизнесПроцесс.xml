@@ -45,7 +45,7 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>BusinessProcess.БизнесПроцесс.Form.ФормаБизнесПроцесса</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -111,6 +111,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
+			<Form>ФормаБизнесПроцесса</Form>
 		</ChildObjects>
 	</BusinessProcess>
 </MetaDataObject>
