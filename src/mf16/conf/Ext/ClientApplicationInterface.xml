@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ClientApplicationInterface xmlns="http://v8.1c.ru/8.2/managed-application/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="InterfaceLayouter">
+	<top>
+		<panel id="3de0d8dd-f06d-4a41-8f19-4093ee304727">
+			<uuid>cbab57f2-a0f3-4f0a-89ea-4cb19570ab75</uuid>
+		</panel>
+	</top>
+	<left>
+		<group id="3d184bba-9c90-4757-8bad-4aa095666aab">
+			<group>
+				<panel id="bf4d35eb-14fd-4f9b-b5e4-9963ee4a5a73">
+					<uuid>8e10648b-f52d-4ec2-b4dd-87de33778d95</uuid>
+				</panel>
+			</group>
+			<group>
+				<panel id="5e72a681-f31d-4c9e-a12b-a89697fe866e">
+					<uuid>b553047f-c9aa-4157-978d-448ecad24248</uuid>
+				</panel>
+			</group>
+		</group>
+	</left>
+	<panelDef id="b553047f-c9aa-4157-978d-448ecad24248"/>
+	<panelDef id="8e10648b-f52d-4ec2-b4dd-87de33778d95"/>
+	<panelDef id="13322b22-3960-4d68-93a6-fe2dd7f28ca3"/>
+	<panelDef id="c933ac92-92cd-459d-81cc-e0c8a83ced99"/>
+	<panelDef id="cbab57f2-a0f3-4f0a-89ea-4cb19570ab75"/>
+	<panelDef id="b2735bd3-d822-4430-ba59-c9e869693b24"/>
+</ClientApplicationInterface>
