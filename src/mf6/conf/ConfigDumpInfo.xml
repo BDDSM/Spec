@@ -22,16 +22,20 @@
 		<Metadata name="DataProcessor.КартаМаршрута" id="c77c973d-2ed6-4395-9f3b-ce329a0fe716" configVersion="24dfb2dfb4fb724f94557233fb56bec900000000"/>
 		<Metadata name="DataProcessor.КартаМаршрута.Form.Форма" id="269ac887-55cb-48ef-9246-50b54766784f" configVersion="1e43702d06d9f249ac6207a3c423cb0e00000000"/>
 		<Metadata name="DataProcessor.КартаМаршрута.Form.Форма.Form" id="269ac887-55cb-48ef-9246-50b54766784f.0" configVersion="aebd336deef73f48b9363773cad078db00000000"/>
-		<Metadata name="Document.ПриходДенег" id="75755946-b53e-4fd7-9597-9f2221a8884a" configVersion="f9f5bc0162c6c7499acf88384495b59a00000000">
+		<Metadata name="Document.ПриходДенег" id="75755946-b53e-4fd7-9597-9f2221a8884a" configVersion="5539dad6d9f2ce4296ab93620ce016e500000000">
 			<Metadata name="Document.ПриходДенег.Attribute.СуммаПоДокументу" id="89c4a49e-8110-45ba-a62e-bd674042169f"/>
 			<Metadata name="Document.ПриходДенег.Attribute.ОтветственныйМенеджер" id="e4c89e6e-c677-4a4a-a9a3-f45b28b1bf79"/>
 		</Metadata>
-		<Metadata name="Document.РасходнаяНакладная" id="9d7248b2-9f9d-4bef-b9e6-044b92fffed9" configVersion="596f341d28c8d545b73950a834c87e0900000000">
+		<Metadata name="Document.ПриходДенег.Form.ФормаДокумента" id="c4fc1329-80ae-4020-aebe-e3300f7f03fd" configVersion="4e77c950d10ce24eb2bb7be2845bc70a00000000"/>
+		<Metadata name="Document.ПриходДенег.Form.ФормаДокумента.Form" id="c4fc1329-80ae-4020-aebe-e3300f7f03fd.0" configVersion="128846c03ef0994d8433b421c1a3513b00000000"/>
+		<Metadata name="Document.РасходнаяНакладная" id="9d7248b2-9f9d-4bef-b9e6-044b92fffed9" configVersion="3f1efd6b94c59548b7115a9d5582204200000000">
 			<Metadata name="Document.РасходнаяНакладная.Attribute.ОтветственныйМенеджер" id="cc09c668-8f59-44e1-a4c4-0e8aceef7e3e"/>
 			<Metadata name="Document.РасходнаяНакладная.Attribute.СуммаПоДокументу" id="f202ec82-0801-44ca-aa2d-e155c7a18253"/>
 		</Metadata>
-		<Metadata name="FunctionalOption.СтаршийМенеджер" id="1e891ce5-e698-4174-886a-633b665d0e0e" configVersion="3286eb02595678408e8a3a60ff125ae500000000"/>
-		<Metadata name="FunctionalOptionsParameter.Пользователь" id="251ea4cf-4b7f-4822-829a-061f0bc390b5" configVersion="30e3489413b9f443a5f0aa5f8699ccdf00000000"/>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента" id="d8ce798c-8834-45d9-897a-c207f111faed" configVersion="3e06062995a3c9469c047513136eac3700000000"/>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Form" id="d8ce798c-8834-45d9-897a-c207f111faed.0" configVersion="0b8cbfdd53c72d4e8a29be44b4a9f06c00000000"/>
+		<Metadata name="FunctionalOption.СтаршийМенеджер" id="1e891ce5-e698-4174-886a-633b665d0e0e" configVersion="193fa74df5358a428fba91fc256aa8da00000000"/>
+		<Metadata name="FunctionalOptionsParameter.Пользователь" id="251ea4cf-4b7f-4822-829a-061f0bc390b5" configVersion="37894945a8e27d40b1ccaeaab92c1b1e00000000"/>
 		<Metadata name="InformationRegister.РегистрАдресации" id="30a7564b-a35c-415b-9952-756632efa014" configVersion="4b1987e5e1f0e84e9962e8b74fd731f800000000">
 			<Metadata name="InformationRegister.РегистрАдресации.Dimension.Должность" id="080d6581-f834-42d4-b3ec-36dff6e42874"/>
 			<Metadata name="InformationRegister.РегистрАдресации.Dimension.Исполнитель" id="56c893d9-eae9-49ce-a1b7-5398c7b9ab6d"/>

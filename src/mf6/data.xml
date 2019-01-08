@@ -148,12 +148,6 @@
 			<v8:Description>Хабибулин</v8:Description>
 			<v8:PredefinedDataName>Хабибулин</v8:PredefinedDataName>
 		</v8:CatalogObject.Сотрудники>
-		<v8:CatalogObject.Сотрудники>
-			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">a38818c5-133a-11e9-beb2-8c89a50dff9f</v8:Ref>
-			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>Хабибулин0000000000000001</v8:Code>
-			<v8:Description/>
-		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Подразделения>
 			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">a947e712-133a-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
@@ -222,6 +216,24 @@
 			<v8:Description>Специалист</v8:Description>
 			<v8:PredefinedDataName>Специалист</v8:PredefinedDataName>
 		</v8:CatalogObject.Должности>
+		<v8:DocumentObject.ПриходДенег>
+			<v8:Ref>54ba3ccc-133d-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-07-15T12:00:00</v8:Date>
+			<v8:Number>000000001</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:СуммаПоДокументу>100000</v8:СуммаПоДокументу>
+			<v8:ОтветственныйМенеджер xsi:type="v8:CatalogRef.Сотрудники">a38818b6-133a-11e9-beb2-8c89a50dff9f</v8:ОтветственныйМенеджер>
+		</v8:DocumentObject.ПриходДенег>
+		<v8:DocumentObject.РасходнаяНакладная>
+			<v8:Ref>d32b57f6-133c-11e9-beb2-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2018-07-08T12:00:00</v8:Date>
+			<v8:Number>000000001</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:СуммаПоДокументу>150000</v8:СуммаПоДокументу>
+			<v8:ОтветственныйМенеджер xsi:type="v8:CatalogRef.Сотрудники">a38818bb-133a-11e9-beb2-8c89a50dff9f</v8:ОтветственныйМенеджер>
+		</v8:DocumentObject.РасходнаяНакладная>
 		<v8:InformationRegisterRecordSet.РегистрАдресации>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
@@ -411,6 +423,57 @@
 				<v8:Должность xsi:type="v8:CatalogRef.Должности">a947e70e-133a-11e9-beb2-8c89a50dff9f</v8:Должность>
 			</v8:Record>
 		</v8:InformationRegisterRecordSet.РегистрАдресации>
+		<v8:InformationRegisterRecordSet.СтаршиеМенеджеры>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Period</Name>
+					<Value xsi:type="xs:dateTime">2018-07-08T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Пользователь</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">a38818b0-133a-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Period>2018-07-08T00:00:00</v8:Period>
+				<v8:Пользователь xsi:type="v8:CatalogRef.Сотрудники">a38818b0-133a-11e9-beb2-8c89a50dff9f</v8:Пользователь>
+				<v8:Право>true</v8:Право>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.СтаршиеМенеджеры>
+		<v8:InformationRegisterRecordSet.СтаршиеМенеджеры>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Period</Name>
+					<Value xsi:type="xs:dateTime">2018-07-14T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Пользователь</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">a38818bf-133a-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Period>2018-07-14T00:00:00</v8:Period>
+				<v8:Пользователь xsi:type="v8:CatalogRef.Сотрудники">a38818bf-133a-11e9-beb2-8c89a50dff9f</v8:Пользователь>
+				<v8:Право>true</v8:Право>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.СтаршиеМенеджеры>
+		<v8:InformationRegisterRecordSet.СтаршиеМенеджеры>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Period</Name>
+					<Value xsi:type="xs:dateTime">2018-07-14T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Пользователь</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">a38818b0-133a-11e9-beb2-8c89a50dff9f</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Period>2018-07-14T00:00:00</v8:Period>
+				<v8:Пользователь xsi:type="v8:CatalogRef.Сотрудники">a38818b0-133a-11e9-beb2-8c89a50dff9f</v8:Пользователь>
+				<v8:Право>false</v8:Право>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.СтаршиеМенеджеры>
 		<v8:BusinessProcessObject.БизнесПроцесс>
 			<v8:Ref>973f6ac0-12c0-11e9-beb2-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>

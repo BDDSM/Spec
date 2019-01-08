@@ -12,7 +12,10 @@
 			<Comment/>
 			<Location>InformationRegister.СтаршиеМенеджеры.Resource.Право</Location>
 			<PrivilegedGetMode>true</PrivilegedGetMode>
-			<Content/>
+			<Content>
+				<xr:Object>Document.ПриходДенег.Attribute.ОтветственныйМенеджер</xr:Object>
+				<xr:Object>Document.РасходнаяНакладная.Attribute.ОтветственныйМенеджер</xr:Object>
+			</Content>
 		</Properties>
 	</FunctionalOption>
 </MetaDataObject>
