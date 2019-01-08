@@ -124,13 +124,19 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>БизнесПроцессы</Subsystem>
+			<Subsystem>УправляемыеФормы</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
+			<FunctionalOption>СтаршийМенеджер</FunctionalOption>
+			<FunctionalOptionsParameter>Пользователь</FunctionalOptionsParameter>
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Должности</Catalog>
+			<Document>ПриходДенег</Document>
+			<Document>РасходнаяНакладная</Document>
 			<DataProcessor>КартаМаршрута</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
+			<InformationRegister>СтаршиеМенеджеры</InformationRegister>
 			<BusinessProcess>БизнесПроцесс</BusinessProcess>
 			<Task>ЗадачиИсполнителя</Task>
 		</ChildObjects>
