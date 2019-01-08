@@ -10,6 +10,13 @@
 			<v8:Code>Бел</v8:Code>
 			<v8:Description>Бельдыев</v8:Description>
 			<v8:PredefinedDataName>Бельдыев</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2d5-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -17,6 +24,13 @@
 			<v8:Code>Вас</v8:Code>
 			<v8:Description>Васина</v8:Description>
 			<v8:PredefinedDataName>Васина</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2d6-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -24,6 +38,13 @@
 			<v8:Code>Гол</v8:Code>
 			<v8:Description>Головлев</v8:Description>
 			<v8:PredefinedDataName>Головлев</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2d7-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -31,6 +52,13 @@
 			<v8:Code>Жуп</v8:Code>
 			<v8:Description>Жупиков</v8:Description>
 			<v8:PredefinedDataName>Жупиков</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2d8-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -38,6 +66,13 @@
 			<v8:Code>Зал</v8:Code>
 			<v8:Description>Залкинд</v8:Description>
 			<v8:PredefinedDataName>Залкинд</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2d9-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -45,6 +80,25 @@
 			<v8:Code>Ива</v8:Code>
 			<v8:Description>Иванов</v8:Description>
 			<v8:PredefinedDataName>Иванов</v8:PredefinedDataName>
+			<v8:Фамилия>Иванов</v8:Фамилия>
+			<v8:Имя>Иван</v8:Имя>
+			<v8:Отчество>Иванович</v8:Отчество>
+			<v8:Пол>Мужской</v8:Пол>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>1987-01-14T00:00:00</v8:ДатаРождения>
+			<v8:Образование>
+				<v8:УчебноеЗаведение>Школа №875</v8:УчебноеЗаведение>
+				<v8:ДатаПриема>1982-09-01T00:00:00</v8:ДатаПриема>
+				<v8:ДатаОкончания>1992-09-01T00:00:00</v8:ДатаОкончания>
+				<v8:Примечание/>
+			</v8:Образование>
+			<v8:Образование>
+				<v8:УчебноеЗаведение>МГУ им. Ломоносова</v8:УчебноеЗаведение>
+				<v8:ДатаПриема>1992-09-01T00:00:00</v8:ДатаПриема>
+				<v8:ДатаОкончания>1999-06-30T00:00:00</v8:ДатаОкончания>
+				<v8:Примечание/>
+			</v8:Образование>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2da-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -52,6 +106,13 @@
 			<v8:Code>Ког</v8:Code>
 			<v8:Description>Коган</v8:Description>
 			<v8:PredefinedDataName>Коган</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2db-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -59,6 +120,13 @@
 			<v8:Code>Кро</v8:Code>
 			<v8:Description>Кротов</v8:Description>
 			<v8:PredefinedDataName>Кротов</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2dc-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -66,6 +134,13 @@
 			<v8:Code>Кро</v8:Code>
 			<v8:Description>Кротова</v8:Description>
 			<v8:PredefinedDataName>Кротова</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2dd-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -73,6 +148,13 @@
 			<v8:Code>Лох</v8:Code>
 			<v8:Description>Лоханкина</v8:Description>
 			<v8:PredefinedDataName>Лоханкина</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2de-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -80,6 +162,13 @@
 			<v8:Code>Ман</v8:Code>
 			<v8:Description>Мансуров</v8:Description>
 			<v8:PredefinedDataName>Мансуров</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2df-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -87,6 +176,13 @@
 			<v8:Code>Миш</v8:Code>
 			<v8:Description>Мишин</v8:Description>
 			<v8:PredefinedDataName>Мишин</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2e0-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -94,6 +190,13 @@
 			<v8:Code>Миш</v8:Code>
 			<v8:Description>Мишина</v8:Description>
 			<v8:PredefinedDataName>Мишина</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2e1-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -101,6 +204,13 @@
 			<v8:Code>Оно</v8:Code>
 			<v8:Description>Онопко</v8:Description>
 			<v8:PredefinedDataName>Онопко</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2e2-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -108,6 +218,13 @@
 			<v8:Code>Пет</v8:Code>
 			<v8:Description>Петренко</v8:Description>
 			<v8:PredefinedDataName>Петренко</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2e3-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -115,6 +232,13 @@
 			<v8:Code>Пет</v8:Code>
 			<v8:Description>Петров</v8:Description>
 			<v8:PredefinedDataName>Петров</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2e4-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -122,6 +246,13 @@
 			<v8:Code>Сид</v8:Code>
 			<v8:Description>Сидоров</v8:Description>
 			<v8:PredefinedDataName>Сидоров</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2e5-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -129,6 +260,13 @@
 			<v8:Code>Сте</v8:Code>
 			<v8:Description>Степанов</v8:Description>
 			<v8:PredefinedDataName>Степанов</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2e6-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -136,6 +274,13 @@
 			<v8:Code>Фед</v8:Code>
 			<v8:Description>Федоров</v8:Description>
 			<v8:PredefinedDataName>Федоров</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2e7-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -143,6 +288,13 @@
 			<v8:Code>Фед</v8:Code>
 			<v8:Description>Федорова</v8:Description>
 			<v8:PredefinedDataName>Федорова</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Сотрудники>
 			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">ee72b2e8-138b-11e9-beb2-8c89a50dff9f</v8:Ref>
@@ -150,6 +302,13 @@
 			<v8:Code>Хаб</v8:Code>
 			<v8:Description>Хабибулин</v8:Description>
 			<v8:PredefinedDataName>Хабибулин</v8:PredefinedDataName>
+			<v8:Фамилия/>
+			<v8:Имя/>
+			<v8:Отчество/>
+			<v8:Пол/>
+			<v8:ИНН>            </v8:ИНН>
+			<v8:СтраховойНомерПФР>              </v8:СтраховойНомерПФР>
+			<v8:ДатаРождения>0001-01-01T00:00:00</v8:ДатаРождения>
 		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Подразделения>
 			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">ee72b2cf-138b-11e9-beb2-8c89a50dff9f</v8:Ref>

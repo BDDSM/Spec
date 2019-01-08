@@ -124,6 +124,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ПериодическиеРасчеты</Subsystem>
+			<FilterCriterion>ПоСотруднику</FilterCriterion>
 			<CommonModule>Расчеты</CommonModule>
 			<Constant>КоличествоРабочихЧасов</Constant>
 			<Catalog>Сотрудники</Catalog>
