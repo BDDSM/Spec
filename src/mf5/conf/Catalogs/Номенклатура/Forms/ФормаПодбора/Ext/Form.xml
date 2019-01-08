@@ -88,6 +88,13 @@
 			<ContextMenu name="ОтобранныеТоварыКонтекстноеМеню" id="30"/>
 			<AutoCommandBar name="ОтобранныеТоварыКоманднаяПанель" id="31">
 				<Autofill>false</Autofill>
+				<ChildItems>
+					<Button name="ОтобранныеТоварыЗавершитьПодбор" id="48">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ЗавершитьПодбор</CommandName>
+						<ExtendedTooltip name="ОтобранныеТоварыЗавершитьПодборРасширеннаяПодсказка" id="49"/>
+					</Button>
+				</ChildItems>
 			</AutoCommandBar>
 			<ExtendedTooltip name="ОтобранныеТоварыРасширеннаяПодсказка" id="32"/>
 			<SearchStringAddition name="ОтобранныеТоварыСтрокаПоиска" id="33">
@@ -216,17 +223,58 @@
 						<v8:NumberQualifiers>
 							<v8:Digits>10</v8:Digits>
 							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="АдресВХ" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес ВХ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ЗавершитьПодбор" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Завершить подбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Завершить подбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗавершитьПодбор</Action>
+		</Command>
+	</Commands>
 	<Parameters>
 		<Parameter name="Склад">
 			<Type>
 				<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+			</Type>
+		</Parameter>
+		<Parameter name="АдресВХ">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Parameter>
 	</Parameters>
