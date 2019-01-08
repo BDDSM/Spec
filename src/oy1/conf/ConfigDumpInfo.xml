@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
 	<ConfigVersions>
-		<Metadata name="AccumulationRegister.ОстаткиНоменклатуры" id="7f1c1d05-89e1-403c-a828-f785e1b7f9b6" configVersion="a67fa5054128e145a36c5a64aa1dc42800000000">
+		<Metadata name="AccumulationRegister.ОстаткиНоменклатуры" id="7f1c1d05-89e1-403c-a828-f785e1b7f9b6" configVersion="f61c32183e568a498fde77218299dbb900000000">
 			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Resource.Количество" id="552517d3-4a0b-4b6a-b030-5e87c5173808"/>
 			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Dimension.Номенклатура" id="e5f9c98d-369b-4904-8ead-1306a1376e80"/>
 		</Metadata>
@@ -14,7 +14,8 @@
 		<Metadata name="Catalog.Номенклатура.ManagerModule" id="61017123-0d5b-4fc9-8b1e-517edf66726d.3" configVersion="ad989ef257076344986d86e15913c5a400000000"/>
 		<Metadata name="Catalog.Номенклатура.ObjectModule" id="61017123-0d5b-4fc9-8b1e-517edf66726d.0" configVersion="9b8269ec5c8c724b9726b4e445242efb00000000"/>
 		<Metadata name="Catalog.Номенклатура.Predefined" id="61017123-0d5b-4fc9-8b1e-517edf66726d.1c" configVersion="06eed2396ae3f9439dc00e84edb09a3100000000"/>
-		<Metadata name="Configuration.ОУ1" id="e44cc989-dea9-4c99-beac-8fd95d45d3a8" configVersion="699ee73fd328bb46be36451aed596cd500000000"/>
+		<Metadata name="Configuration.ОУ1" id="e44cc989-dea9-4c99-beac-8fd95d45d3a8" configVersion="db921dfb68999d40ab190b590dde778000000000"/>
+		<Metadata name="Configuration.ОУ1.ClientApplicationInterface" id="db149818-97e5-467e-8ceb-e841958c9d7d.b" configVersion="a4d33c56211b7244a2e0926b521348c300000000"/>
 		<Metadata name="Document.ПриходнаяНакладная" id="55f4ced2-8b81-4dbf-a9ed-e2f774bea932" configVersion="d22bb86c8d65e64ca756191871877c6c00000000">
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Сумма" id="1e646538-1252-4f40-b98f-7e340b00e5c0"/>
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Количество" id="3edaa0b9-d935-44e9-a143-c7e59976444b"/>
@@ -51,5 +52,9 @@
 		</Metadata>
 		<Metadata name="Enum.УчетнаяПолитика.ManagerModule" id="1d9ce1ca-33be-4e02-85c3-a728527f7ea8.0" configVersion="af62ffcd662a5d41842b287ae185f4bc00000000"/>
 		<Metadata name="Language.Русский" id="9675e683-36b5-48d3-9322-8e166cfb0b5b" configVersion="701d61bfb0c9f7479e6ec4100e06d51900000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет" id="d7e3f58e-dd16-4c9f-a377-cf393610b2be" configVersion="59f69eda8957e14eb08e3e542f36b01700000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.CommandInterface" id="d7e3f58e-dd16-4c9f-a377-cf393610b2be.1" configVersion="c68d5648e0335d4a9375dcad9b8a4cf600000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="3f74e9cf-6cbb-4dce-ab79-9811596539bf" configVersion="199d98c85a6ad540915565a5a89cbb6200000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="1cd3ad1d-1ad8-42fa-804d-bd6115232f0c" configVersion="adf429f3f066264bba432a4716ba20fc00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
