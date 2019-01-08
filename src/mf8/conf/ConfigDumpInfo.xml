@@ -13,7 +13,7 @@
 		<Metadata name="Catalog.ФизическиеЛица.Predefined" id="c60b9ad8-7338-4104-bdab-934cbff0f957.1c" configVersion="5a0d72bf78e70f4fb1a8c43d264908d500000000"/>
 		<Metadata name="Configuration.УФ8" id="c5e3dd4e-5116-42d3-bbf5-c8aceebc9728" configVersion="dc24f294409f1f4298861f180e2a45f300000000"/>
 		<Metadata name="Configuration.УФ8.ClientApplicationInterface" id="31b3f414-86da-4976-9810-6bc5e5527b41.b" configVersion="4ade0a7e105df545b5c69e858156cc7500000000"/>
-		<Metadata name="Document.РасходнаяНакладная" id="180d0e25-5ded-4873-9a99-98427f131a62" configVersion="938f7b6256ab0343b8c96a4a564044f500000000">
+		<Metadata name="Document.РасходнаяНакладная" id="180d0e25-5ded-4873-9a99-98427f131a62" configVersion="7d0d1c063402ab4aba4e4b04479ffc2200000000">
 			<Metadata name="Document.РасходнаяНакладная.Attribute.СуммаПоДокументу" id="0b218561-91b9-4124-94e7-2a489de6fe29"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Сумма" id="243583da-d649-4842-b413-f54832dbca24"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Номенклатура" id="40c10712-fde8-40e4-856f-9df2c16d592e"/>
@@ -21,9 +21,8 @@
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Количество" id="51aa6145-490d-4573-8b5f-046deb5a5cfa"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Цена" id="6962ce73-f6cb-48ae-854a-9400f74edb0a"/>
 		</Metadata>
-		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента" id="b27ec533-a7ba-471b-b66e-ef815c7bfeab" configVersion="0b7dac27df09da4dbe4b5823bf42814700000000"/>
-		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Form" id="b27ec533-a7ba-471b-b66e-ef815c7bfeab.0" configVersion="46f469cf00c9a94393d678264c3f476400000000"/>
-		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Help" id="b27ec533-a7ba-471b-b66e-ef815c7bfeab.1" configVersion="bafba8005e835b4ab0902a006ff50c2800000000"/>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаСписка" id="94300293-97a6-4786-ad66-d2ec3b45650e" configVersion="b791ddaefd758342a93e2acedf8d97d000000000"/>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаСписка.Form" id="94300293-97a6-4786-ad66-d2ec3b45650e.0" configVersion="120163c81afed94486bf098dab855eef00000000"/>
 		<Metadata name="Document.РасходнаяНакладная.Help" id="180d0e25-5ded-4873-9a99-98427f131a62.1" configVersion="1367c38c461482448895c16978d7441a00000000"/>
 		<Metadata name="Document.РасходнаяНакладная.ManagerModule" id="180d0e25-5ded-4873-9a99-98427f131a62.2" configVersion="d1f47d47597e874baf3e82f32611493700000000"/>
 		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="180d0e25-5ded-4873-9a99-98427f131a62.0" configVersion="c9f62a6b4e130f409e0647db8c7d883400000000"/>
