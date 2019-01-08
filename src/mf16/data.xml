@@ -186,6 +186,18 @@
 			<v8:Code>000000003</v8:Code>
 			<v8:Description>Купим все</v8:Description>
 			<v8:Менеджер xsi:type="v8:CatalogRef.Сотрудники">c514c6f1-1369-11e9-beb2-8c89a50dff9f</v8:Менеджер>
+			<v8:ЗначенияСвойств>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">03cac5de-136e-11e9-beb2-8c89a50dff9f</v8:Свойство>
+				<v8:Значение xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Значение>
+			</v8:ЗначенияСвойств>
+			<v8:ЗначенияСвойств>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">03cac5e3-136e-11e9-beb2-8c89a50dff9f</v8:Свойство>
+				<v8:Значение xsi:type="xs:decimal">30</v8:Значение>
+			</v8:ЗначенияСвойств>
+			<v8:ЗначенияСвойств>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">03cac5e0-136e-11e9-beb2-8c89a50dff9f</v8:Свойство>
+				<v8:Значение xsi:type="v8:CatalogRef.ЗначенияСвойств">03cac5e1-136e-11e9-beb2-8c89a50dff9f</v8:Значение>
+			</v8:ЗначенияСвойств>
 		</v8:CatalogObject.Контрагенты>
 		<v8:CatalogObject.Контрагенты>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -195,6 +207,18 @@
 			<v8:Code>000000004</v8:Code>
 			<v8:Description>Купим всегда</v8:Description>
 			<v8:Менеджер xsi:type="v8:CatalogRef.Сотрудники">c514c6f1-1369-11e9-beb2-8c89a50dff9f</v8:Менеджер>
+			<v8:ЗначенияСвойств>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">03cac5de-136e-11e9-beb2-8c89a50dff9f</v8:Свойство>
+				<v8:Значение xsi:type="v8:CatalogRef.Валюты">b2df09ce-136d-11e9-beb2-8c89a50dff9f</v8:Значение>
+			</v8:ЗначенияСвойств>
+			<v8:ЗначенияСвойств>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">03cac5e3-136e-11e9-beb2-8c89a50dff9f</v8:Свойство>
+				<v8:Значение xsi:type="xs:decimal">15</v8:Значение>
+			</v8:ЗначенияСвойств>
+			<v8:ЗначенияСвойств>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">03cac5e0-136e-11e9-beb2-8c89a50dff9f</v8:Свойство>
+				<v8:Значение xsi:type="v8:CatalogRef.ЗначенияСвойств">03cac5e2-136e-11e9-beb2-8c89a50dff9f</v8:Значение>
+			</v8:ЗначенияСвойств>
 		</v8:CatalogObject.Контрагенты>
 		<v8:CatalogObject.Контрагенты>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -204,6 +228,10 @@
 			<v8:Code>000000005</v8:Code>
 			<v8:Description>Поставка</v8:Description>
 			<v8:Менеджер xsi:type="v8:CatalogRef.Сотрудники">c514c6ec-1369-11e9-beb2-8c89a50dff9f</v8:Менеджер>
+			<v8:ЗначенияСвойств>
+				<v8:Свойство xsi:type="v8:ChartOfCharacteristicTypesRef.СвойстваОбъектов">03cac5df-136e-11e9-beb2-8c89a50dff9f</v8:Свойство>
+				<v8:Значение xsi:type="v8:CatalogRef.ЗначенияСвойств">03cac5e4-136e-11e9-beb2-8c89a50dff9f</v8:Значение>
+			</v8:ЗначенияСвойств>
 		</v8:CatalogObject.Контрагенты>
 		<v8:CatalogObject.Контрагенты>
 			<v8:IsFolder>false</v8:IsFolder>
