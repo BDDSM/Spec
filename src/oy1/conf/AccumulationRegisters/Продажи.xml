@@ -131,11 +131,11 @@
 			</Resource>
 			<Dimension uuid="64629975-8a3a-4d90-886e-5ecebeda5110">
 				<Properties>
-					<Name>Номенклаутра</Name>
+					<Name>Номенклатура</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номенклаутра</v8:content>
+							<v8:content>Номенклатура</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

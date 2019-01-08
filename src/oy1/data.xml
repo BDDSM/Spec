@@ -312,7 +312,7 @@
 				<v8:Recorder>207af675-1325-11e9-beb2-8c89a50dff9f</v8:Recorder>
 				<v8:Period>2018-10-24T12:00:00</v8:Period>
 				<v8:Active>true</v8:Active>
-				<v8:Номенклаутра xsi:type="v8:CatalogRef.Номенклатура">978637d6-3fb7-11df-af8e-001302ef9025</v8:Номенклаутра>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">978637d6-3fb7-11df-af8e-001302ef9025</v8:Номенклатура>
 				<v8:Количество>4</v8:Количество>
 				<v8:Стоимость>60000</v8:Стоимость>
 			</v8:Record>
@@ -320,7 +320,7 @@
 				<v8:Recorder>207af675-1325-11e9-beb2-8c89a50dff9f</v8:Recorder>
 				<v8:Period>2018-10-24T12:00:00</v8:Period>
 				<v8:Active>true</v8:Active>
-				<v8:Номенклаутра xsi:type="v8:CatalogRef.Номенклатура">978637d7-3fb7-11df-af8e-001302ef9025</v8:Номенклаутра>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">978637d7-3fb7-11df-af8e-001302ef9025</v8:Номенклатура>
 				<v8:Количество>4</v8:Количество>
 				<v8:Стоимость>72000</v8:Стоимость>
 			</v8:Record>
@@ -328,7 +328,7 @@
 				<v8:Recorder>207af675-1325-11e9-beb2-8c89a50dff9f</v8:Recorder>
 				<v8:Period>2018-10-24T12:00:00</v8:Period>
 				<v8:Active>true</v8:Active>
-				<v8:Номенклаутра xsi:type="v8:CatalogRef.Номенклатура">207af674-1325-11e9-beb2-8c89a50dff9f</v8:Номенклаутра>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">207af674-1325-11e9-beb2-8c89a50dff9f</v8:Номенклатура>
 				<v8:Количество>1</v8:Количество>
 				<v8:Стоимость>1000</v8:Стоимость>
 			</v8:Record>
@@ -528,7 +528,7 @@
 				<v8:Recorder>207af675-1325-11e9-beb2-8c89a50dff9f</v8:Recorder>
 				<v8:Period>2018-10-24T12:00:00</v8:Period>
 				<v8:Active>true</v8:Active>
-				<v8:Номенклаутра xsi:type="v8:CatalogRef.Номенклатура">978637d6-3fb7-11df-af8e-001302ef9025</v8:Номенклаутра>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">978637d6-3fb7-11df-af8e-001302ef9025</v8:Номенклатура>
 				<v8:Количество>4</v8:Количество>
 				<v8:Стоимость>60000</v8:Стоимость>
 			</v8:Record>
@@ -536,7 +536,7 @@
 				<v8:Recorder>207af675-1325-11e9-beb2-8c89a50dff9f</v8:Recorder>
 				<v8:Period>2018-10-24T12:00:00</v8:Period>
 				<v8:Active>true</v8:Active>
-				<v8:Номенклаутра xsi:type="v8:CatalogRef.Номенклатура">978637d7-3fb7-11df-af8e-001302ef9025</v8:Номенклаутра>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">978637d7-3fb7-11df-af8e-001302ef9025</v8:Номенклатура>
 				<v8:Количество>4</v8:Количество>
 				<v8:Стоимость>72000</v8:Стоимость>
 			</v8:Record>
@@ -544,7 +544,7 @@
 				<v8:Recorder>207af675-1325-11e9-beb2-8c89a50dff9f</v8:Recorder>
 				<v8:Period>2018-10-24T12:00:00</v8:Period>
 				<v8:Active>true</v8:Active>
-				<v8:Номенклаутра xsi:type="v8:CatalogRef.Номенклатура">207af674-1325-11e9-beb2-8c89a50dff9f</v8:Номенклаутра>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">207af674-1325-11e9-beb2-8c89a50dff9f</v8:Номенклатура>
 				<v8:Количество>1</v8:Количество>
 				<v8:Стоимость>1000</v8:Стоимость>
 			</v8:Record>
