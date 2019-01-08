@@ -49,7 +49,7 @@
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
-			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
+			<UseOrdinaryFormInManagedApplication>true</UseOrdinaryFormInManagedApplication>
 			<AdditionalFullTextSearchDictionaries/>
 			<CommonSettingsStorage/>
 			<ReportsUserSettingsStorage/>
