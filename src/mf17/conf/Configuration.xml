@@ -131,6 +131,7 @@
 			<Catalog>Графики</Catalog>
 			<Document>НачислениеЗарплаты</Document>
 			<Enum>СпособыРасчета</Enum>
+			<Enum>ПолФизическихЛиц</Enum>
 			<Report>АнализНачислений</Report>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>

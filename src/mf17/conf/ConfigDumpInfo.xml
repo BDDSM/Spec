@@ -19,7 +19,19 @@
 		<Metadata name="Catalog.Графики" id="4740894f-93c1-41db-9a10-895404b01d48" configVersion="d714235801d24c4b87c2def587ef738200000000"/>
 		<Metadata name="Catalog.Подразделения" id="67aa6abf-a9bd-4c52-b86b-c9cb21ca1f59" configVersion="a6d40da28185a34797c8ab507b58547800000000"/>
 		<Metadata name="Catalog.Подразделения.Predefined" id="67aa6abf-a9bd-4c52-b86b-c9cb21ca1f59.1c" configVersion="99ecb3d229c0964f92b5b7438310399d00000000"/>
-		<Metadata name="Catalog.Сотрудники" id="f2f16f86-629a-4997-8d57-2a0d30af8a99" configVersion="483e51a7c23d714b9138ade1ad44bfb000000000"/>
+		<Metadata name="Catalog.Сотрудники" id="f2f16f86-629a-4997-8d57-2a0d30af8a99" configVersion="59ff7f940734b14c86520507b54e65de00000000">
+			<Metadata name="Catalog.Сотрудники.TabularSection.Образование.Attribute.Примечание" id="1c1ca4bc-d40d-4707-94cd-e65753420544"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Пол" id="22119eaf-5039-488a-99da-7e7373660b25"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Отчество" id="420fd74e-3871-4142-a037-5eca3fe3f07a"/>
+			<Metadata name="Catalog.Сотрудники.TabularSection.Образование.Attribute.УчебноеЗаведение" id="6bbd72e3-88b0-4b93-b751-0257bbb0efce"/>
+			<Metadata name="Catalog.Сотрудники.TabularSection.Образование" id="755e10d7-8b66-4232-8857-0083c004f822"/>
+			<Metadata name="Catalog.Сотрудники.TabularSection.Образование.Attribute.ДатаПриема" id="98363907-77bb-4b95-a291-8fd686ac7105"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Фамилия" id="a05a2e15-0d06-4dfe-8a7e-dc75bf916228"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.ИНН" id="b1de5167-430a-4547-b1f6-2a5f6507d73d"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.СтраховойНомерПФР" id="b7cc2116-8315-47bb-b273-95a435ab5bae"/>
+			<Metadata name="Catalog.Сотрудники.TabularSection.Образование.Attribute.ДатаОкончания" id="c75d8166-64ce-458e-95de-a2c581bbb32f"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Имя" id="ede3759b-94d5-4ef2-86f5-c483ce3584fc"/>
+		</Metadata>
 		<Metadata name="Catalog.Сотрудники.Predefined" id="f2f16f86-629a-4997-8d57-2a0d30af8a99.1c" configVersion="c5c027b2c8cd6c4ca077acd31cdbeb2600000000"/>
 		<Metadata name="ChartOfCalculationTypes.ДополнительныеНачисления" id="e78eaad2-010c-4603-8430-646592f3756d" configVersion="9b634f42f3bbd544bee530ef3e6275de00000000">
 			<Metadata name="ChartOfCalculationTypes.ДополнительныеНачисления.Attribute.СпособРасчета" id="87a9734c-dfa6-4ef9-bcc6-ad92bb1bb8ff"/>
@@ -31,7 +43,7 @@
 		<Metadata name="ChartOfCalculationTypes.ОсновныеНачисления.Predefined" id="f0cecacf-0551-4375-8e06-7347890f8e9b.2" configVersion="98305ecee6551a4398854aa39a3c621d00000000"/>
 		<Metadata name="CommonModule.Расчеты" id="35c4bca2-2004-49b3-b341-0238884b40e3" configVersion="cd2fc7f3e8aa9c40958f96dde3607d4d00000000"/>
 		<Metadata name="CommonModule.Расчеты.Module" id="35c4bca2-2004-49b3-b341-0238884b40e3.0" configVersion="65289fb8f97fca4692d2b3c1f289eda400000000"/>
-		<Metadata name="Configuration.УФ17" id="254903b0-1ac7-4d82-a446-fe3899b2d0d8" configVersion="397f7f88b0e3664285a007bb48fa612b00000000"/>
+		<Metadata name="Configuration.УФ17" id="254903b0-1ac7-4d82-a446-fe3899b2d0d8" configVersion="558c2897cda16046be2a9e00e72b203700000000"/>
 		<Metadata name="Configuration.УФ17.ClientApplicationInterface" id="17cf5c57-0619-48df-8825-983bdf886edf.b" configVersion="a1a9f24f941b9f4c8841182121c7155000000000"/>
 		<Metadata name="Constant.КоличествоРабочихЧасов" id="c2b5311f-66db-4931-b720-5df391e98088" configVersion="ed141cf4972adc4eb22508eb0b7cb40200000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика" id="6cc1801f-a6bb-4066-a459-c8f62db104f0" configVersion="52d27d829c978a4d9b144b0a789af6c500000000">
@@ -64,6 +76,11 @@
 		<Metadata name="Document.НачислениеЗарплаты.Form.ФормаДокумента" id="73e76949-542e-4824-b97f-a17b5d3b1e70" configVersion="453e21031f1db74aa81ab27590f7ced600000000"/>
 		<Metadata name="Document.НачислениеЗарплаты.Form.ФормаДокумента.Form" id="73e76949-542e-4824-b97f-a17b5d3b1e70.0" configVersion="c5ea1a8714bb5949a4114cd1a34ab8aa00000000"/>
 		<Metadata name="Document.НачислениеЗарплаты.ObjectModule" id="5f7b4017-de27-421b-84dd-8ec4866002b3.0" configVersion="eb380031225c194198786034098bf96000000000"/>
+		<Metadata name="Enum.ПолФизическихЛиц" id="8d2adb37-a2eb-45fd-aea2-0e46ca14f25e" configVersion="f0f19d3079cade4e8ac2647182157ab900000000">
+			<Metadata name="Enum.ПолФизическихЛиц.EnumValue.Женский" id="5e1aa240-ad93-4275-87d1-7f378214aba8"/>
+			<Metadata name="Enum.ПолФизическихЛиц.EnumValue.Мужской" id="ffbbf332-906c-4167-971b-ee80afff100e"/>
+		</Metadata>
+		<Metadata name="Enum.ПолФизическихЛиц.ManagerModule" id="8d2adb37-a2eb-45fd-aea2-0e46ca14f25e.0" configVersion="1a78a12380357e4496e8c2ab41f5ab7200000000"/>
 		<Metadata name="Enum.СпособыРасчета" id="87b46262-947e-44a1-aa55-7522583d56bc" configVersion="01b9c130d3a2ef4b8ee924f2f9b893dd00000000">
 			<Metadata name="Enum.СпособыРасчета.EnumValue.Процентом" id="07a8ed94-9379-4c42-9d77-a1aab368bd0a"/>
 			<Metadata name="Enum.СпособыРасчета.EnumValue.ПоСреднему" id="bc6d5639-d739-493b-b812-74d79dd7f6eb"/>
