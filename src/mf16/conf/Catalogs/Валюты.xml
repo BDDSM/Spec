@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Catalog uuid="f966838e-7292-4fd0-b7a2-ba3fd14c2102">
+	<Catalog uuid="133eb83b-1588-43c7-932f-2cde2c5f8807">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.ФизическиеЛица" category="Object">
-				<xr:TypeId>e11cfb1c-ed34-4840-8913-c36961a24c24</xr:TypeId>
-				<xr:ValueId>4f48acdd-4e4b-46d9-974c-f8767980118e</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Валюты" category="Object">
+				<xr:TypeId>f8570894-6a18-4743-9cef-f66efa10a2dc</xr:TypeId>
+				<xr:ValueId>b886a4e4-6e0b-4c8d-9718-623074f9980f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.ФизическиеЛица" category="Ref">
-				<xr:TypeId>1b87d9d3-b149-438f-9646-344588c4a2a5</xr:TypeId>
-				<xr:ValueId>ba24067d-9942-4e76-bbef-07bccf9694bb</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Валюты" category="Ref">
+				<xr:TypeId>8bf1b154-7047-40c6-a411-fc626e49f05c</xr:TypeId>
+				<xr:ValueId>8d5c9edb-6fa1-45a1-ad05-133eb5d59b39</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.ФизическиеЛица" category="Selection">
-				<xr:TypeId>d7f221e7-f253-4c1b-8589-0ecdf29fa5fa</xr:TypeId>
-				<xr:ValueId>28776e04-4c1b-43a5-b1d9-822937f4d6e6</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Валюты" category="Selection">
+				<xr:TypeId>6916c061-3740-4d73-990f-ab3401fd59fa</xr:TypeId>
+				<xr:ValueId>41cc127e-688f-400e-8137-96141e11533f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.ФизическиеЛица" category="List">
-				<xr:TypeId>5a857784-05fb-4d19-94ca-d81b6d0a4819</xr:TypeId>
-				<xr:ValueId>729ab548-140a-4bb1-8abb-0b9abf954902</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Валюты" category="List">
+				<xr:TypeId>7888ba3d-d659-4bf5-91f4-43f847e8a45a</xr:TypeId>
+				<xr:ValueId>793935c8-cbe3-4772-a73c-1339eed30628</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.ФизическиеЛица" category="Manager">
-				<xr:TypeId>667c7000-fca6-42c0-8f58-9b49803818dc</xr:TypeId>
-				<xr:ValueId>b0fe9d63-3949-47d7-b7f9-7458306d1453</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Валюты" category="Manager">
+				<xr:TypeId>402d516a-6b0c-401d-b25e-e92728c0c1b1</xr:TypeId>
+				<xr:ValueId>d0419144-fd19-4ba9-bcce-d373e9818d31</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ФизическиеЛица</Name>
+			<Name>Валюты</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Физические лица</v8:content>
+					<v8:content>Валюты</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -40,10 +40,10 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>25</CodeLength>
+			<CodeLength>9</CodeLength>
 			<DescriptionLength>25</DescriptionLength>
-			<CodeType>String</CodeType>
-			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<CodeType>Number</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
@@ -277,12 +277,12 @@
 			</StandardAttributes>
 			<Characteristics/>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
-			<EditType>InDialog</EditType>
+			<EditType>InList</EditType>
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.ФизическиеЛица.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.ФизическиеЛица.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Валюты.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Валюты.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>

@@ -124,9 +124,10 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>УправляемыеФормы</Subsystem>
-			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>Сотрудники</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ЗначенияСвойств</Catalog>
+			<Catalog>Валюты</Catalog>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>

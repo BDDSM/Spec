@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Catalog uuid="0846d44f-f11c-43f4-95e8-6a4eaa0c794b">
+	<Catalog uuid="f966838e-7292-4fd0-b7a2-ba3fd14c2102">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Контрагенты" category="Object">
-				<xr:TypeId>eaad5d0e-f28f-4f2a-b132-693775e1aa71</xr:TypeId>
-				<xr:ValueId>51fa00e5-dae2-4fa6-b9ff-c51798974209</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Сотрудники" category="Object">
+				<xr:TypeId>e11cfb1c-ed34-4840-8913-c36961a24c24</xr:TypeId>
+				<xr:ValueId>4f48acdd-4e4b-46d9-974c-f8767980118e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Контрагенты" category="Ref">
-				<xr:TypeId>636b0507-7893-4d21-a38e-0df6d186db8b</xr:TypeId>
-				<xr:ValueId>73112462-89f5-45ce-84f7-4987f6d43a16</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Сотрудники" category="Ref">
+				<xr:TypeId>1b87d9d3-b149-438f-9646-344588c4a2a5</xr:TypeId>
+				<xr:ValueId>ba24067d-9942-4e76-bbef-07bccf9694bb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Контрагенты" category="Selection">
-				<xr:TypeId>fe550421-2049-4714-90db-f77677fa0df9</xr:TypeId>
-				<xr:ValueId>a87faeb4-6f3b-4a89-8885-f732f77b3558</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Сотрудники" category="Selection">
+				<xr:TypeId>d7f221e7-f253-4c1b-8589-0ecdf29fa5fa</xr:TypeId>
+				<xr:ValueId>28776e04-4c1b-43a5-b1d9-822937f4d6e6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Контрагенты" category="List">
-				<xr:TypeId>fd01ed59-065c-4c4c-ba07-0ddbd897736f</xr:TypeId>
-				<xr:ValueId>361d494e-ce81-40e5-aadf-a681e6b757fb</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Сотрудники" category="List">
+				<xr:TypeId>5a857784-05fb-4d19-94ca-d81b6d0a4819</xr:TypeId>
+				<xr:ValueId>729ab548-140a-4bb1-8abb-0b9abf954902</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Контрагенты" category="Manager">
-				<xr:TypeId>d07f484f-6f76-4510-9419-8cb5b2c190e5</xr:TypeId>
-				<xr:ValueId>3c1169bf-fcda-4602-9684-5b0b4ec8f587</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Сотрудники" category="Manager">
+				<xr:TypeId>667c7000-fca6-42c0-8f58-9b49803818dc</xr:TypeId>
+				<xr:ValueId>b0fe9d63-3949-47d7-b7f9-7458306d1453</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Контрагенты</Name>
+			<Name>Сотрудники</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Контрагенты</v8:content>
+					<v8:content>Сотрудники</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<Hierarchical>true</Hierarchical>
+			<Hierarchical>false</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
 			<LevelCount>2</LevelCount>
@@ -40,7 +40,7 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>9</CodeLength>
+			<CodeLength>25</CodeLength>
 			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
@@ -281,13 +281,13 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Контрагенты.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Контрагенты.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Сотрудники.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Сотрудники.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
@@ -311,62 +311,23 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="c6ad6bd5-6f5a-419b-88a7-1fc5a2651aed">
-				<Properties>
-					<Name>Менеджер</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Менеджер</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-				</Properties>
-			</Attribute>
-			<TabularSection uuid="d57321db-8507-40a9-a8d0-14162381f172">
+			<TabularSection uuid="f73b7fae-2669-4fd5-b4a8-34866cf92cb4">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.Контрагенты.ЗначенияСвойств" category="TabularSection">
-						<xr:TypeId>8c273205-2493-44cb-a13f-65b482a8e38a</xr:TypeId>
-						<xr:ValueId>dd9563a8-76fe-456b-93f7-84022bd4f5a1</xr:ValueId>
+					<xr:GeneratedType name="CatalogTabularSection.Сотрудники.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>b8553965-2a6b-4279-bdf9-7f20de6f1cc1</xr:TypeId>
+						<xr:ValueId>9812b7ac-c06c-4196-a41e-678426e4a129</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.Контрагенты.ЗначенияСвойств" category="TabularSectionRow">
-						<xr:TypeId>c83692c0-1fa5-4a80-be35-21f05dce63e1</xr:TypeId>
-						<xr:ValueId>b7232551-f37c-456a-94c5-be42d81ca227</xr:ValueId>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Сотрудники.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>2969add9-9aba-432b-9472-b62efd0e3c62</xr:TypeId>
+						<xr:ValueId>2c09144b-f378-4cd6-917c-140c470bf2e9</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>ЗначенияСвойств</Name>
+					<Name>ДополнительныеРеквизиты</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Значения свойств</v8:content>
+							<v8:content>Дополнительные реквизиты</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -375,54 +336,18 @@
 					<Use>ForItem</Use>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="0f56706c-4641-4ee1-bac4-56dd47612616">
+					<Attribute uuid="e002dd00-aa79-4e37-9132-1f55e4605132">
 						<Properties>
-							<Name>Свойство</Name>
+							<Name>Реквизит</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Свойство</v8:content>
+									<v8:content>Реквизит</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
 							<Type>
 								<v8:Type>cfg:ChartOfCharacteristicTypesRef.СвойстваОбъектов</v8:Type>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-						</Properties>
-					</Attribute>
-					<Attribute uuid="c3ea019f-7429-4495-81bf-45cefa05b727">
-						<Properties>
-							<Name>Значение</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Значение</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:TypeSet>cfg:Characteristic.СвойстваОбъектов</v8:TypeSet>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
