@@ -123,6 +123,10 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>ОперативныйУчет</Subsystem>
+			<Subsystem>БухгалтерскийУчет</Subsystem>
+			<Subsystem>ПериодическиеРасчеты</Subsystem>
+			<Subsystem>БизнесПроцессы</Subsystem>
 			<Constant>НазваниеОрганизации</Constant>
 			<Constant>ЮридическийАдрес</Constant>
 			<Catalog>Валюты</Catalog>
