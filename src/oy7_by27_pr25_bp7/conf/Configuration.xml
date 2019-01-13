@@ -127,13 +127,15 @@
 			<Subsystem>БухгалтерскийУчет</Subsystem>
 			<Subsystem>ПериодическиеРасчеты</Subsystem>
 			<Subsystem>БизнесПроцессы</Subsystem>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<Role>ПолныеПрава</Role>
 			<CommonModule>Расчеты</CommonModule>
 			<Constant>НазваниеОрганизации</Constant>
 			<Constant>ЮридическийАдрес</Constant>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Контрагенты</Catalog>
-			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>Сотрудники</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>ЗначенияСвойств</Catalog>
 			<Catalog>Субконто</Catalog>
