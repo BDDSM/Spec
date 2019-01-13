@@ -187,7 +187,11 @@
 			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords/>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Продажи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Партии</xr:Item>
+			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -202,23 +206,18 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="f2a4723e-5e34-4604-bde4-f377ba16d5b9">
+			<Attribute uuid="3e8b9692-fe66-4221-8e53-de8e5d6fbbb6">
 				<Properties>
-					<Name>СуммаПоДокументу</Name>
+					<Name>Склад</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма по документу</v8:content>
+							<v8:content>Склад</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>12</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -248,21 +247,21 @@
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="c3c0c3c2-b99a-4537-90b8-6c14a1b4738a">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.РасходнаяНакладная.СписокНоменклатуры" category="TabularSection">
+					<xr:GeneratedType name="DocumentTabularSection.РасходнаяНакладная.Товары" category="TabularSection">
 						<xr:TypeId>b4cfa5e8-6246-4b48-a468-6c35fb02f181</xr:TypeId>
 						<xr:ValueId>15cc0837-e81c-4655-8cf2-1a4420679456</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.РасходнаяНакладная.СписокНоменклатуры" category="TabularSectionRow">
+					<xr:GeneratedType name="DocumentTabularSectionRow.РасходнаяНакладная.Товары" category="TabularSectionRow">
 						<xr:TypeId>a50da58c-b652-428c-90da-9779b0e306ed</xr:TypeId>
 						<xr:ValueId>010aa1ad-2944-4101-8912-bc519a320db5</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>СписокНоменклатуры</Name>
+					<Name>Товары</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Список номенклатуры</v8:content>
+							<v8:content>Товары</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
