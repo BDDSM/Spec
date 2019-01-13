@@ -127,6 +127,7 @@
 			<Subsystem>БухгалтерскийУчет</Subsystem>
 			<Subsystem>ПериодическиеРасчеты</Subsystem>
 			<Subsystem>БизнесПроцессы</Subsystem>
+			<CommonModule>Расчеты</CommonModule>
 			<Constant>НазваниеОрганизации</Constant>
 			<Constant>ЮридическийАдрес</Constant>
 			<Catalog>Валюты</Catalog>
