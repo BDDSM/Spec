@@ -130,6 +130,9 @@
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommonModule>Расчеты</CommonModule>
+			<CommonModule>РасчетСебестоимости</CommonModule>
+			<ScheduledJob>РасчетСебестоимости</ScheduledJob>
+			<CommonCommand>РассчитатьСебестоимость</CommonCommand>
 			<Constant>НазваниеОрганизации</Constant>
 			<Constant>ЮридическийАдрес</Constant>
 			<Catalog>Валюты</Catalog>
@@ -154,6 +157,7 @@
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<InformationRegister>УчетнаяПолитика</InformationRegister>
+			<InformationRegister>ГраницаРасчетаСебестоимости</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>Партии</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
