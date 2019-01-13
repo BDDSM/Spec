@@ -54,7 +54,7 @@
 		<Metadata name="CommonModule.РасчетСебестоимости.Module" id="353b8e61-518e-409f-913d-4edc354cf920.0" configVersion="f75e760b4ec84f43875834f6d4a66e8e00000000"/>
 		<Metadata name="CommonModule.Расчеты" id="2f946d32-2d63-4c44-bf03-7d8c7b4d68b1" configVersion="c71123bb0618d848b93b257dfd6cc66700000000"/>
 		<Metadata name="CommonModule.Расчеты.Module" id="2f946d32-2d63-4c44-bf03-7d8c7b4d68b1.0" configVersion="ecc3233170a03d4d88721bfb02234d8f00000000"/>
-		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7" id="a259e977-ea98-4f61-99f3-ce6b5fd45093" configVersion="7c419b5805e555418164c443267c273d00000000"/>
+		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7" id="a259e977-ea98-4f61-99f3-ce6b5fd45093" configVersion="bcc4f2523b15f04c9471cbd0f1d6a1dd00000000"/>
 		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7.ClientApplicationInterface" id="8bbfd0c8-d6cb-438f-b190-da92c34072ba.b" configVersion="23830c8f4a219147ac31ef7bf9942dd300000000"/>
 		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7.CommandInterface" id="8bbfd0c8-d6cb-438f-b190-da92c34072ba.a" configVersion="5eef96bd13de9e4897c5d2715d183dda00000000"/>
 		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7.SessionModule" id="8bbfd0c8-d6cb-438f-b190-da92c34072ba.7" configVersion="157e7b4f685ebb40925e7be759ef0b7600000000"/>
@@ -151,6 +151,12 @@
 			<Metadata name="InformationRegister.УчетнаяПолитика.Resource.МетодСписания" id="906bd169-5764-41b1-9377-04215d405eba"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="8af77b22-4bf0-44a7-b8ec-65c8279bc1ce" configVersion="7f9b66f2fea73b4e8e8ab695c4f5536300000000"/>
+		<Metadata name="Report.Остатки" id="fe43df11-1905-4909-b2e9-7cf4dc8d2ba8" configVersion="2ba7a7c23d0f504e919a9dc2ba603a8700000000"/>
+		<Metadata name="Report.Остатки.Template.ОсновнаяСхемаКомпоновкиДанных" id="671b5bb6-cf74-40d1-b508-a83b9d35bab5" configVersion="426d3566ce61294097fce0b8355f17fb00000000"/>
+		<Metadata name="Report.Остатки.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="671b5bb6-cf74-40d1-b508-a83b9d35bab5.0" configVersion="5cd05a6f5b006c4495a7661612f6779200000000"/>
+		<Metadata name="Report.Продажи" id="094249b1-2209-47f4-b83f-45da47beed2d" configVersion="25a4458a00602b409e7251865cdd035600000000"/>
+		<Metadata name="Report.Продажи.Template.ОсновнаяСхемаКомпоновкиДанных" id="401b0bb4-9a3f-41b6-abd7-0fa85e22ad66" configVersion="b26d1338f835b941a75021fdeaab345100000000"/>
+		<Metadata name="Report.Продажи.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="401b0bb4-9a3f-41b6-abd7-0fa85e22ad66.0" configVersion="75d82efe224e694daf0ca3d9a621365b00000000"/>
 		<Metadata name="Role.ПолныеПрава" id="b125ae37-2a56-4c35-9f98-b67ba61e868c" configVersion="86de405b51a5344f890b456a8ea54fe200000000"/>
 		<Metadata name="Role.ПолныеПрава.Rights" id="b125ae37-2a56-4c35-9f98-b67ba61e868c.0" configVersion="ec2333dfdb00644c95ad194d66513c8700000000"/>
 		<Metadata name="ScheduledJob.РасчетСебестоимости" id="14f0c76b-ef31-4239-aac5-19f8f282b5cb" configVersion="ce73e9f09563c74eb45b061b784c222d00000000"/>
@@ -162,7 +168,7 @@
 		<Metadata name="Subsystem.БухгалтерскийУчет.CommandInterface" id="15a0681e-3202-427f-a719-5c8412fe2fa3.1" configVersion="15a443b8b201be47bfc1d4096a4186e300000000"/>
 		<Metadata name="Subsystem.БухгалтерскийУчет.Subsystem.Документы" id="bdc42eb5-7580-4aba-b5fe-a034888e9077" configVersion="c404a25b851f0e40b05ca44cdf3fd32900000000"/>
 		<Metadata name="Subsystem.БухгалтерскийУчет.Subsystem.Справочники" id="2ccf0846-20f8-4622-be44-b518b7a71b25" configVersion="2c6cafd095252143a9f87a388cc7ec3100000000"/>
-		<Metadata name="Subsystem.ОперативныйУчет" id="21556775-75f8-4f7a-9eab-bf56d4606b81" configVersion="6e035cfee3132145b656aaebf54eae2300000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет" id="21556775-75f8-4f7a-9eab-bf56d4606b81" configVersion="f9888bbc37ff3a4c94d990ce317ee00800000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.CommandInterface" id="21556775-75f8-4f7a-9eab-bf56d4606b81.1" configVersion="79543d86faf4424cbce8b1a2d1a1ac7100000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="eed35a16-37f6-4c4d-a648-624ec1554df4" configVersion="db7a559ce4daa54f8cce0d7def7c63e800000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="dc2beee0-0431-4217-8219-21bc82460a45" configVersion="bdb3f60d0929b247b8118d75d3d3e33600000000"/>
