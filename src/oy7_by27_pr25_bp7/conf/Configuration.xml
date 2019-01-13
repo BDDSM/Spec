@@ -32,7 +32,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>ОУ7, БУ 27, ПР 25, БП 7</v8:content>
+					<v8:content>ОУ 7, БУ 27, ПР 25, БП 7</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -147,6 +147,7 @@
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
 			<Document>Операция</Document>
+			<Document>Сборка</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Enum>ПолФизическихЛиц</Enum>
@@ -160,12 +161,14 @@
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<InformationRegister>УчетнаяПолитика</InformationRegister>
 			<InformationRegister>ГраницаРасчетаСебестоимости</InformationRegister>
+			<InformationRegister>СоставКомплекта</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>Партии</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
+			<AccountingRegister>Проводки</AccountingRegister>
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
