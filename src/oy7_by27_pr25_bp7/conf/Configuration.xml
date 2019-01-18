@@ -148,6 +148,7 @@
 			<Document>НачислениеЗарплаты</Document>
 			<Document>Операция</Document>
 			<Document>Сборка</Document>
+			<Sequence>Расход</Sequence>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Enum>ПолФизическихЛиц</Enum>
