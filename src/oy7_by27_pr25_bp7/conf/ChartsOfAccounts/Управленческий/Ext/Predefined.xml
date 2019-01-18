@@ -121,6 +121,18 @@
 				</AccountingFlags>
 				<ExtDimensionTypes/>
 			</Item>
+			<Item id="42093e30-8097-4279-aaf9-c1d4ea335fe9">
+				<Name>ВспомогательноеПроизводство</Name>
+				<Code>01.09</Code>
+				<Description>Вспомогательное производство</Description>
+				<AccountType>Active</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order>01.09</Order>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.Управленческий.AccountingFlag.Количественный">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes/>
+			</Item>
 		</ChildItems>
 	</Item>
 	<Item id="f1d3fc69-13c3-4f01-8437-651115922841">
