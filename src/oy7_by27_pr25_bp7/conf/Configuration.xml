@@ -143,6 +143,7 @@
 			<Catalog>ЗначенияСвойств</Catalog>
 			<Catalog>Субконто</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>Графики</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
@@ -164,6 +165,7 @@
 			<InformationRegister>УчетнаяПолитика</InformationRegister>
 			<InformationRegister>ГраницаРасчетаСебестоимости</InformationRegister>
 			<InformationRegister>СоставКомплекта</InformationRegister>
+			<InformationRegister>ГарантированныеОклады</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>Партии</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
@@ -174,6 +176,9 @@
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
+			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
+			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
+			<CalculationRegister>Удержания</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

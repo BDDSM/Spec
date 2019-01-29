@@ -1,9 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.4">
-	<Item id="33f54a51-398f-4292-b498-980f3faa0ba1">
-		<Name>Премия</Name>
+	<Item id="07752101-ee1f-46d0-8ee5-6efad3d03f4b">
+		<Name>Переработка</Name>
 		<Code>1</Code>
-		<Description>Премия</Description>
+		<Description>Переработка</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Base>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ДополнительныеНачисления.Переработка</CalculationType>
+		</Base>
+	</Item>
+	<Item id="d39ac9d3-ffc0-400e-9bf9-a8e9f5de7fed">
+		<Name>Прогул</Name>
+		<Code>2</Code>
+		<Description>Прогул</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
 </PredefinedData>
