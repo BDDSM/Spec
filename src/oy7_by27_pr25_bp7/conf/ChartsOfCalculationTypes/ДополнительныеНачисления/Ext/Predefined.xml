@@ -8,6 +8,7 @@
 		<Base>
 			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</CalculationType>
 			<CalculationType>ChartOfCalculationTypes.ДополнительныеНачисления.Переработка</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.Удержания.Штраф</CalculationType>
 		</Base>
 	</Item>
 	<Item id="d39ac9d3-ffc0-400e-9bf9-a8e9f5de7fed">

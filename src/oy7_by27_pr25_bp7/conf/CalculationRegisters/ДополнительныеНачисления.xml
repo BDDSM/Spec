@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<CalculationRegister uuid="40fbea19-373d-4795-914c-4ccb8bbdecc3">
+	<CalculationRegister uuid="a53560e5-0798-4431-b7cf-c62259982789">
 		<InternalInfo>
 			<xr:GeneratedType name="CalculationRegisterRecord.ДополнительныеНачисления" category="Record">
-				<xr:TypeId>30b1eaee-760b-451b-b2e8-59b0cd70206f</xr:TypeId>
-				<xr:ValueId>eae4c023-37cc-498f-ad62-dfa8056580de</xr:ValueId>
+				<xr:TypeId>a406fa02-83bb-42a6-88f6-99227154dec4</xr:TypeId>
+				<xr:ValueId>cc80b91a-5cc9-4403-ac51-20b1ec08ecf1</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CalculationRegisterManager.ДополнительныеНачисления" category="Manager">
-				<xr:TypeId>8cf79087-78bf-4fea-820d-a39ba9ef8235</xr:TypeId>
-				<xr:ValueId>ae797194-9542-44ca-b234-6a03d6b5ac66</xr:ValueId>
+				<xr:TypeId>fc70e728-6478-406b-b043-2f3a06d53e86</xr:TypeId>
+				<xr:ValueId>676c6f45-42c7-4320-9f95-2b8c96b28a9a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CalculationRegisterSelection.ДополнительныеНачисления" category="Selection">
-				<xr:TypeId>77d2111e-648f-4a3c-a22c-d12bd83052a5</xr:TypeId>
-				<xr:ValueId>0c8c2d2b-afcd-49db-845d-6b1a29f81f10</xr:ValueId>
+				<xr:TypeId>83274b25-aa31-4ef8-bf66-de5a1dda78f2</xr:TypeId>
+				<xr:ValueId>d61e4d7b-88ea-4fab-8dff-e8eaf267b328</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CalculationRegisterList.ДополнительныеНачисления" category="List">
-				<xr:TypeId>279627d3-6db3-4ce0-a6e2-7192eb53593c</xr:TypeId>
-				<xr:ValueId>41d6c61c-e7bb-491d-afa8-c4fa9a494276</xr:ValueId>
+				<xr:TypeId>a44caf9f-5bb0-4265-9c4a-89d02ff35381</xr:TypeId>
+				<xr:ValueId>11ebf4f7-8082-433e-b58a-f601fb872e50</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CalculationRegisterRecordSet.ДополнительныеНачисления" category="RecordSet">
-				<xr:TypeId>6541e78a-3ec2-443b-a095-61919dd79b5b</xr:TypeId>
-				<xr:ValueId>ca5171d0-5319-4511-bce5-4c69cb98546f</xr:ValueId>
+				<xr:TypeId>e71eefe7-2ba3-4ec0-b536-e965a9836492</xr:TypeId>
+				<xr:ValueId>7a6e8792-6833-4cbf-917e-405c1c55b9e0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CalculationRegisterRecordKey.ДополнительныеНачисления" category="RecordKey">
-				<xr:TypeId>2cd510ff-97c9-4482-bc42-ec65beaeed6f</xr:TypeId>
-				<xr:ValueId>da6982c9-9728-43e7-86fa-53bf2aa35c03</xr:ValueId>
+				<xr:TypeId>0cca14e6-f1b1-49a2-b42c-24caa4bbd0c1</xr:TypeId>
+				<xr:ValueId>98598ad7-89b1-4d9c-a574-19552a852132</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="RecalculationsManager.ДополнительныеНачисления" category="Recalcs">
-				<xr:TypeId>8f921077-60e0-442b-8fa2-338148d37b4a</xr:TypeId>
-				<xr:ValueId>49335fac-97c8-4609-93e3-60376407e351</xr:ValueId>
+				<xr:TypeId>fa2b894d-4072-4cb0-aac1-70c0b41cc501</xr:TypeId>
+				<xr:ValueId>b021361e-b65c-4d90-94c8-33fe0630847a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -44,11 +44,11 @@
 			<DefaultListForm/>
 			<AuxiliaryListForm/>
 			<Periodicity>Month</Periodicity>
-			<ActionPeriod>false</ActionPeriod>
+			<ActionPeriod>true</ActionPeriod>
 			<BasePeriod>true</BasePeriod>
-			<Schedule/>
-			<ScheduleValue/>
-			<ScheduleDate/>
+			<Schedule>InformationRegister.ГрафикиРаботы</Schedule>
+			<ScheduleValue>InformationRegister.ГрафикиРаботы.Resource.ЗначениеЧасы</ScheduleValue>
+			<ScheduleDate>InformationRegister.ГрафикиРаботы.Dimension.Дата</ScheduleDate>
 			<ChartOfCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</ChartOfCalculationTypes>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockControlMode>Managed</DataLockControlMode>
@@ -58,7 +58,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="a8a8c2fc-5a4e-4208-a91a-c9841ca8ecd8">
+			<Resource uuid="18577907-9180-4eda-9d41-16214f018422">
 				<Properties>
 					<Name>Результат</Name>
 					<Synonym>
@@ -71,7 +71,7 @@
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
+							<v8:Digits>10</v8:Digits>
 							<v8:FractionDigits>2</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
@@ -98,13 +98,13 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Resource uuid="983b51ad-3491-49f7-b606-1ece110ff769">
+			<Resource uuid="490a7a84-4384-4f13-956f-abd1e35c1d6a">
 				<Properties>
-					<Name>ЧасыПереработки</Name>
+					<Name>Дней</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Часы переработки</v8:content>
+							<v8:content>Дней</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -138,7 +138,86 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Dimension uuid="7f59f9ed-3a64-4ff7-bba6-90d36d0610b6">
+			<Attribute uuid="88767440-7a7f-4c3e-8f23-2fd7d0b28f0d">
+				<Properties>
+					<Name>Размер</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Размер</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<ScheduleLink/>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a20c5775-0a94-4e27-8cdb-dd55907c83f9">
+				<Properties>
+					<Name>График</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>График</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Графики</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<ScheduleLink/>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="90d308cc-70b1-4126-b3df-4894752796e8">
 				<Properties>
 					<Name>Сотрудник</Name>
 					<Synonym>

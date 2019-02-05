@@ -165,7 +165,6 @@
 			<InformationRegister>УчетнаяПолитика</InformationRegister>
 			<InformationRegister>ГраницаРасчетаСебестоимости</InformationRegister>
 			<InformationRegister>СоставКомплекта</InformationRegister>
-			<InformationRegister>ГарантированныеОклады</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>Партии</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
