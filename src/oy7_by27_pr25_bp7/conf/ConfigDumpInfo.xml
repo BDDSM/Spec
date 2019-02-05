@@ -80,7 +80,7 @@
 		<Metadata name="CommonModule.РасчетСебестоимости.Module" id="353b8e61-518e-409f-913d-4edc354cf920.0" configVersion="2f088a3d9b4959498b2310c1cc8f64b400000000"/>
 		<Metadata name="CommonModule.Расчеты" id="2f946d32-2d63-4c44-bf03-7d8c7b4d68b1" configVersion="de0025beaba36349ada6697a5338157900000000"/>
 		<Metadata name="CommonModule.Расчеты.Module" id="2f946d32-2d63-4c44-bf03-7d8c7b4d68b1.0" configVersion="1e97d8a5cef78c45bc88079df8ba963a00000000"/>
-		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7" id="a259e977-ea98-4f61-99f3-ce6b5fd45093" configVersion="b18441f6df9b44488690d0bf2077f33600000000"/>
+		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7" id="a259e977-ea98-4f61-99f3-ce6b5fd45093" configVersion="9a73b54882b1f247835acfdf580187a900000000"/>
 		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7.ClientApplicationInterface" id="8bbfd0c8-d6cb-438f-b190-da92c34072ba.b" configVersion="23830c8f4a219147ac31ef7bf9942dd300000000"/>
 		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7.CommandInterface" id="8bbfd0c8-d6cb-438f-b190-da92c34072ba.a" configVersion="5eef96bd13de9e4897c5d2715d183dda00000000"/>
 		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7.SessionModule" id="8bbfd0c8-d6cb-438f-b190-da92c34072ba.7" configVersion="157e7b4f685ebb40925e7be759ef0b7600000000"/>
@@ -210,6 +210,9 @@
 			<Metadata name="InformationRegister.УчетнаяПолитика.Resource.МетодСписания" id="906bd169-5764-41b1-9377-04215d405eba"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="8af77b22-4bf0-44a7-b8ec-65c8279bc1ce" configVersion="7f9b66f2fea73b4e8e8ab695c4f5536300000000"/>
+		<Metadata name="Report.АнализНачислений" id="a915ad55-b40f-4ebe-a736-24a6f7851daa" configVersion="d89a459929d7614392b44c4dec90878000000000"/>
+		<Metadata name="Report.АнализНачислений.Template.ОсновнаяСхемаКомпоновкиДанных" id="3b26e167-08e7-4750-9783-248d3ebb434e" configVersion="f85225aeb043c04e8d8e5b5b9703932000000000"/>
+		<Metadata name="Report.АнализНачислений.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="3b26e167-08e7-4750-9783-248d3ebb434e.0" configVersion="a3483d836594b24297a88798e9070a6200000000"/>
 		<Metadata name="Report.Остатки" id="fe43df11-1905-4909-b2e9-7cf4dc8d2ba8" configVersion="2ba7a7c23d0f504e919a9dc2ba603a8700000000"/>
 		<Metadata name="Report.Остатки.Template.ОсновнаяСхемаКомпоновкиДанных" id="671b5bb6-cf74-40d1-b508-a83b9d35bab5" configVersion="426d3566ce61294097fce0b8355f17fb00000000"/>
 		<Metadata name="Report.Остатки.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="671b5bb6-cf74-40d1-b508-a83b9d35bab5.0" configVersion="5cd05a6f5b006c4495a7661612f6779200000000"/>
@@ -235,7 +238,7 @@
 		<Metadata name="Subsystem.ОперативныйУчет.CommandInterface" id="21556775-75f8-4f7a-9eab-bf56d4606b81.1" configVersion="79543d86faf4424cbce8b1a2d1a1ac7100000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="eed35a16-37f6-4c4d-a648-624ec1554df4" configVersion="db7a559ce4daa54f8cce0d7def7c63e800000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="dc2beee0-0431-4217-8219-21bc82460a45" configVersion="bdb3f60d0929b247b8118d75d3d3e33600000000"/>
-		<Metadata name="Subsystem.ПериодическиеРасчеты" id="804fa599-60b8-4367-be69-ea453f1500b7" configVersion="e181edc1ca16754f8ca1384d24fd93d900000000"/>
+		<Metadata name="Subsystem.ПериодическиеРасчеты" id="804fa599-60b8-4367-be69-ea453f1500b7" configVersion="93169777fc32914680cd0ab5bfffda1000000000"/>
 		<Metadata name="Subsystem.ПериодическиеРасчеты.CommandInterface" id="804fa599-60b8-4367-be69-ea453f1500b7.1" configVersion="6ad51ad6f5f3f647abed565109d99b5100000000"/>
 		<Metadata name="Subsystem.ПериодическиеРасчеты.Subsystem.Документы" id="fbaaf8eb-5cb4-4a9e-a154-325339b2b78e" configVersion="180f3328eb78fd43b522daaef465d7e000000000"/>
 		<Metadata name="Subsystem.ПериодическиеРасчеты.Subsystem.Справочники" id="30988107-a1bb-4403-900b-f95918342827" configVersion="02461d69f0265b4e9984b942127ed0be00000000"/>
