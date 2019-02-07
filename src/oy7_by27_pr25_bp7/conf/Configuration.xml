@@ -144,6 +144,7 @@
 			<Catalog>Субконто</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>Графики</Catalog>
+			<Catalog>Должности</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
@@ -179,6 +180,8 @@
 			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
 			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
 			<CalculationRegister>Удержания</CalculationRegister>
+			<BusinessProcess>БизнесПроцесс</BusinessProcess>
+			<Task>ЗадачиИсполнителя</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
