@@ -87,7 +87,7 @@
 		<Metadata name="CommonModule.РасчетСебестоимости.Module" id="353b8e61-518e-409f-913d-4edc354cf920.0" configVersion="2f088a3d9b4959498b2310c1cc8f64b400000000"/>
 		<Metadata name="CommonModule.Расчеты" id="2f946d32-2d63-4c44-bf03-7d8c7b4d68b1" configVersion="de0025beaba36349ada6697a5338157900000000"/>
 		<Metadata name="CommonModule.Расчеты.Module" id="2f946d32-2d63-4c44-bf03-7d8c7b4d68b1.0" configVersion="1e97d8a5cef78c45bc88079df8ba963a00000000"/>
-		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7" id="a259e977-ea98-4f61-99f3-ce6b5fd45093" configVersion="64e95363bb035443ba4116112e4a206c00000000"/>
+		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7" id="a259e977-ea98-4f61-99f3-ce6b5fd45093" configVersion="63cb2e65e66eca40aef4f00581fbad1c00000000"/>
 		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7.ClientApplicationInterface" id="8bbfd0c8-d6cb-438f-b190-da92c34072ba.b" configVersion="23830c8f4a219147ac31ef7bf9942dd300000000"/>
 		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7.CommandInterface" id="8bbfd0c8-d6cb-438f-b190-da92c34072ba.a" configVersion="5eef96bd13de9e4897c5d2715d183dda00000000"/>
 		<Metadata name="Configuration.ОУ7_БУ27_ПР25_БП7.HomePageWorkArea" id="8bbfd0c8-d6cb-438f-b190-da92c34072ba.8" configVersion="3c41baf8e467e74482fb84eb05baccec00000000"/>
@@ -100,6 +100,9 @@
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.Form.Форма" id="e3346978-c83c-46f1-84a6-016795427808" configVersion="1c562b779a2c494887ecb2ab4764ef2f00000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.Form.Форма.Form" id="e3346978-c83c-46f1-84a6-016795427808.0" configVersion="207450df316a864bb0b5b4b19ee22ff000000000"/>
 		<Metadata name="DataProcessor.ЗаполнениеГрафика.ObjectModule" id="639471c8-5175-44a2-8108-5b5b752549b0.0" configVersion="338e8059b7f02243877b06a9ac726f6700000000"/>
+		<Metadata name="DataProcessor.КартаМаршрута" id="790d913a-88b6-4c1c-8e28-86a250b9a883" configVersion="49b36df06ccbda49b4e2b3d4a785ae5800000000"/>
+		<Metadata name="DataProcessor.КартаМаршрута.Form.Форма" id="6b4d023b-7a3a-441e-80b0-e3c219a73407" configVersion="c806e62527f1a94fae17e0e84e9fb69c00000000"/>
+		<Metadata name="DataProcessor.КартаМаршрута.Form.Форма.Form" id="6b4d023b-7a3a-441e-80b0-e3c219a73407.0" configVersion="fd46c96333f4ec408094dba9367a055700000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов" id="3430d2a8-8ac5-4082-bf9f-f5217c97b133" configVersion="08a73ec79da0994382873653f1e46df100000000">
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИнтервалАвтосохранения" id="114c8542-53b6-4f6c-9125-cb300f2acab3"/>
 			<Metadata name="DataProcessor.КонсольЗапросов.Attribute.ИспользоватьАвтосохранение" id="b7c29b56-d64f-4c06-a158-377e4ae27e66"/>
@@ -238,7 +241,7 @@
 		<Metadata name="ScheduledJob.РасчетСебестоимости.Schedule" id="14f0c76b-ef31-4239-aac5-19f8f282b5cb.0" configVersion="e4e55ed05f30f644952758a77498091d00000000"/>
 		<Metadata name="Sequence.Расход" id="dc8b6855-3e10-44e6-80bc-d7ccab351aa1" configVersion="218b75aa243118439ecf0afdfc71218f00000000"/>
 		<Metadata name="SessionParameter.ТекущийПользователь" id="1362f9b6-e9c6-4292-aada-1da4e563d217" configVersion="b5974bdc095e2c4aaf5ecfdf065911ee00000000"/>
-		<Metadata name="Subsystem.БизнесПроцессы" id="22005887-4376-4eb7-8db3-88daee4e909c" configVersion="649bfe0f41f8334abd3f9cc51b29268100000000"/>
+		<Metadata name="Subsystem.БизнесПроцессы" id="22005887-4376-4eb7-8db3-88daee4e909c" configVersion="8a490d4b6cd37a40a21b8102fa54449100000000"/>
 		<Metadata name="Subsystem.БизнесПроцессы.Subsystem.Справочники" id="99140031-4300-4873-83f7-a9a95b203c1e" configVersion="5b19654fa3fc8144b0f43c9b4fbd11ff00000000"/>
 		<Metadata name="Subsystem.БухгалтерскийУчет" id="15a0681e-3202-427f-a719-5c8412fe2fa3" configVersion="65dc3225aab26c4288b182ddab8d0cb700000000"/>
 		<Metadata name="Subsystem.БухгалтерскийУчет.CommandInterface" id="15a0681e-3202-427f-a719-5c8412fe2fa3.1" configVersion="15a443b8b201be47bfc1d4096a4186e300000000"/>

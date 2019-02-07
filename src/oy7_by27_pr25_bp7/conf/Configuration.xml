@@ -160,6 +160,7 @@
 			<Report>АнализНачислений</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
+			<DataProcessor>КартаМаршрута</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
 			<InformationRegister>КурсыВалют</InformationRegister>
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
