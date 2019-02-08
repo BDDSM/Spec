@@ -1589,7 +1589,7 @@
 				<v8:BegOfActionPeriod>2018-10-10T00:00:00</v8:BegOfActionPeriod>
 				<v8:EndOfActionPeriod>2018-10-10T23:59:59</v8:EndOfActionPeriod>
 				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">eadb8255-1720-11e9-beb3-8c89a50dff9f</v8:Сотрудник>
-				<v8:Результат>545.92</v8:Результат>
+				<v8:Результат>550.27</v8:Результат>
 				<v8:Дней>0</v8:Дней>
 				<v8:Размер>4</v8:Размер>
 				<v8:График xsi:type="v8:CatalogRef.Графики">72fe2731-23d7-11e9-beb6-8c89a50dff9f</v8:График>
@@ -2040,8 +2040,7 @@
 				<v8:Predefined>true</v8:Predefined>
 			</v8:BaseCalculationTypes>
 			<v8:BaseCalculationTypes>
-				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.Удержания">30667bfa-23d8-11e9-beb6-8c89a50dff9f</v8:CalculationType>
-				<v8:Predefined>true</v8:Predefined>
+				<v8:CalculationType xsi:nil="true"/>
 			</v8:BaseCalculationTypes>
 		</v8:ChartOfCalculationTypesObject.ДополнительныеНачисления>
 		<v8:ChartOfCalculationTypesObject.ДополнительныеНачисления>
@@ -10121,7 +10120,7 @@
 				<v8:BegOfActionPeriod>2018-10-10T00:00:00</v8:BegOfActionPeriod>
 				<v8:EndOfActionPeriod>2018-10-10T23:59:59</v8:EndOfActionPeriod>
 				<v8:Сотрудник xsi:type="v8:CatalogRef.Сотрудники">eadb8255-1720-11e9-beb3-8c89a50dff9f</v8:Сотрудник>
-				<v8:Результат>545.92</v8:Результат>
+				<v8:Результат>550.27</v8:Результат>
 				<v8:Дней>0</v8:Дней>
 				<v8:Размер>4</v8:Размер>
 				<v8:График xsi:type="v8:CatalogRef.Графики">72fe2731-23d7-11e9-beb6-8c89a50dff9f</v8:График>
