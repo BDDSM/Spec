@@ -40,6 +40,7 @@
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">978637c8-3fb7-11df-af8e-001302ef9025</v8:Parent>
 			<v8:Code>5</v8:Code>
 			<v8:Description>Big (капилярная)</v8:Description>
+			<v8:ВидыНоменклатуры>Товар</v8:ВидыНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Номенклатура>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -48,6 +49,7 @@
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">978637c8-3fb7-11df-af8e-001302ef9025</v8:Parent>
 			<v8:Code>6</v8:Code>
 			<v8:Description>Паркер "Golg"</v8:Description>
+			<v8:ВидыНоменклатуры>Товар</v8:ВидыНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Номенклатура>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -56,6 +58,7 @@
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">978637c8-3fb7-11df-af8e-001302ef9025</v8:Parent>
 			<v8:Code>7</v8:Code>
 			<v8:Description>Шариковая обычная</v8:Description>
+			<v8:ВидыНоменклатуры>Товар</v8:ВидыНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Номенклатура>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -64,6 +67,7 @@
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">978637ca-3fb7-11df-af8e-001302ef9025</v8:Parent>
 			<v8:Code>8</v8:Code>
 			<v8:Description>Крупа манная</v8:Description>
+			<v8:ВидыНоменклатуры>Товар</v8:ВидыНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Номенклатура>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -72,6 +76,7 @@
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">978637ca-3fb7-11df-af8e-001302ef9025</v8:Parent>
 			<v8:Code>9</v8:Code>
 			<v8:Description>Йогурт "Малина"</v8:Description>
+			<v8:ВидыНоменклатуры>Товар</v8:ВидыНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Номенклатура>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -80,6 +85,7 @@
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">978637ca-3fb7-11df-af8e-001302ef9025</v8:Parent>
 			<v8:Code>10</v8:Code>
 			<v8:Description>Молоко "Домик в деревне"</v8:Description>
+			<v8:ВидыНоменклатуры>Товар</v8:ВидыНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Номенклатура>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -88,6 +94,7 @@
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">978637c9-3fb7-11df-af8e-001302ef9025</v8:Parent>
 			<v8:Code>11</v8:Code>
 			<v8:Description>Абудефдуф обыкновенный</v8:Description>
+			<v8:ВидыНоменклатуры>Товар</v8:ВидыНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Номенклатура>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -96,6 +103,7 @@
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">978637c9-3fb7-11df-af8e-001302ef9025</v8:Parent>
 			<v8:Code>12</v8:Code>
 			<v8:Description>Бодиан Дианы</v8:Description>
+			<v8:ВидыНоменклатуры>Товар</v8:ВидыНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Номенклатура>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -104,6 +112,7 @@
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">978637c9-3fb7-11df-af8e-001302ef9025</v8:Parent>
 			<v8:Code>13</v8:Code>
 			<v8:Description>Дасцилл синеточечный</v8:Description>
+			<v8:ВидыНоменклатуры>Товар</v8:ВидыНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Номенклатура>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -112,6 +121,7 @@
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">978637cc-3fb7-11df-af8e-001302ef9025</v8:Parent>
 			<v8:Code>14</v8:Code>
 			<v8:Description>Bosch KGS 3760 IE </v8:Description>
+			<v8:ВидыНоменклатуры>Товар</v8:ВидыНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Номенклатура>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -120,6 +130,7 @@
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">978637cc-3fb7-11df-af8e-001302ef9025</v8:Parent>
 			<v8:Code>15</v8:Code>
 			<v8:Description>Electrolux ER 9007 B</v8:Description>
+			<v8:ВидыНоменклатуры>Товар</v8:ВидыНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Номенклатура>
 			<v8:IsFolder>false</v8:IsFolder>
@@ -128,6 +139,16 @@
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">978637cc-3fb7-11df-af8e-001302ef9025</v8:Parent>
 			<v8:Code>16</v8:Code>
 			<v8:Description>Атлант МХМ 1704-00</v8:Description>
+			<v8:ВидыНоменклатуры>Товар</v8:ВидыНоменклатуры>
+		</v8:CatalogObject.Номенклатура>
+		<v8:CatalogObject.Номенклатура>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Номенклатура">9f542a99-2ca2-11e9-beb6-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>17</v8:Code>
+			<v8:Description>Доставка</v8:Description>
+			<v8:ВидыНоменклатуры>Услуга</v8:ВидыНоменклатуры>
 		</v8:CatalogObject.Номенклатура>
 	</V8Exch:Data>
 	<PredefinedData/>
