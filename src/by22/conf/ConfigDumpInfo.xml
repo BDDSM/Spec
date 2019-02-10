@@ -71,7 +71,7 @@
 		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконто.Predefined" id="b9723fcf-18c4-4970-a444-1a10b5630353.7" configVersion="13efb8e0a83e6940a393ee5263641bf900000000"/>
 		<Metadata name="CommonModule.ПроведениеДокументов" id="ce82ae9a-1fed-4145-911d-11daa09cb5c7" configVersion="6281d1ee70f63246b55397c64322e37000000000"/>
 		<Metadata name="CommonModule.ПроведениеДокументов.Module" id="ce82ae9a-1fed-4145-911d-11daa09cb5c7.0" configVersion="a9b16677d1c6ee4b8250182a249d671100000000"/>
-		<Metadata name="Configuration.БП22" id="a3e1b798-b76d-419e-94f0-eb7d4f16aa1e" configVersion="33e390f6d257df46a0d18f93e53f018b00000000"/>
+		<Metadata name="Configuration.БП22" id="a3e1b798-b76d-419e-94f0-eb7d4f16aa1e" configVersion="951028545e2e8f47a299edcd6c9fae5e00000000"/>
 		<Metadata name="Configuration.БП22.ClientApplicationInterface" id="3d08fc75-40e0-441b-a09a-734d6a816c75.b" configVersion="679f712d26ec3c49ad531dad4d5a844500000000"/>
 		<Metadata name="DataProcessor.СформироватьПроводки" id="d9226360-972b-4db0-9681-3854423a900c" configVersion="cc66b727635cb043b3cddd0f1ace5f6200000000"/>
 		<Metadata name="DataProcessor.СформироватьПроводки.Form.Форма" id="2668516c-7b93-4a44-80f6-d22bb785236e" configVersion="010521ec91c4ad42887cb097a22bcd4b00000000"/>
@@ -138,7 +138,10 @@
 		<Metadata name="InformationRegister.УчетнаяПолитика.ManagerModule" id="47af8299-6b31-47df-a90a-3784caa23de7.2" configVersion="8a934c36071c20438409d8ee5ea0e09600000000"/>
 		<Metadata name="InformationRegister.УчетнаяПолитика.RecordSetModule" id="47af8299-6b31-47df-a90a-3784caa23de7.1" configVersion="6f70fa06aa409547b2c90c9de57cda6e00000000"/>
 		<Metadata name="Language.Русский" id="94dcba04-9d55-4256-ab81-e00480d322be" configVersion="b2420e2656eb9e48adf7c9ef2c73a6a500000000"/>
-		<Metadata name="Subsystem.БухгалтерскийУчет" id="8592a998-9c27-432a-a3d5-de165cafa9a6" configVersion="709e6f277941cb4fb458b3668e5030f600000000"/>
+		<Metadata name="Report.Шахматка" id="3db77f98-7347-4f11-89dd-708dd29afac0" configVersion="573d5e92feb6544c9b99e5403a78c1d200000000"/>
+		<Metadata name="Report.Шахматка.Template.ОсновнаяСхемаКомпоновкиДанных" id="d9b50951-43cc-458f-88c4-9038d8d86f03" configVersion="a32baf90e385c24c9b61a7705ac8664900000000"/>
+		<Metadata name="Report.Шахматка.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="d9b50951-43cc-458f-88c4-9038d8d86f03.0" configVersion="2b714a2dbdab524089a08283328df79f00000000"/>
+		<Metadata name="Subsystem.БухгалтерскийУчет" id="8592a998-9c27-432a-a3d5-de165cafa9a6" configVersion="9dfb7c2ff5c4764e874ea22593c59d4200000000"/>
 		<Metadata name="Subsystem.БухгалтерскийУчет.CommandInterface" id="8592a998-9c27-432a-a3d5-de165cafa9a6.1" configVersion="c1da63933de3f44c9176c1f71a89726d00000000"/>
 		<Metadata name="Subsystem.БухгалтерскийУчет.Subsystem.Документы" id="37a913c5-47c4-4853-bdc0-4a97119a19e6" configVersion="1db7f75902502040a75ca5aa6b24209d00000000"/>
 		<Metadata name="Subsystem.БухгалтерскийУчет.Subsystem.Справочники" id="8807d396-dea7-4616-8cb5-27ab34156e4e" configVersion="297d60beb495de41b3892261a96b1d6400000000"/>

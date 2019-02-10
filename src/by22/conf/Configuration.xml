@@ -134,6 +134,7 @@
 			<Document>Операция</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
+			<Report>Шахматка</Report>
 			<DataProcessor>СформироватьПроводки</DataProcessor>
 			<InformationRegister>УчетнаяПолитика</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
