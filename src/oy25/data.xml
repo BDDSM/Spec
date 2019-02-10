@@ -3,7 +3,7 @@
 	<V8Exch:Data>
 		<v8:CatalogObject.Контрагенты>
 			<v8:IsFolder>true</v8:IsFolder>
-			<v8:Ref xsi:type="v8:CatalogRef.Контрагенты">29b4ff58-dedf-11e8-bea5-240a64b67da6</v8:Ref>
+			<v8:Ref xsi:type="v8:CatalogRef.Контрагенты">75b0dc4f-2d5a-11e9-beb6-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Parent xsi:type="v8:CatalogRef.Контрагенты">00000000-0000-0000-0000-000000000000</v8:Parent>
 			<v8:Code>000000001</v8:Code>
@@ -12,7 +12,7 @@
 		</v8:CatalogObject.Контрагенты>
 		<v8:CatalogObject.Контрагенты>
 			<v8:IsFolder>true</v8:IsFolder>
-			<v8:Ref xsi:type="v8:CatalogRef.Контрагенты">29b4ff59-dedf-11e8-bea5-240a64b67da6</v8:Ref>
+			<v8:Ref xsi:type="v8:CatalogRef.Контрагенты">75b0dc50-2d5a-11e9-beb6-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Parent xsi:type="v8:CatalogRef.Контрагенты">00000000-0000-0000-0000-000000000000</v8:Parent>
 			<v8:Code>000000002</v8:Code>
@@ -23,7 +23,7 @@
 			<v8:IsFolder>false</v8:IsFolder>
 			<v8:Ref xsi:type="v8:CatalogRef.Контрагенты">29b4ff5a-dedf-11e8-bea5-240a64b67da6</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Parent xsi:type="v8:CatalogRef.Контрагенты">29b4ff58-dedf-11e8-bea5-240a64b67da6</v8:Parent>
+			<v8:Parent xsi:type="v8:CatalogRef.Контрагенты">75b0dc4f-2d5a-11e9-beb6-8c89a50dff9f</v8:Parent>
 			<v8:Code>000000003</v8:Code>
 			<v8:Description>Купим всегда</v8:Description>
 		</v8:CatalogObject.Контрагенты>
@@ -374,22 +374,6 @@
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
 					<Name xsi:type="xs:string">Recorder</Name>
-					<Value xsi:type="v8:DocumentRef.Счет">29b4ff5b-dedf-11e8-bea5-240a64b67da6</Value>
-				</FilterItem>
-			</v8:Filter>
-			<v8:Record>
-				<v8:Recorder xsi:type="v8:DocumentRef.Счет">29b4ff5b-dedf-11e8-bea5-240a64b67da6</v8:Recorder>
-				<v8:Period>2018-10-05T12:00:00</v8:Period>
-				<v8:RecordType>Receipt</v8:RecordType>
-				<v8:Active>true</v8:Active>
-				<v8:Счет>29b4ff5b-dedf-11e8-bea5-240a64b67da6</v8:Счет>
-				<v8:Сумма>1000</v8:Сумма>
-			</v8:Record>
-		</v8:AccumulationRegisterRecordSet.ЗадолженностьПоОтгрузке>
-		<v8:AccumulationRegisterRecordSet.ЗадолженностьПоОтгрузке>
-			<v8:Filter>
-				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Recorder</Name>
 					<Value xsi:type="v8:DocumentRef.РасходнаяНакладная">82598248-dedf-11e8-bea5-240a64b67da6</Value>
 				</FilterItem>
 			</v8:Filter>
@@ -422,6 +406,22 @@
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
 					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.Счет">29b4ff5b-dedf-11e8-bea5-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.Счет">29b4ff5b-dedf-11e8-bea5-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-05T12:00:00</v8:Period>
+				<v8:RecordType>Receipt</v8:RecordType>
+				<v8:Active>true</v8:Active>
+				<v8:Счет>29b4ff5b-dedf-11e8-bea5-240a64b67da6</v8:Счет>
+				<v8:Сумма>1000</v8:Сумма>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗадолженностьПоОтгрузке>
+		<v8:AccumulationRegisterRecordSet.ЗадолженностьПоОтгрузке>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
 					<Value xsi:type="v8:DocumentRef.Счет">6aa2a6df-dee9-11e8-bea5-240a64b67da6</Value>
 				</FilterItem>
 			</v8:Filter>
@@ -455,40 +455,6 @@
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
 					<Name xsi:type="xs:string">Recorder</Name>
-					<Value xsi:type="v8:DocumentRef.ПКО">29b4ff5c-dedf-11e8-bea5-240a64b67da6</Value>
-				</FilterItem>
-			</v8:Filter>
-			<v8:Record>
-				<v8:Recorder xsi:type="v8:DocumentRef.ПКО">29b4ff5c-dedf-11e8-bea5-240a64b67da6</v8:Recorder>
-				<v8:Period>2018-10-06T12:00:00</v8:Period>
-				<v8:RecordType>Expense</v8:RecordType>
-				<v8:Active>true</v8:Active>
-				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">29b4ff5a-dedf-11e8-bea5-240a64b67da6</v8:Контрагент>
-				<v8:Счет>29b4ff5b-dedf-11e8-bea5-240a64b67da6</v8:Счет>
-				<v8:Сумма>300</v8:Сумма>
-			</v8:Record>
-		</v8:AccumulationRegisterRecordSet.ЗадолженностьПоОплате>
-		<v8:AccumulationRegisterRecordSet.ЗадолженностьПоОплате>
-			<v8:Filter>
-				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Recorder</Name>
-					<Value xsi:type="v8:DocumentRef.НачислениеПеней">8259824a-dedf-11e8-bea5-240a64b67da6</Value>
-				</FilterItem>
-			</v8:Filter>
-			<v8:Record>
-				<v8:Recorder xsi:type="v8:DocumentRef.НачислениеПеней">8259824a-dedf-11e8-bea5-240a64b67da6</v8:Recorder>
-				<v8:Period>2018-10-16T12:00:00</v8:Period>
-				<v8:RecordType>Receipt</v8:RecordType>
-				<v8:Active>true</v8:Active>
-				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">29b4ff5a-dedf-11e8-bea5-240a64b67da6</v8:Контрагент>
-				<v8:Счет>29b4ff5b-dedf-11e8-bea5-240a64b67da6</v8:Счет>
-				<v8:Сумма>210</v8:Сумма>
-			</v8:Record>
-		</v8:AccumulationRegisterRecordSet.ЗадолженностьПоОплате>
-		<v8:AccumulationRegisterRecordSet.ЗадолженностьПоОплате>
-			<v8:Filter>
-				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Recorder</Name>
 					<Value xsi:type="v8:DocumentRef.Счет">6aa2a6df-dee9-11e8-bea5-240a64b67da6</Value>
 				</FilterItem>
 			</v8:Filter>
@@ -500,6 +466,23 @@
 				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">29b4ff5a-dedf-11e8-bea5-240a64b67da6</v8:Контрагент>
 				<v8:Счет>6aa2a6df-dee9-11e8-bea5-240a64b67da6</v8:Счет>
 				<v8:Сумма>1000</v8:Сумма>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗадолженностьПоОплате>
+		<v8:AccumulationRegisterRecordSet.ЗадолженностьПоОплате>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.ПКО">29b4ff5c-dedf-11e8-bea5-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.ПКО">29b4ff5c-dedf-11e8-bea5-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-06T12:00:00</v8:Period>
+				<v8:RecordType>Expense</v8:RecordType>
+				<v8:Active>true</v8:Active>
+				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">29b4ff5a-dedf-11e8-bea5-240a64b67da6</v8:Контрагент>
+				<v8:Счет>29b4ff5b-dedf-11e8-bea5-240a64b67da6</v8:Счет>
+				<v8:Сумма>300</v8:Сумма>
 			</v8:Record>
 		</v8:AccumulationRegisterRecordSet.ЗадолженностьПоОплате>
 		<v8:AccumulationRegisterRecordSet.ЗадолженностьПоОплате>
@@ -519,11 +502,28 @@
 				<v8:Сумма>900</v8:Сумма>
 			</v8:Record>
 		</v8:AccumulationRegisterRecordSet.ЗадолженностьПоОплате>
+		<v8:AccumulationRegisterRecordSet.ЗадолженностьПоОплате>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.НачислениеПеней">8259824a-dedf-11e8-bea5-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.НачислениеПеней">8259824a-dedf-11e8-bea5-240a64b67da6</v8:Recorder>
+				<v8:Period>2018-10-16T12:00:00</v8:Period>
+				<v8:RecordType>Receipt</v8:RecordType>
+				<v8:Active>true</v8:Active>
+				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">29b4ff5a-dedf-11e8-bea5-240a64b67da6</v8:Контрагент>
+				<v8:Счет>29b4ff5b-dedf-11e8-bea5-240a64b67da6</v8:Счет>
+				<v8:Сумма>210</v8:Сумма>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.ЗадолженностьПоОплате>
 	</V8Exch:Data>
 	<PredefinedData>
 		<Справочник.Контрагенты>
-			<item Ссылка="29b4ff58-dedf-11e8-bea5-240a64b67da6" ИмяПредопределенныхДанных="Покупатели"/>
-			<item Ссылка="29b4ff59-dedf-11e8-bea5-240a64b67da6" ИмяПредопределенныхДанных="Поставщики"/>
+			<item Ссылка="75b0dc4f-2d5a-11e9-beb6-8c89a50dff9f" ИмяПредопределенныхДанных="Покупатели"/>
+			<item Ссылка="75b0dc50-2d5a-11e9-beb6-8c89a50dff9f" ИмяПредопределенныхДанных="Поставщики"/>
 		</Справочник.Контрагенты>
 	</PredefinedData>
 </V8Exch:_1CV8DtUD>
