@@ -124,6 +124,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ОперативныйУчет</Subsystem>
+			<CommonModule>ПроведениеДокументов</CommonModule>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Склады</Catalog>
 			<Document>ПриходнаяНакладная</Document>

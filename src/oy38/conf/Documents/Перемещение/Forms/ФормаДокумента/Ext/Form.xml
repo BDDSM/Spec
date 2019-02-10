@@ -18,7 +18,13 @@
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="СкладОтправитель" id="7">
-			<DataPath>Объект.СкладОтправитель</DataPath>
+			<DataPath>Объект.Склад</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Склад отправитель</v8:content>
+				</v8:item>
+			</Title>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="СкладОтправительКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="СкладОтправительРасширеннаяПодсказка" id="9"/>

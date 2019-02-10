@@ -80,11 +80,11 @@
 		<ChildObjects>
 			<Attribute uuid="08b5a47b-fabe-40fa-ad99-a5352ccc5e86">
 				<Properties>
-					<Name>СкладОтправитель</Name>
+					<Name>Склад</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Склад отправитель</v8:content>
+							<v8:content>Склад</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
