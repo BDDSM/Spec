@@ -132,6 +132,8 @@
 			<Document>Перемещение</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
+			<Report>Продажи</Report>
+			<Report>ОстаткиТоваров</Report>
 			<InformationRegister>УчетнаяПолитика</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>ПартииТоваров</AccumulationRegister>

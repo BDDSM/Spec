@@ -33,7 +33,7 @@
 		<Metadata name="Catalog.Склады" id="3456a150-d61c-4723-9208-7d29b6862c59" configVersion="9a4ce59fd6bd5642b0b21ec9548682df00000000"/>
 		<Metadata name="CommonModule.ПроведениеДокументов" id="8c98781f-7291-49d0-abe5-bd3a0f3f65c5" configVersion="2a7e1b7bd2076f4c98a5733187959ddb00000000"/>
 		<Metadata name="CommonModule.ПроведениеДокументов.Module" id="8c98781f-7291-49d0-abe5-bd3a0f3f65c5.0" configVersion="d6006ed0dec87446a3cd89c7efa8c1bf00000000"/>
-		<Metadata name="Configuration.ОУ38" id="3922e749-9eff-41e8-827d-d50eada6d6eb" configVersion="7302fc1384902249851abeae3483488e00000000"/>
+		<Metadata name="Configuration.ОУ38" id="3922e749-9eff-41e8-827d-d50eada6d6eb" configVersion="984b9e7956b5eb48a19c86357ff581a300000000"/>
 		<Metadata name="Configuration.ОУ38.ClientApplicationInterface" id="d3d3cdf3-2c93-4062-b7dd-7eecd7e9d6cb.b" configVersion="40a385052a8a454393ce459ef326a2f000000000"/>
 		<Metadata name="Document.Перемещение" id="babef6e0-d106-401b-b7e5-917f5d7b4543" configVersion="1569121fd1991a40bbc23577110a2d0500000000">
 			<Metadata name="Document.Перемещение.Attribute.Склад" id="08b5a47b-fabe-40fa-ad99-a5352ccc5e86"/>
@@ -85,7 +85,13 @@
 			<Metadata name="InformationRegister.УчетнаяПолитика.Resource.МетодСписания" id="dde6a410-f3b3-4a0d-b8de-d2d8db095561"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="33d6a783-5f3a-4838-aa9b-30071cb088dd" configVersion="d0a8f2419006f443a40c8c42bcfdfeff00000000"/>
-		<Metadata name="Subsystem.ОперативныйУчет" id="cf2fda5c-141c-4153-9d28-a420f1e33c92" configVersion="9b3a9aea6e7d4c41acd3542ffa47554e00000000"/>
+		<Metadata name="Report.ОстаткиТоваров" id="33af529d-34e0-4b73-b7b1-b375d6aa249f" configVersion="955af18e0dea984096ec1d014863f59d00000000"/>
+		<Metadata name="Report.ОстаткиТоваров.Template.ОсновнаяСхемаКомпоновкиДанных" id="ddd98d17-9da1-4b0a-856e-11bf0b423af4" configVersion="51d02a0bb346454db75228961075e52d00000000"/>
+		<Metadata name="Report.ОстаткиТоваров.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="ddd98d17-9da1-4b0a-856e-11bf0b423af4.0" configVersion="56ad948e3047c34b8b8a3352dc468a4400000000"/>
+		<Metadata name="Report.Продажи" id="c8fd2949-5191-426a-8d91-ba1149d51434" configVersion="e1f979e410a9ab4ba36efac2f43e4dcd00000000"/>
+		<Metadata name="Report.Продажи.Template.ОсновнаяСхемаКомпоновкиДанных" id="a7b731e0-dd26-4b3f-b3ef-3b0e7c6b2c7d" configVersion="305c3803ba2fac45921063f0096f234d00000000"/>
+		<Metadata name="Report.Продажи.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="a7b731e0-dd26-4b3f-b3ef-3b0e7c6b2c7d.0" configVersion="96e3a005ff12c6459e159f4139ca53d300000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет" id="cf2fda5c-141c-4153-9d28-a420f1e33c92" configVersion="839b120e76ac434f8a33da4a9ebd405400000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.CommandInterface" id="cf2fda5c-141c-4153-9d28-a420f1e33c92.1" configVersion="2c7d74afa40cfa4ca9be384402c6c0ab00000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="71c0bdd1-1833-4fb6-b779-e2ac2f53d12b" configVersion="b17eca137460cc409e439eabf2f7b33c00000000"/>
 		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочники" id="7262d1ef-e572-4c8b-8a2a-2d92abc2ac79" configVersion="e5bb69f7ae6d5a45a443528e6dc16fe100000000"/>
