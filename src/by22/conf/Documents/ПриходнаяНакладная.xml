@@ -176,7 +176,7 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -188,6 +188,7 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПартииТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиНоменклатуры</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
@@ -204,23 +205,18 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="4d95d48e-cb61-45ea-95ae-65f6babd63fb">
+			<Attribute uuid="43f2ba28-4163-446f-8a9f-2bf26908e131">
 				<Properties>
-					<Name>СуммаПоДокументу</Name>
+					<Name>Склад</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма по документу</v8:content>
+							<v8:content>Склад</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>12</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -247,23 +243,24 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="5e23b5e3-343d-449f-8242-191c55cac35e">
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="28e1248e-022b-4959-aeb2-dff718926246">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ПриходнаяНакладная.СписокНоменклатуры" category="TabularSection">
-						<xr:TypeId>10f90541-513f-46ff-84e8-108d854a94b9</xr:TypeId>
-						<xr:ValueId>363e72f9-5272-4215-990b-d0a44067df03</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.ПриходнаяНакладная.Товары" category="TabularSection">
+						<xr:TypeId>565ea0fa-1861-4b4d-9fc3-5db063ba2ad4</xr:TypeId>
+						<xr:ValueId>b8681372-b786-4aad-9d72-3c4a86a011bb</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ПриходнаяНакладная.СписокНоменклатуры" category="TabularSectionRow">
-						<xr:TypeId>84661822-8f52-499a-a8d2-d6abd1828b6d</xr:TypeId>
-						<xr:ValueId>2d491edb-9339-4cdd-bb85-ee5ac5d8fd02</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПриходнаяНакладная.Товары" category="TabularSectionRow">
+						<xr:TypeId>6a6b7d7d-7145-4138-bf7b-a4366013ee50</xr:TypeId>
+						<xr:ValueId>a4bf3fdc-8e08-46c7-952e-25d39cfbfaeb</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>СписокНоменклатуры</Name>
+					<Name>Товары</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Список номенклатуры</v8:content>
+							<v8:content>Товары</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -298,7 +295,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="7567c752-4b8a-4d61-92ac-25818d6e3e2c">
+					<Attribute uuid="c5d1c637-f6d0-4a5e-8130-2a87c96fd0f5">
 						<Properties>
 							<Name>Номенклатура</Name>
 							<Synonym>
@@ -324,7 +321,11 @@
 							<FillChecking>DontCheck</FillChecking>
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
+							<ChoiceParameters>
+								<app:item name="Отбор.ВидыНоменклатуры">
+									<app:value xsi:type="xr:DesignTimeRef">Enum.ВидыНоменклатуры.EnumValue.Товар</app:value>
+								</app:item>
+							</ChoiceParameters>
 							<QuickChoice>Auto</QuickChoice>
 							<CreateOnInput>Auto</CreateOnInput>
 							<ChoiceForm/>
@@ -334,7 +335,7 @@
 							<FullTextSearch>Use</FullTextSearch>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="b6ee66cf-9d44-4774-92cd-7b43fd58d173">
+					<Attribute uuid="e372678a-53e0-4dda-8d98-0253a836047a">
 						<Properties>
 							<Name>Количество</Name>
 							<Synonym>
@@ -375,7 +376,7 @@
 							<FullTextSearch>Use</FullTextSearch>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="ac389dc2-668e-4e97-8442-d41889651c7b">
+					<Attribute uuid="2f03ff5e-941c-4460-bbc4-a1e63947b5ec">
 						<Properties>
 							<Name>Цена</Name>
 							<Synonym>
@@ -416,7 +417,7 @@
 							<FullTextSearch>Use</FullTextSearch>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="1402fc8c-62e5-4c4b-b192-a558fbace65d">
+					<Attribute uuid="ec6968d5-9051-48f5-baef-fc108bd499ec">
 						<Properties>
 							<Name>Сумма</Name>
 							<Synonym>

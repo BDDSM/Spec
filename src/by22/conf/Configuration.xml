@@ -124,13 +124,19 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>БухгалтерскийУчет</Subsystem>
+			<CommonModule>ПроведениеДокументов</CommonModule>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Субконто</Catalog>
+			<Catalog>Склады</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
+			<Document>Перемещение</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
+			<InformationRegister>УчетнаяПолитика</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
+			<AccumulationRegister>ПартииТоваров</AccumulationRegister>
+			<AccumulationRegister>Продажи</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконто</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Управленческий</ChartOfAccounts>
 		</ChildObjects>
