@@ -123,6 +123,11 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>ОперативныйУчет</Subsystem>
+			<Subsystem>БухгалтерскийУчет</Subsystem>
+			<Subsystem>ПериодическиеРасчеты</Subsystem>
+			<Subsystem>БизнесПроцессы</Subsystem>
+			<Subsystem>Сервис</Subsystem>
 			<CommonPicture>ОперативныйУчет</CommonPicture>
 			<CommonPicture>БухгалтерскийУчет</CommonPicture>
 			<CommonPicture>Расчеты</CommonPicture>
