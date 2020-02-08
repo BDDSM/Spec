@@ -133,6 +133,7 @@
 			<CommonPicture>Расчеты</CommonPicture>
 			<CommonPicture>БизнесПроцессы</CommonPicture>
 			<CommonPicture>Сервис</CommonPicture>
+			<CommonModule>Расчеты</CommonModule>
 			<Constant>НазваниеОрганизации</Constant>
 			<Constant>ЮридическийАдрес</Constant>
 			<Catalog>Валюты</Catalog>

@@ -43,6 +43,8 @@
 		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконто" id="65240b93-7976-4d47-8c49-fa8d2bee2d86" configVersion="ee228b880392eb48ba90794d0c20b40e00000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконто.Predefined" id="65240b93-7976-4d47-8c49-fa8d2bee2d86.7" configVersion="9a4b14528221014ab7dd7cb58cbc387800000000"/>
 		<Metadata name="ChartOfCharacteristicTypes.СвойстваОбъектов" id="8c6cdac6-23d8-4d4c-b3da-9a20f3a6b5be" configVersion="d0664ea07a5fe14c88d6c99bb08d9d1e00000000"/>
+		<Metadata name="CommonModule.Расчеты" id="bb6d2cde-022e-4cdb-97dd-0060b16351d9" configVersion="3ce312c227f3d349b1be4c41fc9259f400000000"/>
+		<Metadata name="CommonModule.Расчеты.Module" id="bb6d2cde-022e-4cdb-97dd-0060b16351d9.0" configVersion="45a5ddea5ec40f47aee9b52b342def4100000000"/>
 		<Metadata name="CommonPicture.БизнесПроцессы" id="5227561e-5ce7-4e7d-a736-a557631806bd" configVersion="f7fca0a1f1ff164982de8e09f6243e2b00000000"/>
 		<Metadata name="CommonPicture.БизнесПроцессы.Picture" id="5227561e-5ce7-4e7d-a736-a557631806bd.0" configVersion="2113d780b5d9704f8f68ad7b0457562800000000"/>
 		<Metadata name="CommonPicture.БухгалтерскийУчет" id="b12d9ea9-57d6-4c5a-80ae-82902b28bd89" configVersion="1b78029f8c9a064093aee42acd92711900000000"/>
@@ -53,7 +55,7 @@
 		<Metadata name="CommonPicture.Расчеты.Picture" id="d4f2cd1f-c7dc-4db0-bc14-6de4faef79f9.0" configVersion="953dbd6bbbf5bf42b1ef298a9c1cbc0100000000"/>
 		<Metadata name="CommonPicture.Сервис" id="ce117e9a-32c1-4b6a-9037-58a22ad2a457" configVersion="af1ecfcc5ae7974993489f31cc95c47400000000"/>
 		<Metadata name="CommonPicture.Сервис.Picture" id="ce117e9a-32c1-4b6a-9037-58a22ad2a457.0" configVersion="c9242d51126b664c899beddd8b6bebe200000000"/>
-		<Metadata name="Configuration.ОУ19_БУ21_ПР15_БП9_УФ11" id="bc7495ad-432e-4f59-8fab-94750b9a56d8" configVersion="bc2503e69b2d9e4ea2e00cbdcaa90c3900000000"/>
+		<Metadata name="Configuration.ОУ19_БУ21_ПР15_БП9_УФ11" id="bc7495ad-432e-4f59-8fab-94750b9a56d8" configVersion="b1db6df2ac088d419c9f43da1cd8b22400000000"/>
 		<Metadata name="Configuration.ОУ19_БУ21_ПР15_БП9_УФ11.ClientApplicationInterface" id="cd84adeb-60ef-4bc7-b819-604ae4ddb6b8.b" configVersion="160ef4b6a4b3df4784694ad12cbf82e500000000"/>
 		<Metadata name="Configuration.ОУ19_БУ21_ПР15_БП9_УФ11.CommandInterface" id="cd84adeb-60ef-4bc7-b819-604ae4ddb6b8.a" configVersion="78ec93dd37450345b95a409dc6132a1200000000"/>
 		<Metadata name="Constant.НазваниеОрганизации" id="fe2c357d-0bfa-4290-9797-a4ee8777071f" configVersion="5db10e97f848db49965dffaf8929399200000000"/>
