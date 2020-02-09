@@ -198,6 +198,16 @@
 			<v8:Артикул>1708609</v8:Артикул>
 			<v8:Вид>Товар</v8:Вид>
 		</v8:CatalogObject.Номенклатура>
+		<v8:CatalogObject.Номенклатура>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Номенклатура">33e40def-4b6d-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>19</v8:Code>
+			<v8:Description>Хранение</v8:Description>
+			<v8:Артикул/>
+			<v8:Вид>Услуга</v8:Вид>
+		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Контрагенты>
 			<v8:IsFolder>true</v8:IsFolder>
 			<v8:Ref xsi:type="v8:CatalogRef.Контрагенты">f47d7e11-13ff-4f31-ae0e-5179592a98cd</v8:Ref>
@@ -610,6 +620,9 @@
 			<v8:Number>000000001</v8:Number>
 			<v8:Posted>true</v8:Posted>
 			<v8:Склад xsi:type="v8:CatalogRef.Склады">10e254e1-4b4f-11ea-859d-240a64b6cdb0</v8:Склад>
+			<v8:Валюта xsi:type="v8:CatalogRef.Валюты">00000000-0000-0000-0000-000000000000</v8:Валюта>
+			<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">00000000-0000-0000-0000-000000000000</v8:Контрагент>
+			<v8:Курс>0</v8:Курс>
 			<v8:Товары>
 				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">978637ce-3fb7-11df-af8e-001302ef9025</v8:Номенклатура>
 				<v8:Количество>5</v8:Количество>
@@ -617,6 +630,14 @@
 				<v8:Сумма>1000</v8:Сумма>
 			</v8:Товары>
 		</v8:DocumentObject.РасходнаяНакладная>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.РасходнаяНакладная">10e254e6-4b4f-11ea-859d-240a64b6cdb0</Value>
+				</FilterItem>
+			</v8:Filter>
+		</v8:AccountingRegisterRecordSet.Проводки>
 		<v8:AccumulationRegisterRecordSet.ОстаткиНоменклатуры>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
@@ -660,6 +681,9 @@
 			<v8:Number>000000002</v8:Number>
 			<v8:Posted>false</v8:Posted>
 			<v8:Склад xsi:type="v8:CatalogRef.Склады">10e254e1-4b4f-11ea-859d-240a64b6cdb0</v8:Склад>
+			<v8:Валюта xsi:type="v8:CatalogRef.Валюты">00000000-0000-0000-0000-000000000000</v8:Валюта>
+			<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">00000000-0000-0000-0000-000000000000</v8:Контрагент>
+			<v8:Курс>0</v8:Курс>
 			<v8:Товары>
 				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">978637ce-3fb7-11df-af8e-001302ef9025</v8:Номенклатура>
 				<v8:Количество>10</v8:Количество>
@@ -667,6 +691,14 @@
 				<v8:Сумма>2500</v8:Сумма>
 			</v8:Товары>
 		</v8:DocumentObject.РасходнаяНакладная>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.РасходнаяНакладная">7ea2fbff-4b51-11ea-859d-240a64b6cdb0</Value>
+				</FilterItem>
+			</v8:Filter>
+		</v8:AccountingRegisterRecordSet.Проводки>
 		<v8:AccumulationRegisterRecordSet.ОстаткиНоменклатуры>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
@@ -690,6 +722,9 @@
 			<v8:Number>000000003</v8:Number>
 			<v8:Posted>true</v8:Posted>
 			<v8:Склад xsi:type="v8:CatalogRef.Склады">10e254e1-4b4f-11ea-859d-240a64b6cdb0</v8:Склад>
+			<v8:Валюта xsi:type="v8:CatalogRef.Валюты">00000000-0000-0000-0000-000000000000</v8:Валюта>
+			<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">00000000-0000-0000-0000-000000000000</v8:Контрагент>
+			<v8:Курс>0</v8:Курс>
 			<v8:Товары>
 				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">978637cf-3fb7-11df-af8e-001302ef9025</v8:Номенклатура>
 				<v8:Количество>25</v8:Количество>
@@ -702,7 +737,21 @@
 				<v8:Цена>50</v8:Цена>
 				<v8:Сумма>100</v8:Сумма>
 			</v8:Товары>
+			<v8:Товары>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">159c38ab-4b3e-11ea-859d-240a64b6cdb0</v8:Номенклатура>
+				<v8:Количество>1</v8:Количество>
+				<v8:Цена>100</v8:Цена>
+				<v8:Сумма>100</v8:Сумма>
+			</v8:Товары>
 		</v8:DocumentObject.РасходнаяНакладная>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.РасходнаяНакладная">f53789e5-4b51-11ea-859d-240a64b6cdb0</Value>
+				</FilterItem>
+			</v8:Filter>
+		</v8:AccountingRegisterRecordSet.Проводки>
 		<v8:AccumulationRegisterRecordSet.ОстаткиНоменклатуры>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
@@ -762,6 +811,16 @@
 				<v8:Recorder>f53789e5-4b51-11ea-859d-240a64b6cdb0</v8:Recorder>
 				<v8:Period>2020-01-23T15:32:11</v8:Period>
 				<v8:Active>true</v8:Active>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">159c38ab-4b3e-11ea-859d-240a64b6cdb0</v8:Номенклатура>
+				<v8:Аналог xsi:type="v8:CatalogRef.Номенклатура">159c38ab-4b3e-11ea-859d-240a64b6cdb0</v8:Аналог>
+				<v8:Количество>1</v8:Количество>
+				<v8:Сумма>100</v8:Сумма>
+				<v8:Себестоимость>0</v8:Себестоимость>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>f53789e5-4b51-11ea-859d-240a64b6cdb0</v8:Recorder>
+				<v8:Period>2020-01-23T15:32:11</v8:Period>
+				<v8:Active>true</v8:Active>
 				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">978637cf-3fb7-11df-af8e-001302ef9025</v8:Номенклатура>
 				<v8:Аналог xsi:type="v8:CatalogRef.Номенклатура">978637cf-3fb7-11df-af8e-001302ef9025</v8:Аналог>
 				<v8:Количество>10</v8:Количество>
@@ -806,6 +865,9 @@
 			<v8:Number>000000004</v8:Number>
 			<v8:Posted>false</v8:Posted>
 			<v8:Склад xsi:type="v8:CatalogRef.Склады">10e254e1-4b4f-11ea-859d-240a64b6cdb0</v8:Склад>
+			<v8:Валюта xsi:type="v8:CatalogRef.Валюты">00000000-0000-0000-0000-000000000000</v8:Валюта>
+			<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">00000000-0000-0000-0000-000000000000</v8:Контрагент>
+			<v8:Курс>0</v8:Курс>
 			<v8:Товары>
 				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">1f336acd-4b54-11ea-859d-240a64b6cdb0</v8:Номенклатура>
 				<v8:Количество>5</v8:Количество>
@@ -813,6 +875,14 @@
 				<v8:Сумма>250</v8:Сумма>
 			</v8:Товары>
 		</v8:DocumentObject.РасходнаяНакладная>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.РасходнаяНакладная">5d9c085f-4b57-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+		</v8:AccountingRegisterRecordSet.Проводки>
 		<v8:AccumulationRegisterRecordSet.ОстаткиНоменклатуры>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
@@ -829,6 +899,169 @@
 				</FilterItem>
 			</v8:Filter>
 		</v8:AccumulationRegisterRecordSet.Продажи>
+		<v8:DocumentObject.РасходнаяНакладная>
+			<v8:Ref>33e40df1-4b6d-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2020-01-11T11:42:22</v8:Date>
+			<v8:Number>000000005</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Склад xsi:type="v8:CatalogRef.Склады">10e254e1-4b4f-11ea-859d-240a64b6cdb0</v8:Склад>
+			<v8:Валюта xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Валюта>
+			<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">cf164858-7d57-11df-b012-001302ef9025</v8:Контрагент>
+			<v8:Курс>63</v8:Курс>
+			<v8:Товары>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">33e40def-4b6d-11ea-859e-240a64b67da6</v8:Номенклатура>
+				<v8:Количество>1</v8:Количество>
+				<v8:Цена>100</v8:Цена>
+				<v8:Сумма>100</v8:Сумма>
+			</v8:Товары>
+		</v8:DocumentObject.РасходнаяНакладная>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.РасходнаяНакладная">33e40df1-4b6d-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.РасходнаяНакладная">33e40df1-4b6d-11ea-859e-240a64b67da6</v8:Recorder>
+				<v8:Period>2020-01-11T11:42:22</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">021cda00-8e5f-11e3-8a77-94de8067d407</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c20-4b60-11ea-859e-240a64b67da6</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.РасходнаяНакладная">33e40df1-4b6d-11ea-859e-240a64b67da6</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c21-4b60-11ea-859e-240a64b67da6</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Контрагенты">cf164858-7d57-11df-b012-001302ef9025</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c22-4b60-11ea-859e-240a64b67da6</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">021cd9fc-8e5f-11e3-8a77-94de8067d407</v8:AccountCr>
+				<v8:ExtDimensionsCr/>
+				<v8:Сумма>6300</v8:Сумма>
+				<v8:СуммаУЕ>100</v8:СуммаУЕ>
+				<v8:КоличествоDr>0</v8:КоличествоDr>
+				<v8:КоличествоCr>0</v8:КоличествоCr>
+			</v8:Record>
+		</v8:AccountingRegisterRecordSet.Проводки>
+		<v8:AccumulationRegisterRecordSet.ОстаткиНоменклатуры>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.РасходнаяНакладная">33e40df1-4b6d-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+		</v8:AccumulationRegisterRecordSet.ОстаткиНоменклатуры>
+		<v8:AccumulationRegisterRecordSet.Продажи>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.РасходнаяНакладная">33e40df1-4b6d-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>33e40df1-4b6d-11ea-859e-240a64b67da6</v8:Recorder>
+				<v8:Period>2020-01-11T11:42:22</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">33e40def-4b6d-11ea-859e-240a64b67da6</v8:Номенклатура>
+				<v8:Аналог xsi:type="v8:CatalogRef.Номенклатура">33e40def-4b6d-11ea-859e-240a64b67da6</v8:Аналог>
+				<v8:Количество>1</v8:Количество>
+				<v8:Сумма>100</v8:Сумма>
+				<v8:Себестоимость>0</v8:Себестоимость>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.Продажи>
+		<v8:DocumentObject.УстановкаКурсов>
+			<v8:Ref>33e40df0-4b6d-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2019-12-02T08:57:11</v8:Date>
+			<v8:Number>000000001</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курсы>
+				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">cf164858-7d57-11df-b012-001302ef9025</v8:Контрагент>
+				<v8:Валюта xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Валюта>
+				<v8:Курс>63</v8:Курс>
+			</v8:Курсы>
+		</v8:DocumentObject.УстановкаКурсов>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.УстановкаКурсов">33e40df0-4b6d-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+		</v8:AccountingRegisterRecordSet.Проводки>
+		<v8:InformationRegisterRecordSet.КурсыВалют>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.УстановкаКурсов">33e40df0-4b6d-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>33e40df0-4b6d-11ea-859e-240a64b67da6</v8:Recorder>
+				<v8:Period>2019-12-01T00:00:00</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Валюта xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Валюта>
+				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">cf164858-7d57-11df-b012-001302ef9025</v8:Контрагент>
+				<v8:Курс>63</v8:Курс>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.КурсыВалют>
+		<v8:DocumentObject.УстановкаКурсов>
+			<v8:Ref>33e40df2-4b6d-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2020-01-12T09:19:30</v8:Date>
+			<v8:Number>000000002</v8:Number>
+			<v8:Posted>true</v8:Posted>
+			<v8:Курсы>
+				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">cf164858-7d57-11df-b012-001302ef9025</v8:Контрагент>
+				<v8:Валюта xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Валюта>
+				<v8:Курс>64</v8:Курс>
+			</v8:Курсы>
+		</v8:DocumentObject.УстановкаКурсов>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.УстановкаКурсов">33e40df2-4b6d-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.УстановкаКурсов">33e40df2-4b6d-11ea-859e-240a64b67da6</v8:Recorder>
+				<v8:Period>2020-01-12T09:19:30</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">021cda00-8e5f-11e3-8a77-94de8067d407</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c20-4b60-11ea-859e-240a64b67da6</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.РасходнаяНакладная">33e40df1-4b6d-11ea-859e-240a64b67da6</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c21-4b60-11ea-859e-240a64b67da6</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Контрагенты">cf164858-7d57-11df-b012-001302ef9025</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c22-4b60-11ea-859e-240a64b67da6</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">021cd9fc-8e5f-11e3-8a77-94de8067d407</v8:AccountCr>
+				<v8:ExtDimensionsCr/>
+				<v8:Сумма>100</v8:Сумма>
+				<v8:СуммаУЕ>0</v8:СуммаУЕ>
+				<v8:КоличествоDr>0</v8:КоличествоDr>
+				<v8:КоличествоCr>0</v8:КоличествоCr>
+			</v8:Record>
+		</v8:AccountingRegisterRecordSet.Проводки>
+		<v8:InformationRegisterRecordSet.КурсыВалют>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.УстановкаКурсов">33e40df2-4b6d-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>33e40df2-4b6d-11ea-859e-240a64b67da6</v8:Recorder>
+				<v8:Period>2020-01-01T00:00:00</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Валюта xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Валюта>
+				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">cf164858-7d57-11df-b012-001302ef9025</v8:Контрагент>
+				<v8:Курс>64</v8:Курс>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.КурсыВалют>
 		<v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
 			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">021cda05-8e5f-11e3-8a77-94de8067d407</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
@@ -838,6 +1071,36 @@
 				<Type xmlns="http://v8.1c.ru/8.1/data/core">v8:CatalogRef.Номенклатура</Type>
 			</v8:ValueType>
 			<v8:PredefinedDataName>Номенклатура</v8:PredefinedDataName>
+		</v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
+		<v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c20-4b60-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000004</v8:Code>
+			<v8:Description>Документ</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">v8:DocumentRef.РасходнаяНакладная</Type>
+			</v8:ValueType>
+			<v8:PredefinedDataName>Документ</v8:PredefinedDataName>
+		</v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
+		<v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c21-4b60-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000003</v8:Code>
+			<v8:Description>Контрагент</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">v8:CatalogRef.Контрагенты</Type>
+			</v8:ValueType>
+			<v8:PredefinedDataName>Контрагент</v8:PredefinedDataName>
+		</v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
+		<v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
+			<v8:Ref xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c22-4b60-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000002</v8:Code>
+			<v8:Description>Валюта</v8:Description>
+			<v8:ValueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">v8:CatalogRef.Валюты</Type>
+			</v8:ValueType>
+			<v8:PredefinedDataName>Валюта</v8:PredefinedDataName>
 		</v8:ChartOfCharacteristicTypesObject.ВидыСубконто>
 		<v8:ChartOfAccountsObject.Управленческий>
 			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">021cd9f5-8e5f-11e3-8a77-94de8067d407</v8:Ref>
@@ -970,6 +1233,21 @@
 			<v8:Type>ActivePassive</v8:Type>
 			<v8:OffBalance>false</v8:OffBalance>
 			<v8:PredefinedDataName>Покупатели</v8:PredefinedDataName>
+			<v8:ExtDimensionType>
+				<v8:ExtDimensionType xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c21-4b60-11ea-859e-240a64b67da6</v8:ExtDimensionType>
+				<v8:Predefined>true</v8:Predefined>
+				<v8:TurnoversOnly>false</v8:TurnoversOnly>
+			</v8:ExtDimensionType>
+			<v8:ExtDimensionType>
+				<v8:ExtDimensionType xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c22-4b60-11ea-859e-240a64b67da6</v8:ExtDimensionType>
+				<v8:Predefined>true</v8:Predefined>
+				<v8:TurnoversOnly>false</v8:TurnoversOnly>
+			</v8:ExtDimensionType>
+			<v8:ExtDimensionType>
+				<v8:ExtDimensionType xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c20-4b60-11ea-859e-240a64b67da6</v8:ExtDimensionType>
+				<v8:Predefined>true</v8:Predefined>
+				<v8:TurnoversOnly>false</v8:TurnoversOnly>
+			</v8:ExtDimensionType>
 		</v8:ChartOfAccountsObject.Управленческий>
 		<v8:ChartOfAccountsObject.Управленческий>
 			<v8:Ref xsi:type="v8:ChartOfAccountsRef.Управленческий">021cda01-8e5f-11e3-8a77-94de8067d407</v8:Ref>
@@ -1029,86 +1307,33 @@
 		<v8:InformationRegisterRecordSet.КурсыВалют>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Period</Name>
-					<Value xsi:type="xs:dateTime">2010-01-01T00:00:00</Value>
-				</FilterItem>
-				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Валюта</Name>
-					<Value xsi:type="v8:CatalogRef.Валюты">7e6ffb69-4c6a-4924-b85c-0ff8f1ed342f</Value>
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.УстановкаКурсов">33e40df0-4b6d-11ea-859e-240a64b67da6</Value>
 				</FilterItem>
 			</v8:Filter>
 			<v8:Record>
-				<v8:Period>2010-01-01T00:00:00</v8:Period>
-				<v8:Валюта xsi:type="v8:CatalogRef.Валюты">7e6ffb69-4c6a-4924-b85c-0ff8f1ed342f</v8:Валюта>
-				<v8:Курс>1</v8:Курс>
-			</v8:Record>
-		</v8:InformationRegisterRecordSet.КурсыВалют>
-		<v8:InformationRegisterRecordSet.КурсыВалют>
-			<v8:Filter>
-				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Period</Name>
-					<Value xsi:type="xs:dateTime">2010-02-09T00:00:00</Value>
-				</FilterItem>
-				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Валюта</Name>
-					<Value xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</Value>
-				</FilterItem>
-			</v8:Filter>
-			<v8:Record>
-				<v8:Period>2010-02-09T00:00:00</v8:Period>
+				<v8:Recorder>33e40df0-4b6d-11ea-859e-240a64b67da6</v8:Recorder>
+				<v8:Period>2019-12-01T00:00:00</v8:Period>
+				<v8:Active>true</v8:Active>
 				<v8:Валюта xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Валюта>
-				<v8:Курс>30.52</v8:Курс>
+				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">cf164858-7d57-11df-b012-001302ef9025</v8:Контрагент>
+				<v8:Курс>63</v8:Курс>
 			</v8:Record>
 		</v8:InformationRegisterRecordSet.КурсыВалют>
 		<v8:InformationRegisterRecordSet.КурсыВалют>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Period</Name>
-					<Value xsi:type="xs:dateTime">2010-03-01T00:00:00</Value>
-				</FilterItem>
-				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Валюта</Name>
-					<Value xsi:type="v8:CatalogRef.Валюты">b01bf829-3fb6-11df-af8e-001302ef9025</Value>
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.УстановкаКурсов">33e40df2-4b6d-11ea-859e-240a64b67da6</Value>
 				</FilterItem>
 			</v8:Filter>
 			<v8:Record>
-				<v8:Period>2010-03-01T00:00:00</v8:Period>
-				<v8:Валюта xsi:type="v8:CatalogRef.Валюты">b01bf829-3fb6-11df-af8e-001302ef9025</v8:Валюта>
-				<v8:Курс>43.46</v8:Курс>
-			</v8:Record>
-		</v8:InformationRegisterRecordSet.КурсыВалют>
-		<v8:InformationRegisterRecordSet.КурсыВалют>
-			<v8:Filter>
-				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Period</Name>
-					<Value xsi:type="xs:dateTime">2010-03-31T00:00:00</Value>
-				</FilterItem>
-				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Валюта</Name>
-					<Value xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</Value>
-				</FilterItem>
-			</v8:Filter>
-			<v8:Record>
-				<v8:Period>2010-03-31T00:00:00</v8:Period>
+				<v8:Recorder>33e40df2-4b6d-11ea-859e-240a64b67da6</v8:Recorder>
+				<v8:Period>2020-01-01T00:00:00</v8:Period>
+				<v8:Active>true</v8:Active>
 				<v8:Валюта xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Валюта>
-				<v8:Курс>29.36</v8:Курс>
-			</v8:Record>
-		</v8:InformationRegisterRecordSet.КурсыВалют>
-		<v8:InformationRegisterRecordSet.КурсыВалют>
-			<v8:Filter>
-				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Period</Name>
-					<Value xsi:type="xs:dateTime">2010-03-31T00:00:00</Value>
-				</FilterItem>
-				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
-					<Name xsi:type="xs:string">Валюта</Name>
-					<Value xsi:type="v8:CatalogRef.Валюты">b01bf829-3fb6-11df-af8e-001302ef9025</Value>
-				</FilterItem>
-			</v8:Filter>
-			<v8:Record>
-				<v8:Period>2010-03-31T00:00:00</v8:Period>
-				<v8:Валюта xsi:type="v8:CatalogRef.Валюты">b01bf829-3fb6-11df-af8e-001302ef9025</v8:Валюта>
-				<v8:Курс>39.7</v8:Курс>
+				<v8:Контрагент xsi:type="v8:CatalogRef.Контрагенты">cf164858-7d57-11df-b012-001302ef9025</v8:Контрагент>
+				<v8:Курс>64</v8:Курс>
 			</v8:Record>
 		</v8:InformationRegisterRecordSet.КурсыВалют>
 		<v8:InformationRegisterRecordSet.АналогиТоваров>
@@ -1377,6 +1602,16 @@
 				<v8:Recorder>f53789e5-4b51-11ea-859d-240a64b6cdb0</v8:Recorder>
 				<v8:Period>2020-01-23T15:32:11</v8:Period>
 				<v8:Active>true</v8:Active>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">159c38ab-4b3e-11ea-859d-240a64b6cdb0</v8:Номенклатура>
+				<v8:Аналог xsi:type="v8:CatalogRef.Номенклатура">159c38ab-4b3e-11ea-859d-240a64b6cdb0</v8:Аналог>
+				<v8:Количество>1</v8:Количество>
+				<v8:Сумма>100</v8:Сумма>
+				<v8:Себестоимость>0</v8:Себестоимость>
+			</v8:Record>
+			<v8:Record>
+				<v8:Recorder>f53789e5-4b51-11ea-859d-240a64b6cdb0</v8:Recorder>
+				<v8:Period>2020-01-23T15:32:11</v8:Period>
+				<v8:Active>true</v8:Active>
 				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">978637cf-3fb7-11df-af8e-001302ef9025</v8:Номенклатура>
 				<v8:Аналог xsi:type="v8:CatalogRef.Номенклатура">978637cf-3fb7-11df-af8e-001302ef9025</v8:Аналог>
 				<v8:Количество>10</v8:Количество>
@@ -1414,6 +1649,80 @@
 				<v8:Себестоимость>40</v8:Себестоимость>
 			</v8:Record>
 		</v8:AccumulationRegisterRecordSet.Продажи>
+		<v8:AccumulationRegisterRecordSet.Продажи>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.РасходнаяНакладная">33e40df1-4b6d-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder>33e40df1-4b6d-11ea-859e-240a64b67da6</v8:Recorder>
+				<v8:Period>2020-01-11T11:42:22</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">33e40def-4b6d-11ea-859e-240a64b67da6</v8:Номенклатура>
+				<v8:Аналог xsi:type="v8:CatalogRef.Номенклатура">33e40def-4b6d-11ea-859e-240a64b67da6</v8:Аналог>
+				<v8:Количество>1</v8:Количество>
+				<v8:Сумма>100</v8:Сумма>
+				<v8:Себестоимость>0</v8:Себестоимость>
+			</v8:Record>
+		</v8:AccumulationRegisterRecordSet.Продажи>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.УстановкаКурсов">33e40df2-4b6d-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.УстановкаКурсов">33e40df2-4b6d-11ea-859e-240a64b67da6</v8:Recorder>
+				<v8:Period>2020-01-12T09:19:30</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">021cda00-8e5f-11e3-8a77-94de8067d407</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c20-4b60-11ea-859e-240a64b67da6</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.РасходнаяНакладная">33e40df1-4b6d-11ea-859e-240a64b67da6</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c21-4b60-11ea-859e-240a64b67da6</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Контрагенты">cf164858-7d57-11df-b012-001302ef9025</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c22-4b60-11ea-859e-240a64b67da6</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">021cd9fc-8e5f-11e3-8a77-94de8067d407</v8:AccountCr>
+				<v8:ExtDimensionsCr/>
+				<v8:Сумма>100</v8:Сумма>
+				<v8:СуммаУЕ>0</v8:СуммаУЕ>
+				<v8:КоличествоDr>0</v8:КоличествоDr>
+				<v8:КоличествоCr>0</v8:КоличествоCr>
+			</v8:Record>
+		</v8:AccountingRegisterRecordSet.Проводки>
+		<v8:AccountingRegisterRecordSet.Проводки>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Recorder</Name>
+					<Value xsi:type="v8:DocumentRef.РасходнаяНакладная">33e40df1-4b6d-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Recorder xsi:type="v8:DocumentRef.РасходнаяНакладная">33e40df1-4b6d-11ea-859e-240a64b67da6</v8:Recorder>
+				<v8:Period>2020-01-11T11:42:22</v8:Period>
+				<v8:Active>true</v8:Active>
+				<v8:AccountDr xsi:type="v8:ChartOfAccountsRef.Управленческий">021cda00-8e5f-11e3-8a77-94de8067d407</v8:AccountDr>
+				<v8:ExtDimensionsDr>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c20-4b60-11ea-859e-240a64b67da6</v8:Type>
+					<v8:Value xsi:type="v8:DocumentRef.РасходнаяНакладная">33e40df1-4b6d-11ea-859e-240a64b67da6</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c21-4b60-11ea-859e-240a64b67da6</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Контрагенты">cf164858-7d57-11df-b012-001302ef9025</v8:Value>
+					<v8:Type xsi:type="v8:ChartOfCharacteristicTypesRef.ВидыСубконто">baab6c22-4b60-11ea-859e-240a64b67da6</v8:Type>
+					<v8:Value xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Value>
+				</v8:ExtDimensionsDr>
+				<v8:AccountCr xsi:type="v8:ChartOfAccountsRef.Управленческий">021cd9fc-8e5f-11e3-8a77-94de8067d407</v8:AccountCr>
+				<v8:ExtDimensionsCr/>
+				<v8:Сумма>6300</v8:Сумма>
+				<v8:СуммаУЕ>100</v8:СуммаУЕ>
+				<v8:КоличествоDr>0</v8:КоличествоDr>
+				<v8:КоличествоCr>0</v8:КоличествоCr>
+			</v8:Record>
+		</v8:AccountingRegisterRecordSet.Проводки>
 	</V8Exch:Data>
 	<PredefinedData>
 		<ПланВидовРасчета.ДополнительныеНачисления>
@@ -1427,11 +1736,11 @@
 		</ПланВидовРасчета.Удержания>
 		<ПланВидовХарактеристик.ВидыСубконто>
 			<item Ссылка="021cda05-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="Номенклатура"/>
+			<item Ссылка="baab6c20-4b60-11ea-859e-240a64b67da6" ИмяПредопределенныхДанных="Документ"/>
+			<item Ссылка="baab6c21-4b60-11ea-859e-240a64b67da6" ИмяПредопределенныхДанных="Контрагент"/>
+			<item Ссылка="baab6c22-4b60-11ea-859e-240a64b67da6" ИмяПредопределенныхДанных="Валюта"/>
 		</ПланВидовХарактеристик.ВидыСубконто>
 		<ПланСчетов.Управленческий>
-			<item Ссылка="021cda02-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="Налоги"/>
-			<item Ссылка="021cda01-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="Поставщики"/>
-			<item Ссылка="021cda00-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="Покупатели"/>
 			<item Ссылка="021cd9ff-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="ТоварыВПути"/>
 			<item Ссылка="021cd9fe-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="ОсновноеПроизводство"/>
 			<item Ссылка="021cd9fd-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="Материалы"/>
@@ -1443,6 +1752,9 @@
 			<item Ссылка="021cd9f7-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="КредитыИЗаймыПолученные"/>
 			<item Ссылка="021cd9f6-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="ОбщехозяйственныеЗатраты"/>
 			<item Ссылка="021cd9f5-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="Товары"/>
+			<item Ссылка="021cda00-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="Покупатели"/>
+			<item Ссылка="021cda01-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="Поставщики"/>
+			<item Ссылка="021cda02-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="Налоги"/>
 			<item Ссылка="021cda03-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="КредитыИЗаймыВыданные"/>
 		</ПланСчетов.Управленческий>
 		<Справочник.Валюты>
@@ -1453,22 +1765,22 @@
 			<item Ссылка="4340ba4a-9153-48cd-b2df-3c97c078342e" ИмяПредопределенныхДанных="Поставщики"/>
 		</Справочник.Контрагенты>
 		<Справочник.Подразделения>
-			<item Ссылка="b4ead4ab-6c1b-41fd-b3cb-dcb80d1b4bf3" ИмяПредопределенныхДанных="ОтделЗакупок"/>
-			<item Ссылка="be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5" ИмяПредопределенныхДанных="Бухгалтерия"/>
-			<item Ссылка="4e779126-2028-4df6-9a0c-165fdc61316f" ИмяПредопределенныхДанных="ОтделВнедрения"/>
-			<item Ссылка="a5cb9f62-14ad-405b-8924-d417d5850272" ИмяПредопределенныхДанных="ОтделРазработки"/>
 			<item Ссылка="2c63b09b-a257-449b-88d6-6a7788ee684d" ИмяПредопределенныхДанных="ОтделПродаж"/>
+			<item Ссылка="a5cb9f62-14ad-405b-8924-d417d5850272" ИмяПредопределенныхДанных="ОтделРазработки"/>
+			<item Ссылка="4e779126-2028-4df6-9a0c-165fdc61316f" ИмяПредопределенныхДанных="ОтделВнедрения"/>
+			<item Ссылка="be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5" ИмяПредопределенныхДанных="Бухгалтерия"/>
+			<item Ссылка="b4ead4ab-6c1b-41fd-b3cb-dcb80d1b4bf3" ИмяПредопределенныхДанных="ОтделЗакупок"/>
 		</Справочник.Подразделения>
 		<Справочник.Сотрудники>
+			<item Ссылка="f4f32e65-5267-436a-9aa5-7824cc53edb5" ИмяПредопределенныхДанных="Сидоров"/>
+			<item Ссылка="1738669f-715d-420c-9a55-6a8b3fbbdc9d" ИмяПредопределенныхДанных="Жупиков"/>
+			<item Ссылка="29b9406b-092b-48a7-9931-aa1d64c8807e" ИмяПредопределенныхДанных="Кротова"/>
+			<item Ссылка="205cf355-c949-4519-9588-47ce8dc1ce6f" ИмяПредопределенныхДанных="Залкинд"/>
+			<item Ссылка="2d884283-014a-4f3a-8eb8-68a649d2dfd6" ИмяПредопределенныхДанных="Хабибулин"/>
+			<item Ссылка="c211de45-0657-413b-8bdd-2efb9c4cb0c4" ИмяПредопределенныхДанных="Петров"/>
+			<item Ссылка="556e86a6-f7af-4740-8b22-01c5076fd41c" ИмяПредопределенныхДанных="Головлев"/>
 			<item Ссылка="e319145d-71b5-452a-8a4d-f6b51daf0f50" ИмяПредопределенныхДанных="Мансуров"/>
 			<item Ссылка="6b8a99ed-a196-4949-8060-9f6f08a63269" ИмяПредопределенныхДанных="Бельдыев"/>
-			<item Ссылка="556e86a6-f7af-4740-8b22-01c5076fd41c" ИмяПредопределенныхДанных="Головлев"/>
-			<item Ссылка="c211de45-0657-413b-8bdd-2efb9c4cb0c4" ИмяПредопределенныхДанных="Петров"/>
-			<item Ссылка="2d884283-014a-4f3a-8eb8-68a649d2dfd6" ИмяПредопределенныхДанных="Хабибулин"/>
-			<item Ссылка="205cf355-c949-4519-9588-47ce8dc1ce6f" ИмяПредопределенныхДанных="Залкинд"/>
-			<item Ссылка="29b9406b-092b-48a7-9931-aa1d64c8807e" ИмяПредопределенныхДанных="Кротова"/>
-			<item Ссылка="1738669f-715d-420c-9a55-6a8b3fbbdc9d" ИмяПредопределенныхДанных="Жупиков"/>
-			<item Ссылка="f4f32e65-5267-436a-9aa5-7824cc53edb5" ИмяПредопределенныхДанных="Сидоров"/>
 			<item Ссылка="12f8b886-8f19-4408-9c77-b805a8f691ff" ИмяПредопределенныхДанных="Мишин"/>
 			<item Ссылка="d315c38e-3ee2-4973-9cc8-afe193650d50" ИмяПредопределенныхДанных="Лоханкина"/>
 			<item Ссылка="08e27333-7311-47d6-a393-3275f6c38cf3" ИмяПредопределенныхДанных="Иванов"/>
@@ -1476,11 +1788,11 @@
 			<item Ссылка="9f1ea329-ad98-4bb0-a78a-0a9b34d5eece" ИмяПредопределенныхДанных="Федоров"/>
 			<item Ссылка="ffc8140b-1a0e-445c-a7c7-fd18492b5436" ИмяПредопределенныхДанных="Васина"/>
 			<item Ссылка="c8ab270a-844d-4db0-ab2e-6bfb5c129e83" ИмяПредопределенныхДанных="Коган"/>
+			<item Ссылка="57bbf4d7-4ef2-4434-b0b1-361445eac2f7" ИмяПредопределенныхДанных="Онопко"/>
+			<item Ссылка="5c781039-bcb7-4330-b401-778fcdeb0eb5" ИмяПредопределенныхДанных="Федорова"/>
+			<item Ссылка="372c46f1-75b1-400b-b51c-085fdb9c169b" ИмяПредопределенныхДанных="Степанов"/>
 			<item Ссылка="c1ab16a1-c50e-4eb8-baff-aa7e032af7db" ИмяПредопределенныхДанных="Мишина"/>
 			<item Ссылка="a8e63bdd-c11c-48e7-b8f1-6c4607c111be" ИмяПредопределенныхДанных="Петренко"/>
-			<item Ссылка="372c46f1-75b1-400b-b51c-085fdb9c169b" ИмяПредопределенныхДанных="Степанов"/>
-			<item Ссылка="5c781039-bcb7-4330-b401-778fcdeb0eb5" ИмяПредопределенныхДанных="Федорова"/>
-			<item Ссылка="57bbf4d7-4ef2-4434-b0b1-361445eac2f7" ИмяПредопределенныхДанных="Онопко"/>
 		</Справочник.Сотрудники>
 	</PredefinedData>
 </V8Exch:_1CV8DtUD>
