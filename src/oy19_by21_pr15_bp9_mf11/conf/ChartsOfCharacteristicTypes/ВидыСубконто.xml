@@ -40,8 +40,11 @@
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<CharacteristicExtValues>Catalog.Субконто</CharacteristicExtValues>
 			<Type>
+				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 				<v8:Type>cfg:CatalogRef.Субконто</v8:Type>
+				<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
 				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+				<v8:Type>cfg:DocumentRef.РасходнаяНакладная</v8:Type>
 			</Type>
 			<Hierarchical>false</Hierarchical>
 			<FoldersOnTop>true</FoldersOnTop>

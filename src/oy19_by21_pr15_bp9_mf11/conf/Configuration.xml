@@ -151,6 +151,7 @@
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
 			<Document>Операция</Document>
+			<Document>УстановкаКурсов</Document>
 			<Enum>УчетнаяПолитика</Enum>
 			<Enum>ВидыНоменклатуры</Enum>
 			<Enum>ПолФизическихЛиц</Enum>
