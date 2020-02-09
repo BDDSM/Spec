@@ -160,7 +160,7 @@
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента" id="5080b42a-9b17-4d74-b4cd-ca9d9e684883" configVersion="7d44c2919914bd4692c324dbd4f72ce000000000"/>
 		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента.Form" id="5080b42a-9b17-4d74-b4cd-ca9d9e684883.0" configVersion="aaf1d87c8c8cb7499c16e851e6e7f34b00000000"/>
 		<Metadata name="Document.ПриходнаяНакладная.ObjectModule" id="175cf957-1c89-437e-9199-36da6ca20619.0" configVersion="3ee0fd0d34bbf94280d27e5196bfe51500000000"/>
-		<Metadata name="Document.РасходнаяНакладная" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912" configVersion="2f0bdeba07d56e4e9dcf74336207b42100000000">
+		<Metadata name="Document.РасходнаяНакладная" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912" configVersion="aad690673932a342afe6acc693cea76900000000">
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Количество" id="05b3711e-22c8-4ac2-a22f-2803fb404d2d"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Сумма" id="443d6a98-2312-4ca8-b789-5463720c6ddd"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Цена" id="992b97da-e6a1-446a-ad2e-a8bb16345542"/>
@@ -172,7 +172,7 @@
 		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Form" id="511661d3-7eb0-43b5-825a-e06662278791.0" configVersion="951dfac1ebf31541a6eba23bf9f01a0200000000"/>
 		<Metadata name="Document.РасходнаяНакладная.Help" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912.1" configVersion="509aa0dfcba6384ea531f66164ed0d1000000000"/>
 		<Metadata name="Document.РасходнаяНакладная.ManagerModule" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912.2" configVersion="32f33e8612e9a642863f9359f0ae352100000000"/>
-		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912.0" configVersion="e0479f404c4a5f4ab9ca6bc63265d00500000000"/>
+		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912.0" configVersion="26704d04896b514985ae8c016ac496d800000000"/>
 		<Metadata name="Enum.ВидыНоменклатуры" id="3d720e22-c9fc-4720-b899-5dc754c61975" configVersion="4c638c433766d547993ee6641721826b00000000">
 			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.Услуга" id="0326632b-5dd3-45ff-aab5-b83ec8d68df8"/>
 			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.Товар" id="04a105ac-2ad1-4101-9d50-5e4b2379ee85"/>
