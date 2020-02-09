@@ -320,11 +320,11 @@
 					</Attribute>
 					<Attribute uuid="06f15da9-5b6d-4847-b752-b814a9c7d9f7">
 						<Properties>
-							<Name>ПериодДействияОкончание</Name>
+							<Name>ПериодДействияКонец</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Период действия окончание</v8:content>
+									<v8:content>Период действия конец</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
