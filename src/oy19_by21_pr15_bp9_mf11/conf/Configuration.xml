@@ -149,6 +149,7 @@
 			<Catalog>Склады</Catalog>
 			<Catalog>ГруппыАналогов</Catalog>
 			<Catalog>Графики</Catalog>
+			<Catalog>Должности</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
@@ -177,6 +178,8 @@
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
 			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
 			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
+			<BusinessProcess>БизнесПроцесс</BusinessProcess>
+			<Task>ЗадачиИсполнителя</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

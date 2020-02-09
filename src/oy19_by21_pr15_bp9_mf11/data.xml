@@ -408,6 +408,24 @@
 			<v8:Description>Мишина</v8:Description>
 			<v8:PredefinedDataName>Мишина</v8:PredefinedDataName>
 		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">458f1c89-4b86-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Галкин</v8:Code>
+			<v8:Description>Галкин</v8:Description>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">458f1c8b-4b86-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Палкин</v8:Code>
+			<v8:Description>Палкин</v8:Description>
+		</v8:CatalogObject.Сотрудники>
+		<v8:CatalogObject.Сотрудники>
+			<v8:Ref xsi:type="v8:CatalogRef.Сотрудники">458f1c8c-4b86-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>Малкин</v8:Code>
+			<v8:Description>Малкин</v8:Description>
+		</v8:CatalogObject.Сотрудники>
 		<v8:CatalogObject.Подразделения>
 			<v8:Ref xsi:type="v8:CatalogRef.Подразделения">2c63b09b-a257-449b-88d6-6a7788ee684d</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
@@ -478,6 +496,27 @@
 			<v8:Code>000000001</v8:Code>
 			<v8:Description>Пятидневка</v8:Description>
 		</v8:CatalogObject.Графики>
+		<v8:CatalogObject.Должности>
+			<v8:Ref xsi:type="v8:CatalogRef.Должности">e251d054-4b86-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000001</v8:Code>
+			<v8:Description>Бухгалтер</v8:Description>
+			<v8:PredefinedDataName>Бухгалтер</v8:PredefinedDataName>
+		</v8:CatalogObject.Должности>
+		<v8:CatalogObject.Должности>
+			<v8:Ref xsi:type="v8:CatalogRef.Должности">e251d055-4b86-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000003</v8:Code>
+			<v8:Description>Кладовщик</v8:Description>
+			<v8:PredefinedDataName>Кладовщик</v8:PredefinedDataName>
+		</v8:CatalogObject.Должности>
+		<v8:CatalogObject.Должности>
+			<v8:Ref xsi:type="v8:CatalogRef.Должности">e251d056-4b86-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000002</v8:Code>
+			<v8:Description>Менеджер</v8:Description>
+			<v8:PredefinedDataName>Менеджер</v8:PredefinedDataName>
+		</v8:CatalogObject.Должности>
 		<v8:DocumentObject.ПриходнаяНакладная>
 			<v8:Ref>10e254e3-4b4f-11ea-859d-240a64b6cdb0</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
@@ -1707,6 +1746,258 @@
 				<v8:Predefined>true</v8:Predefined>
 			</v8:BaseCalculationTypes>
 		</v8:ChartOfCalculationTypesObject.ДополнительныеНачисления>
+		<v8:InformationRegisterRecordSet.РегистрАдресации>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Исполнитель</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">458f1c89-4b86-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">2c63b09b-a257-449b-88d6-6a7788ee684d</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Должность</Name>
+					<Value xsi:type="v8:CatalogRef.Должности">e251d056-4b86-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">458f1c89-4b86-11ea-859e-240a64b67da6</v8:Исполнитель>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">2c63b09b-a257-449b-88d6-6a7788ee684d</v8:Подразделение>
+				<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d056-4b86-11ea-859e-240a64b67da6</v8:Должность>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.РегистрАдресации>
+		<v8:InformationRegisterRecordSet.РегистрАдресации>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Исполнитель</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">458f1c8b-4b86-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">2c63b09b-a257-449b-88d6-6a7788ee684d</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Должность</Name>
+					<Value xsi:type="v8:CatalogRef.Должности">e251d056-4b86-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">458f1c8b-4b86-11ea-859e-240a64b67da6</v8:Исполнитель>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">2c63b09b-a257-449b-88d6-6a7788ee684d</v8:Подразделение>
+				<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d056-4b86-11ea-859e-240a64b67da6</v8:Должность>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.РегистрАдресации>
+		<v8:InformationRegisterRecordSet.РегистрАдресации>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Исполнитель</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">458f1c8c-4b86-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">2c63b09b-a257-449b-88d6-6a7788ee684d</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Должность</Name>
+					<Value xsi:type="v8:CatalogRef.Должности">e251d056-4b86-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">458f1c8c-4b86-11ea-859e-240a64b67da6</v8:Исполнитель>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">2c63b09b-a257-449b-88d6-6a7788ee684d</v8:Подразделение>
+				<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d056-4b86-11ea-859e-240a64b67da6</v8:Должность>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.РегистрАдресации>
+		<v8:InformationRegisterRecordSet.РегистрАдресации>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Исполнитель</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">205cf355-c949-4519-9588-47ce8dc1ce6f</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Должность</Name>
+					<Value xsi:type="v8:CatalogRef.Должности">e251d055-4b86-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">205cf355-c949-4519-9588-47ce8dc1ce6f</v8:Исполнитель>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Подразделение>
+				<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d055-4b86-11ea-859e-240a64b67da6</v8:Должность>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.РегистрАдресации>
+		<v8:InformationRegisterRecordSet.РегистрАдресации>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Исполнитель</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">1738669f-715d-420c-9a55-6a8b3fbbdc9d</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Должность</Name>
+					<Value xsi:type="v8:CatalogRef.Должности">e251d055-4b86-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">1738669f-715d-420c-9a55-6a8b3fbbdc9d</v8:Исполнитель>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Подразделение>
+				<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d055-4b86-11ea-859e-240a64b67da6</v8:Должность>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.РегистрАдресации>
+		<v8:InformationRegisterRecordSet.РегистрАдресации>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Исполнитель</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">d315c38e-3ee2-4973-9cc8-afe193650d50</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Должность</Name>
+					<Value xsi:type="v8:CatalogRef.Должности">e251d055-4b86-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">d315c38e-3ee2-4973-9cc8-afe193650d50</v8:Исполнитель>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Подразделение>
+				<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d055-4b86-11ea-859e-240a64b67da6</v8:Должность>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.РегистрАдресации>
+		<v8:InformationRegisterRecordSet.РегистрАдресации>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Исполнитель</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">08e27333-7311-47d6-a393-3275f6c38cf3</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Должность</Name>
+					<Value xsi:type="v8:CatalogRef.Должности">00000000-0000-0000-0000-000000000000</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">08e27333-7311-47d6-a393-3275f6c38cf3</v8:Исполнитель>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5</v8:Подразделение>
+				<v8:Должность xsi:type="v8:CatalogRef.Должности">00000000-0000-0000-0000-000000000000</v8:Должность>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.РегистрАдресации>
+		<v8:InformationRegisterRecordSet.РегистрАдресации>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Исполнитель</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">7c73a5d5-4cd8-413a-a4c5-8b15a60bbc3c</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Должность</Name>
+					<Value xsi:type="v8:CatalogRef.Должности">e251d054-4b86-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">7c73a5d5-4cd8-413a-a4c5-8b15a60bbc3c</v8:Исполнитель>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Подразделение>
+				<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d054-4b86-11ea-859e-240a64b67da6</v8:Должность>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.РегистрАдресации>
+		<v8:InformationRegisterRecordSet.РегистрАдресации>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Исполнитель</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">7c73a5d5-4cd8-413a-a4c5-8b15a60bbc3c</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Должность</Name>
+					<Value xsi:type="v8:CatalogRef.Должности">00000000-0000-0000-0000-000000000000</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">7c73a5d5-4cd8-413a-a4c5-8b15a60bbc3c</v8:Исполнитель>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5</v8:Подразделение>
+				<v8:Должность xsi:type="v8:CatalogRef.Должности">00000000-0000-0000-0000-000000000000</v8:Должность>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.РегистрАдресации>
+		<v8:InformationRegisterRecordSet.РегистрАдресации>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Исполнитель</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">ffc8140b-1a0e-445c-a7c7-fd18492b5436</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Должность</Name>
+					<Value xsi:type="v8:CatalogRef.Должности">00000000-0000-0000-0000-000000000000</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">ffc8140b-1a0e-445c-a7c7-fd18492b5436</v8:Исполнитель>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5</v8:Подразделение>
+				<v8:Должность xsi:type="v8:CatalogRef.Должности">00000000-0000-0000-0000-000000000000</v8:Должность>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.РегистрАдресации>
+		<v8:InformationRegisterRecordSet.РегистрАдресации>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Исполнитель</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">c1ab16a1-c50e-4eb8-baff-aa7e032af7db</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Должность</Name>
+					<Value xsi:type="v8:CatalogRef.Должности">e251d054-4b86-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">c1ab16a1-c50e-4eb8-baff-aa7e032af7db</v8:Исполнитель>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Подразделение>
+				<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d054-4b86-11ea-859e-240a64b67da6</v8:Должность>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.РегистрАдресации>
+		<v8:InformationRegisterRecordSet.РегистрАдресации>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Исполнитель</Name>
+					<Value xsi:type="v8:CatalogRef.Сотрудники">c1ab16a1-c50e-4eb8-baff-aa7e032af7db</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Подразделение</Name>
+					<Value xsi:type="v8:CatalogRef.Подразделения">be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Должность</Name>
+					<Value xsi:type="v8:CatalogRef.Должности">00000000-0000-0000-0000-000000000000</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">c1ab16a1-c50e-4eb8-baff-aa7e032af7db</v8:Исполнитель>
+				<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5</v8:Подразделение>
+				<v8:Должность xsi:type="v8:CatalogRef.Должности">00000000-0000-0000-0000-000000000000</v8:Должность>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.РегистрАдресации>
 		<v8:InformationRegisterRecordSet.КурсыВалют>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
@@ -5537,6 +5828,67 @@
 				<v8:Размер>0</v8:Размер>
 			</v8:Record>
 		</v8:CalculationRegisterRecordSet.ДополнительныеНачисления>
+		<v8:BusinessProcessObject.БизнесПроцесс>
+			<v8:Ref>feb3e2e1-4b87-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2020-02-06T13:03:02</v8:Date>
+			<v8:Number>000000001</v8:Number>
+			<v8:Completed>true</v8:Completed>
+			<v8:HeadTask>00000000-0000-0000-0000-000000000000</v8:HeadTask>
+			<v8:Started>true</v8:Started>
+		</v8:BusinessProcessObject.БизнесПроцесс>
+		<v8:TaskObject.ЗадачиИсполнителя>
+			<v8:Ref>feb3e2e2-4b87-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2020-02-10T01:03:26</v8:Date>
+			<v8:Number>000000001</v8:Number>
+			<v8:Description>Заявка покупателя</v8:Description>
+			<v8:BusinessProcess>feb3e2e1-4b87-11ea-859e-240a64b67da6</v8:BusinessProcess>
+			<v8:RoutePoint>77f2a8c2-a62e-45cb-aa58-2e8f6fdddaea</v8:RoutePoint>
+			<v8:Executed>true</v8:Executed>
+			<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">458f1c8b-4b86-11ea-859e-240a64b67da6</v8:Исполнитель>
+			<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">2c63b09b-a257-449b-88d6-6a7788ee684d</v8:Подразделение>
+			<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d056-4b86-11ea-859e-240a64b67da6</v8:Должность>
+		</v8:TaskObject.ЗадачиИсполнителя>
+		<v8:TaskObject.ЗадачиИсполнителя>
+			<v8:Ref>feb3e2e3-4b87-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2020-02-10T01:07:03</v8:Date>
+			<v8:Number>000000002</v8:Number>
+			<v8:Description>Получение оплаты</v8:Description>
+			<v8:BusinessProcess>feb3e2e1-4b87-11ea-859e-240a64b67da6</v8:BusinessProcess>
+			<v8:RoutePoint>458cb35b-aedc-4b1f-8cff-972b1bb373ae</v8:RoutePoint>
+			<v8:Executed>true</v8:Executed>
+			<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">7c73a5d5-4cd8-413a-a4c5-8b15a60bbc3c</v8:Исполнитель>
+			<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Подразделение>
+			<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d054-4b86-11ea-859e-240a64b67da6</v8:Должность>
+		</v8:TaskObject.ЗадачиИсполнителя>
+		<v8:TaskObject.ЗадачиИсполнителя>
+			<v8:Ref>feb3e2e4-4b87-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2020-02-10T01:07:03</v8:Date>
+			<v8:Number>000000003</v8:Number>
+			<v8:Description>Оформление документов</v8:Description>
+			<v8:BusinessProcess>feb3e2e1-4b87-11ea-859e-240a64b67da6</v8:BusinessProcess>
+			<v8:RoutePoint>6095d59a-bd36-46d8-af81-3c6db1ab4e93</v8:RoutePoint>
+			<v8:Executed>true</v8:Executed>
+			<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">c1ab16a1-c50e-4eb8-baff-aa7e032af7db</v8:Исполнитель>
+			<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5</v8:Подразделение>
+			<v8:Должность xsi:type="v8:CatalogRef.Должности">00000000-0000-0000-0000-000000000000</v8:Должность>
+		</v8:TaskObject.ЗадачиИсполнителя>
+		<v8:TaskObject.ЗадачиИсполнителя>
+			<v8:Ref>feb3e2e5-4b87-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2020-02-10T01:08:34</v8:Date>
+			<v8:Number>000000004</v8:Number>
+			<v8:Description>Выдача товаров</v8:Description>
+			<v8:BusinessProcess>feb3e2e1-4b87-11ea-859e-240a64b67da6</v8:BusinessProcess>
+			<v8:RoutePoint>5eb77eb1-64f1-4334-a56a-10d7edccb07a</v8:RoutePoint>
+			<v8:Executed>true</v8:Executed>
+			<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">d315c38e-3ee2-4973-9cc8-afe193650d50</v8:Исполнитель>
+			<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Подразделение>
+			<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d055-4b86-11ea-859e-240a64b67da6</v8:Должность>
+		</v8:TaskObject.ЗадачиИсполнителя>
 	</V8Exch:Data>
 	<PredefinedData>
 		<ПланВидовРасчета.ДополнительныеНачисления>
@@ -5573,27 +5925,32 @@
 		<Справочник.Валюты>
 			<item Ссылка="7e6ffb69-4c6a-4924-b85c-0ff8f1ed342f" ИмяПредопределенныхДанных="РоссийскийРубль"/>
 		</Справочник.Валюты>
+		<Справочник.Должности>
+			<item Ссылка="e251d056-4b86-11ea-859e-240a64b67da6" ИмяПредопределенныхДанных="Менеджер"/>
+			<item Ссылка="e251d055-4b86-11ea-859e-240a64b67da6" ИмяПредопределенныхДанных="Кладовщик"/>
+			<item Ссылка="e251d054-4b86-11ea-859e-240a64b67da6" ИмяПредопределенныхДанных="Бухгалтер"/>
+		</Справочник.Должности>
 		<Справочник.Контрагенты>
-			<item Ссылка="f47d7e11-13ff-4f31-ae0e-5179592a98cd" ИмяПредопределенныхДанных="Покупатели"/>
 			<item Ссылка="4340ba4a-9153-48cd-b2df-3c97c078342e" ИмяПредопределенныхДанных="Поставщики"/>
+			<item Ссылка="f47d7e11-13ff-4f31-ae0e-5179592a98cd" ИмяПредопределенныхДанных="Покупатели"/>
 		</Справочник.Контрагенты>
 		<Справочник.Подразделения>
-			<item Ссылка="2c63b09b-a257-449b-88d6-6a7788ee684d" ИмяПредопределенныхДанных="ОтделПродаж"/>
-			<item Ссылка="a5cb9f62-14ad-405b-8924-d417d5850272" ИмяПредопределенныхДанных="ОтделРазработки"/>
-			<item Ссылка="4e779126-2028-4df6-9a0c-165fdc61316f" ИмяПредопределенныхДанных="ОтделВнедрения"/>
-			<item Ссылка="be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5" ИмяПредопределенныхДанных="Бухгалтерия"/>
 			<item Ссылка="b4ead4ab-6c1b-41fd-b3cb-dcb80d1b4bf3" ИмяПредопределенныхДанных="ОтделЗакупок"/>
+			<item Ссылка="be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5" ИмяПредопределенныхДанных="Бухгалтерия"/>
+			<item Ссылка="4e779126-2028-4df6-9a0c-165fdc61316f" ИмяПредопределенныхДанных="ОтделВнедрения"/>
+			<item Ссылка="a5cb9f62-14ad-405b-8924-d417d5850272" ИмяПредопределенныхДанных="ОтделРазработки"/>
+			<item Ссылка="2c63b09b-a257-449b-88d6-6a7788ee684d" ИмяПредопределенныхДанных="ОтделПродаж"/>
 		</Справочник.Подразделения>
 		<Справочник.Сотрудники>
-			<item Ссылка="f4f32e65-5267-436a-9aa5-7824cc53edb5" ИмяПредопределенныхДанных="Сидоров"/>
-			<item Ссылка="1738669f-715d-420c-9a55-6a8b3fbbdc9d" ИмяПредопределенныхДанных="Жупиков"/>
-			<item Ссылка="29b9406b-092b-48a7-9931-aa1d64c8807e" ИмяПредопределенныхДанных="Кротова"/>
-			<item Ссылка="205cf355-c949-4519-9588-47ce8dc1ce6f" ИмяПредопределенныхДанных="Залкинд"/>
-			<item Ссылка="2d884283-014a-4f3a-8eb8-68a649d2dfd6" ИмяПредопределенныхДанных="Хабибулин"/>
-			<item Ссылка="c211de45-0657-413b-8bdd-2efb9c4cb0c4" ИмяПредопределенныхДанных="Петров"/>
-			<item Ссылка="556e86a6-f7af-4740-8b22-01c5076fd41c" ИмяПредопределенныхДанных="Головлев"/>
-			<item Ссылка="e319145d-71b5-452a-8a4d-f6b51daf0f50" ИмяПредопределенныхДанных="Мансуров"/>
 			<item Ссылка="6b8a99ed-a196-4949-8060-9f6f08a63269" ИмяПредопределенныхДанных="Бельдыев"/>
+			<item Ссылка="e319145d-71b5-452a-8a4d-f6b51daf0f50" ИмяПредопределенныхДанных="Мансуров"/>
+			<item Ссылка="556e86a6-f7af-4740-8b22-01c5076fd41c" ИмяПредопределенныхДанных="Головлев"/>
+			<item Ссылка="c211de45-0657-413b-8bdd-2efb9c4cb0c4" ИмяПредопределенныхДанных="Петров"/>
+			<item Ссылка="2d884283-014a-4f3a-8eb8-68a649d2dfd6" ИмяПредопределенныхДанных="Хабибулин"/>
+			<item Ссылка="205cf355-c949-4519-9588-47ce8dc1ce6f" ИмяПредопределенныхДанных="Залкинд"/>
+			<item Ссылка="29b9406b-092b-48a7-9931-aa1d64c8807e" ИмяПредопределенныхДанных="Кротова"/>
+			<item Ссылка="1738669f-715d-420c-9a55-6a8b3fbbdc9d" ИмяПредопределенныхДанных="Жупиков"/>
+			<item Ссылка="f4f32e65-5267-436a-9aa5-7824cc53edb5" ИмяПредопределенныхДанных="Сидоров"/>
 			<item Ссылка="12f8b886-8f19-4408-9c77-b805a8f691ff" ИмяПредопределенныхДанных="Мишин"/>
 			<item Ссылка="d315c38e-3ee2-4973-9cc8-afe193650d50" ИмяПредопределенныхДанных="Лоханкина"/>
 			<item Ссылка="08e27333-7311-47d6-a393-3275f6c38cf3" ИмяПредопределенныхДанных="Иванов"/>
