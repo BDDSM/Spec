@@ -60,10 +60,12 @@
 		<Metadata name="Catalog.ЗначенияСвойств" id="ef77557e-2e11-4e7b-ac75-8e8de5e6e0ef" configVersion="22e6c1995a67bb47899a74589b56d3e400000000"/>
 		<Metadata name="Catalog.Контрагенты" id="f5d1d69b-c1e1-4f2a-a961-d7930f0c8f6a" configVersion="0618a67ed2ecbd41bb012e5f4d73602d00000000"/>
 		<Metadata name="Catalog.Контрагенты.Predefined" id="f5d1d69b-c1e1-4f2a-a961-d7930f0c8f6a.1c" configVersion="f63f3a3cded8f049bbb08969f47e56b100000000"/>
-		<Metadata name="Catalog.Номенклатура" id="b5ffda73-09b5-410d-b5dc-4d2f903f38ac" configVersion="99e2f34f77273045be5b4cb120e74f3700000000">
+		<Metadata name="Catalog.Номенклатура" id="b5ffda73-09b5-410d-b5dc-4d2f903f38ac" configVersion="667ff1da59becf41b50cbb590f30065a00000000">
 			<Metadata name="Catalog.Номенклатура.Attribute.Вид" id="41b19681-8ceb-4e7f-b996-fbc8ac78a427"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.Артикул" id="a03705d7-40bd-4586-a7f0-b7c7c59f1ef5"/>
 		</Metadata>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка" id="13e0fcc4-16a6-415b-b2af-c4548cf24efa" configVersion="6e38d6178ba8244bbe00b0389092088b00000000"/>
+		<Metadata name="Catalog.Номенклатура.Form.ФормаСписка.Form" id="13e0fcc4-16a6-415b-b2af-c4548cf24efa.0" configVersion="5c90cd48ff75e24b99daac59d8b3338300000000"/>
 		<Metadata name="Catalog.Номенклатура.Help" id="b5ffda73-09b5-410d-b5dc-4d2f903f38ac.1" configVersion="5b8eb270cde66044a5742c06b2e8112100000000"/>
 		<Metadata name="Catalog.Номенклатура.ManagerModule" id="b5ffda73-09b5-410d-b5dc-4d2f903f38ac.3" configVersion="25a584ae13b2a4428b8acbbfb78577f800000000"/>
 		<Metadata name="Catalog.Номенклатура.ObjectModule" id="b5ffda73-09b5-410d-b5dc-4d2f903f38ac.0" configVersion="d04985b9b3b3104eadf8829633439cb400000000"/>
@@ -213,8 +215,8 @@
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары" id="b230b921-da35-4e92-9453-47611eb067c1"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.Товары.Attribute.Номенклатура" id="cd03dc3c-55d6-45ee-83ee-c8e71ec0a51d"/>
 		</Metadata>
-		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента" id="511661d3-7eb0-43b5-825a-e06662278791" configVersion="f6c8724718c2ac48a86dca96f50ba81e00000000"/>
-		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Form" id="511661d3-7eb0-43b5-825a-e06662278791.0" configVersion="e0f4eacb9578404196754cd34c02139300000000"/>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента" id="511661d3-7eb0-43b5-825a-e06662278791" configVersion="b4636c21e6595143a2d082a5e2e3b92000000000"/>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Form" id="511661d3-7eb0-43b5-825a-e06662278791.0" configVersion="b905ada5b19bf647b69d7c63bc26ccb000000000"/>
 		<Metadata name="Document.РасходнаяНакладная.Help" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912.1" configVersion="509aa0dfcba6384ea531f66164ed0d1000000000"/>
 		<Metadata name="Document.РасходнаяНакладная.ManagerModule" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912.2" configVersion="32f33e8612e9a642863f9359f0ae352100000000"/>
 		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912.0" configVersion="0a9814db919dd8448481e8a1ac03d2b200000000"/>
