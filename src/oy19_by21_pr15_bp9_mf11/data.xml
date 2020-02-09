@@ -5837,6 +5837,15 @@
 			<v8:HeadTask>00000000-0000-0000-0000-000000000000</v8:HeadTask>
 			<v8:Started>true</v8:Started>
 		</v8:BusinessProcessObject.БизнесПроцесс>
+		<v8:BusinessProcessObject.БизнесПроцесс>
+			<v8:Ref>a65d41a5-4b89-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2020-02-10T01:15:13</v8:Date>
+			<v8:Number>000000002</v8:Number>
+			<v8:Completed>false</v8:Completed>
+			<v8:HeadTask>00000000-0000-0000-0000-000000000000</v8:HeadTask>
+			<v8:Started>true</v8:Started>
+		</v8:BusinessProcessObject.БизнесПроцесс>
 		<v8:TaskObject.ЗадачиИсполнителя>
 			<v8:Ref>feb3e2e2-4b87-11ea-859e-240a64b67da6</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
@@ -5888,6 +5897,45 @@
 			<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">d315c38e-3ee2-4973-9cc8-afe193650d50</v8:Исполнитель>
 			<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Подразделение>
 			<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d055-4b86-11ea-859e-240a64b67da6</v8:Должность>
+		</v8:TaskObject.ЗадачиИсполнителя>
+		<v8:TaskObject.ЗадачиИсполнителя>
+			<v8:Ref>a65d41a6-4b89-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2020-02-10T01:15:17</v8:Date>
+			<v8:Number>000000005</v8:Number>
+			<v8:Description>Заявка покупателя</v8:Description>
+			<v8:BusinessProcess>a65d41a5-4b89-11ea-859e-240a64b67da6</v8:BusinessProcess>
+			<v8:RoutePoint>77f2a8c2-a62e-45cb-aa58-2e8f6fdddaea</v8:RoutePoint>
+			<v8:Executed>true</v8:Executed>
+			<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">458f1c89-4b86-11ea-859e-240a64b67da6</v8:Исполнитель>
+			<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">2c63b09b-a257-449b-88d6-6a7788ee684d</v8:Подразделение>
+			<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d056-4b86-11ea-859e-240a64b67da6</v8:Должность>
+		</v8:TaskObject.ЗадачиИсполнителя>
+		<v8:TaskObject.ЗадачиИсполнителя>
+			<v8:Ref>a65d41a7-4b89-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2020-02-10T01:16:23</v8:Date>
+			<v8:Number>000000006</v8:Number>
+			<v8:Description>Получение оплаты</v8:Description>
+			<v8:BusinessProcess>a65d41a5-4b89-11ea-859e-240a64b67da6</v8:BusinessProcess>
+			<v8:RoutePoint>458cb35b-aedc-4b1f-8cff-972b1bb373ae</v8:RoutePoint>
+			<v8:Executed>false</v8:Executed>
+			<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">00000000-0000-0000-0000-000000000000</v8:Исполнитель>
+			<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">00000000-0000-0000-0000-000000000000</v8:Подразделение>
+			<v8:Должность xsi:type="v8:CatalogRef.Должности">e251d054-4b86-11ea-859e-240a64b67da6</v8:Должность>
+		</v8:TaskObject.ЗадачиИсполнителя>
+		<v8:TaskObject.ЗадачиИсполнителя>
+			<v8:Ref>a65d41a8-4b89-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2020-02-10T01:16:23</v8:Date>
+			<v8:Number>000000007</v8:Number>
+			<v8:Description>Оформление документов</v8:Description>
+			<v8:BusinessProcess>a65d41a5-4b89-11ea-859e-240a64b67da6</v8:BusinessProcess>
+			<v8:RoutePoint>6095d59a-bd36-46d8-af81-3c6db1ab4e93</v8:RoutePoint>
+			<v8:Executed>true</v8:Executed>
+			<v8:Исполнитель xsi:type="v8:CatalogRef.Сотрудники">7c73a5d5-4cd8-413a-a4c5-8b15a60bbc3c</v8:Исполнитель>
+			<v8:Подразделение xsi:type="v8:CatalogRef.Подразделения">be65e3f8-8efb-4127-a0e0-f5d6b91a6bb5</v8:Подразделение>
+			<v8:Должность xsi:type="v8:CatalogRef.Должности">00000000-0000-0000-0000-000000000000</v8:Должность>
 		</v8:TaskObject.ЗадачиИсполнителя>
 	</V8Exch:Data>
 	<PredefinedData>
