@@ -7,6 +7,9 @@
 		<v8:ConstantValueManager.ЮридическийАдрес>
 			<v8:Value>Не дом и не улица</v8:Value>
 		</v8:ConstantValueManager.ЮридическийАдрес>
+		<v8:ConstantValueManager.КомпенсацияЗаЛекарства>
+			<v8:Value>0</v8:Value>
+		</v8:ConstantValueManager.КомпенсацияЗаЛекарства>
 		<v8:CatalogObject.Валюты>
 			<v8:Ref xsi:type="v8:CatalogRef.Валюты">b01bf828-3fb6-11df-af8e-001302ef9025</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
@@ -469,6 +472,12 @@
 			<v8:Code>000000002</v8:Code>
 			<v8:Description>Кластер 2</v8:Description>
 		</v8:CatalogObject.ГруппыАналогов>
+		<v8:CatalogObject.Графики>
+			<v8:Ref xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>000000001</v8:Code>
+			<v8:Description>Пятидневка</v8:Description>
+		</v8:CatalogObject.Графики>
 		<v8:DocumentObject.ПриходнаяНакладная>
 			<v8:Ref>10e254e3-4b4f-11ea-859d-240a64b6cdb0</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
@@ -1283,27 +1292,63 @@
 			<v8:PredefinedDataName>КредитыИЗаймыВыданные</v8:PredefinedDataName>
 		</v8:ChartOfAccountsObject.Управленческий>
 		<v8:ChartOfCalculationTypesObject.ОсновныеНачисления>
+			<v8:Ref xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">c141fdea-4b72-11ea-859e-240a64b67da6</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Code>2</v8:Code>
+			<v8:Description>Больничный</v8:Description>
+			<v8:ActionPeriodIsBasic>false</v8:ActionPeriodIsBasic>
+			<v8:PredefinedDataName>Больничный</v8:PredefinedDataName>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">021cd9f4-8e5f-11e3-8a77-94de8067d407</v8:CalculationType>
+				<v8:Predefined>true</v8:Predefined>
+			</v8:BaseCalculationTypes>
+			<v8:LeadingCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">021cd9f4-8e5f-11e3-8a77-94de8067d407</v8:CalculationType>
+				<v8:Predefined>true</v8:Predefined>
+			</v8:LeadingCalculationTypes>
+		</v8:ChartOfCalculationTypesObject.ОсновныеНачисления>
+		<v8:ChartOfCalculationTypesObject.ОсновныеНачисления>
 			<v8:Ref xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">021cd9f4-8e5f-11e3-8a77-94de8067d407</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Code>1</v8:Code>
-			<v8:Description>Оклад</v8:Description>
-			<v8:PredefinedDataName>Оклад</v8:PredefinedDataName>
+			<v8:Description>Оплата по тарифу</v8:Description>
+			<v8:ActionPeriodIsBasic>false</v8:ActionPeriodIsBasic>
+			<v8:PredefinedDataName>ОплатаПоТарифу</v8:PredefinedDataName>
+			<v8:DisplacingCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">c141fdea-4b72-11ea-859e-240a64b67da6</v8:CalculationType>
+				<v8:Predefined>true</v8:Predefined>
+			</v8:DisplacingCalculationTypes>
 		</v8:ChartOfCalculationTypesObject.ОсновныеНачисления>
 		<v8:ChartOfCalculationTypesObject.ДополнительныеНачисления>
 			<v8:Ref xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">021cda04-8e5f-11e3-8a77-94de8067d407</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Code>1</v8:Code>
 			<v8:Description>Премия</v8:Description>
-			<v8:ActionPeriodIsBasic>false</v8:ActionPeriodIsBasic>
 			<v8:PredefinedDataName>Премия</v8:PredefinedDataName>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">021cd9f4-8e5f-11e3-8a77-94de8067d407</v8:CalculationType>
+				<v8:Predefined>true</v8:Predefined>
+			</v8:BaseCalculationTypes>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">03e640dd-4b73-11ea-859e-240a64b67da6</v8:CalculationType>
+				<v8:Predefined>true</v8:Predefined>
+			</v8:BaseCalculationTypes>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">021cda04-8e5f-11e3-8a77-94de8067d407</v8:CalculationType>
+				<v8:Predefined>true</v8:Predefined>
+			</v8:BaseCalculationTypes>
 		</v8:ChartOfCalculationTypesObject.ДополнительныеНачисления>
-		<v8:ChartOfCalculationTypesObject.Удержания>
-			<v8:Ref xsi:type="v8:ChartOfCalculationTypesRef.Удержания">30cc65b7-10ed-11e9-beb2-8c89a50dff9f</v8:Ref>
+		<v8:ChartOfCalculationTypesObject.ДополнительныеНачисления>
+			<v8:Ref xsi:type="v8:ChartOfCalculationTypesRef.ДополнительныеНачисления">03e640dd-4b73-11ea-859e-240a64b67da6</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
-			<v8:Code>1</v8:Code>
-			<v8:Description>Штраф</v8:Description>
-			<v8:PredefinedDataName>Штраф</v8:PredefinedDataName>
-		</v8:ChartOfCalculationTypesObject.Удержания>
+			<v8:Code>2</v8:Code>
+			<v8:Description>Компенсация затрат</v8:Description>
+			<v8:PredefinedDataName>КомпенсацияЗатрат</v8:PredefinedDataName>
+			<v8:BaseCalculationTypes>
+				<v8:CalculationType xsi:type="v8:ChartOfCalculationTypesRef.ОсновныеНачисления">c141fdea-4b72-11ea-859e-240a64b67da6</v8:CalculationType>
+				<v8:Predefined>true</v8:Predefined>
+			</v8:BaseCalculationTypes>
+		</v8:ChartOfCalculationTypesObject.ДополнительныеНачисления>
 		<v8:InformationRegisterRecordSet.КурсыВалют>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
@@ -1336,6 +1381,2894 @@
 				<v8:Курс>64</v8:Курс>
 			</v8:Record>
 		</v8:InformationRegisterRecordSet.КурсыВалют>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-01T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-01T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-02T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-02T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-03T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-03T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-04T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-04T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-05T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-05T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-06T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-06T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-07T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-07T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-08T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-08T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-09T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-09T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-10T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-10T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-11T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-11T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-12T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-12T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-13T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-13T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-14T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-14T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-15T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-15T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-16T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-16T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-17T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-17T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-18T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-18T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-19T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-19T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-20T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-20T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-21T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-21T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-22T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-22T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-23T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-23T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-24T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-24T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-25T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-25T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-26T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-26T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-27T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-27T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-28T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-28T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-29T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-29T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-30T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-30T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-10-31T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-10-31T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-01T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-01T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-02T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-02T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-03T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-03T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-04T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-04T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-05T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-05T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-06T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-06T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-07T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-07T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-08T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-08T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-09T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-09T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-10T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-10T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-11T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-11T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-12T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-12T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-13T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-13T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-14T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-14T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-15T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-15T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-16T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-16T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-17T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-17T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-18T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-18T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-19T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-19T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-20T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-20T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-21T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-21T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-22T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-22T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-23T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-23T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-24T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-24T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-25T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-25T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-26T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-26T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-27T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-27T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-28T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-28T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-29T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-29T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-11-30T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-11-30T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-01T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-01T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-02T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-02T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-03T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-03T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-04T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-04T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-05T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-05T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-06T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-06T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-07T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-07T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-08T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-08T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-09T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-09T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-10T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-10T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-11T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-11T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-12T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-12T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-13T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-13T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-14T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-14T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-15T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-15T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-16T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-16T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-17T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-17T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-18T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-18T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-19T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-19T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-20T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-20T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-21T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-21T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-22T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-22T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-23T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-23T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-24T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-24T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-25T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-25T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-26T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-26T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-27T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-27T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-28T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-28T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-29T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-29T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-30T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-30T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2019-12-31T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2019-12-31T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-01T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-01T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-02T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-02T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-03T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-03T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-04T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-04T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-05T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-05T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-06T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-06T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-07T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-07T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-08T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-08T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-09T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-09T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-10T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-10T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-11T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-11T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-12T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-12T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-13T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-13T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-14T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-14T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-15T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-15T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-16T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-16T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-17T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-17T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-18T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-18T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-19T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-19T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-20T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-20T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-21T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-21T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-22T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-22T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-23T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-23T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-24T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-24T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-25T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-25T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-26T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-26T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-27T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-27T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-28T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-28T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-29T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-29T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-30T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-30T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-01-31T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-01-31T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-01T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-01T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-02T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-02T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-03T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-03T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-04T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-04T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-05T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-05T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-06T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-06T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-07T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-07T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-08T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-08T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-09T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-09T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-10T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-10T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-11T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-11T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-12T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-12T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-13T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-13T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-14T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-14T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-15T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-15T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-16T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-16T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-17T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-17T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-18T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-18T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-19T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-19T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-20T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-20T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-21T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-21T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-22T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-22T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-23T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-23T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-24T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-24T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-25T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-25T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-26T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-26T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-27T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-27T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-28T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-28T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>8</v8:Часов>
+				<v8:Дней>1</v8:Дней>
+				<v8:Вечерние>2</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
+		<v8:InformationRegisterRecordSet.ГрафикиРаботы>
+			<v8:Filter>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">Дата</Name>
+					<Value xsi:type="xs:dateTime">2020-02-29T00:00:00</Value>
+				</FilterItem>
+				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
+					<Name xsi:type="xs:string">График</Name>
+					<Value xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</Value>
+				</FilterItem>
+			</v8:Filter>
+			<v8:Record>
+				<v8:Дата>2020-02-29T00:00:00</v8:Дата>
+				<v8:График xsi:type="v8:CatalogRef.Графики">2e1fa392-4b77-11ea-859e-240a64b67da6</v8:График>
+				<v8:Часов>0</v8:Часов>
+				<v8:Дней>0</v8:Дней>
+				<v8:Вечерние>0</v8:Вечерние>
+			</v8:Record>
+		</v8:InformationRegisterRecordSet.ГрафикиРаботы>
 		<v8:InformationRegisterRecordSet.АналогиТоваров>
 			<v8:Filter>
 				<FilterItem xmlns="http://v8.1c.ru/8.1/data/enterprise">
@@ -1726,14 +4659,13 @@
 	</V8Exch:Data>
 	<PredefinedData>
 		<ПланВидовРасчета.ДополнительныеНачисления>
+			<item Ссылка="03e640dd-4b73-11ea-859e-240a64b67da6" ИмяПредопределенныхДанных="КомпенсацияЗатрат"/>
 			<item Ссылка="021cda04-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="Премия"/>
 		</ПланВидовРасчета.ДополнительныеНачисления>
 		<ПланВидовРасчета.ОсновныеНачисления>
-			<item Ссылка="021cd9f4-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="Оклад"/>
+			<item Ссылка="021cd9f4-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="ОплатаПоТарифу"/>
+			<item Ссылка="c141fdea-4b72-11ea-859e-240a64b67da6" ИмяПредопределенныхДанных="Больничный"/>
 		</ПланВидовРасчета.ОсновныеНачисления>
-		<ПланВидовРасчета.Удержания>
-			<item Ссылка="30cc65b7-10ed-11e9-beb2-8c89a50dff9f" ИмяПредопределенныхДанных="Штраф"/>
-		</ПланВидовРасчета.Удержания>
 		<ПланВидовХарактеристик.ВидыСубконто>
 			<item Ссылка="021cda05-8e5f-11e3-8a77-94de8067d407" ИмяПредопределенныхДанных="Номенклатура"/>
 			<item Ссылка="baab6c20-4b60-11ea-859e-240a64b67da6" ИмяПредопределенныхДанных="Документ"/>
@@ -1791,8 +4723,8 @@
 			<item Ссылка="57bbf4d7-4ef2-4434-b0b1-361445eac2f7" ИмяПредопределенныхДанных="Онопко"/>
 			<item Ссылка="5c781039-bcb7-4330-b401-778fcdeb0eb5" ИмяПредопределенныхДанных="Федорова"/>
 			<item Ссылка="372c46f1-75b1-400b-b51c-085fdb9c169b" ИмяПредопределенныхДанных="Степанов"/>
-			<item Ссылка="c1ab16a1-c50e-4eb8-baff-aa7e032af7db" ИмяПредопределенныхДанных="Мишина"/>
 			<item Ссылка="a8e63bdd-c11c-48e7-b8f1-6c4607c111be" ИмяПредопределенныхДанных="Петренко"/>
+			<item Ссылка="c1ab16a1-c50e-4eb8-baff-aa7e032af7db" ИмяПредопределенныхДанных="Мишина"/>
 		</Справочник.Сотрудники>
 	</PredefinedData>
 </V8Exch:_1CV8DtUD>

@@ -138,6 +138,7 @@
 			<CommonModule>Расчеты</CommonModule>
 			<Constant>НазваниеОрганизации</Constant>
 			<Constant>ЮридическийАдрес</Constant>
+			<Constant>КомпенсацияЗаЛекарства</Constant>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Контрагенты</Catalog>
@@ -147,6 +148,7 @@
 			<Catalog>Субконто</Catalog>
 			<Catalog>Склады</Catalog>
 			<Catalog>ГруппыАналогов</Catalog>
+			<Catalog>Графики</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>РасходнаяНакладная</Document>
 			<Document>НачислениеЗарплаты</Document>
@@ -163,6 +165,7 @@
 			<InformationRegister>ГрафикиРаботы</InformationRegister>
 			<InformationRegister>СведенияОСотрудниках</InformationRegister>
 			<InformationRegister>АналогиТоваров</InformationRegister>
+			<InformationRegister>ПроцентыПремии</InformationRegister>
 			<AccumulationRegister>ОстаткиНоменклатуры</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
@@ -171,7 +174,8 @@
 			<AccountingRegister>Проводки</AccountingRegister>
 			<ChartOfCalculationTypes>ОсновныеНачисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ДополнительныеНачисления</ChartOfCalculationTypes>
-			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
+			<CalculationRegister>ОсновныеНачисления</CalculationRegister>
+			<CalculationRegister>ДополнительныеНачисления</CalculationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
