@@ -2,8 +2,8 @@
 
 ## Подзадачи ОУ
 
-- Замещение товаров
-- [Дополнительные затраты}(https://github.com/SpaceHead1C/Spec/blob/master/doc/1.29.md)
+- [Замещение товаров](https://github.com/SpaceHead1C/Spec/blob/master/doc/1.19.md)
+- [Дополнительные затраты](https://github.com/SpaceHead1C/Spec/blob/master/doc/1.29.md)
 - [Взаиморасчёты](https://github.com/SpaceHead1C/Spec/blob/master/doc/1.25.md)
 - Резервирование
 - Комплектация
