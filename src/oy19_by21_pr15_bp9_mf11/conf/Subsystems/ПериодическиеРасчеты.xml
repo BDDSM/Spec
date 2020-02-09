@@ -20,6 +20,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СведенияОСотрудниках</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПроцентыПремии</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.КомпенсацияЗаЛекарства</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПерерасчетЗарплаты</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

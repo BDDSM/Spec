@@ -158,6 +158,7 @@
 			<Enum>ВидыНоменклатуры</Enum>
 			<Enum>ПолФизическихЛиц</Enum>
 			<Report>Продажи</Report>
+			<Report>ПерерасчетЗарплаты</Report>
 			<DataProcessor>КонсольЗапросов</DataProcessor>
 			<DataProcessor>ЗаполнениеГрафика</DataProcessor>
 			<InformationRegister>РегистрАдресации</InformationRegister>
